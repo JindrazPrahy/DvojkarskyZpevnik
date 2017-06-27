@@ -1,0 +1,49 @@
+\documentclass[openright]{memoir}
+\usepackage[utf8]{inputenc}
+\usepackage[czech]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage[top=2cm, bottom=2cm, left=2cm, right=2cm]{geometry}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{lmodern}
+\usepackage{amssymb}
+\usepackage{txfonts}
+\usepackage{xwatermark}
+\usepackage{xcolor}
+\usepackage{dtk-logos}
+\usepackage{leadsheets}%http://mirrors.nic.cz/tex-archive/macros/latex/contrib/leadsheets/leadsheets_en.pdf   --> dokumentace
+
+%<++>
+\usepackage{subfiles}
+%</++>
+
+\definesongtitletemplate{empty}{} 
+
+
+\chapterstyle{bianchi}  %ALT BIANCHI, veelo
+
+\usepackage[T1]{fontenc}
+\newlength{\drop}
+
+%\newwatermark[allpages,color=red!50,angle=0,scale=2, xpos=0,ypos=0]{\includegraphics[width=5cm]{lilies.eps}}
+
+
+\setleadsheets{
+  title-template = empty ,
+  song-format = \ttfamily ,
+  chords/sharp = \# ,
+  chords/flat = b
+}
+
+% ============================================================
+% Konec nastavení dokumentu, níže se importují jednotlivé songy (jsou potřeba jejich relativní adresy).
+
+
+\begin{document}
+
+\subfile{songy/SongTemplate}
+
+\end{document}
