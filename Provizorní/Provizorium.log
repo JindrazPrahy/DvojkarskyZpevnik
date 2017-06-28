@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.6.6)  28 JUN 2017 09:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.6.6)  28 JUN 2017 16:40
 entering extended mode
 **./Provizorium.tex
 (Provizorium.tex
@@ -1495,18 +1495,10 @@ ary `translations' 2016/06/28 dictionary for leadsheets
 . 
 . Defining environment 'solo' with sig. 'O{}' on line 716.
 .................................................
-)) ("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
-Package: fontenc 2016/06/19 v1.99m Standard LaTeX package
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def"
-File: t1enc.def 2016/06/19 v1.99m Standard LaTeX file
-LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 ))
 \drop=\skip268
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
 Package: hyperref 2016/06/24 v6.83q Hypertext links for LaTeX
-
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
 Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
 
@@ -1623,23 +1615,23 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 (Provizorium.aux)
 \openout1 = `Provizorium.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 34.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 39.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -1652,14 +1644,14 @@ File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: twoside 
 * h-part:(L,W,R)=(56.9055pt, 500.484pt, 56.9055pt)
-* v-part:(T,H,B)=(56.9055pt, 681.15898pt, 56.9055pt)
+* v-part:(T,H,B)=(-56.9055pt, 794.96999pt, 56.9055pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
 * \textwidth=500.484pt
-* \textheight=681.15898pt
+* \textheight=794.96999pt
 * \oddsidemargin=-15.36449pt
 * \evensidemargin=-15.36449pt
-* \topmargin=-45.43198pt
+* \topmargin=-159.24298pt
 * \headheight=12.0pt
 * \headsep=18.06749pt
 * \topskip=10.0pt
@@ -1703,7 +1695,7 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-Package hyperref Info: Link coloring OFF on input line 34.
+Package hyperref Info: Link coloring OFF on input line 39.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1713,129 +1705,517 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count360
 )
-LaTeX Info: Redefining \ref on input line 34.
-LaTeX Info: Redefining \pageref on input line 34.
-LaTeX Info: Redefining \nameref on input line 34.
+LaTeX Info: Redefining \ref on input line 39.
+LaTeX Info: Redefining \pageref on input line 39.
+LaTeX Info: Redefining \nameref on input line 39.
 
 (Provizorium.out) (Provizorium.out)
 \@outlinefile=\write5
 \openout5 = `Provizorium.out'.
 
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 35.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmss.fd"
-File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+<obr/boyscout.jpg, id=59, 578.16pt x 578.16pt>
+File: obr/boyscout.jpg Graphic file (type jpg)
+ <use obr/boyscout.jpg>
+Package pdftex.def Info: obr/boyscout.jpg used on input line 64.
+(pdftex.def)             Requested size: 346.89867pt x 346.89867pt.
+LaTeX Font Info:    Try loading font information for T1+bch on input line 66.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1bch.fd"
+File: t1bch.fd 2004/10/18 font definitions for T1/bch.
 )
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 73.
+<obr/dvojka.jpg, id=60, 963.6pt x 929.4725pt>
+File: obr/dvojka.jpg Graphic file (type jpg)
+ <use obr/dvojka.jpg>
+Package pdftex.def Info: obr/dvojka.jpg used on input line 66.
+(pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 66.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 73.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 66.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 73.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 66.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 73.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 66.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 73.
+(Font)              <10> on input line 66.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 73.
+(Font)              <7> on input line 66.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 73.
-LaTeX Font Info:    Try loading font information for U+msa on input line 73.
+(Font)              <5> on input line 66.
+LaTeX Font Info:    Try loading font information for U+msa on input line 66.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 73.
+LaTeX Font Info:    Try loading font information for U+msb on input line 66.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-Underfull \hbox (badness 10000) in paragraph at lines 73--73
+) [1
+
+
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <./obr/dvojka.jpg> <./obr/
+boyscout.jpg>]
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 68.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmss.fd"
+File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+) (Provizorium.toc)
+File: obr/dvojka.jpg Graphic file (type jpg)
+
+<use obr/dvojka.jpg>
+Package pdftex.def Info: obr/dvojka.jpg used on input line 69.
+(pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
+ [2]
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <12> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 69.
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 73--73
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 73--73
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 73--73
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 73--73
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 73--73
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
 
  []
 
-LaTeX Font Info:    Try loading font information for T1+bch on input line 75.
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1bch.fd"
-File: t1bch.fd 2004/10/18 font definitions for T1/bch.
-)
-<obr/dvojka.jpg, id=3, 963.6pt x 929.4725pt>
+File: obr/dvojka.jpg Graphic file (type jpg)
+<use obr/dvojka.jpg>
+Package pdftex.def Info: obr/dvojka.jpg used on input line 111.
+(pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
+ [3
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 121--121
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--121
+
+ []
+
+
+Overfull \hbox (75.06953pt too wide) in paragraph at lines 112--123
+ $[]$ 
+ []
+
+File: obr/dvojka.jpg Graphic file (type jpg)
+<use obr/dvojka.jpg>
+Package pdftex.def Info: obr/dvojka.jpg used on input line 124.
+(pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
+ [4
+
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 124.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--148
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--148
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--148
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--148
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--148
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--148
+
+ []
+
+File: obr/dvojka.jpg Graphic file (type jpg)
+<use obr/dvojka.jpg>
+Package pdftex.def Info: obr/dvojka.jpg used on input line 151.
+(pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
+ [5
+
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 151.
+
+
+Package hyperref Warning: Composite letter `\textasciicaron+r'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textasciicaron' on input line 151.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--191
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--191
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--191
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--191
+
+ []
+
+File: obr/dvojka.jpg Graphic file (type jpg)
+<use obr/dvojka.jpg>
+Package pdftex.def Info: obr/dvojka.jpg used on input line 194.
+(pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
+ [6
+
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 194.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 224--224
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 224--224
+
+ []
+
+File: obr/dvojka.jpg Graphic file (type jpg)
+<use obr/dvojka.jpg>
+Package pdftex.def Info: obr/dvojka.jpg used on input line 227.
+(pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
+ [7
+
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 227.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 260--260
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 260--260
+
+ []
+
+File: obr/dvojka.jpg Graphic file (type jpg)
+<use obr/dvojka.jpg>
+Package pdftex.def Info: obr/dvojka.jpg used on input line 263.
+(pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
+ [8
+
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 263.
+
+
+Package hyperref Warning: Composite letter `\textasciicaron+r'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textasciicaron' on input line 263.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--313
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--313
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 317--320
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 320--325
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 325--330
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 330--335
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 335--340
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 340--345
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 345--350
+
+ []
+
+
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 265--357
+$[]$ $[]$ 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+File: obr/dvojka.jpg Graphic file (type jpg)
+
+<use obr/dvojka.jpg>
+Package pdftex.def Info: obr/dvojka.jpg used on input line 358.
+(pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
+ [9
+
+]
+
+Class memoir Warning: The material used in the headers is too large
+(33.08705pt) for the given head height (12.0pt), it is recommended to
+either increase the head height or redesign the header
+(in both cases you will find help in the memoir manual). on input line 358.
+
+
+Overfull \vbox (21.08705pt too high) has occurred while \output is active []
+
+File: obr/dvojka.jpg Graphic file (type jpg)
+
+<use obr/dvojka.jpg>
+Package pdftex.def Info: obr/dvojka.jpg used on input line 358.
+(pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
+ [10]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 358.
+
+File: obr/dvojka.jpg Graphic file (type jpg)
+<use obr/dvojka.jpg>
+Package pdftex.def Info: obr/dvojka.jpg used on input line 386.
+(pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
+ [11
+
+]
 File: obr/dvojka.jpg Graphic file (type jpg)
  <use obr/dvojka.jpg>
-Package pdftex.def Info: obr/dvojka.jpg used on input line 75.
+Package pdftex.def Info: obr/dvojka.jpg used on input line 389.
 (pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
- [1
+ [12
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 401--401
+
+ []
 
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <./obr/dvojka.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 401--401
 
-Package catoptions Warning: Undefined options 
-(catoptions)                [Family, Option, Value]: 
-(catoptions)                fontenc.sty,T1,. 
-(catoptions)                Default action already taken in each case .
+ []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 75.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 75.
-(Provizorium.xwm) (Provizorium.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 75.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 75.
+File: obr/dvojka.jpg Graphic file (type jpg)
+<use obr/dvojka.jpg>
+Package pdftex.def Info: obr/dvojka.jpg used on input line 405.
+(pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
+ [13
+
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 405.
+
+
+Package hyperref Warning: Composite letter `\textasciicaron+r'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textasciicaron' on input line 405.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 445--445
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 445--445
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 445--445
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 445--445
+
+ []
+
+File: obr/dvojka.jpg Graphic file (type jpg)
+<use obr/dvojka.jpg>
+Package pdftex.def Info: obr/dvojka.jpg used on input line 448.
+(pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
+ [14
+
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 448.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 494--494
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 494--494
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 494--494
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 494--494
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 494--494
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 494--494
+
+ []
+
+File: obr/dvojka.jpg Graphic file (type jpg)
+<use obr/dvojka.jpg>
+Package pdftex.def Info: obr/dvojka.jpg used on input line 498.
+(pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
+ [15
+
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 498.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 529--529
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 529--529
+
+ []
+
+
+Class memoir Warning: The material used in the headers is too large
+(33.08705pt) for the given head height (12.0pt), it is recommended to
+either increase the head height or redesign the header
+(in both cases you will find help in the memoir manual). on input line 533.
+
+File: obr/dvojka.jpg Graphic file (type jpg)
+<use obr/dvojka.jpg>
+Package pdftex.def Info: obr/dvojka.jpg used on input line 533.
+(pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
+ [16
+
+]
+\tf@toc=\write6
+\openout6 = `Provizorium.toc'.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 533.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 533.
+ (Provizorium.xwm) (Provizorium.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 533.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 533.
 Package rerunfilecheck Info: File `Provizorium.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 75.
+(rerunfilecheck)             Checksum: 7AD1159E9ED2CEB48D6B21A93E349547;886.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 533.
  ) 
 Here is how much of TeX's memory you used:
- 26014 strings out of 493333
- 467300 string characters out of 3139190
- 599062 words of memory out of 3000000
- 29278 multiletter control sequences out of 15000+200000
- 567554 words of font info for 49 fonts, out of 3000000 for 9000
+ 26356 strings out of 493333
+ 478904 string characters out of 3139190
+ 606572 words of memory out of 3000000
+ 29584 multiletter control sequences out of 15000+200000
+ 596566 words of font info for 59 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,16n,68p,10330b,907s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 69i,16n,68p,10363b,901s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}<C:/Program Files/M
-iKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/public/lm/lmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssb
-x10.pfb>
-Output written on Provizorium.pdf (1 page, 283047 bytes).
+iKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
+ype1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lm
+bx7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmcsc10.pfb><C:/Prog
+ram Files/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX 2
+.9/fonts/type1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
+blic/lm/lmro10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmro17.pf
+b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/lm/lmsso12.pfb>
+Output written on Provizorium.pdf (16 pages, 1150894 bytes).
 PDF statistics:
- 26 PDF objects out of 1000 (max. 8388607)
- 3 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 203 PDF objects out of 1000 (max. 8388607)
+ 31 named destinations out of 1000 (max. 500000)
+ 123 words of extra memory for PDF output out of 10000 (max. 10000000)
 
