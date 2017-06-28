@@ -5,17 +5,15 @@
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{amssymb}
-\usepackage[top=0cm, margin=1cm, bottom=2cm]{geometry}
+\usepackage[top=-2cm, margin=1cm, bottom=2cm]{geometry}
 \usepackage{fancyhdr}
 \usepackage{graphicx}
 \usepackage{lmodern}
-\usepackage{amssymb}
 \usepackage{txfonts}
 \usepackage{xwatermark}
 \usepackage{xcolor}
 \usepackage{dtk-logos}
 \usepackage{leadsheets}%http://mirrors.nic.cz/tex-archive/macros/latex/contrib/leadsheets/leadsheets_en.pdf   --> dokumentace
-
 %<++>
 \usepackage{subfiles}
 %</++>
@@ -25,7 +23,6 @@
 
 \chapterstyle{bianchi}  %ALT BIANCHI, veelo
 
-\usepackage[T1]{fontenc}
 \newlength{\drop}
 
 %\newwatermark[allpages,color=red!50,angle=0,scale=2, xpos=0,ypos=0]{\includegraphics[width=5cm]{lilies.eps}}
@@ -38,14 +35,13 @@
 
 \setleadsheets{
   title-template = empty ,
-  song-format = \ttdefault ,
   chords/sharp = \# ,
   chords/flat = b
 }
 
 %!!!
 %!!! Tady chci udělat, aby byl každý akord tučný, ale textbf to asi nebere, protože je to párový tag?
-%\setchords{format = \textbf}
+\setchords{format = \bfseries}
 
 
 % Toto výše je potřeba mít shodné s tím, co je v main.tex
