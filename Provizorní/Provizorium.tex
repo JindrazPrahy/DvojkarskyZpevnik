@@ -1,5 +1,37 @@
-\documentclass[../main.tex]{subfiles}
+\documentclass[openright]{memoir}
+\usepackage[utf8]{inputenc}
+\usepackage[czech]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage[top=2cm, bottom=2cm, left=2cm, right=2cm]{geometry}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{lmodern}
+\usepackage{amssymb}
+\usepackage{xwatermark}
+\usepackage{xcolor}
+\usepackage{leadsheets}%http://mirrors.nic.cz/tex-archive/macros/latex/contrib/leadsheets/leadsheets_en.pdf   --> dokumentace	
 
+\definesongtitletemplate{empty}{} 
+
+
+\chapterstyle{bianchi}  %ALT BIANCHI, veelo
+
+\usepackage[T1]{fontenc}
+\newlength{\drop}
+
+\newwatermark[allpages,color=red!50,angle=0,scale=2, xpos=0,ypos=0]{\includegraphics[width=5cm]{obr/dvojka.jpg}}
+
+
+\setleadsheets{
+  title-template = empty ,
+  chords/sharp = \# ,
+  chords/flat = b
+}
+
+\begin{document}
 \chapter*{Do Ameriky}
 
 \noindent\hspace{0.15\linewidth}\begin{minipage}{0.7\linewidth}
@@ -40,3 +72,4 @@ ačkoli tu žiju náramě!\\
 \end{verse}
 \end{song}
 \end{minipage}
+\end{document}
