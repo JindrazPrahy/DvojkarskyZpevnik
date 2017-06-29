@@ -1,19 +1,24 @@
-\documentclass[openright]{memoir}
+\documentclass[openany]{memoir}
 \usepackage[utf8]{inputenc}
 \usepackage[czech]{babel}
 \usepackage[T1]{fontenc}
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{amssymb}
-\usepackage[top=-2cm, margin=1cm, bottom=2cm]{geometry}
+\usepackage[top=-3.3cm, bottom=2cm, left=2cm, right=2cm]{geometry}
 \usepackage{fancyhdr}
 \usepackage{graphicx}
 \usepackage{lmodern}
-\usepackage{txfonts}
 \usepackage{xwatermark}
 \usepackage{xcolor}
-\usepackage{dtk-logos}
-\usepackage{leadsheets}%http://mirrors.nic.cz/tex-archive/macros/latex/contrib/leadsheets/leadsheets_en.pdf   --> dokumentace
+\usepackage{leadsheets}%http://mirrors.nic.cz/tex-archive/macros/latex/contrib/leadsheets/leadsheets_en.pdf   --> dokumentace	
+\definesongtitletemplate{empty}{} 
+\setchords{
+format = \bfseries,
+minor = {mi},%
+input-notation = {german},%
+output-notation = {german}%
+}
 %<++>
 \usepackage{subfiles}
 %</++>
@@ -24,26 +29,13 @@
 \chapterstyle{bianchi}  %ALT BIANCHI, veelo
 
 \newlength{\drop}
-
-%\newwatermark[allpages,color=red!50,angle=0,scale=2, xpos=0,ypos=0]{\includegraphics[width=5cm]{lilies.eps}}
-
-
-
-%<++>
-\usepackage{subfiles}
-%</++>
+\newwatermark[allpages,color=red!50,angle=0,scale=2, xpos=0,ypos=0]{\includegraphics[width=5cm]{obr/dvojka.jpg}} %--> dvojk av pozadí
 
 \setleadsheets{
   title-template = empty ,
   chords/sharp = \# ,
   chords/flat = b
 }
-
-%!!!
-%!!! Tady chci udělat, aby byl každý akord tučný, ale textbf to asi nebere, protože je to párový tag?
-\setchords{format = \bfseries}
-
-
 % Toto výše je potřeba mít shodné s tím, co je v main.tex
 % ============================================================
 % ============================================================
@@ -52,8 +44,60 @@
 
 
 \begin{document}
+%% přebal knihy
+\thispagestyle{empty}
+\mainmatter
+\thispagestyle{empty}
+\newpage 
+{ \vspace*{4cm}
+
+   \drop=0.1\textheight
+    \centering
+    
+    \vspace*{\baselineskip}
+    \scshape
+2017
+    \rule{\textwidth}{1.6pt}\vspace*{-\baselineskip}\vspace*{2pt}
+    \rule{\textwidth}{0.4pt}\\[\baselineskip]
+    {\LARGE Dvojkařský zpěvník}\\[0.2\baselineskip]
+    \rule{\textwidth}{0.4pt}\vspace*{-\baselineskip}\vspace{3.2pt}
+    \rule{\textwidth}{1.6pt}\\[\baselineskip]
+    \scshape
+\vspace{3.2cm}
+ }  
+
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.6]{obr/boyscout.jpg}
+\end{figure}
+\newpage
+\tableofcontents
 
 % Zde si odkomentuj a zadej testovaný song:
-% \subfile{songy/DoAmeriky}
+\subfile{songy/DoAmeriky.tex}
+\subfile{songy/GodsGonnaCutYouDown.tex}
+\subfile{songy/Hallelujah.tex} 
+\subfile{songy/HeyHo.tex}
+\subfile{songy/HlidacKrav.tex}
+\subfile{songy/JeJakaJe.tex}
+\subfile{songy/Kamaradi.tex}
+\subfile{songy/KaravanaMraku.tex}
+\subfile{songy/Knockin.tex}
+\subfile{songy/Kutil.tex}
+\subfile{songy/LanoCoKNebiNásPoutá.tex}
+\subfile{songy/LeavingOnAJetplane.tex} 
+\subfile{songy/LemonTree.tex} 
+\subfile{songy/MadeInValmez.tex}
+\subfile{songy/Milionar.tex}
+\subfile{songy/Orlice.tex}
+\subfile{songy/OstravoOstravo.tex}
+\subfile{songy/Pangajo.tex}
+\subfile{songy/PisnickaProTebe.tex}
+\subfile{songy/PrevratVBananoveRep.tex}
+\subfile{songy/RadaSeMiluje.tex}
+\subfile{songy/SlaviciZMadridu.tex}
+\subfile{songy/SoundOfSilence.tex}
+%\subfile{songy/WhatMakesYouBeautiful.tex}
 
 \end{document}
+
