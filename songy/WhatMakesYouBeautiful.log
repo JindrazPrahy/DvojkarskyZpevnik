@@ -1,10 +1,19 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.6.6)  30 JUN 2017 00:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.6.6)  30 JUN 2017 00:31
 entering extended mode
-**./test.tex
-(test.tex
+**./WhatMakesYouBeautiful.tex
+(WhatMakesYouBeautiful.tex
 LaTeX2e <2016/03/31> patch level 3
 Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
-("C:\Program Files\MiKTeX 2.9\tex\latex\memoir\memoir.cls"
+("C:\Program Files\MiKTeX 2.9\tex\latex\subfiles\subfiles.cls"
+Document Class: subfiles 2012/05/23 Federico Garcia
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\verbatim.sty"
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks14
+\verbatim@line=\toks15
+\verbatim@in@stream=\read1
+)
+Preamble taken from file `../main.tex'
+(../main.tex ("C:\Program Files\MiKTeX 2.9\tex\latex\memoir\memoir.cls"
 Document Class: memoir 2016/05/16 v3.7f configurable book, report, article docu
 ment class
 \onelineskip=\skip41
@@ -32,8 +41,8 @@ Package ifluatex Info: LuaTeX not detected.
 \trimtop=\skip46
 \trimedge=\skip47
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\memoir\mem12.clo"
-File: mem12.clo 2010/10/19 v0.4b memoir class 12pt size option
+("C:\Program Files\MiKTeX 2.9\tex\latex\memoir\mem10.clo"
+File: mem10.clo 2008/01/30 v0.3 memoir class 10pt size option
 )
 \binding=\skip48
 \spinemargin=\skip49
@@ -96,7 +105,7 @@ File: mem12.clo 2010/10/19 v0.4b memoir class 12pt size option
 \partopsepiii=\skip92
 \m@msavetopsep=\skip93
 \m@msavepartopsep=\skip94
-\@enLab=\toks14
+\@enLab=\toks16
 \abstitleskip=\skip95
 \absleftindent=\skip96
 \abs@leftindent=\dimen105
@@ -124,7 +133,7 @@ File: mem12.clo 2010/10/19 v0.4b memoir class 12pt size option
 \afterPoemTitleskip=\skip110
 \col@sep=\dimen107
 \extrarowheight=\dimen108
-\NC@list=\toks15
+\NC@list=\toks17
 \extratabsurround=\skip111
 \backup@length=\skip112
 \TX@col@width=\dimen109
@@ -133,7 +142,7 @@ File: mem12.clo 2010/10/19 v0.4b memoir class 12pt size option
 \TX@target=\dimen112
 \TX@delta=\dimen113
 \TX@cols=\count99
-\TX@ftn=\toks16
+\TX@ftn=\toks18
 \heavyrulewidth=\dimen114
 \lightrulewidth=\dimen115
 \cmidrulewidth=\dimen116
@@ -157,7 +166,7 @@ File: mem12.clo 2010/10/19 v0.4b memoir class 12pt size option
 \@linestogo=\count105
 \@cellstogo=\count106
 \@cellsincolumn=\count107
-\crtok=\toks17
+\crtok=\toks19
 \@mincolumnwidth=\dimen127
 \c@newflo@tctr=\count108
 \mem@margin@floatbox=\box26
@@ -220,7 +229,7 @@ LaTeX Info: Redefining \emph on input line 7559.
 \bibitemsep=\skip153
 \indexcolsep=\skip154
 \indexrule=\skip155
-\indexmarkstyle=\toks18
+\indexmarkstyle=\toks20
 \@indexbox=\insert199
 \glossarycolsep=\dimen140
 \glossaryrule=\dimen141
@@ -253,11 +262,11 @@ LaTeX Info: Redefining \emph on input line 7559.
 \c@pagenote=\count113
 \c@pagenoteshadow=\count114
 \mem@pn@lastkern=\skip175
-\every@verbatim=\toks19
-\afterevery@verbatim=\toks20
-\verbatim@line=\toks21
+\every@verbatim=\toks21
+\afterevery@verbatim=\toks22
+\verbatim@line=\toks23
 \tab@position=\count115
-\verbatim@in@stream=\read1
+\verbatim@in@stream=\read2
 \verbatimindent=\skip176
 \verbatim@out=\write3
 \bvboxsep=\skip177
@@ -336,8 +345,8 @@ Package: mempatch 2009/07/24 v6.0f Patches for memoir class v1.6180339
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
 Package: inputenc 2015/03/17 v1.2c Input encoding file
-\inpenc@prehook=\toks22
-\inpenc@posthook=\toks23
+\inpenc@prehook=\toks24
+\inpenc@posthook=\toks25
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
@@ -687,7 +696,7 @@ Package: amstext 2000/06/29 v2.01 AMS text
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks24
+\@emptytoks=\toks26
 \ex@=\dimen148
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
@@ -717,21 +726,21 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
 \dotsspace@=\muskip10
 \c@parentequation=\count146
 \dspbrk@lvl=\count147
-\tag@help=\toks25
+\tag@help=\toks27
 \row@=\count148
 \column@=\count149
 \maxfields@=\count150
-\andhelp@=\toks26
+\andhelp@=\toks28
 \eqnshift@=\dimen151
 \alignsep@=\dimen152
 \tagshift@=\dimen153
 \tagwidth@=\dimen154
 \totwidth@=\dimen155
 \lineht@=\dimen156
-\@envbody=\toks27
+\@envbody=\toks29
 \multlinegap=\skip186
 \multlinetaggap=\skip187
-\mathdisplay@stack=\toks28
+\mathdisplay@stack=\toks30
 LaTeX Info: Redefining \[ on input line 2739.
 LaTeX Info: Redefining \] on input line 2740.
 )
@@ -750,7 +759,7 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks29
+\KV@toks@=\toks31
 )
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
@@ -767,7 +776,7 @@ Package ifvtex Info: VTeX not detected.
 \Gm@layoutheight=\dimen162
 \Gm@layouthoffset=\dimen163
 \Gm@layoutvoffset=\dimen164
-\Gm@dimlist=\toks30
+\Gm@dimlist=\toks32
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
@@ -845,6 +854,91 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\txfonts\txfonts.sty"
+Package: txfonts 2008/01/22 v3.2.1
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 21.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/lmr/m/n --> OT1/txr/m/n on input line 21.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/lmr/bx/n --> OT1/txr/m/n on input line 21.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/txr/m/n --> OT1/txr/bx/n on input line 22.
+\symitalic=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `italic' in version `bold'
+(Font)                  OT1/txr/m/it --> OT1/txr/bx/it on input line 26.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/lmr/bx/n --> OT1/txr/bx/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/lmr/bx/n --> OT1/txr/bx/n on input line 29.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/lmr/m/it --> OT1/txr/m/it on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/lmr/bx/it --> OT1/txr/m/it on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/txr/m/it --> OT1/txr/bx/it on input line 31.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/lmss/m/n --> OT1/txss/m/n on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/lmss/bx/n --> OT1/txss/m/n on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/txss/m/n --> OT1/txss/b/n on input line 41.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 50.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/lmtt/m/n --> OT1/txtt/m/n on input line 50.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/lmtt/m/n --> OT1/txtt/m/n on input line 50.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/txtt/m/n --> OT1/txtt/b/n on input line 51.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 58.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/lmm/m/it --> OML/txmi/m/it on input line 58.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/lmm/b/it --> OML/txmi/m/it on input line 58.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/txmi/m/it --> OML/txmi/bx/it on input line 59.
+\symlettersA=\mathgroup7
+LaTeX Font Info:    Overwriting symbol font `lettersA' in version `bold'
+(Font)                  U/txmia/m/it --> U/txmia/bx/it on input line 67.
+LaTeX Font Info:    Redeclaring math alphabet \mathfrak on input line 70.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 77.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/lmsy/m/n --> OMS/txsy/m/n on input line 77.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/lmsy/b/n --> OMS/txsy/m/n on input line 77.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/txsy/m/n --> OMS/txsy/bx/n on input line 78.
+LaTeX Font Info:    Redeclaring symbol font `AMSa' on input line 93.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `normal'
+(Font)                  U/msa/m/n --> U/txsya/m/n on input line 93.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `bold'
+(Font)                  U/msa/m/n --> U/txsya/m/n on input line 93.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `bold'
+(Font)                  U/txsya/m/n --> U/txsya/bx/n on input line 94.
+LaTeX Font Info:    Redeclaring symbol font `AMSb' on input line 102.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `normal'
+(Font)                  U/msb/m/n --> U/txsyb/m/n on input line 102.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `bold'
+(Font)                  U/msb/m/n --> U/txsyb/m/n on input line 102.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `bold'
+(Font)                  U/txsyb/m/n --> U/txsyb/bx/n on input line 103.
+\symsymbolsC=\mathgroup8
+LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `bold'
+(Font)                  U/txsyc/m/n --> U/txsyc/bx/n on input line 113.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 120.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/lmex/m/n --> OMX/txex/m/n on input line 120.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/lmex/m/n --> OMX/txex/m/n on input line 120.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/txex/m/n --> OMX/txex/bx/n on input line 121.
+\symlargesymbolsA=\mathgroup9
+LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `bold'
+(Font)                  U/txexa/m/n --> U/txexa/bx/n on input line 129.
+LaTeX Info: Redefining \not on input line 1043.
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\xwatermark\xwatermark.sty"
 ("C:\Program Files\MiKTeX 2.9\tex\latex\catoptions\catoptions.sty"
@@ -951,7 +1045,6 @@ Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\atveryend.sty"
 Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
-Package atveryend Info: \enddocument detected (standard20110627).
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\ltxkeys\ltxkeys.sty"
 Package: ltxkeys 2012/11/17 v0.0.3c A robust key-value parser (AM) (Ahmed Musa)
@@ -970,8 +1063,9 @@ Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 \xwm@boxb=\box33
 \xwm@cnta=\count164
 \xwm@wrt=\write4
- (test.xwm)
-\openout4 = `test.xwm'.
+
+(WhatMakesYouBeautiful.xwm)
+\openout4 = `WhatMakesYouBeautiful.xwm'.
 
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
@@ -991,12 +1085,48 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\afterpage.sty"
-Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
-\AP@output=\toks31
-\AP@partial=\box34
-\AP@footins=\box35
+("C:\Program Files\MiKTeX 2.9\tex\latex\dtk\dtk-logos.sty"
+Package: dtk-logos 2017/06/07 v. 1.01 Dante Edition: Logos (hv)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hologo.sty"
+Package: hologo 2016/05/16 v1.12 A logo collection with bookmark support (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+))
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 )
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
+Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\dantelogo\dantelogo.sty"
+Package: dantelogo 2015/08/12 v0.03
+
+`dantelogo' v0.03, 2015/08/12 macro for DANTE's logo (hv)
+("C:\Program Files\MiKTeX 2.9\tex\latex\iftex\iftex.sty"
+Package: iftex 2013/04/04 v0.2 Provides if(tex) conditional for PDFTeX, XeTeX, 
+and LuaTeX
+)
+We run (pdf)latex ...  ("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty
+"
+Package: fontenc 2016/06/19 v1.99m Standard LaTeX package
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def"
+File: t1enc.def 2016/06/19 v1.99m Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\leadsheets\leadsheets.sty"
 ("C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\expl3.sty"
 Package: expl3 2017/05/29 L3 programming layer (loader) 
@@ -1103,11 +1233,11 @@ Package: expl3 2017/05/29 L3 programming layer (code)
 \l__regex_min_submatch_int=\count315
 \l__regex_submatch_int=\count316
 \l__regex_zeroth_submatch_int=\count317
-\c_empty_box=\box36
-\l_tmpa_box=\box37
-\l_tmpb_box=\box38
-\g_tmpa_box=\box39
-\g_tmpb_box=\box40
+\c_empty_box=\box34
+\l_tmpa_box=\box35
+\l_tmpb_box=\box36
+\g_tmpa_box=\box37
+\g_tmpb_box=\box38
 \l__box_top_dim=\dimen176
 \l__box_bottom_dim=\dimen177
 \l__box_left_dim=\dimen178
@@ -1116,8 +1246,8 @@ Package: expl3 2017/05/29 L3 programming layer (code)
 \l__box_bottom_new_dim=\dimen181
 \l__box_left_new_dim=\dimen182
 \l__box_right_new_dim=\dimen183
-\l__box_internal_box=\box41
-\l__coffin_internal_box=\box42
+\l__box_internal_box=\box39
+\l__coffin_internal_box=\box40
 \l__coffin_internal_dim=\dimen184
 \l__coffin_offset_x_dim=\dimen185
 \l__coffin_offset_y_dim=\dimen186
@@ -1125,14 +1255,14 @@ Package: expl3 2017/05/29 L3 programming layer (code)
 \l__coffin_y_dim=\dimen188
 \l__coffin_x_prime_dim=\dimen189
 \l__coffin_y_prime_dim=\dimen190
-\c_empty_coffin=\box43
-\l__coffin_aligned_coffin=\box44
-\l__coffin_aligned_internal_coffin=\box45
-\l_tmpa_coffin=\box46
-\l_tmpb_coffin=\box47
-\l__coffin_display_coffin=\box48
-\l__coffin_display_coord_coffin=\box49
-\l__coffin_display_pole_coffin=\box50
+\c_empty_coffin=\box41
+\l__coffin_aligned_coffin=\box42
+\l__coffin_aligned_internal_coffin=\box43
+\l_tmpa_coffin=\box44
+\l_tmpb_coffin=\box45
+\l__coffin_display_coffin=\box46
+\l__coffin_display_coord_coffin=\box47
+\l__coffin_display_pole_coffin=\box48
 \l__coffin_display_offset_dim=\dimen191
 \l__coffin_display_x_dim=\dimen192
 \l__coffin_display_y_dim=\dimen193
@@ -1147,7 +1277,7 @@ Package: expl3 2017/05/29 L3 programming layer (code)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\l3pdfmode.def"
 File: l3pdfmode.def 2017/03/18 v L3 Experimental driver: PDF mode
 \l__driver_color_stack_int=\count318
-\l__driver_tmp_box=\box51
+\l__driver_tmp_box=\box49
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\l3packages\l3keys2e\l3keys2e.sty"
 Package: l3keys2e 2017/05/29 LaTeX2e option processing using LaTeX3 keys
@@ -1183,7 +1313,7 @@ Package: leadsheets 2017/01/23 v0.5a Typesettingleadsheetsandsongbooks (CN)
 \l__leadsheets_tmpa_int=\count325
 \l__leadsheets_tmpb_int=\count326
 \l__leadsheets_tmpc_int=\count327
-\l__leadsheets_tmpa_box=\box52
+\l__leadsheets_tmpa_box=\box50
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -1219,7 +1349,7 @@ Package: leadsheets 2017/01/23 v0.5a Typesettingleadsheetsandsongbooks (CN)
 . 
 . Defining command \setleadsheets with sig. 'm' on line 200.
 .................................................
-\g__file_internal_ior=\read2
+\g__file_internal_ior=\read3
 (leadsheets)    Loading library `songs'...
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\leadsheets\leadsheets.library.songs.cod
@@ -1503,9 +1633,16 @@ ary `translations' 2016/06/28 dictionary for leadsheets
 .................................................
 )) ("C:\Program Files\MiKTeX 2.9\tex\latex\subfiles\subfiles.sty"
 Package: subfiles 2012/05/23 Federico Garcia
-)
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+Package: fontenc 2016/06/19 v1.99m Standard LaTeX package
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def"
+File: t1enc.def 2016/06/19 v1.99m Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
 \drop=\skip268
- ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
 Package: hyperref 2016/06/24 v6.83q Hypertext links for LaTeX
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
@@ -1521,19 +1658,10 @@ Package hobsub Info: Skipping package `ifluatex' (already loaded).
 Package hobsub Info: Skipping package `ifvtex' (already loaded).
 Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
 Package hobsub Info: Skipping package `ifpdf' (already loaded).
-Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
-Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
+Package hobsub Info: Skipping package `etexcmds' (already loaded).
+Package hobsub Info: Skipping package `kvsetkeys' (already loaded).
+Package hobsub Info: Skipping package `kvdefinekeys' (already loaded).
+Package hobsub Info: Skipping package `pdftexcmds' (already loaded).
 Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
 Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
 )
@@ -1551,8 +1679,12 @@ Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+
+
+Package auxhook Warning: Cannot patch \document,
+(auxhook)                using \AtBeginDocument instead.
+
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen264
@@ -1620,380 +1752,99 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip269
+)))
+LaTeX Font Info:    Try loading font information for T1+txr on input line 3.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\txfonts\t1txr.fd"
+File: t1txr.fd 2000/12/15 v3.1
 )
-(test.aux)
-\openout1 = `test.aux'.
+LaTeX Font Info:    Try loading font information for T1+txss on input line 3.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 47.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
-File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+("C:\Program Files\MiKTeX 2.9\tex\latex\txfonts\t1txss.fd"
+File: t1txss.fd 2000/12/15 v3.1
 )
-*geometry* driver: auto-detecting
-*geometry* detected driver: pdftex
-*geometry* verbose mode - [ preamble ] result:
-* driver: pdftex
-* paper: <default>
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: twoside 
-* h-part:(L,W,R)=(56.9055pt, 500.484pt, 56.9055pt)
-* v-part:(T,H,B)=(-96.73918pt, 834.80367pt, 56.9055pt)
-* \paperwidth=614.295pt
-* \paperheight=794.96999pt
-* \textwidth=500.484pt
-* \textheight=834.80367pt
-* \oddsidemargin=-15.36449pt
-* \evensidemargin=-15.36449pt
-* \topmargin=-203.38297pt
-* \headheight=14.5pt
-* \headsep=19.8738pt
-* \topskip=12.0pt
-* \footskip=30.0pt
-* \marginparwidth=102.0pt
-* \marginparsep=7.0pt
-* \columnsep=10.0pt
-* \skip\footins=12.0pt plus 4.0pt minus 4.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidetrue
-* \@mparswitchtrue
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+LaTeX Font Info:    Font shape `T1/txss/m/n' will be
+(Font)              scaled to size 11.39996pt on input line 3.
+LaTeX Font Info:    Font shape `T1/txss/m/it' in size <12> not available
+(Font)              Font shape `T1/txss/m/sl' tried instead on input line 3.
+LaTeX Font Info:    Font shape `T1/txss/m/sl' will be
+(Font)              scaled to size 11.39996pt on input line 3.
 
-("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count354
-\scratchdimen=\dimen268
-\scratchbox=\box53
-\nofMPsegments=\count355
-\nofMParguments=\count356
-\everyMPshowfont=\toks32
-\MPscratchCnt=\count357
-\MPscratchDim=\dimen269
-\MPnumerator=\count358
-\makeMPintoPDFobject=\count359
-\everyMPtoPDFconversion=\toks33
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
-Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
-Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 \chapter{What Makes You Beautiful}
+                                      
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+LaTeX Font Info:    Font shape `T1/txss/m/n' will be
+(Font)              scaled to size 19.70294pt on input line 3.
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 \chapter{What Makes You Beautiful}
+                                      
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
+(Font)              scaled to size 19.70294pt on input line 3.
+LaTeX Font Info:    Try loading font information for OT1+txr on input line 24.
+("C:\Program Files\MiKTeX 2.9\tex\latex\txfonts\ot1txr.fd"
+File: ot1txr.fd 2000/12/15 v3.1
 )
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-38.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 456.
+LaTeX Font Info:    Try loading font information for OML+txmi on input line 24.
+
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\txfonts\omltxmi.fd"
+File: omltxmi.fd 2000/12/15 v3.1
 )
-Package hyperref Info: Link coloring OFF on input line 47.
+LaTeX Font Info:    Try loading font information for OMS+txsy on input line 24.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
-Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
-Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+("C:\Program Files\MiKTeX 2.9\tex\latex\txfonts\omstxsy.fd"
+File: omstxsy.fd 2000/12/15 v3.1
 )
-\c@section@level=\count360
+LaTeX Font Info:    Try loading font information for OMX+txex on input line 24.
+
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\txfonts\omxtxex.fd"
+File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Info: Redefining \ref on input line 47.
-LaTeX Info: Redefining \pageref on input line 47.
-LaTeX Info: Redefining \nameref on input line 47.
+LaTeX Font Info:    Try loading font information for U+txsya on input line 24.
 
-(test.out) (test.out)
-\@outlinefile=\write5
-\openout5 = `test.out'.
-
- <obr/boyscout.jpg, id=119, 578.16pt x 578.16pt>
-File: obr/boyscout.jpg Graphic file (type jpg)
-
-<use obr/boyscout.jpg>
-Package pdftex.def Info: obr/boyscout.jpg used on input line 75.
-(pdftex.def)             Requested size: 346.89867pt x 346.89867pt.
-LaTeX Font Info:    Try loading font information for T1+bch on input line 77.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1bch.fd"
-File: t1bch.fd 2004/10/18 font definitions for T1/bch.
-) <obr/dvojka.jpg, id=120, 963.6pt x 929.4725pt>
-File: obr/dvojka.jpg Graphic file (type jpg)
- <use obr/dvojka.jpg>
-Package pdftex.def Info: obr/dvojka.jpg used on input line 77.
-(pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 77.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
-File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+("C:\Program Files\MiKTeX 2.9\tex\latex\txfonts\utxsya.fd"
+File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 77.
+LaTeX Font Info:    Try loading font information for U+txsyb on input line 24.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
-File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+("C:\Program Files\MiKTeX 2.9\tex\latex\txfonts\utxsyb.fd"
+File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 77.
+LaTeX Font Info:    Try loading font information for U+txmia on input line 24.
 
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
-File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+("C:\Program Files\MiKTeX 2.9\tex\latex\txfonts\utxmia.fd"
+File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 77.
+LaTeX Font Info:    Try loading font information for U+txsyc on input line 24.
 
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
-File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+("C:\Program Files\MiKTeX 2.9\tex\latex\txfonts\utxsyc.fd"
+File: utxsyc.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 77.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 77.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 77.
-LaTeX Font Info:    Try loading font information for U+msa on input line 77.
+LaTeX Font Info:    Try loading font information for U+txexa on input line 24.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+("C:\Program Files\MiKTeX 2.9\tex\latex\txfonts\utxexa.fd"
+File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 77.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
-
-
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <./obr/dvojka.jpg> <./obr/
-boyscout.jpg>]
-(songy/CernejPasazer.tex
-*geometry* verbose mode - [ newgeometry ] result:
-* driver: pdftex
-* paper: <default>
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: twoside 
-* h-part:(L,W,R)=(56.9055pt, 500.484pt, 56.9055pt)
-* v-part:(T,H,B)=(56.9055pt, 681.15898pt, 56.9055pt)
-* \paperwidth=614.295pt
-* \paperheight=794.96999pt
-* \textwidth=500.484pt
-* \textheight=681.15898pt
-* \oddsidemargin=-15.36449pt
-* \evensidemargin=-15.36449pt
-* \topmargin=-49.73828pt
-* \headheight=14.5pt
-* \headsep=19.8738pt
-* \topskip=12.0pt
-* \footskip=30.0pt
-* \marginparwidth=102.0pt
-* \marginparsep=7.0pt
-* \columnsep=10.0pt
-* \skip\footins=12.0pt plus 4.0pt minus 4.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidetrue
-* \@mparswitchtrue
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 3.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmss.fd"
-File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) (test.toc [2
-
-
-]) [3]
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <17.28> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 3.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 3.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\scalebox' on input line 3.
-
-
-Package hyperref Warning: Composite letter `\textasciicaron+C'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 3.
-
-) (songy/CernobilySvet.tex
-Overfull \hbox (2.61105pt too wide) in paragraph at lines 5--2
-$[]$ $[]$
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 5--2
-
- []
-
-[4
-
-
-]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 3.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\scalebox' on input line 3.
-
-
-Package hyperref Warning: Composite letter `\textasciicaron+C'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 3.
-
-
-Package hyperref Warning: Composite letter `\textasciicaron+e'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 3.
-
-) (songy/DoAmeriky.tex
-Overfull \hbox (2.61105pt too wide) in paragraph at lines 5--2
-$[]$ $[]$
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 5--2
-
- []
-
-[5
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 41--41
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 41--41
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 41--41
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 41--41
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 41--41
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 41--41
-
- []
-
-) (songy/DoDneADoRoka.tex [6
-
-]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 4.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\scalebox' on input line 4.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--65
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--65
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--65
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--65
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--65
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--65
-
- []
-
-) (songy/GodsGonnaCutYouDown.tex
-Underfull \vbox (badness 1184) has occurred while \output is active []
-
- [7
-
-]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 3.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\scalebox' on input line 3.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 24--24
 
  []
@@ -2024,1349 +1875,71 @@ Underfull \hbox (badness 10000) in paragraph at lines 24--24
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--38
+Underfull \hbox (badness 10000) in paragraph at lines 49--49
 
  []
 
 
-Underfull \hbox (badness 1062) in paragraph at lines 38--38
-\T1/lmr/m/n/12 Tell the rambiler,[] the gam-bler, the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 38--38
+Underfull \hbox (badness 10000) in paragraph at lines 49--49
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--38
+Underfull \hbox (badness 10000) in paragraph at lines 49--49
 
  []
 
 
-Underfull \hbox (badness 1062) in paragraph at lines 38--38
-\T1/lmr/m/n/12 Tell the rambiler,[] the gam-bler, the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 38--38
+Underfull \hbox (badness 10000) in paragraph at lines 49--49
 
  []
 
 
-Overfull \hbox (2.61105pt too wide) in paragraph at lines 5--40
+Underfull \hbox (badness 10000) in paragraph at lines 49--49
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--49
+
+ []
+
+
+Overfull \hbox (104.8456pt too wide) in paragraph at lines 5--51
 $[]$ $[]$ 
  []
 
-[8
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 66--66
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 66--66
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 66--66
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 66--66
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 66--66
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 66--66
-
- []
-
-) (songy/Hallelujah.tex [9]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 3.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\scalebox' on input line 3.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 53--53
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 53--53
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 53--53
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 53--53
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 53--53
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 53--53
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 53--53
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 53--53
-
- []
-
-
-Overfull \hbox (75.06953pt too wide) in paragraph at lines 5--55
- $[]$ 
- []
-
-[10
-
-]) (songy/HeyHo.tex
-*geometry* verbose mode - [ newgeometry ] result:
-* driver: pdftex
-* paper: <default>
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: twoside 
-* h-part:(L,W,R)=(56.9055pt, 500.484pt, 56.9055pt)
-* v-part:(T,H,B)=(56.9055pt, 681.15898pt, 56.9055pt)
-* \paperwidth=614.295pt
-* \paperheight=794.96999pt
-* \textwidth=500.484pt
-* \textheight=681.15898pt
-* \oddsidemargin=-15.36449pt
-* \evensidemargin=-15.36449pt
-* \topmargin=-49.73828pt
-* \headheight=14.5pt
-* \headsep=19.8738pt
-* \topskip=12.0pt
-* \footskip=30.0pt
-* \marginparwidth=102.0pt
-* \marginparsep=7.0pt
-* \columnsep=10.0pt
-* \skip\footins=12.0pt plus 4.0pt minus 4.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidetrue
-* \@mparswitchtrue
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--3
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--3
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--3
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--3
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--3
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--3
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--3
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--3
-
- []
-
-
-Overfull \hbox (75.06953pt too wide) in paragraph at lines 3--3
- $[]$ 
- []
-
-[11
-
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 13--13
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--13
-
- []
-
-) (songy/HlidacKrav.tex
-Overfull \hbox (75.06953pt too wide) in paragraph at lines 4--2
- $[]$
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--2
-
- []
-
-[12
-
-
-]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 3.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\scalebox' on input line 3.
-
-
-Package hyperref Warning: Composite letter `\textasciicaron+c'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 3.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 46--46
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 46--46
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 46--46
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 46--46
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 46--46
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 46--46
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 46--46
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 46--46
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 46--46
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 46--46
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 46--46
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 46--46
-
- []
-
-) (songy/JeJakaJe.tex [13
-
-]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 4.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\scalebox' on input line 4.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 28--28
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 28--28
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 28--28
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 28--28
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 28--28
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 28--28
-
- []
-
-) (songy/Kamaradi.tex [14
-
-]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 3.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\scalebox' on input line 3.
-
-
-Package hyperref Warning: Composite letter `\textasciicaron+r'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 3.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 43--43
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 43--43
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 43--43
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 43--43
-
- []
-
-) (songy/KaravanaMraku.tex [15
-
-]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 3.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\scalebox' on input line 3.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 31--31
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 31--31
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 31--31
-
- []
-
-
-Underfull \hbox (badness 4832) in paragraph at lines 31--31
-\T1/lmr/m/n/12 provaznÌk plete smy£ky, hro-ba∞ ko-pat
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 31--31
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 31--31
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 31--31
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 31--31
-
- []
-
-
-Underfull \hbox (badness 4832) in paragraph at lines 31--31
-\T1/lmr/m/n/12 provaznÌk plete smy£ky, hro-ba∞ ko-pat
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 31--31
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 53--53
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 53--53
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 53--53
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 53--53
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 53--53
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 53--53
-
- []
-
-) (songy/Knockin.tex
-Underfull \hbox (badness 10000) in paragraph at lines 5--2
-
- []
-
-[16
-
-]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 4.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\scalebox' on input line 4.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 34--34
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 34--34
-
- []
-
-) (songy/Kutil.tex [17
-
-]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 3.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\scalebox' on input line 3.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 36--36
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 36--36
-
- []
-
-) (songy/LanoCoKNebiN√°sPout√°.tex [18
-
-]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 3.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\scalebox' on input line 3.
-
-
-Underfull \hbox (badness 3536) in paragraph at lines 25--25
-[]\T1/lmr/m/n/12 Ale na-jed-nou zma-tek, kdy∫ ve-≤el ten
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 25--25
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 25--25
-
- []
-
-
-Underfull \hbox (badness 3536) in paragraph at lines 25--25
-[]\T1/lmr/m/n/12 Ale na-jed-nou zma-tek, kdy∫ ve-≤el ten
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 25--25
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 25--25
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 48--48
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 48--48
-
- []
-
-) (songy/LeavingOnAJetplane.tex
-Underfull \hbox (badness 10000) in paragraph at lines 5--2
-
- []
-
-[19
-
-]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 3.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\scalebox' on input line 3.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 31--31
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 31--31
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 49--49
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 49--49
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 49--49
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 49--49
-
- []
-
-) (songy/LemonTree.tex
-Overfull \hbox (2.61105pt too wide) in paragraph at lines 5--2
-$[]$ $[]$
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 5--2
-
- []
-
-[20
-
-]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 3.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\scalebox' on input line 3.
-
-
-Underfull \hbox (badness 1509) in paragraph at lines 32--32
-[]\T1/lmr/m/n/12 I'm[] sit-tin' here in the[] bo-ring
- []
-
-
-Underfull \hbox (badness 1014) in paragraph at lines 32--32
-\T1/lmr/m/n/12 It's[] just ano-ther ra-iny Sunday[]
- []
-
-
-Underfull \hbox (badness 4316) in paragraph at lines 32--32
-\T1/lmr/m/n/12 But[] no-thing ever happens[] And
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
-\T1/lmr/m/n/12 I'm[] tur-nin', tur-nin', tur-nin',
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
-
- []
-
-
-Underfull \hbox (badness 1509) in paragraph at lines 32--32
-[]\T1/lmr/m/n/12 I'm[] sit-tin' here in the[] bo-ring
- []
-
-
-Underfull \hbox (badness 1014) in paragraph at lines 32--32
-\T1/lmr/m/n/12 It's[] just ano-ther ra-iny Sunday[]
- []
-
-
-Underfull \hbox (badness 4316) in paragraph at lines 32--32
-\T1/lmr/m/n/12 But[] no-thing ever happens[] And
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
-\T1/lmr/m/n/12 I'm[] tur-nin', tur-nin', tur-nin',
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 69--69
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 69--69
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 69--69
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 69--69
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 69--69
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 69--69
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 69--69
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 69--69
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 69--69
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 69--69
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 69--69
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 69--69
-
- []
-
-) (songy/MadeInValmez.tex
-Underfull \hbox (badness 10000) in paragraph at lines 5--2
-
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [21
-
-]
-
-Class memoir Warning: The material used in the headers is too large
-(28.99998pt) for the given head height (14.5pt), it is recommended to
-either increase the head height or redesign the header
-(in both cases you will find help in the memoir manual). on input line 3.
-
-
-Overfull \vbox (14.49998pt too high) has occurred while \output is active []
-
-
-[22]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 3.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\scalebox' on input line 3.
-
-
-Package hyperref Warning: Composite letter `\textasciicaron+n'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 3.
-
-
-Package hyperref Warning: Composite letter `\textasciicaron+d'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 3.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 35--35
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 35--35
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 35--35
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 35--35
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 35--35
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 35--35
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 35--35
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 35--35
-
- []
-
-) (songy/Milionar.texpdfTeX warning (ext4): destination with the same identifie
-r (name{page.22}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.3 \chapter
-            {Milion√°≈ô \\ \scalebox{0.8}[0.8]{Jarom√≠r Nohavica}} [22
-
-]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 3.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\scalebox' on input line 3.
-
-
-Package hyperref Warning: Composite letter `\textasciicaron+r'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 3.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 53--57
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 57--62
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 62--67
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 67--72
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 72--77
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 77--82
-
- []
-
-
-Overfull \hbox (2.61105pt too wide) in paragraph at lines 5--84
-$[]$ $[]$ 
- []
-
-[23
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 91--96
-
- []
-
-) (songy/Orlice.tex
-
-Class memoir Warning: The material used in the headers is too large
-(29.85403pt) for the given head height (14.5pt), it is recommended to
-either increase the head height or redesign the header
-(in both cases you will find help in the memoir manual). on input line 3.
-
-
-Overfull \vbox (15.35403pt too high) has occurred while \output is active []
-
-
-[24]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 3.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\scalebox' on input line 3.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
-\T1/lmr/m/n/12 Dodpus¥ mi [] se a¥ []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
-\T1/lmr/m/n/12 Dodpus¥ mi [] se a¥ []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--65
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--65
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--65
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--65
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--65
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--65
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--65
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--65
-
- []
-
-) (songy/OstravoOstravo.tex
-Overfull \hbox (5.22212pt too wide) in paragraph at lines 4--2
- $[]$ $[]$
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--2
-
- []
-
-[25
-
-]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 3.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\scalebox' on input line 3.
-
-) (songy/Pangajo.tex [26
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 16--16
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 16--16
-
- []
-
-) (songy/PisnickaProTebe.tex [27
-
-]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 3.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\scalebox' on input line 3.
-
-
-Package hyperref Warning: Composite letter `\textasciicaron+c'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 3.
-
-
-Package hyperref Warning: Composite letter `\textasciicaron+n'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 3.
-
-
-Package hyperref Warning: Composite letter `\textasciicaron+d'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 3.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 48--48
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 48--48
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 48--48
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 48--48
-
- []
-
-) (songy/PrevratVBananoveRep.tex [28
-
-]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 3.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\scalebox' on input line 3.
-
-
-Package hyperref Warning: Composite letter `\textasciicaron+r'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 3.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 43--43
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 43--43
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 43--43
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 43--43
-
- []
-
-) (songy/RadaSeMiluje.tex [29
-
-]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 3.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\scalebox' on input line 3.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 34--34
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 34--34
-
- []
-
-) (songy/SlaviciZMadridu.tex [30
-
-]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 3.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\scalebox' on input line 3.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 37--37
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 37--37
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 37--37
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 37--37
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 37--37
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 37--37
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 37--37
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 37--37
-
- []
-
-) (songy/SoundOfSilence.tex [31
-
-]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 3.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\scalebox' on input line 3.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
-
- []
-
-
-Underfull \hbox (badness 1694) in paragraph at lines 32--32
-\T1/lmr/m/n/12 people wri-ting songs that voices ne-ver
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
-
- []
-
-
-Underfull \hbox (badness 1694) in paragraph at lines 32--32
-\T1/lmr/m/n/12 people wri-ting songs that voices ne-ver
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 52--52
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 52--52
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 52--52
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 52--52
-
- []
-
-) (songy/WhatMakesYouBeautiful.tex
-Underfull \hbox (badness 10000) in paragraph at lines 5--2
-
- []
-
-[32
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 24--24
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 24--24
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 24--24
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 24--24
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 24--24
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 24--24
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 49--49
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 49--49
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 49--49
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 49--49
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 49--49
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 49--49
-
- []
-
-[33
-
+! Undefined control sequence.
+\set@color ...\@pdfcolorstack push{\current@color 
+                                                  }\aftergroup \reset@color 
+l.52 \newpage
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\set@color ...\@pdfcolorstack push{\current@color 
+                                                  }\aftergroup \reset@color 
+l.52 \newpage
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[1
+
+
+
+\@writefile{lof}{\addvspace {10pt}}
+\@writefile{lot}{\addvspace {10pt}}
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
+\@writefile{toc}{\contentsline {chapter}{\chapternumberline {1}What Makes You B
+eautiful}{1}{chapter.1}}
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 74--74
 
@@ -3388,8 +1961,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 74--74
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--98
-
+Underfull \hbox (badness 1014) in paragraph at lines 98--98
+\T1/cmr/m/n/10 But you when [] at the[]
  []
 
 
@@ -3398,8 +1971,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 98--98
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--98
+Underfull \hbox (badness 1014) in paragraph at lines 98--98
+\T1/cmr/m/n/10 But you when [] at the[]
+ []
 
+
+Underfull \hbox (badness 2134) in paragraph at lines 98--98
+\T1/cmr/m/n/10 You don't [] You don't
+ []
+
+
+Underfull \hbox (badness 1571) in paragraph at lines 98--98
+\T1/cmr/m/n/10 Right now I'm [] [] at
+ []
+
+
+Underfull \hbox (badness 4242) in paragraph at lines 98--98
+\T1/cmr/m/n/10 But [] what ma-kes you
  []
 
 
@@ -3407,29 +1995,54 @@ Underfull \hbox (badness 10000) in paragraph at lines 98--98
 
  []
 
-) (songy/ZMyPluli.tex
-Overfull \hbox (15.23378pt too wide) in paragraph at lines 54--2
-[]$[]$ $[]$
+
+Underfull \hbox (badness 1014) in paragraph at lines 98--98
+\T1/cmr/m/n/10 But you when [] at the[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--2
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
 
  []
 
-[34])
-Overfull \hbox (50.05144pt too wide) in paragraph at lines 5--115
- $[]$
+
+Underfull \hbox (badness 1014) in paragraph at lines 98--98
+\T1/cmr/m/n/10 But you when [] at the[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--115
+Underfull \hbox (badness 2134) in paragraph at lines 98--98
+\T1/cmr/m/n/10 You don't [] You don't
+ []
+
+
+Underfull \hbox (badness 1571) in paragraph at lines 98--98
+\T1/cmr/m/n/10 Right now I'm [] [] at
+ []
+
+
+Underfull \hbox (badness 4242) in paragraph at lines 98--98
+\T1/cmr/m/n/10 But [] what ma-kes you
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
 
  []
 
-[35
+)
+! Emergency stop.
+<*> ./WhatMakesYouBeautiful.tex
+                               
+*** (job aborted, no legal \end found)
 
-]
-!pdfTeX error: pdflatex (file ./l.jpg): reading JPEG image failed (no JPEG head
-er found)
- ==> Fatal error occurred, no output PDF file produced!
+ 
+Here is how much of TeX's memory you used:
+ 26333 strings out of 493333
+ 473005 string characters out of 3139190
+ 618379 words of memory out of 3000000
+ 29578 multiletter control sequences out of 15000+200000
+ 562315 words of font info for 72 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 64i,16n,60p,10364b,547s stack positions out of 5000i,500n,10000p,200000b,50000s
+!  ==> Fatal error occurred, no output PDF file produced!
