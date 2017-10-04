@@ -33,6 +33,7 @@ output-notation = {german}%
 %%%% Vlastní příkazy
 \newcounter{Slokočet}   %Automatické číslování slok
 \newcommand{\mezera}{\vspace*{0.5cm}}   %Horizontální odsazení slok
+\newcommand{\stred}{5.2cm}   %%% Na zarovnání slok doprostřed
 \newcommand{\refren}{\mezera \noindent \textbf{R:} } %refrén
 \newcommand{\sloka}{\mezera \noindent \addtocounter{Slokočet}{1} \arabic{Slokočet}. } 	%sloka, která se automaticky čísluje
 \newcommand{\ssloka}{\mezera \noindent}  % vlastní číslo sloky
@@ -53,75 +54,15 @@ output-notation = {german}%
 %První možnost je asi preferovanější
 %5. Akordy stačí psát jen do první sloky, když se nezmění -- kytaristi to zvládnou
 
-
+%<++>
+\usepackage{subfiles}
+%</++>
 
 \begin{document}
-\pagestyle{empty} % nechceme číslování
-\begin{song}{title=\centering Černobílý svět \\\normalsize Totální nasazení \vspace*{-0.3cm}}  %% sem se napíše jméno songu a autor
-\moveright 5.5cm \vbox{      %Varianta č. 1  ---> Jeden sloupec zarovnaný na střed
-%\begin{minipage}[t]{0.48\textwidth}\setlength{\parindent}{0.45cm}  %Varianta č. 2 --> Dva sloupce
-%%%% Před nechtěnou variantu dej na začátek řádku % (a před chtěnou odstraň); u druhé varianty jsou celkem 3 řádky!
+\pagestyle{plain}
 
-\sloka ^{Dmi}Jsme loutky ^{F} bez nití
- 
-^{B}já i všech ^{C} patnáct ^{F} ^{E}druhů ^{Dmi} mých
+\input{../songy/CernejPasazer}\newpage
+\input{../songy/CernobilySvet}\newpage
+\input{../songy/DoAmeriky}\newpage
 
-bez smrti bez žití
-
-^{Dmi}bloumáme tupě po polích
-
-
-
-
-\refren ^{Dmi}Černá a ^{B} bílá je
-
-^{C}osm kroků tam a ^{Dmi} osm sem
-
-frontová ^{B} linie
-
-^{C}na věky proti ^{Dmi} sobě jdem
-
-\sloka Stojí tu ^{F} opodál
-
-^{B}náš domnělý ^{C} to ^{F} ^{E}nepří ^{Dmi} tel
-
-i když jsem černý král
-
-nejsem svých figur velitel
-
-
-
-\sloka Vždy první na tahu
-
-jsem ten kdo bitvu rozpoutá
-
-ač nemá odvahu
-
-býlý a nešťastný jsem král
-
-
-\refren
-
-%\end{minipage}\begin{minipage}[t]{0.48\textwidth}\setlength{\parindent}{0.45cm}  % V případě varianty č.2 jde odsud text do pravé části
-
-\sloka Přestal jsem počítat
-
-kolikrát jsem padnul a zas vstal
-
-kolikrát dostal mat
-
-útočil nebo utíkal
-
-\sloka Jsme jenom figury
-
-ať král či pěšák beze jména
-
-a hraní na vojáky je vaše lidská doména
-
-
-
-}      %součást první varianty
-%\end{minipage}   %Součást druhé varianty
-\setcounter{Slokočet}{0}
-\end{song}
 \end{document}

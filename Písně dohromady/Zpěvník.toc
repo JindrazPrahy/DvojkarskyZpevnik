@@ -1,0 +1,6 @@
+\contentsline {section}{\numberline {1}Editor’s introduction}{2}
+\contentsline {coltoctitle}{\numberline {}An article}{3}
+\contentsline {coltocauthor}{\numberline {}A.\nobreakspace {}N.\nobreakspace {}Author}{3}
+\contentsline {coltoctitle}{\numberline {}Another article}{4}
+\contentsline {coltocauthor}{\numberline {}A.\nobreakspace {}N.\nobreakspace {}Other}{4}
+\contentsline {section}{\numberline {2}Acknowledgements}{5}
