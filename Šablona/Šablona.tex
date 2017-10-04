@@ -1,0 +1,128 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%			HLAVIČKA								%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[openany,12pt]{memoir}
+
+\usepackage[utf8]{inputenc}   
+\usepackage[czech]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[top=1.5cm, bottom=2cm, left=2cm, right=2cm]{geometry}  % --> NASTAVENÍ OKRAJŮ
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{lmodern}
+\usepackage{xwatermark}
+\usepackage{xcolor}
+
+
+
+%%%%%% Package na zpěvník
+\usepackage[full]{leadsheets}%http://mirrors.nic.cz/tex-archive/macros/latex/contrib/leadsheets/leadsheets_en.pdf   --> dokumentace	
+\definesongtitletemplate{empty}{} 
+\setchords{
+format = \bfseries,   %tučné akordy
+minor = {mi},% 
+input-notation = {german},%
+output-notation = {german}%
+}
+\definesongtitletemplate{empty}{} 
+
+\newlength{\drop}
+\newwatermark[allpages,color=red!50,angle=0,scale=2, xpos=0,ypos=0]{\includegraphics[width=5cm]{obr/pozadi.jpg}} %--> dvojka na pozadí
+
+
+%%%% Vlastní příkazy
+\newcounter{Slokočet}   %Automatické číslování slok
+\newcommand{\mezera}{\vspace*{0.5cm}}   %Horizontální odsazení slok
+\newcommand{\refren}{\mezera \noindent \textbf{R:} } %refrén
+\newcommand{\sloka}{\mezera \noindent \addtocounter{Slokočet}{1} \arabic{Slokočet}. } 	%sloka, která se automaticky čísluje
+\newcommand{\ssloka}{\mezera \noindent}  % vlastní číslo sloky
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%			NÁVOD									 %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%1. Věci v hlavičce IGNOROVAT
+%2. Píseň psát do prostoru mezi \begin{verse} a \end{verse}
+%3. další řádek se značí dvěma odsazeníma (= dvakrát stisknout enter)
+%4. \refren vždy na začátku refrenu a \sloka na začátek sloky (automaticky se čísluje)
+%  \ = alt gr + q ; [/] = alt gr f/g ; {/} = alt gr + b/n; ^ = alt gr + 3 + mezera
+%Cokoliv napíšete do ^{  } se bude brát jako akord
+%když se toto bude dotýkat nějakého slova (nebude mezi tím a slovem mezera)
+%tak se akordy zjeví nad slovem
+%Když se to nedotýká slova, tak akord lítá ve vzduchu a vytiskne se větší mezera
+%První možnost je asi preferovanější
+%5. Akordy stačí psát jen do první sloky, když se nezmění -- kytaristi to zvládnou
+
+
+
+\begin{document}
+\pagestyle{empty} % nechceme číslování
+\begin{song}{title=\centering Černobílý svět \\\normalsize Totální nasazení \vspace*{-0.3cm}}  %% sem se napíše jméno songu a autor
+%\moveright 5.5cm \vbox{      %Varianta č. 1  ---> Jeden sloupec zarovnaný na střed
+\begin{minipage}[t]{0.48\textwidth}\setlength{\parindent}{0.45cm}  %Varianta č. 2 --> Dva sloupce
+%%%% Před nechtěnou variantu dej na začátek řádku % (a před chtěnou odstraň); u druhé varianty jsou celkem 3 řádky!
+
+\sloka ^{Dmi}Jsme loutky ^{F} bez nití
+ 
+^{B}já i všech ^{C} patnáct ^{F} ^{E}druhů ^{Dmi} mých
+
+bez smrti bez žití
+
+^{Dmi}bloumáme tupě po polích
+
+
+
+
+\refren ^{Dmi}Černá a ^{B} bílá je
+
+^{C}osm kroků tam a ^{Dmi} osm sem
+
+frontová ^{B} linie
+
+^{C}na věky proti ^{Dmi} sobě jdem
+
+\sloka Stojí tu ^{F} opodál
+
+^{B}náš domnělý ^{C} to ^{F} ^{E}nepří ^{Dmi} tel
+
+i když jsem černý král
+
+nejsem svých figur velitel
+
+
+
+\sloka Vždy první na tahu
+
+jsem ten kdo bitvu rozpoutá
+
+ač nemá odvahu
+
+býlý a nešťastný jsem král
+
+
+\refren
+
+\end{minipage}\begin{minipage}[t]{0.48\textwidth}\setlength{\parindent}{0.45cm}  % V případě varianty č.2 jde odsud text do pravé části
+
+\sloka Přestal jsem počítat
+
+kolikrát jsem padnul a zas vstal
+
+kolikrát dostal mat
+
+útočil nebo utíkal
+
+\sloka Jsme jenom figury
+
+ať král či pěšák beze jména
+
+a hraní na vojáky je vaše lidská doména
+
+
+
+
+\end{minipage}   %Součást druhé varianty
+\setcounter{Slokočet}{0}
+\end{song}
+
+\end{document}
