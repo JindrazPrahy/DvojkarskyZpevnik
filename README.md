@@ -15,3 +15,7 @@ Jak pomoct?
   -Kontrolovat hotová pdf a chyby hlásit 
   -Stáhnout si celou složku šablona, program MikTex (dobrovolně navíc TeXmaker) a zkompilovat svoji vlastní píseň. 
   Výsledek commitnout nebo poslat tvůrcům.
+
+
+Přehled písní:
+https://docs.google.com/spreadsheets/d/1ej4QIp3_96SE3kHn7L9kaiDOEUqHb9XJ2Mvoauu2prE/edit#gid=0
