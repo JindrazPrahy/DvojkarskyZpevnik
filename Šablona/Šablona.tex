@@ -33,6 +33,7 @@ output-notation = {german}%
 %%%% Vlastní příkazy
 \newcounter{Slokočet}   %Automatické číslování slok
 \newcommand{\mezera}{\vspace*{0.5cm}}   %Horizontální odsazení slok
+\newcommand{\stred}{5.2cm}   %%% Na zarovnání slok doprostřed, pozn. automatičtější zarovnávání na střed nejde
 \newcommand{\refren}{\mezera \noindent \textbf{R:} } %refrén
 \newcommand{\sloka}{\mezera \noindent \addtocounter{Slokočet}{1} \arabic{Slokočet}. } 	%sloka, která se automaticky čísluje
 \newcommand{\ssloka}{\mezera \noindent}  % vlastní číslo sloky
@@ -62,7 +63,8 @@ output-notation = {german}%
 %\begin{minipage}[t]{0.48\textwidth}\setlength{\parindent}{0.45cm}  %Varianta č. 2 --> Dva sloupce
 %%%% Před nechtěnou variantu dej na začátek řádku % (a před chtěnou odstraň); u druhé varianty jsou celkem 3 řádky!
 
-\sloka ^{Dmi}Jsme loutky ^{F} bez nití
+\sloka 
+^{Dmi}Jsme loutky ^{F} bez nití
  
 ^{B}já i všech ^{C} patnáct ^{F} ^{E}druhů ^{Dmi} mých
 
@@ -71,9 +73,8 @@ bez smrti bez žití
 ^{Dmi}bloumáme tupě po polích
 
 
-
-
-\refren ^{Dmi}Černá a ^{B} bílá je
+\refren 
+^{Dmi}Černá a ^{B} bílá je
 
 ^{C}osm kroků tam a ^{Dmi} osm sem
 
@@ -81,7 +82,8 @@ frontová ^{B} linie
 
 ^{C}na věky proti ^{Dmi} sobě jdem
 
-\sloka Stojí tu ^{F} opodál
+\sloka 
+Stojí tu ^{F} opodál
 
 ^{B}náš domnělý ^{C} to ^{F} ^{E}nepří ^{Dmi} tel
 
@@ -91,7 +93,8 @@ nejsem svých figur velitel
 
 
 
-\sloka Vždy první na tahu
+\sloka
+Vždy první na tahu
 
 jsem ten kdo bitvu rozpoutá
 
@@ -104,7 +107,8 @@ býlý a nešťastný jsem král
 
 %\end{minipage}\begin{minipage}[t]{0.48\textwidth}\setlength{\parindent}{0.45cm}  % V případě varianty č.2 jde odsud text do pravé části
 
-\sloka Přestal jsem počítat
+\sloka 
+Přestal jsem počítat
 
 kolikrát jsem padnul a zas vstal
 
@@ -112,7 +116,8 @@ kolikrát dostal mat
 
 útočil nebo utíkal
 
-\sloka Jsme jenom figury
+\sloka 
+Jsme jenom figury
 
 ať král či pěšák beze jména
 

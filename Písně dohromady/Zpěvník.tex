@@ -3,7 +3,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \documentclass[openany,12pt]{memoir}
 
-\usepackage[utf8]{inputenc}   
+\usepackage[utf8]{inputenc} 
 \usepackage[czech]{babel}
 \usepackage[T1]{fontenc}
 \usepackage[top=1.5cm, bottom=2cm, left=2cm, right=2cm]{geometry}  % --> NASTAVENÍ OKRAJŮ
@@ -33,7 +33,7 @@ output-notation = {german}%
 %%%% Vlastní příkazy
 \newcounter{Slokočet}   %Automatické číslování slok
 \newcommand{\mezera}{\vspace*{0.5cm}}   %Horizontální odsazení slok
-\newcommand{\stred}{5.2cm}   %%% Na zarovnání slok doprostřed
+\newcommand{\stred}{5.2cm}   %%% Na zarovnání slok doprostřed, pozn. automatičtější zarovnávání na střed nejde
 \newcommand{\refren}{\mezera \noindent \textbf{R:} } %refrén
 \newcommand{\sloka}{\mezera \noindent \addtocounter{Slokočet}{1} \arabic{Slokočet}. } 	%sloka, která se automaticky čísluje
 \newcommand{\ssloka}{\mezera \noindent}  % vlastní číslo sloky
@@ -65,7 +65,17 @@ output-notation = {german}%
 %\input{../songy/CernobilySvet}\newpage
 %\input{../songy/DoAmeriky}\newpage
 %\input{../songy/DoDneADoRoka}\newpage
-\input{../songy/GodsGonnaCutYouDown}\newpage %%!!! Akordy dát nad nad slova, vyřadit opakující se akordy
+%\input{../songy/GodsGonnaCutYouDown}\newpage %%!!! Akordy dát nad nad slova, vyřadit opakující se akordy
 %\input{../songy/Hallelujah}\newpage  %%% Pouze jednostranná verze
+%\input{../songy/HeyHo}\newpage
+%\input{../songy/HlidacKrav}\newpage
+%\input{../songy/JeJakaJe}\newpage
+%\input{../songy/Kamaradi}\newpage %není hotovo
+%\input{../songy/KaravanaMraku}\newpage	
+%\input{../songy/Knockin}\newpage
+%\input{../songy/Kutil}\newpage
+%\input{../songy/LanoCoKNebiNasPouta}
+%\input{../songy/LeavingOnAJetPlane}\newpage
+\input{../songy/LemonTree}\newpage
 
 \end{document}
