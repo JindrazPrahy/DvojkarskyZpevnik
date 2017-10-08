@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.10.4)  8 OCT 2017 09:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.10.4)  8 OCT 2017 11:24
 entering extended mode
 **./Zpěvník.tex
 (Zpěvník.tex
@@ -1919,13 +1919,38 @@ File: obr/pozadi.jpg Graphic file (type jpg)
  <use obr/pozadi.jpg>
 Package pdftex.def Info: obr/pozadi.jpg used on input line 84.
 (pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
- [14] (../songy/Knockin.tex)
+ [14] (../songy/Knockin.tex
+<../Akordy/g.png, id=228, 60.225pt x 105.39375pt>
+File: ../Akordy/g.png Graphic file (type png)
+ <use ../Akordy/g.png>
+Package pdftex.def Info: ../Akordy/g.png used on input line 37.
+(pdftex.def)             Requested size: 90.33725pt x 158.09021pt.
+
+<../Akordy/d.png, id=230, 60.225pt x 105.39375pt>
+File: ../Akordy/d.png Graphic file (type png)
+ <use ../Akordy/d.png>
+Package pdftex.def Info: ../Akordy/d.png used on input line 38.
+(pdftex.def)             Requested size: 90.33725pt x 158.09021pt.
+
+<../Akordy/c.png, id=231, 60.225pt x 105.39375pt>
+File: ../Akordy/c.png Graphic file (type png)
+ <use ../Akordy/c.png>
+Package pdftex.def Info: ../Akordy/c.png used on input line 39.
+(pdftex.def)             Requested size: 90.33725pt x 158.09021pt.
+
+<../Akordy/Am.png, id=232, 60.225pt x 105.39375pt>
+File: ../Akordy/Am.png Graphic file (type png)
+ <use ../Akordy/Am.png>
+Package pdftex.def Info: ../Akordy/Am.png used on input line 40.
+(pdftex.def)             Requested size: 90.33725pt x 158.09021pt.
+)
 File: obr/pozadi.jpg Graphic file (type jpg)
 
 <use obr/pozadi.jpg>
 Package pdftex.def Info: obr/pozadi.jpg used on input line 85.
 (pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
- [15] (../songy/Kutil.tex
+ [15 <../Akordy/g.png> <../Akordy/d.png> <../Akordy/c.png> <../Akordy/Am.png>] 
+(../songy/Kutil.tex
 Underfull \hbox (badness 10000) in paragraph at lines 53--53
 
  []
@@ -2047,38 +2072,57 @@ File: obr/pozadi.jpg Graphic file (type jpg)
 Package pdftex.def Info: obr/pozadi.jpg used on input line 98.
 (pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
  [28]
-(../songy/SlaviciZMadridu.tex)
+(../songy/SlaviciZMadridu.tex
+<../Akordy/am.png, id=295, 60.225pt x 105.39375pt>
+File: ../Akordy/am.png Graphic file (type png)
+ <use ../Akordy/am.png>
+Package pdftex.def Info: ../Akordy/am.png used on input line 52.
+(pdftex.def)             Requested size: 90.33725pt x 158.09021pt.
+
+<../Akordy/e.png, id=296, 60.225pt x 105.39375pt>
+File: ../Akordy/e.png Graphic file (type png)
+ <use ../Akordy/e.png>
+Package pdftex.def Info: ../Akordy/e.png used on input line 53.
+(pdftex.def)             Requested size: 90.33725pt x 158.09021pt.
+
+<../Akordy/dm.png, id=297, 60.225pt x 105.39375pt>
+File: ../Akordy/dm.png Graphic file (type png)
+ <use ../Akordy/dm.png>
+Package pdftex.def Info: ../Akordy/dm.png used on input line 54.
+(pdftex.def)             Requested size: 90.33725pt x 158.09021pt.
+)
 File: obr/pozadi.jpg Graphic file (type jpg)
- <use obr/pozadi.jpg>
+
+<use obr/pozadi.jpg>
 Package pdftex.def Info: obr/pozadi.jpg used on input line 99.
 (pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
- [29]
-(../songy/SoundOfSilence.tex)
+ [29 <../Akordy/am.png> <../Akordy/e.png> <../Akordy/dm.png>] (../songy/SoundOf
+Silence.tex)
 File: obr/pozadi.jpg Graphic file (type jpg)
  <use obr/pozadi.jpg>
 Package pdftex.def Info: obr/pozadi.jpg used on input line 100.
 (pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
- [30] (../songy/Traktor.tex)
+ [30]
+(../songy/Traktor.tex)
 File: obr/pozadi.jpg Graphic file (type jpg)
-
-<use obr/pozadi.jpg>
+ <use obr/pozadi.jpg>
 Package pdftex.def Info: obr/pozadi.jpg used on input line 101.
 (pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
- [31] (../songy/WhatMakesYouBeautiful.tex
+ [31]
+(../songy/WhatMakesYouBeautiful.tex
 File: obr/pozadi.jpg Graphic file (type jpg)
-
-<use obr/pozadi.jpg>
+ <use obr/pozadi.jpg>
 Package pdftex.def Info: obr/pozadi.jpg used on input line 138.
 (pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
  [32])
 File: obr/pozadi.jpg Graphic file (type jpg)
- <use obr/pozadi.jpg>
+
+<use obr/pozadi.jpg>
 Package pdftex.def Info: obr/pozadi.jpg used on input line 102.
 (pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
  [33] (../songy/ZMyPluli.tex)
 File: obr/pozadi.jpg Graphic file (type jpg)
-
-<use obr/pozadi.jpg>
+ <use obr/pozadi.jpg>
 Package pdftex.def Info: obr/pozadi.jpg used on input line 103.
 (pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
  [34]
@@ -2087,7 +2131,8 @@ Package pdftex.def Info: obr/pozadi.jpg used on input line 103.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 107.
 Package atveryend Info: Executing hook `AfterLastShipout' on input line 107.
- (Zpěvník.xwm) (Zpěvník.aux)
+
+(Zpěvník.xwm) (Zpěvník.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 107.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 107.
 Package rerunfilecheck Info: File `Zpěvník.out' has not changed.
@@ -2095,10 +2140,10 @@ Package rerunfilecheck Info: File `Zpěvník.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 107.
  ) 
 Here is how much of TeX's memory you used:
- 26864 strings out of 493333
- 503735 string characters out of 3139197
- 621084 words of memory out of 3000000
- 29989 multiletter control sequences out of 15000+200000
+ 26904 strings out of 493333
+ 504392 string characters out of 3139197
+ 621462 words of memory out of 3000000
+ 30020 multiletter control sequences out of 15000+200000
  565811 words of font info for 44 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  72i,16n,83p,10361b,1060s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2107,9 +2152,9 @@ iKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
 ype1/public/lm/lmbx8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr
 12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/musixtex-fonts/musix13.p
 fb>
-Output written on Zpěvník.pdf (34 pages, 321429 bytes).
+Output written on Zpěvník.pdf (34 pages, 330970 bytes).
 PDF statistics:
- 344 PDF objects out of 1000 (max. 8388607)
+ 359 PDF objects out of 1000 (max. 8388607)
  69 named destinations out of 1000 (max. 500000)
- 262 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 297 words of extra memory for PDF output out of 10000 (max. 10000000)
 
