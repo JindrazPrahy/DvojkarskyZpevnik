@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.10.4)  8 OCT 2017 09:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.10.4)  8 OCT 2017 09:04
 entering extended mode
 **./Zpěvník.tex
 (Zpěvník.tex
@@ -1732,47 +1732,6 @@ LaTeX Info: Redefining \nameref on input line 65.
 \@outlinefile=\write5
 \openout5 = `Zpěvník.out'.
 
- (Zpěvník.toc
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 2.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
-File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 2.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
-File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 2.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
-File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 2.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
-File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 2.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 2.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 2.
-)
-LaTeX Font Info:    Try loading font information for T1+bch on input line 69.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1bch.fd"
-File: t1bch.fd 2004/10/18 font definitions for T1/bch.
-)
-<obr/pozadi.jpg, id=163, 963.6pt x 929.4725pt>
-File: obr/pozadi.jpg Graphic file (type jpg)
- <use obr/pozadi.jpg>
-Package pdftex.def Info: obr/pozadi.jpg used on input line 69.
-(pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
- [1
-
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <./obr/pozadi.jpg>]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: <default>
@@ -1805,311 +1764,185 @@ Package pdftex.def Info: obr/pozadi.jpg used on input line 69.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+ (../songy/GodsGonnaCutYouDown.tex
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 85.
 
-
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 73.
-
-
-Package hyperref Warning: Composite letter `\textasciicaron+c'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 73.
-
-(../songy/ASkautskaHymna.tex
-LaTeX Font Info:    Font shape `U/musix/m/n' will be
-(Font)              scaled to size 18.0pt on input line 22.
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 85.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 85.
+
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 85.
+
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 85.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 85.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 85.
+LaTeX Font Info:    Try loading font information for T1+bch on input line 85.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1bch.fd"
+File: t1bch.fd 2004/10/18 font definitions for T1/bch.
+)
+<obr/pozadi.jpg, id=131, 963.6pt x 929.4725pt>
 File: obr/pozadi.jpg Graphic file (type jpg)
  <use obr/pozadi.jpg>
+Package pdftex.def Info: obr/pozadi.jpg used on input line 85.
+(pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
+ [1
+
+
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <./obr/pozadi.jpg>])
+File: obr/pozadi.jpg Graphic file (type jpg)
+
+<use obr/pozadi.jpg>
 Package pdftex.def Info: obr/pozadi.jpg used on input line 73.
 (pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
- [2
+ [2]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 74.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 74.
+ (Zpěvník.xwm)
 
-]
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package hyperref Warning: Composite letter `\textasciicaron+C'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 74.
-
-(../songy/CernejPasazer.tex)
-File: obr/pozadi.jpg Graphic file (type jpg)
- <use obr/pozadi.jpg>
-Package pdftex.def Info: obr/pozadi.jpg used on input line 74.
-(pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
- [3]
-
-Package hyperref Warning: Composite letter `\textasciicaron+C'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 75.
+(Zpěvník.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 74.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 74.
 
 
-Package hyperref Warning: Composite letter `\textasciicaron+e'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 75.
+Package rerunfilecheck Warning: File `Zpěvník.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
 
-(../songy/CernobilySvet.tex)
-File: obr/pozadi.jpg Graphic file (type jpg)
- <use obr/pozadi.jpg>
-Package pdftex.def Info: obr/pozadi.jpg used on input line 75.
-(pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
- [4] (../songy/DoAmeriky.tex)
-File: obr/pozadi.jpg Graphic file (type jpg)
+Package rerunfilecheck Info: Checksums for `Zpěvník.out':
+(rerunfilecheck)             Before: D67FC113AB2D571A2B0FD976D15AA1F3;2032
+(rerunfilecheck)             After:  1A8F43BB8FD78440CF1F01F420C2C4A2;60.
 
-<use obr/pozadi.jpg>
-Package pdftex.def Info: obr/pozadi.jpg used on input line 76.
-(pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
- [5] (../songy/DoDneADoRoka.tex)
-File: obr/pozadi.jpg Graphic file (type jpg)
- <use obr/pozadi.jpg>
-Package pdftex.def Info: obr/pozadi.jpg used on input line 77.
-(pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-[6] (../songy/GodsGonnaCutYouDown.tex
-File: obr/pozadi.jpg Graphic file (type jpg)
- <use obr/pozadi.jpg>
-Package pdftex.def Info: obr/pozadi.jpg used on input line 85.
-(pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
- [7])
-File: obr/pozadi.jpg Graphic file (type jpg)
-
-<use obr/pozadi.jpg>
-Package pdftex.def Info: obr/pozadi.jpg used on input line 78.
-(pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
- [8] (../songy/Hallelujah.tex)
-File: obr/pozadi.jpg Graphic file (type jpg)
- <use obr/pozadi.jpg>
-Package pdftex.def Info: obr/pozadi.jpg used on input line 79.
-(pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
-
-[9] (../songy/HeyHo.tex)
-File: obr/pozadi.jpg Graphic file (type jpg)
- <use obr/pozadi.jpg>
-Package pdftex.def Info: obr/pozadi.jpg used on input line 80.
-(pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
- [10]
-
-Package hyperref Warning: Composite letter `\textasciicaron+c'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 81.
-
-(../songy/HlidacKrav.tex)
-File: obr/pozadi.jpg Graphic file (type jpg)
- <use obr/pozadi.jpg>
-Package pdftex.def Info: obr/pozadi.jpg used on input line 81.
-(pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
- [11] (../songy/JeJakaJe.tex)
-File: obr/pozadi.jpg Graphic file (type jpg)
-
-<use obr/pozadi.jpg>
-Package pdftex.def Info: obr/pozadi.jpg used on input line 82.
-(pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
- [12] (../songy/Kamaradi.tex)
-File: obr/pozadi.jpg Graphic file (type jpg)
- <use obr/pozadi.jpg>
-Package pdftex.def Info: obr/pozadi.jpg used on input line 83.
-(pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
- [13]
-
-Package hyperref Warning: Composite letter `\textring+u'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textring' on input line 84.
-
-(../songy/KaravanaMraku.tex)
-File: obr/pozadi.jpg Graphic file (type jpg)
- <use obr/pozadi.jpg>
-Package pdftex.def Info: obr/pozadi.jpg used on input line 84.
-(pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
- [14] (../songy/Knockin.tex)
-File: obr/pozadi.jpg Graphic file (type jpg)
-
-<use obr/pozadi.jpg>
-Package pdftex.def Info: obr/pozadi.jpg used on input line 85.
-(pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
- [15] (../songy/Kutil.tex
-Underfull \hbox (badness 10000) in paragraph at lines 53--53
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 53--53
-
- []
-
-)
-File: obr/pozadi.jpg Graphic file (type jpg)
- <use obr/pozadi.jpg>
-Package pdftex.def Info: obr/pozadi.jpg used on input line 86.
-(pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
- [16] (../songy/LanoCoKNebiNasPouta.tex)
-File: obr/pozadi.jpg Graphic file (type jpg)
-
-<use obr/pozadi.jpg>
-Package pdftex.def Info: obr/pozadi.jpg used on input line 87.
-(pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
- [17] (../songy/LeavingOnAJetPlane.tex)
-File: obr/pozadi.jpg Graphic file (type jpg)
-
-<use obr/pozadi.jpg>
-Package pdftex.def Info: obr/pozadi.jpg used on input line 88.
-(pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
- [18] (../songy/LemonTree.tex
-Underfull \hbox (badness 10000) in paragraph at lines 102--102
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 102--102
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 102--102
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 102--102
-
- []
-
-)
-File: obr/pozadi.jpg Graphic file (type jpg)
- <use obr/pozadi.jpg>
-Package pdftex.def Info: obr/pozadi.jpg used on input line 89.
-(pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
- [19] (../songy/MadeInValmez.tex)
-File: obr/pozadi.jpg Graphic file (type jpg)
- <use obr/pozadi.jpg>
-Package pdftex.def Info: obr/pozadi.jpg used on input line 90.
-(pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
-
-[20]
-
-Package hyperref Warning: Composite letter `\textasciicaron+r'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 91.
-
-(../songy/Milionar.tex)
-File: obr/pozadi.jpg Graphic file (type jpg)
- <use obr/pozadi.jpg>
-Package pdftex.def Info: obr/pozadi.jpg used on input line 91.
-(pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
- [21] (../songy/Orlice.tex)
-File: obr/pozadi.jpg Graphic file (type jpg)
-
-<use obr/pozadi.jpg>
-Package pdftex.def Info: obr/pozadi.jpg used on input line 92.
-(pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
- [22] (../songy/OstravoOstravo.tex)
-File: obr/pozadi.jpg Graphic file (type jpg)
- <use obr/pozadi.jpg>
-Package pdftex.def Info: obr/pozadi.jpg used on input line 93.
-(pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
-
-[23] (../songy/Pangajo.tex)
-File: obr/pozadi.jpg Graphic file (type jpg)
- <use obr/pozadi.jpg>
-Package pdftex.def Info: obr/pozadi.jpg used on input line 94.
-(pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
- [24]
-
-Package hyperref Warning: Composite letter `\textasciicaron+c'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 95.
-
-(../songy/PisnickaProTebe.tex)
-File: obr/pozadi.jpg Graphic file (type jpg)
- <use obr/pozadi.jpg>
-Package pdftex.def Info: obr/pozadi.jpg used on input line 95.
-(pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
- [25] (../songy/Podzimni.tex)
-File: obr/pozadi.jpg Graphic file (type jpg)
- <use obr/pozadi.jpg>
-Package pdftex.def Info: obr/pozadi.jpg used on input line 96.
-(pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
- [26]
-
-Package hyperref Warning: Composite letter `\textasciicaron+r'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 97.
-
-(../songy/PrevratVBananoveRep.tex) (../songy/RadaSeMiluje.tex)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-File: obr/pozadi.jpg Graphic file (type jpg)
-
-<use obr/pozadi.jpg>
-Package pdftex.def Info: obr/pozadi.jpg used on input line 98.
-(pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
- [27]
-File: obr/pozadi.jpg Graphic file (type jpg)
- <use obr/pozadi.jpg>
-Package pdftex.def Info: obr/pozadi.jpg used on input line 98.
-(pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
- [28]
-(../songy/SlaviciZMadridu.tex)
-File: obr/pozadi.jpg Graphic file (type jpg)
- <use obr/pozadi.jpg>
-Package pdftex.def Info: obr/pozadi.jpg used on input line 99.
-(pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
- [29]
-(../songy/SoundOfSilence.tex)
-File: obr/pozadi.jpg Graphic file (type jpg)
- <use obr/pozadi.jpg>
-Package pdftex.def Info: obr/pozadi.jpg used on input line 100.
-(pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
- [30] (../songy/Traktor.tex)
-File: obr/pozadi.jpg Graphic file (type jpg)
-
-<use obr/pozadi.jpg>
-Package pdftex.def Info: obr/pozadi.jpg used on input line 101.
-(pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
- [31] (../songy/WhatMakesYouBeautiful.tex
-File: obr/pozadi.jpg Graphic file (type jpg)
-
-<use obr/pozadi.jpg>
-Package pdftex.def Info: obr/pozadi.jpg used on input line 138.
-(pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
- [32])
-File: obr/pozadi.jpg Graphic file (type jpg)
- <use obr/pozadi.jpg>
-Package pdftex.def Info: obr/pozadi.jpg used on input line 102.
-(pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
- [33] (../songy/ZMyPluli.tex)
-File: obr/pozadi.jpg Graphic file (type jpg)
-
-<use obr/pozadi.jpg>
-Package pdftex.def Info: obr/pozadi.jpg used on input line 103.
-(pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
- [34]
-\tf@toc=\write6
-\openout6 = `Zpěvník.toc'.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 107.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 107.
- (Zpěvník.xwm) (Zpěvník.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 107.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 107.
-Package rerunfilecheck Info: File `Zpěvník.out' has not changed.
-(rerunfilecheck)             Checksum: D67FC113AB2D571A2B0FD976D15AA1F3;2032.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 107.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 74.
  ) 
 Here is how much of TeX's memory you used:
- 26864 strings out of 493333
- 503735 string characters out of 3139197
- 621084 words of memory out of 3000000
- 29989 multiletter control sequences out of 15000+200000
- 565811 words of font info for 44 fonts, out of 3000000 for 9000
+ 25886 strings out of 493333
+ 467558 string characters out of 3139197
+ 612455 words of memory out of 3000000
+ 29140 multiletter control sequences out of 15000+200000
+ 556504 words of font info for 40 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,16n,83p,10361b,1060s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}<C:/Program Files/M
-iKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
-ype1/public/lm/lmbx8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr
-12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/musixtex-fonts/musix13.p
-fb>
-Output written on Zpěvník.pdf (34 pages, 321429 bytes).
+ 72i,16n,83p,10361b,1068s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{section*.64} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.62} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.60} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.58} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.56} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.54} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.52} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.50} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.48} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.46} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.44} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.42} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.40} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.38} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.36} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.34} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.32} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.30} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.28} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.26} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.24} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.22} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.20} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.18} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.16} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.14} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.12} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.10} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.8} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.6} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.1} has been referenced but does not exist,
+ replaced by a fixed one
+
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}<C:/Program Files/MiK
+TeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
+e1/public/lm/lmr12.pfb>
+Output written on Zpěvník.pdf (2 pages, 219020 bytes).
 PDF statistics:
- 344 PDF objects out of 1000 (max. 8388607)
- 69 named destinations out of 1000 (max. 500000)
+ 160 PDF objects out of 1000 (max. 8388607)
+ 35 named destinations out of 1000 (max. 500000)
  262 words of extra memory for PDF output out of 10000 (max. 10000000)
 
