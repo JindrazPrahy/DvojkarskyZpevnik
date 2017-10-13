@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.6.25)  13 OCT 2017 20:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.6.25)  13 OCT 2017 22:57
 entering extended mode
 **./Zpěvník.tex
 (Zpěvník.tex
@@ -1782,42 +1782,62 @@ LaTeX Info: Redefining \nameref on input line 65.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
- (../songy/DoAmeriky.tex
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 56.
+ (../songy/DoDneADoRoka.tex
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 64.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 56.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 64.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 56.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 64.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 56.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 64.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 56.
+(Font)              <12> on input line 64.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 56.
+(Font)              <8> on input line 64.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 56.
+(Font)              <6> on input line 64.
+LaTeX Font Info:    Font shape `U/musix/m/n' will be
+(Font)              scaled to size 18.0pt on input line 64.
+
+<../Akordy/hm.png, id=3, 60.225pt x 105.39375pt>
+File: ../Akordy/hm.png Graphic file (type png)
+ <use ../Akordy/hm.png>
+Package pdftex.def Info: ../Akordy/hm.png used on input line 68.
+(pdftex.def)             Requested size: 48.18005pt x 84.3151pt.
+
+<../Akordy/cx7.png, id=5, 60.225pt x 105.39375pt>
+File: ../Akordy/cx7.png Graphic file (type png)
+ <use ../Akordy/cx7.png>
+Package pdftex.def Info: ../Akordy/cx7.png used on input line 69.
+(pdftex.def)             Requested size: 48.18005pt x 84.3151pt.
+
+<../Akordy/fxm7.png, id=6, 60.225pt x 105.39375pt>
+File: ../Akordy/fxm7.png Graphic file (type png)
+ <use ../Akordy/fxm7.png>
+Package pdftex.def Info: ../Akordy/fxm7.png used on input line 70.
+(pdftex.def)             Requested size: 48.18005pt x 84.3151pt.
 )
 LaTeX Font Info:    Try loading font information for T1+bch on input line 73.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1bch.fd"
 File: t1bch.fd 2004/10/18 font definitions for T1/bch.
 )
-<obr/pozadi.jpg, id=3, 963.6pt x 929.4725pt>
+<obr/pozadi.jpg, id=7, 963.6pt x 929.4725pt>
 File: obr/pozadi.jpg Graphic file (type jpg)
  <use obr/pozadi.jpg>
 Package pdftex.def Info: obr/pozadi.jpg used on input line 73.
@@ -1826,39 +1846,33 @@ Package pdftex.def Info: obr/pozadi.jpg used on input line 73.
 
 
 {C:/Users/CaptainObvious/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./
-obr/pozadi.jpg>]
+obr/pozadi.jpg> <../Akordy/hm.png> <../Akordy/cx7.png> <../Akordy/fxm7.png>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 76.
 Package atveryend Info: Executing hook `AfterLastShipout' on input line 76.
- (Zpěvník.xwm)
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-(Zpěvník.aux)
+(Zpěvník.xwm) (Zpěvník.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 76.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 76.
 Package rerunfilecheck Info: File `Zpěvník.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 76.
  ) 
 Here is how much of TeX's memory you used:
- 25790 strings out of 493333
- 468349 string characters out of 3139167
- 599095 words of memory out of 3000000
- 29075 multiletter control sequences out of 15000+200000
- 559499 words of font info for 41 fonts, out of 3000000 for 9000
+ 25813 strings out of 493333
+ 468733 string characters out of 3139167
+ 603146 words of memory out of 3000000
+ 29092 multiletter control sequences out of 15000+200000
+ 559798 words of font info for 42 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  67i,16n,83p,10361b,905s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}<C:/Program Files/M
 iKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
 ype1/public/lm/lmbx8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr
-12.pfb>
-Output written on Zpěvník.pdf (1 page, 221972 bytes).
+12.pfb><C:/Users/CaptainObvious/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/m
+usixtex-fonts/musix13.pfb>
+Output written on Zpěvník.pdf (1 page, 228206 bytes).
 PDF statistics:
- 26 PDF objects out of 1000 (max. 8388607)
+ 37 PDF objects out of 1000 (max. 8388607)
  3 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
