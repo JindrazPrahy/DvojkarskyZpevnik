@@ -1,0 +1,108 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%			HLAVIČKA								%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[openany,12pt]{memoir}
+
+\usepackage[utf8]{inputenc} 
+\usepackage[czech]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[top=1.5cm, bottom=2cm, left=2cm, right=2cm]{geometry}  % --> NASTAVENÍ OKRAJŮ
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{lmodern}
+\usepackage{xwatermark}
+\usepackage{xcolor}
+\usepackage{changepage}
+
+
+
+
+%%%%%% Package na zpěvník
+\usepackage[full]{leadsheets}%http://mirrors.nic.cz/tex-archive/macros/latex/contrib/leadsheets/leadsheets_en.pdf   --> dokumentace	
+\definesongtitletemplate{empty}{} 
+\setchords{
+format = \bfseries,   %tučné akordy
+minor = {mi},% 
+input-notation = {german},%
+output-notation = {german}%
+}
+\definesongtitletemplate{empty}{} 
+
+\newlength{\drop}
+\newwatermark[allpages,color=red!50,angle=0,scale=2, xpos=0,ypos=0]{\includegraphics[width=5cm]{obr/pozadi.jpg}} %--> dvojka na pozadí
+
+
+%%%% Vlastní příkazy
+\newcounter{Slokočet}   %Automatické číslování slok
+\newcommand{\mezera}{\vspace*{0.5cm}}   %Horizontální odsazení slok
+\newcommand{\stred}{5.2cm}   %%% Na zarovnání slok doprostřed, pozn. automatičtější zarovnávání na střed nejde
+\newcommand{\refren}{\mezera \noindent \textbf{R:} } %refrén
+\newcommand{\sloka}{\mezera \noindent \addtocounter{Slokočet}{1} \arabic{Slokočet}. } 	%sloka, která se automaticky čísluje
+\newcommand{\ssloka}{\mezera \noindent}  % vlastní číslo sloky
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%			NÁVOD									 %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%1. Věci v hlavičce IGNOROVAT
+%2. Píseň psát do prostoru mezi \begin{song} a \end{song}
+%3. další řádek se značí dvěma odsazeníma (= dvakrát stisknout enter)
+%4. \refren vždy na začátku refrenu a \sloka na začátek sloky (automaticky se čísluje)
+%  \ = alt gr + q ; [/] = alt gr f/g ; {/} = alt gr + b/n; ^ = alt gr + 3 + mezera
+%Cokoliv napíšete do ^{  } se bude brát jako akord
+%když se toto bude dotýkat nějakého slova (nebude mezi tím a slovem mezera)
+%tak se akordy zjeví nad slovem, ale pište to před slovo
+%Když se to nedotýká slova, tak akord lítá ve vzduchu a vytiskne se větší mezera
+%První možnost je asi preferovanější
+%5. Akordy stačí psát jen do první sloky, když se nezmění -- kytaristi to zvládnou
+
+
+
+%<++>
+%\usepackage{subfiles}
+%</++>
+
+\begin{document}
+
+\pagestyle{empty}
+%\addtocontents{toc}{\protect\thispagestyle{empty}}
+\tableofcontents \thispagestyle{empty}\newpage
+\newgeometry{top=1.5cm, bottom = 0cm, left = 2cm, right = 2cm}
+
+\pagestyle{simple}
+\addcontentsline{toc}{section}{Skaustká hymna a Večerka}\input{../songy/ASkautskaHymna}\newpage
+\addcontentsline{toc}{section}{Černej pasažér}\input{../songy/CernejPasazer}\newpage
+\addcontentsline{toc}{section}{Černobílý svět}\input{../songy/CernobilySvet}\newpage
+\addcontentsline{toc}{section}{Do Ameriky}\input{../songy/DoAmeriky}\newpage
+\addcontentsline{toc}{section}{Do dne a do roka}\input{../songy/DoDneADoRoka}\newpage
+\addcontentsline{toc}{section}{God's Gonna Cut You Down}\input{../songy/GodsGonnaCutYouDown}\newpage %!!! Akordy dát nad nad slova, vyřadit opakující se akordy
+\addcontentsline{toc}{section}{Hallelujah}\input{../songy/Hallelujah}\newpage  % Pouze jednostranná verze
+\addcontentsline{toc}{section}{Hey Ho}\input{../songy/HeyHo}\newpage
+\addcontentsline{toc}{section}{Hlídač krav}\input{../songy/HlidacKrav}\newpage
+\addcontentsline{toc}{section}{Je jaká je}\input{../songy/JeJakaJe}\newpage
+\addcontentsline{toc}{section}{Kamarádi}\input{../songy/Kamaradi}\newpage %není hotovo
+\addcontentsline{toc}{section}{Karavana mraků}\input{../songy/KaravanaMraku}\newpage	
+\addcontentsline{toc}{section}{Knocking On Heaven's Door}\input{../songy/Knockin}\newpage
+\addcontentsline{toc}{section}{Kutil}\input{../songy/Kutil}\newpage
+\addcontentsline{toc}{section}{Lano co k nebi nás poutá}\input{../songy/LanoCoKNebiNasPouta}\newpage
+\addcontentsline{toc}{section}{Leaving On A Jet Plane}\input{../songy/LeavingOnAJetPlane}\newpage
+\addcontentsline{toc}{section}{Lemon Tree}\input{../songy/LemonTree}\newpage
+\addcontentsline{toc}{section}{Made in Valmez}\input{../songy/MadeInValmez}\newpage
+\addcontentsline{toc}{section}{Milionář}\input{../songy/Milionar}\newpage
+\addcontentsline{toc}{section}{Orlice}\input{../songy/Orlice}\newpage
+\addcontentsline{toc}{section}{Ostravo}\input{../songy/OstravoOstravo}\newpage
+\addcontentsline{toc}{section}{Pangajó}\input{../songy/Pangajo}\newpage
+\addcontentsline{toc}{section}{Písnička pro Tebe}\input{../songy/PisnickaProTebe}\newpage
+\addcontentsline{toc}{section}{Podzimní}\input{../songy/Podzimni}\newpage
+\addcontentsline{toc}{section}{Převrat v Banánové republice} \input{../songy/PrevratVBananoveRep}
+\addcontentsline{toc}{section}{Ráda se miluje}\input{../songy/RadaSeMiluje}\newpage
+\addcontentsline{toc}{section}{Sametová}\input{../songy/Sametová}\newpage
+\addcontentsline{toc}{section}{Slavíci z Madridu}\input{../songy/SlaviciZMadridu}\newpage
+\addcontentsline{toc}{section}{Sound Of Silence}\input{../songy/SoundOfSilence}\newpage
+\addcontentsline{toc}{section}{Traktor}\input{../songy/Traktor}\newpage
+\addcontentsline{toc}{section}{What Makes You Beautiful}\input{../songy/WhatMakesYouBeautiful}\newpage
+\addcontentsline{toc}{section}{My pluli}\input{../songy/ZMyPluli}\newpage
+
+
+
+\end{document}
