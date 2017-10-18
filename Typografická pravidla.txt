@@ -17,8 +17,9 @@ ohlednì typografie napsat sem, aby se vše mohlo sjednotit.
 	-po kompilaci pdf písnì do složky s pdf a pøíslušný \include
 	do zpìvníku se všemi písnìmi
    3. KLASIKA: Uvozovky pomocí \uv{} (a samozøejmì èeský babel), 
-      ... = \dots,  rozdíl mezi pomlèkou - a spojovníkem -- 
-      (prostì používat -- ve vìtì a - jen v jednom slovì jako ice-cream)
+      ... = \dots (ale za \dots by mìla být mezera \,), 
+      rozdíl mezi pomlèkou - a spojovníkem -- 
+      (prostì používat -- ve vìtì jako , a - jen v jednom slovì jako ice-cream)
    4. REPETICE pomocí /: :/ a znaèit kde možnì pro šetøení místa
    5. AKORDY nad slova pomocí ^{}, které je pøed slovem. Více akordù
       (vybrnkávání, pøedehra...) pomocí \textbf{} (aby nelítali ve vzduchu).
@@ -28,7 +29,9 @@ ohlednì typografie napsat sem, aby se vše mohlo sjednotit.
    7. SLOKY, REFRÉNY a NÁZVY písní pomocí upraveného balíèku leadsheets.
    8. ZAROVNÁNÍ na støed se provádí fakt tìžko a nejde automatizovat, takže
       tady se to musí fakt odhadnout individuálnì a s citem. Kdyžtak makro
-      \stred je pøijatelná (vìtšinou) velikost zarovnání.
+      \stred je pøijatelná (vìtšinou) velikost zarovnání
+
+      Když je jeden øádek fakt dlouhej a ostatní ne, tak ho ignorovat?
    9. PREFERENCE ohlednì rozložení písní: Pøehlednost > Místo, takže
       Velikost písma (konstantní) > Aby toho na jedné stránce nebylo moc >
       Aby se to za každou cenu nacpalo do jedné stránky
@@ -36,4 +39,5 @@ ohlednì typografie napsat sem, aby se vše mohlo sjednotit.
       Tímhle si nejsem fakt jistej (popøemýšlím o tom),
       ale zatím bych trval na tom, aby i vìty v písnièkách mìly teèky
       a èárky. Dále urèitì mají anglické písnì velká všechna písmena v názvu 
-      a èeské to mají trochu náhodnì. Vždycky radši kontrolovat.
+      a èeské to mají trochu náhodnì. Vždycky radši kontrolovat. A bylo by 
+      dobrý, kdyby i názvy souborù byly napsaný správnì.
