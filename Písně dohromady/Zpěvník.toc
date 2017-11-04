@@ -37,6 +37,7 @@
 \contentsline {section}{Sound Of Silence}{38}{section*.72}
 \contentsline {section}{Traktor}{39}{section*.74}
 \contentsline {section}{Trezor}{40}{section*.76}
-\contentsline {section}{What Makes You Beautiful}{41}{section*.78}
-\contentsline {section}{Zatan\IeC {\v c}i}{43}{section*.80}
-\contentsline {section}{My pluli}{44}{section*.82}
+\contentsline {section}{To ta He\v lpa}{41}{section*.78}
+\contentsline {section}{What Makes You Beautiful}{42}{section*.80}
+\contentsline {section}{Zatan\IeC {\v c}i}{44}{section*.82}
+\contentsline {section}{My pluli}{45}{section*.84}
