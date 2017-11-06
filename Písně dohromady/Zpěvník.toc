@@ -35,12 +35,13 @@
 \contentsline {section}{R\IeC {\'a}da se miluje}{36}{section*.68}
 \contentsline {section}{Russian mystic pop IV.}{37}{section*.70}
 \contentsline {section}{Sametov\IeC {\'a}}{38}{section*.72}
-\contentsline {section}{Slaboch Ben}{39}{section*.74}
-\contentsline {section}{Slav\IeC {\'\i }ci z Madridu}{40}{section*.76}
-\contentsline {section}{Sound Of Silence}{41}{section*.78}
-\contentsline {section}{Traktor}{42}{section*.80}
-\contentsline {section}{Trezor}{43}{section*.82}
-\contentsline {section}{To ta He\v lpa}{44}{section*.84}
-\contentsline {section}{What Makes You Beautiful}{45}{section*.86}
-\contentsline {section}{Zatan\IeC {\v c}i}{47}{section*.88}
-\contentsline {section}{My pluli}{48}{section*.90}
+\contentsline {section}{S\IeC {\'a}ro!}{39}{section*.74}
+\contentsline {section}{Slaboch Ben}{40}{section*.76}
+\contentsline {section}{Slav\IeC {\'\i }ci z Madridu}{41}{section*.78}
+\contentsline {section}{Sound Of Silence}{42}{section*.80}
+\contentsline {section}{Traktor}{43}{section*.82}
+\contentsline {section}{Trezor}{44}{section*.84}
+\contentsline {section}{To ta He\v lpa}{45}{section*.86}
+\contentsline {section}{What Makes You Beautiful}{46}{section*.88}
+\contentsline {section}{Zatan\IeC {\v c}i}{48}{section*.90}
+\contentsline {section}{My pluli}{49}{section*.92}
