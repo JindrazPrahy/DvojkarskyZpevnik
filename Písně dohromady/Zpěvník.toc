@@ -9,37 +9,38 @@
 \contentsline {section}{Dej mi v\IeC {\'\i }c sv\IeC {\'e} l\IeC {\'a}sky}{9}{section*.16}
 \contentsline {section}{Do Ameriky}{10}{section*.18}
 \contentsline {section}{Do dne a do roka}{11}{section*.20}
-\contentsline {section}{Franky Dlouh\IeC {\'a}n}{12}{section*.22}
-\contentsline {section}{God's Gonna Cut You Down}{13}{section*.24}
-\contentsline {section}{Hallelujah}{15}{section*.26}
-\contentsline {section}{Hey Ho}{16}{section*.28}
-\contentsline {section}{Hl\IeC {\'\i }da\IeC {\v c} krav}{17}{section*.30}
-\contentsline {section}{Je jak\IeC {\'a} je}{18}{section*.32}
-\contentsline {section}{Kamar\IeC {\'a}di}{19}{section*.34}
-\contentsline {section}{Karavana mrak\IeC {\r u}}{20}{section*.36}
-\contentsline {section}{Knocking On Heaven's Door}{21}{section*.38}
-\contentsline {section}{Kutil}{22}{section*.40}
-\contentsline {section}{Lano co k nebi n\IeC {\'a}s pout\IeC {\'a}}{23}{section*.42}
-\contentsline {section}{Leaving On A Jet Plane}{24}{section*.44}
-\contentsline {section}{Lemon Tree}{25}{section*.46}
-\contentsline {section}{Made in Valmez}{26}{section*.48}
-\contentsline {section}{Milion\IeC {\'a}\IeC {\v r}}{27}{section*.50}
-\contentsline {section}{Nagasaki Hiro\IeC {\v s}ima}{28}{section*.52}
-\contentsline {section}{Orlice}{29}{section*.54}
-\contentsline {section}{Ostravo}{30}{section*.56}
-\contentsline {section}{Pangaj\IeC {\'o}}{31}{section*.58}
-\contentsline {section}{P\IeC {\'\i }sni\IeC {\v c}ka pro Tebe}{32}{section*.60}
-\contentsline {section}{Podzimn\IeC {\'\i }}{33}{section*.62}
-\contentsline {section}{P\IeC {\v r}evrat v Ban\IeC {\'a}nov\IeC {\'e} republice}{34}{section*.64}
-\contentsline {section}{R\IeC {\'a}da se miluje}{35}{section*.66}
-\contentsline {section}{Russian mystic pop IV.}{36}{section*.68}
-\contentsline {section}{Sametov\IeC {\'a}}{37}{section*.70}
-\contentsline {section}{Slaboch Ben}{38}{section*.72}
-\contentsline {section}{Slav\IeC {\'\i }ci z Madridu}{39}{section*.74}
-\contentsline {section}{Sound Of Silence}{40}{section*.76}
-\contentsline {section}{Traktor}{41}{section*.78}
-\contentsline {section}{Trezor}{42}{section*.80}
-\contentsline {section}{To ta He\v lpa}{43}{section*.82}
-\contentsline {section}{What Makes You Beautiful}{44}{section*.84}
-\contentsline {section}{Zatan\IeC {\v c}i}{46}{section*.86}
-\contentsline {section}{My pluli}{47}{section*.88}
+\contentsline {section}{Dokud se zp\IeC {\'\i }v\IeC {\'a}}{12}{section*.22}
+\contentsline {section}{Franky Dlouh\IeC {\'a}n}{13}{section*.24}
+\contentsline {section}{God's Gonna Cut You Down}{14}{section*.26}
+\contentsline {section}{Hallelujah}{16}{section*.28}
+\contentsline {section}{Hey Ho}{17}{section*.30}
+\contentsline {section}{Hl\IeC {\'\i }da\IeC {\v c} krav}{18}{section*.32}
+\contentsline {section}{Je jak\IeC {\'a} je}{19}{section*.34}
+\contentsline {section}{Kamar\IeC {\'a}di}{20}{section*.36}
+\contentsline {section}{Karavana mrak\IeC {\r u}}{21}{section*.38}
+\contentsline {section}{Knocking On Heaven's Door}{22}{section*.40}
+\contentsline {section}{Kutil}{23}{section*.42}
+\contentsline {section}{Lano co k nebi n\IeC {\'a}s pout\IeC {\'a}}{24}{section*.44}
+\contentsline {section}{Leaving On A Jet Plane}{25}{section*.46}
+\contentsline {section}{Lemon Tree}{26}{section*.48}
+\contentsline {section}{Made in Valmez}{27}{section*.50}
+\contentsline {section}{Milion\IeC {\'a}\IeC {\v r}}{28}{section*.52}
+\contentsline {section}{Nagasaki Hiro\IeC {\v s}ima}{29}{section*.54}
+\contentsline {section}{Orlice}{30}{section*.56}
+\contentsline {section}{Ostravo}{31}{section*.58}
+\contentsline {section}{Pangaj\IeC {\'o}}{32}{section*.60}
+\contentsline {section}{P\IeC {\'\i }sni\IeC {\v c}ka pro Tebe}{33}{section*.62}
+\contentsline {section}{Podzimn\IeC {\'\i }}{34}{section*.64}
+\contentsline {section}{P\IeC {\v r}evrat v Ban\IeC {\'a}nov\IeC {\'e} republice}{35}{section*.66}
+\contentsline {section}{R\IeC {\'a}da se miluje}{36}{section*.68}
+\contentsline {section}{Russian mystic pop IV.}{37}{section*.70}
+\contentsline {section}{Sametov\IeC {\'a}}{38}{section*.72}
+\contentsline {section}{Slaboch Ben}{39}{section*.74}
+\contentsline {section}{Slav\IeC {\'\i }ci z Madridu}{40}{section*.76}
+\contentsline {section}{Sound Of Silence}{41}{section*.78}
+\contentsline {section}{Traktor}{42}{section*.80}
+\contentsline {section}{Trezor}{43}{section*.82}
+\contentsline {section}{To ta He\v lpa}{44}{section*.84}
+\contentsline {section}{What Makes You Beautiful}{45}{section*.86}
+\contentsline {section}{Zatan\IeC {\v c}i}{47}{section*.88}
+\contentsline {section}{My pluli}{48}{section*.90}
