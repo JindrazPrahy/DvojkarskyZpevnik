@@ -44,6 +44,7 @@
 \contentsline {section}{Traktor}{46}{section*.86}
 \contentsline {section}{Trezor}{47}{section*.88}
 \contentsline {section}{To ta He\v lpa}{48}{section*.90}
-\contentsline {section}{What Makes You Beautiful}{49}{section*.92}
-\contentsline {section}{Zatan\IeC {\v c}i}{51}{section*.94}
-\contentsline {section}{My pluli}{52}{section*.96}
+\contentsline {section}{U\IeC {\v z} to nenaprav\IeC {\'\i }m}{49}{section*.92}
+\contentsline {section}{What Makes You Beautiful}{50}{section*.94}
+\contentsline {section}{Zatan\IeC {\v c}i}{52}{section*.96}
+\contentsline {section}{My pluli}{53}{section*.98}
