@@ -38,11 +38,12 @@
 \contentsline {section}{S\IeC {\'a}ro!}{39}{section*.74}
 \contentsline {section}{Slaboch Ben}{40}{section*.76}
 \contentsline {section}{Slav\IeC {\'\i }ci z Madridu}{41}{section*.78}
-\contentsline {section}{Sv\IeC {\'e} Rocky Mountains}{42}{section*.80}
-\contentsline {section}{Sound Of Silence}{43}{section*.82}
-\contentsline {section}{Traktor}{44}{section*.84}
-\contentsline {section}{Trezor}{45}{section*.86}
-\contentsline {section}{To ta He\v lpa}{46}{section*.88}
-\contentsline {section}{What Makes You Beautiful}{47}{section*.90}
-\contentsline {section}{Zatan\IeC {\v c}i}{49}{section*.92}
-\contentsline {section}{My pluli}{50}{section*.94}
+\contentsline {section}{Sound Of Silence}{42}{section*.80}
+\contentsline {section}{Space Oddity}{43}{section*.82}
+\contentsline {section}{Sv\IeC {\'e} Rocky Mountains}{45}{section*.84}
+\contentsline {section}{Traktor}{46}{section*.86}
+\contentsline {section}{Trezor}{47}{section*.88}
+\contentsline {section}{To ta He\v lpa}{48}{section*.90}
+\contentsline {section}{What Makes You Beautiful}{49}{section*.92}
+\contentsline {section}{Zatan\IeC {\v c}i}{51}{section*.94}
+\contentsline {section}{My pluli}{52}{section*.96}
