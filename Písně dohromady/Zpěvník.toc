@@ -46,6 +46,7 @@
 \contentsline {section}{Trezor}{48}{section*.90}
 \contentsline {section}{To ta He\v lpa}{49}{section*.92}
 \contentsline {section}{U\IeC {\v z} to nenaprav\IeC {\'\i }m}{50}{section*.94}
-\contentsline {section}{What Makes You Beautiful}{51}{section*.96}
-\contentsline {section}{Zatan\IeC {\v c}i}{53}{section*.98}
-\contentsline {section}{My pluli}{54}{section*.100}
+\contentsline {section}{Velmi nesm\IeC {\v e}l\IeC {\'a}}{51}{section*.96}
+\contentsline {section}{What Makes You Beautiful}{52}{section*.98}
+\contentsline {section}{Zatan\IeC {\v c}i}{54}{section*.100}
+\contentsline {section}{My pluli}{55}{section*.102}
