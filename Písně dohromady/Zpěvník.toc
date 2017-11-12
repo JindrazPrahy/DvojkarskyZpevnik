@@ -33,26 +33,27 @@
 \contentsline {section}{Osm\IeC {\'a} barva duhy}{34}{section*.64}
 \contentsline {section}{Ostravo}{35}{section*.66}
 \contentsline {section}{Pangaj\IeC {\'o}}{36}{section*.68}
-\contentsline {section}{Personal Jesus}{37}{section*.70}
-\contentsline {section}{P\IeC {\'\i }sni\IeC {\v c}ka pro Tebe}{38}{section*.72}
-\contentsline {section}{Podzimn\IeC {\'\i }}{39}{section*.74}
-\contentsline {section}{P\IeC {\v r}evrat v Ban\IeC {\'a}nov\IeC {\'e} republice}{40}{section*.76}
-\contentsline {section}{Py\IeC {\v s}n\IeC {\'y} Janek}{41}{section*.78}
-\contentsline {section}{R\IeC {\'a}da se miluje}{42}{section*.80}
-\contentsline {section}{Russian mystic pop IV.}{43}{section*.82}
-\contentsline {section}{Sametov\IeC {\'a}}{44}{section*.84}
-\contentsline {section}{Sarajevo}{45}{section*.86}
-\contentsline {section}{S\IeC {\'a}ro!}{46}{section*.88}
-\contentsline {section}{Slaboch Ben}{47}{section*.90}
-\contentsline {section}{Slav\IeC {\'\i }ci z Madridu}{48}{section*.92}
-\contentsline {section}{Sound Of Silence}{49}{section*.94}
-\contentsline {section}{Space Oddity}{50}{section*.96}
-\contentsline {section}{Sv\IeC {\'e} Rocky Mountains}{52}{section*.98}
-\contentsline {section}{Traktor}{53}{section*.100}
-\contentsline {section}{Trezor}{54}{section*.102}
-\contentsline {section}{To ta He\v lpa}{55}{section*.104}
-\contentsline {section}{U\IeC {\v z} to nenaprav\IeC {\'\i }m}{56}{section*.106}
-\contentsline {section}{Velmi nesm\IeC {\v e}l\IeC {\'a}}{57}{section*.108}
-\contentsline {section}{What Makes You Beautiful}{58}{section*.110}
-\contentsline {section}{Zatan\IeC {\v c}i}{60}{section*.112}
-\contentsline {section}{My pluli}{61}{section*.114}
+\contentsline {section}{Partyz\IeC {\'a}n}{37}{section*.70}
+\contentsline {section}{Personal Jesus}{38}{section*.72}
+\contentsline {section}{P\IeC {\'\i }sni\IeC {\v c}ka pro Tebe}{39}{section*.74}
+\contentsline {section}{Podzimn\IeC {\'\i }}{40}{section*.76}
+\contentsline {section}{P\IeC {\v r}evrat v Ban\IeC {\'a}nov\IeC {\'e} republice}{41}{section*.78}
+\contentsline {section}{Py\IeC {\v s}n\IeC {\'y} Janek}{42}{section*.80}
+\contentsline {section}{R\IeC {\'a}da se miluje}{43}{section*.82}
+\contentsline {section}{Russian mystic pop IV.}{44}{section*.84}
+\contentsline {section}{Sametov\IeC {\'a}}{45}{section*.86}
+\contentsline {section}{Sarajevo}{46}{section*.88}
+\contentsline {section}{S\IeC {\'a}ro!}{47}{section*.90}
+\contentsline {section}{Slaboch Ben}{48}{section*.92}
+\contentsline {section}{Slav\IeC {\'\i }ci z Madridu}{49}{section*.94}
+\contentsline {section}{Sound Of Silence}{50}{section*.96}
+\contentsline {section}{Space Oddity}{51}{section*.98}
+\contentsline {section}{Sv\IeC {\'e} Rocky Mountains}{53}{section*.100}
+\contentsline {section}{Traktor}{54}{section*.102}
+\contentsline {section}{Trezor}{55}{section*.104}
+\contentsline {section}{To ta He\v lpa}{56}{section*.106}
+\contentsline {section}{U\IeC {\v z} to nenaprav\IeC {\'\i }m}{57}{section*.108}
+\contentsline {section}{Velmi nesm\IeC {\v e}l\IeC {\'a}}{58}{section*.110}
+\contentsline {section}{What Makes You Beautiful}{59}{section*.112}
+\contentsline {section}{Zatan\IeC {\v c}i}{61}{section*.114}
+\contentsline {section}{My pluli}{62}{section*.116}
