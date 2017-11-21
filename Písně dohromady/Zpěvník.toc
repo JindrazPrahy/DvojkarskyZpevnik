@@ -61,4 +61,5 @@
 \contentsline {part}{Koledy na v\IeC {\'a}no\IeC {\v c}ku (tohle nen\IeC {\'\i } n\IeC {\'a}zev p\IeC {\'\i }sni\IeC {\v c}ky)}{65}{section*.122}
 \contentsline {section}{Adeste Fideles}{65}{section*.123}
 \contentsline {section}{Narodil se Kristus P\IeC {\'a}n}{66}{section*.125}
-\contentsline {section}{Tich\IeC {\'a} noc}{67}{section*.127}
+\contentsline {section}{P\IeC {\r u}jdem spolu do Betl\IeC {\'e}ma}{67}{section*.127}
+\contentsline {section}{Tich\IeC {\'a} noc}{68}{section*.129}
