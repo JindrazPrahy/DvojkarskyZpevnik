@@ -67,4 +67,5 @@
 \contentsline {section}{P\IeC {\'a}sli ovce Vala\IeC {\v s}i}{70}{section*.133}
 \contentsline {section}{P\IeC {\r u}jdem spolu do Betl\IeC {\'e}ma}{71}{section*.135}
 \contentsline {section}{Rolni\IeC {\v c}ky}{72}{section*.137}
-\contentsline {section}{Tich\IeC {\'a} noc}{73}{section*.139}
+\contentsline {section}{\IeC {\v S}t\IeC {\v e}st\IeC {\'\i } zdrav\IeC {\'\i } pokoj svat\IeC {\'y}}{73}{section*.139}
+\contentsline {section}{Tich\IeC {\'a} noc}{74}{section*.141}
