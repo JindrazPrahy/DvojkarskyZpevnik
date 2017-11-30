@@ -28,7 +28,7 @@ output-notation = {german}%
 \definesongtitletemplate{empty}{} 
 
 \newlength{\drop}
-\newwatermark[allpages,color=red!50,angle=0,scale=2, xpos=0,ypos=0]{\includegraphics[width=5cm]{obr/pozadi.jpg}} %--> dvojka na pozadí
+\newwatermark[pages=2-,color=red!50,angle=0,scale=2, xpos=0,ypos=0]{\includegraphics[width=5cm]{obr/pozadi.jpg}} %--> dvojka na pozadí
 
 
 %%%% Vlastní příkazy
@@ -64,6 +64,31 @@ output-notation = {german}%
 \begin{document}
 %Kompilovat dvakrát, aby se updatnula TOC
 \pagestyle{empty}
+
+%%PŘEBAL
+\moveright 12cm \vbox{
+\includegraphics[scale=0.5]{obr/comet.jpg}\\
+}
+\vspace*{4\baselineskip}
+{\centering
+\HUGE
+\textbf{Vánoční zpěvník}\\
+\Large
+\begin{center}
+\textbf{Pražské Dvojky}
+\end{center}
+\vspace*{3\baselineskip}
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.5]{obr/beth.jpg}
+\end{figure}
+}
+
+
+\newpage
+
+
+
 %\addtocontents{toc}{\protect\thispagestyle{empty}}
 \tableofcontents \thispagestyle{empty}\newpage
 \newgeometry{top=1.5cm, bottom = 0cm, left = 2cm, right = 2cm}
