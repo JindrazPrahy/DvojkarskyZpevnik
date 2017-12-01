@@ -14,4 +14,5 @@
 \contentsline {section}{Rolni\IeC {\v c}ky}{13}{section*.22}
 \contentsline {section}{\IeC {\v S}t\IeC {\v e}st\IeC {\'\i } zdrav\IeC {\'\i } pokoj svat\IeC {\'y}}{14}{section*.24}
 \contentsline {section}{Tich\IeC {\'a} noc}{15}{section*.26}
-\contentsline {section}{Z jedn\IeC {\'e} strany chvojka}{16}{section*.28}
+\contentsline {section}{Vesel\IeC {\'e} v\IeC {\'a}no\IeC {\v c}n\IeC {\'\i } hody}{16}{section*.28}
+\contentsline {section}{Z jedn\IeC {\'e} strany chvojka}{17}{section*.30}
