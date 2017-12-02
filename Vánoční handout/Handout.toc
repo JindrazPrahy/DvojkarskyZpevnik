@@ -11,8 +11,9 @@
 \contentsline {section}{Nesem v\IeC {\'a}m noviny}{10}{section*.16}
 \contentsline {section}{P\IeC {\'a}sli ovce Vala\IeC {\v s}i}{11}{section*.18}
 \contentsline {section}{P\IeC {\r u}jdem spolu do Betl\IeC {\'e}ma}{12}{section*.20}
-\contentsline {section}{Rolni\IeC {\v c}ky}{13}{section*.22}
-\contentsline {section}{\IeC {\v S}t\IeC {\v e}st\IeC {\'\i }, zdrav\IeC {\'\i }, pokoj svat\IeC {\'y}}{14}{section*.24}
-\contentsline {section}{Tich\IeC {\'a} noc}{15}{section*.26}
-\contentsline {section}{Vesel\IeC {\'e} v\IeC {\'a}no\IeC {\v c}n\IeC {\'\i } hody}{16}{section*.28}
-\contentsline {section}{Z jedn\IeC {\'e} strany chvojka}{17}{section*.30}
+\contentsline {section}{Purpura}{13}{section*.22}
+\contentsline {section}{Rolni\IeC {\v c}ky}{14}{section*.24}
+\contentsline {section}{\IeC {\v S}t\IeC {\v e}st\IeC {\'\i }, zdrav\IeC {\'\i }, pokoj svat\IeC {\'y}}{15}{section*.26}
+\contentsline {section}{Tich\IeC {\'a} noc}{16}{section*.28}
+\contentsline {section}{Vesel\IeC {\'e} v\IeC {\'a}no\IeC {\v c}n\IeC {\'\i } hody}{17}{section*.30}
+\contentsline {section}{Z jedn\IeC {\'e} strany chvojka}{18}{section*.32}
