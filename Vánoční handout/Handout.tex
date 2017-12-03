@@ -14,7 +14,7 @@
 \usepackage{changepage}
 \chapterstyle{veelo}  %ALT BIANCHI, veelo
 \usepackage{lettrine}
- 
+\usepackage{hyperref}
 
 
 
@@ -101,14 +101,14 @@ v rodinném kruhu.
 \end{abstract}
 
 \newpage
-
+\setcounter{page}{1}
 %\addtocontents{toc}{\protect\thispagestyle{empty}}
 \tableofcontents \thispagestyle{empty}\newpage
 \newgeometry{top=1.5cm, bottom = 0cm, left = 2cm, right = 2cm}
 
 \pagestyle{simple}
 
-\addcontentsline{toc}{part}{Seznam koled}%\part*{Seznam koled}
+\cftaddtitleline{toc}{part}{Seznam koled}{}
 \addcontentsline{toc}{section}{Adeste Fideles}\input{../koledy/AdesteFideles}\newpage
 \addcontentsline{toc}{section}{Bílé Vánoce}\input{../koledy/BileVanoce}\newpage
 \addcontentsline{toc}{section}{Byla cesta, byla ušlapaná}\input{../koledy/Bylacesta}\newpage
