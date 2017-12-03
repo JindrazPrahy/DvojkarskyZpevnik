@@ -13,6 +13,8 @@
 \usepackage{xcolor}
 \usepackage{changepage}
 \chapterstyle{veelo}  %ALT BIANCHI, veelo
+\usepackage{lettrine}
+ 
 
 
 
@@ -38,7 +40,7 @@ output-notation = {german}%
 \newcommand{\refren}{\mezera \noindent \textbf{R:} } %refrén
 \newcommand{\sloka}{\mezera \noindent \addtocounter{Slokočet}{1} \arabic{Slokočet}. } 	%sloka, která se automaticky čísluje
 \newcommand{\ssloka}{\mezera \noindent}  % vlastní číslo sloky
-
+\newcommand{\carka}{,\:}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %			NÁVOD									 %
@@ -61,13 +63,13 @@ output-notation = {german}%
 %\usepackage{subfiles}
 %</++>
 
-\begin{document}
+\begin{document}\renewcommand{\abstractname}{\vspace{-\baselineskip}}
 %Kompilovat dvakrát, aby se updatnula TOC
 \pagestyle{empty}
-
+\vspace*{4\baselineskip}
 %%PŘEBAL
 \moveright 12cm \vbox{
-\includegraphics[scale=0.5]{obr/comet.jpg}\\
+\includegraphics[width=5cm]{obr/comet.png}\\
 }
 \vspace*{4\baselineskip}
 {\centering
@@ -87,7 +89,18 @@ output-notation = {german}%
 
 \newpage
 
+\vspace*{4\baselineskip}
+\begin{abstract}
+\large
+\lettrine{D}{ržíte} v rukou speciální edici zpěvníku skautského oddílu Pražská Dvojka
+s vánočními koledami. Za tímto zpěvníkem stojí spousta práce, avšak věříme, že se naše 
+úsilí promění v úsměvy a dobrou náladu v pohodové atmosféře svátků Vánočních. Zpívání 
+českých vánočních koled patří podle nás k duchu Vánoc neoddělitelně, a proto doufáme, že 
+díky tomuto zpěvníku se na tomto zvyku alespoň jednou podílíte ať už s námi, nebo 
+v rodinném kruhu.
+\end{abstract}
 
+\newpage
 
 %\addtocontents{toc}{\protect\thispagestyle{empty}}
 \tableofcontents \thispagestyle{empty}\newpage
@@ -97,7 +110,9 @@ output-notation = {german}%
 
 \addcontentsline{toc}{part}{Seznam koled}%\part*{Seznam koled}
 \addcontentsline{toc}{section}{Adeste Fideles}\input{../koledy/AdesteFideles}\newpage
-\addcontentsline{toc}{section}{Chtíc aby spal}\input{../koledy/Chticabyspal}\newpage
+\addcontentsline{toc}{section}{Bílé Vánoce}\input{../koledy/BileVanoce}\newpage
+\addcontentsline{toc}{section}{Byla cesta, byla ušlapaná}\input{../koledy/Bylacesta}\newpage
+\addcontentsline{toc}{section}{Chtíc, aby spal}\input{../koledy/Chticabyspal}\newpage
 \addcontentsline{toc}{section}{Dej Bůh štěstí tomu domu}\input{../koledy/DejBuhstestitomudomu}\newpage
 \addcontentsline{toc}{section}{Já bych rád k Betlému}\input{../koledy/JabychradkBetlemu}\newpage
 \addcontentsline{toc}{section}{Jak jsi krásné neviňátko}\input{../koledy/Jakjsikrasnenevinatko}\newpage
@@ -106,9 +121,11 @@ output-notation = {german}%
 \addcontentsline{toc}{section}{Nesem vám noviny}\input{../koledy/Nesemvamnoviny}\newpage
 \addcontentsline{toc}{section}{Pásli ovce Valaši}\input{../koledy/PasliovceValasi}\newpage
 \addcontentsline{toc}{section}{Půjdem spolu do Betléma}\input{../koledy/PujdemspoludoBetlema}\newpage
+\addcontentsline{toc}{section}{Purpura}\input{../koledy/Purpura}\newpage
 \addcontentsline{toc}{section}{Rolničky}\input{../koledy/Rolnicky}\newpage
-\addcontentsline{toc}{section}{Štěstí zdraví pokoj svatý}\input{../koledy/Stestizdravi}\newpage
+\addcontentsline{toc}{section}{Štěstí, zdraví, pokoj svatý}\input{../koledy/Stestizdravi}\newpage
 \addcontentsline{toc}{section}{Tichá noc}\input{../koledy/Tichanoc}\newpage
+\addcontentsline{toc}{section}{Vánoce, Vánoce přicházejí}\input{../koledy/VanoceVanoce}\newpage
 \addcontentsline{toc}{section}{Veselé vánoční hody}\input{../koledy/Veselevanocnihody}\newpage
 \addcontentsline{toc}{section}{Z jedné strany chvojka}\input{../koledy/Zjednestranychvojka}\newpage
 
