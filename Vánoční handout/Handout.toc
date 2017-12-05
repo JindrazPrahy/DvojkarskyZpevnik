@@ -17,8 +17,9 @@
 \contentsline {section}{P\IeC {\r u}lno\IeC {\v c}n\IeC {\'\i }}{15}{section*.28}
 \contentsline {section}{Purpura}{16}{section*.30}
 \contentsline {section}{Rolni\IeC {\v c}ky}{17}{section*.32}
-\contentsline {section}{\IeC {\v S}t\IeC {\v e}st\IeC {\'\i }, zdrav\IeC {\'\i }, pokoj svat\IeC {\'y}}{18}{section*.34}
-\contentsline {section}{Tich\IeC {\'a} noc}{19}{section*.36}
-\contentsline {section}{V\IeC {\'a}noce, V\IeC {\'a}noce p\IeC {\v r}ich\IeC {\'a}zej\IeC {\'\i }}{20}{section*.38}
-\contentsline {section}{Vesel\IeC {\'e} v\IeC {\'a}no\IeC {\v c}n\IeC {\'\i } hody}{21}{section*.40}
-\contentsline {section}{Z jedn\IeC {\'e} strany chvojka}{22}{section*.42}
+\contentsline {section}{Rychle, brat\IeC {\v r}i}{18}{section*.34}
+\contentsline {section}{\IeC {\v S}t\IeC {\v e}st\IeC {\'\i }, zdrav\IeC {\'\i }, pokoj svat\IeC {\'y}}{19}{section*.36}
+\contentsline {section}{Tich\IeC {\'a} noc}{20}{section*.38}
+\contentsline {section}{V\IeC {\'a}noce, V\IeC {\'a}noce p\IeC {\v r}ich\IeC {\'a}zej\IeC {\'\i }}{21}{section*.40}
+\contentsline {section}{Vesel\IeC {\'e} v\IeC {\'a}no\IeC {\v c}n\IeC {\'\i } hody}{22}{section*.42}
+\contentsline {section}{Z jedn\IeC {\'e} strany chvojka}{23}{section*.44}
