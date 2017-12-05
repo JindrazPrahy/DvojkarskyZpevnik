@@ -41,6 +41,7 @@ output-notation = {german}%
 \newcommand{\sloka}{\mezera \noindent \addtocounter{Slokočet}{1} \arabic{Slokočet}. } 	%sloka, která se automaticky čísluje
 \newcommand{\ssloka}{\mezera \noindent}  % vlastní číslo sloky
 \newcommand{\carka}{,\:}
+\addto\captionsczech{\renewcommand{\contentsname}{Seznam koled}}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %			NÁVOD									 %
@@ -103,12 +104,11 @@ v rodinném kruhu.
 \newpage
 \setcounter{page}{1}
 %\addtocontents{toc}{\protect\thispagestyle{empty}}
-\tableofcontents \thispagestyle{empty}\newpage
+\tableofcontents* \thispagestyle{empty}\newpage
 \newgeometry{top=1.5cm, bottom = 0cm, left = 2cm, right = 2cm}
 
 \pagestyle{simple}
 
-\cftaddtitleline{toc}{part}{Seznam koled}{}
 \addcontentsline{toc}{section}{Adeste Fideles}\input{../koledy/AdesteFideles}\newpage
 \addcontentsline{toc}{section}{Bílé Vánoce}\input{../koledy/BileVanoce}\newpage
 \addcontentsline{toc}{section}{Byla cesta, byla ušlapaná}\input{../koledy/Bylacesta}\newpage

@@ -39,6 +39,8 @@ output-notation = {german}%
 \newcommand{\sloka}{\mezera \noindent \addtocounter{Slokočet}{1} \arabic{Slokočet}. } 	%sloka, která se automaticky čísluje
 \newcommand{\ssloka}{\mezera \noindent}  % vlastní číslo sloky
 \newcommand{\carka}{,\:}
+\addto\captionsczech{\renewcommand{\contentsname}{Seznam písní}}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %			NÁVOD									 %
@@ -65,7 +67,7 @@ output-notation = {german}%
 %Kompilovat dvakrát, aby se updatnula TOC
 \pagestyle{empty}
 %\addtocontents{toc}{\protect\thispagestyle{empty}}
-\tableofcontents \thispagestyle{empty}\newpage
+\tableofcontents* \thispagestyle{empty}\newpage
 \newgeometry{top=1.5cm, bottom = 0cm, left = 2cm, right = 2cm}
 
 \pagestyle{simple}
