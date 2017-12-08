@@ -59,5 +59,6 @@
 \contentsline {section}{U\IeC {\v z} to nenaprav\IeC {\'\i }m}{62}{section*.116}
 \contentsline {section}{Velmi nesm\IeC {\v e}l\IeC {\'a}}{63}{section*.118}
 \contentsline {section}{What Makes You Beautiful}{64}{section*.120}
-\contentsline {section}{Zatan\IeC {\v c}i}{66}{section*.122}
-\contentsline {section}{My pluli}{67}{section*.124}
+\contentsline {section}{What Shall We Do With the Drunken Sailor}{66}{section*.122}
+\contentsline {section}{Zatan\IeC {\v c}i}{67}{section*.124}
+\contentsline {section}{My pluli}{68}{section*.126}
