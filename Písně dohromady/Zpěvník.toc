@@ -17,49 +17,50 @@
 \contentsline {section}{Hey Ho}{19}{section*.32}
 \contentsline {section}{Hl\IeC {\'\i }da\IeC {\v c} krav}{20}{section*.34}
 \contentsline {section}{House Of The Rising Sun}{21}{section*.36}
-\contentsline {section}{Je jak\IeC {\'a} je}{22}{section*.38}
-\contentsline {section}{Kamar\IeC {\'a}di}{23}{section*.40}
-\contentsline {section}{Karavana mrak\IeC {\r u}}{24}{section*.42}
-\contentsline {section}{Kluzi\IeC {\v s}t\IeC {\v e}}{25}{section*.44}
-\contentsline {section}{Knocking On Heaven's Door}{26}{section*.46}
-\contentsline {section}{Kometa}{27}{section*.48}
-\contentsline {section}{Kov\IeC {\'a}rna}{28}{section*.50}
-\contentsline {section}{Kutil}{29}{section*.52}
-\contentsline {section}{Lano co k nebi n\IeC {\'a}s pout\IeC {\'a}}{30}{section*.54}
-\contentsline {section}{Leaving On A Jet Plane}{31}{section*.56}
-\contentsline {section}{Lemon Tree}{32}{section*.58}
-\contentsline {section}{Let It Be}{33}{section*.60}
-\contentsline {section}{Made in Valmez}{34}{section*.62}
-\contentsline {section}{Milion\IeC {\'a}\IeC {\v r}}{35}{section*.64}
-\contentsline {section}{Muzeum}{36}{section*.66}
-\contentsline {section}{Nagasaki Hiro\IeC {\v s}ima}{37}{section*.68}
-\contentsline {section}{Orlice}{38}{section*.70}
-\contentsline {section}{Osm\IeC {\'a} barva duhy}{39}{section*.72}
-\contentsline {section}{Ostravo}{40}{section*.74}
-\contentsline {section}{Pangaj\IeC {\'o}}{41}{section*.76}
-\contentsline {section}{Partyz\IeC {\'a}n}{42}{section*.78}
-\contentsline {section}{Personal Jesus}{43}{section*.80}
-\contentsline {section}{Pet\IeC {\v e}rburg}{44}{section*.82}
-\contentsline {section}{P\IeC {\'\i }sni\IeC {\v c}ka pro Tebe}{45}{section*.84}
-\contentsline {section}{Podzimn\IeC {\'\i }}{46}{section*.86}
-\contentsline {section}{P\IeC {\v r}evrat v Ban\IeC {\'a}nov\IeC {\'e} republice}{47}{section*.88}
-\contentsline {section}{Py\IeC {\v s}n\IeC {\'y} Janek}{48}{section*.90}
-\contentsline {section}{R\IeC {\'a}da se miluje}{49}{section*.92}
-\contentsline {section}{Russian mystic pop IV.}{50}{section*.94}
-\contentsline {section}{Sametov\IeC {\'a}}{51}{section*.96}
-\contentsline {section}{Sarajevo}{52}{section*.98}
-\contentsline {section}{S\IeC {\'a}ro!}{53}{section*.100}
-\contentsline {section}{Slaboch Ben}{54}{section*.102}
-\contentsline {section}{Slav\IeC {\'\i }ci z Madridu}{55}{section*.104}
-\contentsline {section}{Sound Of Silence}{56}{section*.106}
-\contentsline {section}{Space Oddity}{57}{section*.108}
-\contentsline {section}{Sv\IeC {\'e} Rocky Mountains}{59}{section*.110}
-\contentsline {section}{Traktor}{60}{section*.112}
-\contentsline {section}{Trezor}{61}{section*.114}
-\contentsline {section}{To ta He\v lpa}{62}{section*.116}
-\contentsline {section}{U\IeC {\v z} to nenaprav\IeC {\'\i }m}{63}{section*.118}
-\contentsline {section}{Velmi nesm\IeC {\v e}l\IeC {\'a}}{64}{section*.120}
-\contentsline {section}{What Makes You Beautiful}{65}{section*.122}
-\contentsline {section}{What Shall We Do With the Drunken Sailor}{67}{section*.124}
-\contentsline {section}{Zatan\IeC {\v c}i}{68}{section*.126}
-\contentsline {section}{My pluli}{69}{section*.128}
+\contentsline {section}{Hurt}{22}{section*.38}
+\contentsline {section}{Je jak\IeC {\'a} je}{23}{section*.40}
+\contentsline {section}{Kamar\IeC {\'a}di}{24}{section*.42}
+\contentsline {section}{Karavana mrak\IeC {\r u}}{25}{section*.44}
+\contentsline {section}{Kluzi\IeC {\v s}t\IeC {\v e}}{26}{section*.46}
+\contentsline {section}{Knocking On Heaven's Door}{27}{section*.48}
+\contentsline {section}{Kometa}{28}{section*.50}
+\contentsline {section}{Kov\IeC {\'a}rna}{29}{section*.52}
+\contentsline {section}{Kutil}{30}{section*.54}
+\contentsline {section}{Lano co k nebi n\IeC {\'a}s pout\IeC {\'a}}{31}{section*.56}
+\contentsline {section}{Leaving On A Jet Plane}{32}{section*.58}
+\contentsline {section}{Lemon Tree}{33}{section*.60}
+\contentsline {section}{Let It Be}{34}{section*.62}
+\contentsline {section}{Made in Valmez}{35}{section*.64}
+\contentsline {section}{Milion\IeC {\'a}\IeC {\v r}}{36}{section*.66}
+\contentsline {section}{Muzeum}{37}{section*.68}
+\contentsline {section}{Nagasaki Hiro\IeC {\v s}ima}{38}{section*.70}
+\contentsline {section}{Orlice}{39}{section*.72}
+\contentsline {section}{Osm\IeC {\'a} barva duhy}{40}{section*.74}
+\contentsline {section}{Ostravo}{41}{section*.76}
+\contentsline {section}{Pangaj\IeC {\'o}}{42}{section*.78}
+\contentsline {section}{Partyz\IeC {\'a}n}{43}{section*.80}
+\contentsline {section}{Personal Jesus}{44}{section*.82}
+\contentsline {section}{Pet\IeC {\v e}rburg}{45}{section*.84}
+\contentsline {section}{P\IeC {\'\i }sni\IeC {\v c}ka pro Tebe}{46}{section*.86}
+\contentsline {section}{Podzimn\IeC {\'\i }}{47}{section*.88}
+\contentsline {section}{P\IeC {\v r}evrat v Ban\IeC {\'a}nov\IeC {\'e} republice}{48}{section*.90}
+\contentsline {section}{Py\IeC {\v s}n\IeC {\'y} Janek}{49}{section*.92}
+\contentsline {section}{R\IeC {\'a}da se miluje}{50}{section*.94}
+\contentsline {section}{Russian mystic pop IV.}{51}{section*.96}
+\contentsline {section}{Sametov\IeC {\'a}}{52}{section*.98}
+\contentsline {section}{Sarajevo}{53}{section*.100}
+\contentsline {section}{S\IeC {\'a}ro!}{54}{section*.102}
+\contentsline {section}{Slaboch Ben}{55}{section*.104}
+\contentsline {section}{Slav\IeC {\'\i }ci z Madridu}{56}{section*.106}
+\contentsline {section}{Sound Of Silence}{57}{section*.108}
+\contentsline {section}{Space Oddity}{58}{section*.110}
+\contentsline {section}{Sv\IeC {\'e} Rocky Mountains}{60}{section*.112}
+\contentsline {section}{Traktor}{61}{section*.114}
+\contentsline {section}{Trezor}{62}{section*.116}
+\contentsline {section}{To ta He\v lpa}{63}{section*.118}
+\contentsline {section}{U\IeC {\v z} to nenaprav\IeC {\'\i }m}{64}{section*.120}
+\contentsline {section}{Velmi nesm\IeC {\v e}l\IeC {\'a}}{65}{section*.122}
+\contentsline {section}{What Makes You Beautiful}{66}{section*.124}
+\contentsline {section}{What Shall We Do With the Drunken Sailor}{68}{section*.126}
+\contentsline {section}{Zatan\IeC {\v c}i}{69}{section*.128}
+\contentsline {section}{My pluli}{70}{section*.130}
