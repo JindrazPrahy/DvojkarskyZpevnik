@@ -12,6 +12,8 @@
 \usepackage{xwatermark}
 \usepackage{xcolor}
 \usepackage{changepage}
+\usepackage{pdfpages}
+\usepackage{lettrine}
 \chapterstyle{veelo}  %ALT BIANCHI, veelo
 
 
@@ -28,7 +30,7 @@ output-notation = {german}%
 \definesongtitletemplate{empty}{} 
 
 \newlength{\drop}
-\newwatermark[allpages,color=red!50,angle=0,scale=2, xpos=0,ypos=0]{\includegraphics[width=5cm]{obr/pozadi.jpg}} %--> dvojka na pozadí
+\newwatermark[pages=3-,color=red!50,angle=0,scale=2, xpos=0,ypos=0]{\includegraphics[width=5cm]{obr/pozadi.jpg}} %--> dvojka na pozadí
 
 
 %%%% Vlastní příkazy
@@ -65,9 +67,32 @@ output-notation = {german}%
 %\usepackage{subfiles}
 %</++>
 
-\begin{document}
+\begin{document}\renewcommand{\abstractname}{\vspace{-\baselineskip}}
 %Kompilovat dvakrát, aby se updatnula TOC
 \pagestyle{empty}
+\includepdf{obr/cover2}
+\newpage
+\phantom{<3}
+\newpage
+	
+\setcounter{page}{1}
+\vspace*{4\baselineskip}
+\begin{abstract}
+\large
+\lettrine{P}{rávě} se k Vám dostal další z řady oddílových zpěvníků Pražské Dvojky.
+Tento zpěvník, si klade za cíl se od svých předchůdců odlišovat a být striktně lepší 
+náhradou poskytující všemožné designové a funkční vylepšení. Navíc, díky psaní tohoto 
+zpěvníku v programu \LaTeX \, dosahuje značné flexibility a v přípravách nové verze zpěvníku 
+stačí upravit tento zpěvník a není nutné začínat od znova.\\
+Najdete tu značné množství písniček a ve skutečnosti tento zpěvník vznikal v poměru 
+k počtu písní za relativně krátký čas. Může se proto stát, že najdete nějakou nesrovnalost 
+a v takovém případě prosíme o její sdělení autorům, aby se zpěvník mohl ještě dále vylepšit.
+\\\\\\\\\\
+Hodně zábavy při zpěvu přejí tvůrci zpěvníku:\\\\
+Jindra \& Albert
+\end{abstract}
+\newpage
+
 %\addtocontents{toc}{\protect\thispagestyle{empty}}
 \tableofcontents* \thispagestyle{empty}\newpage
 \newgeometry{top=1.5cm, bottom = 0cm, left = 2cm, right = 2cm}
