@@ -17,7 +17,6 @@
 
 
 
-
 %%%%%% Package na zpěvník
 \usepackage[full]{leadsheets}%http://mirrors.nic.cz/tex-archive/macros/latex/contrib/leadsheets/leadsheets_en.pdf   --> dokumentace	
 \definesongtitletemplate{empty}{} 
@@ -41,6 +40,7 @@ output-notation = {german}%
 \newcommand{\sloka}{\mezera \noindent \addtocounter{Slokočet}{1} \arabic{Slokočet}. } 	%sloka, která se automaticky čísluje
 \newcommand{\ssloka}{\mezera \noindent}  % vlastní číslo sloky
 \newcommand{\carka}{,\:}
+\newcommand{\m}[1]{\color{white}{#1}}  %Pro akordy
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %			NÁVOD									 %
@@ -72,7 +72,7 @@ output-notation = {german}%
 
 
 
-\input{../koledy/Chticabyspal}\newpage
+\input{../songy/HeroofWar}\newpage
 
 
 \end{document}
