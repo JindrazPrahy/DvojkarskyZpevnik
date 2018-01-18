@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.10.4)  13 DEC 2017 07:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.10.4)  18 JAN 2018 16:19
 entering extended mode
 **./Zpěvník.tex
 (Zpěvník.tex
@@ -1579,7 +1579,7 @@ File: leadsheets.library.external.code.tex 2017/01/23 v0.5a leadsheets library
 
 Package xwatermark Warning: No end-page for page-range of watermark:
 |||| 
-I have used the default end-page '73' instead.
+I have used the default end-page '74' instead.
 
 \c@Sloko�et=\count350
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
@@ -1807,94 +1807,94 @@ LaTeX Info: Redefining \nameref on input line 70.
 \@outlinefile=\write5
 \openout5 = `Zpěvník.out'.
 
- <obr/cover2.pdf, id=267, 614.295pt x 794.97pt>
-File: obr/cover2.pdf Graphic file (type pdf)
+ <obr/cover3.pdf, id=271, 614.295pt x 794.97pt>
+File: obr/cover3.pdf Graphic file (type pdf)
 
-<use obr/cover2.pdf>
-Package pdftex.def Info: obr/cover2.pdf used on input line 73.
+<use obr/cover3.pdf>
+Package pdftex.def Info: obr/cover3.pdf used on input line 73.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-File: obr/cover2.pdf Graphic file (type pdf)
- <use obr/cover2.pdf>
-Package pdftex.def Info: obr/cover2.pdf used on input line 73.
+File: obr/cover3.pdf Graphic file (type pdf)
+ <use obr/cover3.pdf>
+Package pdftex.def Info: obr/cover3.pdf used on input line 73.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
-<obr/cover2.pdf, id=270, page=1, 614.295pt x 794.97pt>
-File: obr/cover2.pdf Graphic file (type pdf)
+<obr/cover3.pdf, id=274, page=1, 614.295pt x 794.97pt>
+File: obr/cover3.pdf Graphic file (type pdf)
 
-<use obr/cover2.pdf, page 1>
-Package pdftex.def Info: obr/cover2.pdf, page1 used on input line 73.
+<use obr/cover3.pdf, page 1>
+Package pdftex.def Info: obr/cover3.pdf, page1 used on input line 73.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-File: obr/cover2.pdf Graphic file (type pdf)
- <use obr/cover2.pdf, page 1>
-Package pdftex.def Info: obr/cover2.pdf, page1 used on input line 73.
+File: obr/cover3.pdf Graphic file (type pdf)
+ <use obr/cover3.pdf, page 1>
+Package pdftex.def Info: obr/cover3.pdf, page1 used on input line 73.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: obr/cover2.pdf Graphic file (type pdf)
+File: obr/cover3.pdf Graphic file (type pdf)
 
-<use obr/cover2.pdf, page 1>
-Package pdftex.def Info: obr/cover2.pdf, page1 used on input line 73.
+<use obr/cover3.pdf, page 1>
+Package pdftex.def Info: obr/cover3.pdf, page1 used on input line 73.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: obr/cover2.pdf Graphic file (type pdf)
- <use obr/cover2.pdf, page 1>
-Package pdftex.def Info: obr/cover2.pdf, page1 used on input line 73.
+File: obr/cover3.pdf Graphic file (type pdf)
+ <use obr/cover3.pdf, page 1>
+Package pdftex.def Info: obr/cover3.pdf, page1 used on input line 73.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: obr/cover2.pdf Graphic file (type pdf)
+File: obr/cover3.pdf Graphic file (type pdf)
 
-<use obr/cover2.pdf, page 1>
-Package pdftex.def Info: obr/cover2.pdf, page1 used on input line 73.
+<use obr/cover3.pdf, page 1>
+Package pdftex.def Info: obr/cover3.pdf, page1 used on input line 73.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
  [1
 
- <./obr/cover2.pdf>] [2]
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 85.
+ <./obr/cover3.pdf>]
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 84.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 85.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 84.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 85.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 84.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 85.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 84.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 85.
+(Font)              <14.4> on input line 84.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 85.
+(Font)              <10> on input line 84.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 85.
+(Font)              <7> on input line 84.
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--93
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 82--93
+Underfull \hbox (badness 10000) in paragraph at lines 81--92
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--93
+Underfull \hbox (badness 10000) in paragraph at lines 81--92
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--93
+Underfull \hbox (badness 10000) in paragraph at lines 81--92
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--93
+Underfull \hbox (badness 10000) in paragraph at lines 81--92
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--92
 
  []
 
@@ -1902,7 +1902,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.94 \newpage
+l.93 \newpage
               [1{C:/Users/Jind/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.ma
 p}] (Zpěvník.toc
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -1911,21 +1911,14 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 2.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 2.
-pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.42 ...ne {section}{Perfect Day}{45}{section*.82}
-                                                   [2])
-LaTeX Font Info:    Try loading font information for T1+bch on input line 97.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1bch.fd"
+ [2])
+LaTeX Font Info:    Try loading font information for T1+bch on input line 96.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1bch.fd"
 File: t1bch.fd 2004/10/18 font definitions for T1/bch.
-)
-<obr/pozadi.jpg, id=370, 963.6pt x 929.4725pt>
+) <obr/pozadi.jpg, id=386, 963.6pt x 929.4725pt>
 File: obr/pozadi.jpg Graphic file (type jpg)
  <use obr/pozadi.jpg>
-Package pdftex.def Info: obr/pozadi.jpg used on input line 97.
+Package pdftex.def Info: obr/pozadi.jpg used on input line 96.
 (pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
  [3 <./obr/pozadi.jpg>]
 *geometry* verbose mode - [ newgeometry ] result:
@@ -1964,7 +1957,7 @@ Package pdftex.def Info: obr/pozadi.jpg used on input line 97.
 
 Package hyperref Warning: Composite letter `\textasciicaron+c'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 101.
+(hyperref)                removing `\textasciicaron' on input line 100.
 
 (../songy/ASkautskaHymna.tex
 LaTeX Font Info:    Font shape `U/musix/m/n' will be
@@ -1972,47 +1965,47 @@ LaTeX Font Info:    Font shape `U/musix/m/n' will be
 )
 File: obr/pozadi.jpg Graphic file (type jpg)
  <use obr/pozadi.jpg>
-Package pdftex.def Info: obr/pozadi.jpg used on input line 101.
+Package pdftex.def Info: obr/pozadi.jpg used on input line 100.
 (pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
  [4
 
 ] (../songy/1signalni.tex)
 File: obr/pozadi.jpg Graphic file (type jpg)
 <use obr/pozadi.jpg>
-Package pdftex.def Info: obr/pozadi.jpg used on input line 102.
+Package pdftex.def Info: obr/pozadi.jpg used on input line 101.
 (pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
  [5] (../songy/AlwaysLookOnTheBrightSideOfLife.tex)
 File: obr/pozadi.jpg Graphic file (type jpg)
 
 <use obr/pozadi.jpg>
-Package pdftex.def Info: obr/pozadi.jpg used on input line 103.
+Package pdftex.def Info: obr/pozadi.jpg used on input line 102.
 (pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
  [6] (../songy/Amerika.tex)
 File: obr/pozadi.jpg Graphic file (type jpg)
  <use obr/pozadi.jpg>
-Package pdftex.def Info: obr/pozadi.jpg used on input line 104.
+Package pdftex.def Info: obr/pozadi.jpg used on input line 103.
 (pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
  [7]
 (../songy/CestoudoJenkovic.tex
-<../Akordy/d.png, id=395, 60.225pt x 105.39375pt>
+<../Akordy/d.png, id=411, 60.225pt x 105.39375pt>
 File: ../Akordy/d.png Graphic file (type png)
  <use ../Akordy/d.png>
 Package pdftex.def Info: ../Akordy/d.png used on input line 34.
 (pdftex.def)             Requested size: 90.33725pt x 158.09021pt.
 
-<../Akordy/hmi.png, id=397, 60.225pt x 105.39375pt>
+<../Akordy/hmi.png, id=413, 60.225pt x 105.39375pt>
 File: ../Akordy/hmi.png Graphic file (type png)
  <use ../Akordy/hmi.png>
 Package pdftex.def Info: ../Akordy/hmi.png used on input line 35.
 (pdftex.def)             Requested size: 90.33725pt x 158.09021pt.
 
-<../Akordy/c.png, id=398, 60.225pt x 105.39375pt>
+<../Akordy/c.png, id=414, 60.225pt x 105.39375pt>
 File: ../Akordy/c.png Graphic file (type png)
  <use ../Akordy/c.png>
 Package pdftex.def Info: ../Akordy/c.png used on input line 36.
 (pdftex.def)             Requested size: 90.33725pt x 158.09021pt.
 
-<../Akordy/a.png, id=399, 60.225pt x 105.39375pt>
+<../Akordy/a.png, id=415, 60.225pt x 105.39375pt>
 File: ../Akordy/a.png Graphic file (type png)
  <use ../Akordy/a.png>
 Package pdftex.def Info: ../Akordy/a.png used on input line 37.
@@ -2021,57 +2014,57 @@ Package pdftex.def Info: ../Akordy/a.png used on input line 37.
 File: obr/pozadi.jpg Graphic file (type jpg)
 
 <use obr/pozadi.jpg>
-Package pdftex.def Info: obr/pozadi.jpg used on input line 105.
+Package pdftex.def Info: obr/pozadi.jpg used on input line 104.
 (pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
  [8 <../Akordy/d.png> <../Akordy/hmi.png> <../Akordy/c.png> <../Akordy/a.png>]
 
 Package hyperref Warning: Composite letter `\textasciicaron+r'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 106.
+(hyperref)                removing `\textasciicaron' on input line 105.
 
 (../songy/Cestouodhrbitova.tex)
 File: obr/pozadi.jpg Graphic file (type jpg)
  <use obr/pozadi.jpg>
-Package pdftex.def Info: obr/pozadi.jpg used on input line 106.
+Package pdftex.def Info: obr/pozadi.jpg used on input line 105.
 (pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
  [9]
 
 Package hyperref Warning: Composite letter `\textasciicaron+C'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 107.
+(hyperref)                removing `\textasciicaron' on input line 106.
 
 (../songy/Cernejpasazer.tex)
 File: obr/pozadi.jpg Graphic file (type jpg)
  <use obr/pozadi.jpg>
-Package pdftex.def Info: obr/pozadi.jpg used on input line 107.
+Package pdftex.def Info: obr/pozadi.jpg used on input line 106.
 (pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
  [10]
 
 Package hyperref Warning: Composite letter `\textasciicaron+C'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 108.
+(hyperref)                removing `\textasciicaron' on input line 107.
 
 
 Package hyperref Warning: Composite letter `\textasciicaron+e'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 108.
+(hyperref)                removing `\textasciicaron' on input line 107.
 
 (../songy/CernobilySvet.tex)
 File: obr/pozadi.jpg Graphic file (type jpg)
  <use obr/pozadi.jpg>
-Package pdftex.def Info: obr/pozadi.jpg used on input line 108.
+Package pdftex.def Info: obr/pozadi.jpg used on input line 107.
 (pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
  [11]
 (../songy/Dejmivicsvelasky.tex)
 File: obr/pozadi.jpg Graphic file (type jpg)
  <use obr/pozadi.jpg>
-Package pdftex.def Info: obr/pozadi.jpg used on input line 109.
+Package pdftex.def Info: obr/pozadi.jpg used on input line 108.
 (pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
  [12]
 (../songy/DoAmeriky.tex)
 File: obr/pozadi.jpg Graphic file (type jpg)
  <use obr/pozadi.jpg>
-Package pdftex.def Info: obr/pozadi.jpg used on input line 110.
+Package pdftex.def Info: obr/pozadi.jpg used on input line 109.
 (pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
  [13] (../songy/Dodneadoroka.tex
 File: ../Akordy/hmi.png Graphic file (type png)
@@ -2079,13 +2072,13 @@ File: ../Akordy/hmi.png Graphic file (type png)
 <use ../Akordy/hmi.png>
 Package pdftex.def Info: ../Akordy/hmi.png used on input line 73.
 (pdftex.def)             Requested size: 90.33725pt x 158.09021pt.
- <../Akordy/cx7.png, id=429, 60.225pt x 105.39375pt>
+ <../Akordy/cx7.png, id=445, 60.225pt x 105.39375pt>
 File: ../Akordy/cx7.png Graphic file (type png)
 
 <use ../Akordy/cx7.png>
 Package pdftex.def Info: ../Akordy/cx7.png used on input line 73.
 (pdftex.def)             Requested size: 90.33725pt x 158.09021pt.
- <../Akordy/fxm7.png, id=430, 60.225pt x 105.39375pt>
+ <../Akordy/fxm7.png, id=446, 60.225pt x 105.39375pt>
 File: ../Akordy/fxm7.png Graphic file (type png)
 
 <use ../Akordy/fxm7.png>
@@ -2121,13 +2114,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 73--74
 )
 File: obr/pozadi.jpg Graphic file (type jpg)
  <use obr/pozadi.jpg>
-Package pdftex.def Info: obr/pozadi.jpg used on input line 111.
+Package pdftex.def Info: obr/pozadi.jpg used on input line 110.
 (pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
  [14 <../Akordy/cx7.png> <../Akordy/fxm7.png>]
 (../songy/Dokudsezpiva.tex)
 File: obr/pozadi.jpg Graphic file (type jpg)
  <use obr/pozadi.jpg>
-Package pdftex.def Info: obr/pozadi.jpg used on input line 112.
+Package pdftex.def Info: obr/pozadi.jpg used on input line 111.
 (pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
  [15]
 (../songy/FrankyDlouhan.tex
@@ -2136,19 +2129,19 @@ File: ../Akordy/c.png Graphic file (type png)
 Package pdftex.def Info: ../Akordy/c.png used on input line 53.
 (pdftex.def)             Requested size: 90.33725pt x 158.09021pt.
 
-<../Akordy/f.png, id=441, 60.225pt x 105.39375pt>
+<../Akordy/f.png, id=457, 60.225pt x 105.39375pt>
 File: ../Akordy/f.png Graphic file (type png)
  <use ../Akordy/f.png>
 Package pdftex.def Info: ../Akordy/f.png used on input line 54.
 (pdftex.def)             Requested size: 90.33725pt x 158.09021pt.
 
-<../Akordy/g.png, id=442, 60.225pt x 105.39375pt>
+<../Akordy/g.png, id=458, 60.225pt x 105.39375pt>
 File: ../Akordy/g.png Graphic file (type png)
  <use ../Akordy/g.png>
 Package pdftex.def Info: ../Akordy/g.png used on input line 55.
 (pdftex.def)             Requested size: 90.33725pt x 158.09021pt.
 
-<../Akordy/g7.png, id=443, 60.225pt x 105.39375pt>
+<../Akordy/g7.png, id=459, 60.225pt x 105.39375pt>
 File: ../Akordy/g7.png Graphic file (type png)
  <use ../Akordy/g7.png>
 Package pdftex.def Info: ../Akordy/g7.png used on input line 56.
@@ -2157,7 +2150,7 @@ Package pdftex.def Info: ../Akordy/g7.png used on input line 56.
 File: obr/pozadi.jpg Graphic file (type jpg)
 
 <use obr/pozadi.jpg>
-Package pdftex.def Info: obr/pozadi.jpg used on input line 113.
+Package pdftex.def Info: obr/pozadi.jpg used on input line 112.
 (pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
  [16 <../Akordy/f.png> <../Akordy/g.png> <../Akordy/g7.png>] (../songy/GodsGonn
 aCutYouDown.tex
@@ -2169,7 +2162,7 @@ Package pdftex.def Info: obr/pozadi.jpg used on input line 85.
 File: obr/pozadi.jpg Graphic file (type jpg)
 
 <use obr/pozadi.jpg>
-Package pdftex.def Info: obr/pozadi.jpg used on input line 114.
+Package pdftex.def Info: obr/pozadi.jpg used on input line 113.
 (pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
  [18] (../songy/Hallelujah.tex
 LaTeX Font Info:    Calculating math sizes for size <11> on input line 125.
@@ -2182,28 +2175,28 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 )
 File: obr/pozadi.jpg Graphic file (type jpg)
  <use obr/pozadi.jpg>
-Package pdftex.def Info: obr/pozadi.jpg used on input line 115.
+Package pdftex.def Info: obr/pozadi.jpg used on input line 114.
 (pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
 
 [19] (../songy/HeyHo.tex)
 File: obr/pozadi.jpg Graphic file (type jpg)
  <use obr/pozadi.jpg>
-Package pdftex.def Info: obr/pozadi.jpg used on input line 116.
+Package pdftex.def Info: obr/pozadi.jpg used on input line 115.
 (pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
  [20]
 
 Package hyperref Warning: Composite letter `\textasciicaron+c'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 117.
+(hyperref)                removing `\textasciicaron' on input line 116.
 
 (../songy/Hlidackrav.tex)
 File: obr/pozadi.jpg Graphic file (type jpg)
  <use obr/pozadi.jpg>
-Package pdftex.def Info: obr/pozadi.jpg used on input line 117.
+Package pdftex.def Info: obr/pozadi.jpg used on input line 116.
 (pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
  [21]
 (../songy/HouseOfTheRisingSun.tex
-<../Akordy/am.png, id=472, 60.225pt x 105.39375pt>
+<../Akordy/am.png, id=488, 60.225pt x 105.39375pt>
 File: ../Akordy/am.png Graphic file (type png)
  <use ../Akordy/am.png>
 Package pdftex.def Info: ../Akordy/am.png used on input line 59.
@@ -2222,7 +2215,7 @@ File: ../Akordy/f.png Graphic file (type png)
 Package pdftex.def Info: ../Akordy/f.png used on input line 62.
 (pdftex.def)             Requested size: 90.33725pt x 158.09021pt.
 
-<../Akordy/e.png, id=473, 60.225pt x 105.39375pt>
+<../Akordy/e.png, id=489, 60.225pt x 105.39375pt>
 File: ../Akordy/e.png Graphic file (type png)
  <use ../Akordy/e.png>
 Package pdftex.def Info: ../Akordy/e.png used on input line 63.
@@ -2231,44 +2224,44 @@ Package pdftex.def Info: ../Akordy/e.png used on input line 63.
 File: obr/pozadi.jpg Graphic file (type jpg)
 
 <use obr/pozadi.jpg>
-Package pdftex.def Info: obr/pozadi.jpg used on input line 118.
+Package pdftex.def Info: obr/pozadi.jpg used on input line 117.
 (pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
  [22 <../Akordy/am.png> <../Akordy/e.png>]
 (../songy/Hurt.tex)
 File: obr/pozadi.jpg Graphic file (type jpg)
  <use obr/pozadi.jpg>
-Package pdftex.def Info: obr/pozadi.jpg used on input line 119.
+Package pdftex.def Info: obr/pozadi.jpg used on input line 118.
 (pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
  [23] (../songy/Jejakaje.tex)
 File: obr/pozadi.jpg Graphic file (type jpg)
 
 <use obr/pozadi.jpg>
-Package pdftex.def Info: obr/pozadi.jpg used on input line 120.
+Package pdftex.def Info: obr/pozadi.jpg used on input line 119.
 (pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
  [24] (../songy/Kamaradi.tex)
 File: obr/pozadi.jpg Graphic file (type jpg)
  <use obr/pozadi.jpg>
-Package pdftex.def Info: obr/pozadi.jpg used on input line 121.
+Package pdftex.def Info: obr/pozadi.jpg used on input line 120.
 (pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
  [25]
 
 Package hyperref Warning: Composite letter `\textring+u'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textring' on input line 122.
+(hyperref)                removing `\textring' on input line 121.
 
 (../songy/Karavanamraku.tex)
 File: obr/pozadi.jpg Graphic file (type jpg)
  <use obr/pozadi.jpg>
-Package pdftex.def Info: obr/pozadi.jpg used on input line 122.
+Package pdftex.def Info: obr/pozadi.jpg used on input line 121.
 (pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
  [26]
 
 Package hyperref Warning: Composite letter `\textasciicaron+e'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 123.
+(hyperref)                removing `\textasciicaron' on input line 122.
 
 (../songy/Kluziste.tex
-<../taby/kluziste.PNG, id=497, 606.01407pt x 191.9672pt>
+<../taby/kluziste.PNG, id=513, 606.01407pt x 191.9672pt>
 File: ../taby/kluziste.PNG Graphic file (type png)
 
 <use ../taby/kluziste.PNG>
@@ -2281,7 +2274,7 @@ Package pdftex.def Info: ../taby/kluziste.PNG used on input line 56.
 )
 File: obr/pozadi.jpg Graphic file (type jpg)
  <use obr/pozadi.jpg>
-Package pdftex.def Info: obr/pozadi.jpg used on input line 123.
+Package pdftex.def Info: obr/pozadi.jpg used on input line 122.
 (pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
 
 [27 <../taby/kluziste.PNG>] (../songy/Knockin.tex
@@ -2299,7 +2292,7 @@ File: ../Akordy/c.png Graphic file (type png)
 Package pdftex.def Info: ../Akordy/c.png used on input line 43.
 (pdftex.def)             Requested size: 90.33725pt x 158.09021pt.
 
-<../Akordy/Am.png, id=503, 60.225pt x 105.39375pt>
+<../Akordy/Am.png, id=519, 60.225pt x 105.39375pt>
 File: ../Akordy/Am.png Graphic file (type png)
  <use ../Akordy/Am.png>
 Package pdftex.def Info: ../Akordy/Am.png used on input line 44.
@@ -2308,18 +2301,18 @@ Package pdftex.def Info: ../Akordy/Am.png used on input line 44.
 File: obr/pozadi.jpg Graphic file (type jpg)
 
 <use obr/pozadi.jpg>
-Package pdftex.def Info: obr/pozadi.jpg used on input line 124.
+Package pdftex.def Info: obr/pozadi.jpg used on input line 123.
 (pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
  [28 <../Akordy/Am.png>] (../songy/Kometa.tex)
 File: obr/pozadi.jpg Graphic file (type jpg)
 
 <use obr/pozadi.jpg>
-Package pdftex.def Info: obr/pozadi.jpg used on input line 125.
+Package pdftex.def Info: obr/pozadi.jpg used on input line 124.
 (pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
  [29] (../songy/Kovarna.tex)
 File: obr/pozadi.jpg Graphic file (type jpg)
  <use obr/pozadi.jpg>
-Package pdftex.def Info: obr/pozadi.jpg used on input line 126.
+Package pdftex.def Info: obr/pozadi.jpg used on input line 125.
 (pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
  [30]
 (../songy/Kutil.tex
@@ -2335,19 +2328,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 53--53
 )
 File: obr/pozadi.jpg Graphic file (type jpg)
  <use obr/pozadi.jpg>
-Package pdftex.def Info: obr/pozadi.jpg used on input line 127.
+Package pdftex.def Info: obr/pozadi.jpg used on input line 126.
 (pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
  [31] (../songy/Lanocoknebinaspouta.tex)
 File: obr/pozadi.jpg Graphic file (type jpg)
 
 <use obr/pozadi.jpg>
-Package pdftex.def Info: obr/pozadi.jpg used on input line 128.
+Package pdftex.def Info: obr/pozadi.jpg used on input line 127.
 (pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
  [32] (../songy/LeavingOnAJetPlane.tex)
 File: obr/pozadi.jpg Graphic file (type jpg)
 
 <use obr/pozadi.jpg>
-Package pdftex.def Info: obr/pozadi.jpg used on input line 129.
+Package pdftex.def Info: obr/pozadi.jpg used on input line 128.
 (pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
  [33] (../songy/LemonTree.tex
 Underfull \hbox (badness 10000) in paragraph at lines 102--102
@@ -2372,35 +2365,35 @@ Underfull \hbox (badness 10000) in paragraph at lines 102--102
 )
 File: obr/pozadi.jpg Graphic file (type jpg)
  <use obr/pozadi.jpg>
-Package pdftex.def Info: obr/pozadi.jpg used on input line 130.
+Package pdftex.def Info: obr/pozadi.jpg used on input line 129.
 (pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
  [34] (../songy/LetItBe.tex)
 File: obr/pozadi.jpg Graphic file (type jpg)
  <use obr/pozadi.jpg>
-Package pdftex.def Info: obr/pozadi.jpg used on input line 131.
+Package pdftex.def Info: obr/pozadi.jpg used on input line 130.
 (pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
 
 [35] (../songy/MadeInValmez.tex)
 File: obr/pozadi.jpg Graphic file (type jpg)
  <use obr/pozadi.jpg>
-Package pdftex.def Info: obr/pozadi.jpg used on input line 132.
+Package pdftex.def Info: obr/pozadi.jpg used on input line 131.
 (pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
  [36]
 
 Package hyperref Warning: Composite letter `\textasciicaron+r'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 133.
+(hyperref)                removing `\textasciicaron' on input line 132.
 
 (../songy/Milionar.tex)
 File: obr/pozadi.jpg Graphic file (type jpg)
  <use obr/pozadi.jpg>
-Package pdftex.def Info: obr/pozadi.jpg used on input line 133.
+Package pdftex.def Info: obr/pozadi.jpg used on input line 132.
 (pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
  [37] (../songy/Muzeum.tex)
 File: obr/pozadi.jpg Graphic file (type jpg)
 
 <use obr/pozadi.jpg>
-Package pdftex.def Info: obr/pozadi.jpg used on input line 134.
+Package pdftex.def Info: obr/pozadi.jpg used on input line 133.
 (pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
  [38] (../songy/NagasakiHirosima.tex
 File: ../Akordy/c.png Graphic file (type png)
@@ -2424,38 +2417,44 @@ Package pdftex.def Info: ../Akordy/am.png used on input line 53.
 File: obr/pozadi.jpg Graphic file (type jpg)
 
 <use obr/pozadi.jpg>
-Package pdftex.def Info: obr/pozadi.jpg used on input line 135.
+Package pdftex.def Info: obr/pozadi.jpg used on input line 134.
 (pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
  [39] (../songy/Orlice.tex)
 File: obr/pozadi.jpg Graphic file (type jpg)
  <use obr/pozadi.jpg>
-Package pdftex.def Info: obr/pozadi.jpg used on input line 136.
+Package pdftex.def Info: obr/pozadi.jpg used on input line 135.
 (pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
  [40]
 (../songy/Osmabarvaduhy.tex)
 File: obr/pozadi.jpg Graphic file (type jpg)
  <use obr/pozadi.jpg>
-Package pdftex.def Info: obr/pozadi.jpg used on input line 137.
+Package pdftex.def Info: obr/pozadi.jpg used on input line 136.
 (pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
  [41]
 (../songy/OstravoOstravo.tex)
 File: obr/pozadi.jpg Graphic file (type jpg)
  <use obr/pozadi.jpg>
+Package pdftex.def Info: obr/pozadi.jpg used on input line 137.
+(pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
+ [42]
+(../songy/Otevrenazlomenina.tex)
+File: obr/pozadi.jpg Graphic file (type jpg)
+ <use obr/pozadi.jpg>
 Package pdftex.def Info: obr/pozadi.jpg used on input line 138.
 (pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
- [42] (../songy/Pangajo.tex)
+ [43]
+(../songy/Pangajo.tex)
+File: obr/pozadi.jpg Graphic file (type jpg)
+ <use obr/pozadi.jpg>
+Package pdftex.def Info: obr/pozadi.jpg used on input line 139.
+(pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
+ [44] (../songy/Partyzan.tex)
 File: obr/pozadi.jpg Graphic file (type jpg)
 
 <use obr/pozadi.jpg>
-Package pdftex.def Info: obr/pozadi.jpg used on input line 139.
-(pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
- [43] (../songy/Partyzan.tex)
-File: obr/pozadi.jpg Graphic file (type jpg)
- <use obr/pozadi.jpg>
 Package pdftex.def Info: obr/pozadi.jpg used on input line 140.
 (pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
- [44]
-(../songy/PerfectDay.tex
+ [45] (../songy/PerfectDay.tex
 Underfull \hbox (badness 10000) in paragraph at lines 85--85
 
  []
@@ -2470,13 +2469,13 @@ File: obr/pozadi.jpg Graphic file (type jpg)
  <use obr/pozadi.jpg>
 Package pdftex.def Info: obr/pozadi.jpg used on input line 141.
 (pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
- [45] (../songy/PersonalJesus.tex)
+ [46] (../songy/PersonalJesus.tex)
 File: obr/pozadi.jpg Graphic file (type jpg)
  <use obr/pozadi.jpg>
 Package pdftex.def Info: obr/pozadi.jpg used on input line 142.
 (pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
 
-[46]
+[47]
 
 Package hyperref Warning: Composite letter `\textasciicaron+e'
 (hyperref)                not defined in PD1 encoding,
@@ -2487,7 +2486,7 @@ File: obr/pozadi.jpg Graphic file (type jpg)
  <use obr/pozadi.jpg>
 Package pdftex.def Info: obr/pozadi.jpg used on input line 143.
 (pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
- [47]
+ [48]
 
 Package hyperref Warning: Composite letter `\textasciicaron+c'
 (hyperref)                not defined in PD1 encoding,
@@ -2498,12 +2497,12 @@ File: obr/pozadi.jpg Graphic file (type jpg)
  <use obr/pozadi.jpg>
 Package pdftex.def Info: obr/pozadi.jpg used on input line 144.
 (pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
- [48] (../songy/Podzimni.tex)
+ [49] (../songy/Podzimni.tex)
 File: obr/pozadi.jpg Graphic file (type jpg)
  <use obr/pozadi.jpg>
 Package pdftex.def Info: obr/pozadi.jpg used on input line 145.
 (pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
- [49]
+ [50]
 
 Package hyperref Warning: Composite letter `\textasciicaron+r'
 (hyperref)                not defined in PD1 encoding,
@@ -2514,7 +2513,7 @@ File: obr/pozadi.jpg Graphic file (type jpg)
  <use obr/pozadi.jpg>
 Package pdftex.def Info: obr/pozadi.jpg used on input line 146.
 (pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
- [50]
+ [51]
 (../songy/PysnyJanek.tex
 File: ../Akordy/a.png Graphic file (type png)
  <use ../Akordy/a.png>
@@ -2525,7 +2524,7 @@ File: ../Akordy/d.png Graphic file (type png)
 Package pdftex.def Info: ../Akordy/d.png used on input line 40.
 (pdftex.def)             Requested size: 90.33725pt x 158.09021pt.
 
-<../Akordy/fxm.png, id=601, 60.225pt x 105.39375pt>
+<../Akordy/fxm.png, id=621, 60.225pt x 105.39375pt>
 File: ../Akordy/fxm.png Graphic file (type png)
  <use ../Akordy/fxm.png>
 Package pdftex.def Info: ../Akordy/fxm.png used on input line 41.
@@ -2536,42 +2535,42 @@ File: obr/pozadi.jpg Graphic file (type jpg)
 <use obr/pozadi.jpg>
 Package pdftex.def Info: obr/pozadi.jpg used on input line 147.
 (pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
- [51 <../Akordy/fxm.png>] (../songy/RadaSeMiluje.tex)
+ [52 <../Akordy/fxm.png>] (../songy/RadaSeMiluje.tex)
 File: obr/pozadi.jpg Graphic file (type jpg)
 
 <use obr/pozadi.jpg>
 Package pdftex.def Info: obr/pozadi.jpg used on input line 148.
 (pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
- [52] (../songy/RussianmysticpopIV.tex)
+ [53] (../songy/RussianmysticpopIV.tex)
 File: obr/pozadi.jpg Graphic file (type jpg)
 
 <use obr/pozadi.jpg>
 Package pdftex.def Info: obr/pozadi.jpg used on input line 149.
 (pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
- [53] (../songy/Sametova.tex)
+ [54] (../songy/Sametova.tex)
 File: obr/pozadi.jpg Graphic file (type jpg)
  <use obr/pozadi.jpg>
 Package pdftex.def Info: obr/pozadi.jpg used on input line 150.
 (pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
- [54]
+ [55]
 (../songy/Sarajevo.tex)
 File: obr/pozadi.jpg Graphic file (type jpg)
  <use obr/pozadi.jpg>
 Package pdftex.def Info: obr/pozadi.jpg used on input line 151.
 (pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
- [55] (../songy/Saro.tex)
+ [56] (../songy/Saro.tex)
 File: obr/pozadi.jpg Graphic file (type jpg)
 
 <use obr/pozadi.jpg>
 Package pdftex.def Info: obr/pozadi.jpg used on input line 152.
 (pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
- [56] (../songy/SlabochBen.tex)
+ [57] (../songy/SlabochBen.tex)
 File: obr/pozadi.jpg Graphic file (type jpg)
  <use obr/pozadi.jpg>
 Package pdftex.def Info: obr/pozadi.jpg used on input line 153.
 (pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
 
-[57] (../songy/SlaviciZMadridu.tex
+[58] (../songy/SlaviciZMadridu.tex
 File: ../Akordy/am.png Graphic file (type png)
  <use ../Akordy/am.png>
 Package pdftex.def Info: ../Akordy/am.png used on input line 52.
@@ -2581,7 +2580,7 @@ File: ../Akordy/e.png Graphic file (type png)
 <use ../Akordy/e.png>
 Package pdftex.def Info: ../Akordy/e.png used on input line 53.
 (pdftex.def)             Requested size: 90.33725pt x 158.09021pt.
- <../Akordy/dm.png, id=632, 60.225pt x 105.39375pt>
+ <../Akordy/dm.png, id=652, 60.225pt x 105.39375pt>
 File: ../Akordy/dm.png Graphic file (type png)
 
 <use ../Akordy/dm.png>
@@ -2592,42 +2591,42 @@ File: obr/pozadi.jpg Graphic file (type jpg)
  <use obr/pozadi.jpg>
 Package pdftex.def Info: obr/pozadi.jpg used on input line 154.
 (pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
- [58 <../Akordy/dm.png>]
+ [59 <../Akordy/dm.png>]
 (../songy/SoundOfSilence.tex)
 File: obr/pozadi.jpg Graphic file (type jpg)
  <use obr/pozadi.jpg>
 Package pdftex.def Info: obr/pozadi.jpg used on input line 155.
 (pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
- [59]
+ [60]
 (../songy/SpaceOddity.tex
 File: obr/pozadi.jpg Graphic file (type jpg)
  <use obr/pozadi.jpg>
 Package pdftex.def Info: obr/pozadi.jpg used on input line 79.
 (pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
- [60])
+ [61])
 File: obr/pozadi.jpg Graphic file (type jpg)
  <use obr/pozadi.jpg>
 Package pdftex.def Info: obr/pozadi.jpg used on input line 156.
 (pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
 
-[61] (../songy/SveRockyMountains.tex)
+[62] (../songy/SveRockyMountains.tex)
 File: obr/pozadi.jpg Graphic file (type jpg)
  <use obr/pozadi.jpg>
 Package pdftex.def Info: obr/pozadi.jpg used on input line 157.
 (pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
- [62]
+ [63]
 (../songy/Traktor.tex)
 File: obr/pozadi.jpg Graphic file (type jpg)
  <use obr/pozadi.jpg>
 Package pdftex.def Info: obr/pozadi.jpg used on input line 158.
 (pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
- [63] (../songy/Trezor.tex)
+ [64] (../songy/Trezor.tex)
 File: obr/pozadi.jpg Graphic file (type jpg)
 
 <use obr/pozadi.jpg>
 Package pdftex.def Info: obr/pozadi.jpg used on input line 159.
 (pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
- [64]
+ [65]
 
 Package hyperref Warning: Composite letter `\textasciicaron+l'
 (hyperref)                not defined in PD1 encoding,
@@ -2638,12 +2637,12 @@ File: obr/pozadi.jpg Graphic file (type jpg)
  <use obr/pozadi.jpg>
 Package pdftex.def Info: obr/pozadi.jpg used on input line 160.
 (pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
- [65] (../songy/Uztonenapravim.tex)
+ [66] (../songy/Uztonenapravim.tex)
 File: obr/pozadi.jpg Graphic file (type jpg)
  <use obr/pozadi.jpg>
 Package pdftex.def Info: obr/pozadi.jpg used on input line 161.
 (pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
- [66]
+ [67]
 
 Package hyperref Warning: Composite letter `\textasciicaron+e'
 (hyperref)                not defined in PD1 encoding,
@@ -2654,19 +2653,19 @@ File: obr/pozadi.jpg Graphic file (type jpg)
  <use obr/pozadi.jpg>
 Package pdftex.def Info: obr/pozadi.jpg used on input line 162.
 (pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
- [67]
+ [68]
 (../songy/WhatMakesYouBeautiful.tex
 File: obr/pozadi.jpg Graphic file (type jpg)
  <use obr/pozadi.jpg>
 Package pdftex.def Info: obr/pozadi.jpg used on input line 138.
 (pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
- [68])
+ [69])
 File: obr/pozadi.jpg Graphic file (type jpg)
 
 <use obr/pozadi.jpg>
 Package pdftex.def Info: obr/pozadi.jpg used on input line 163.
 (pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
- [69] (../songy/WhatShallWeDoWiththeDrunkenSailor.tex
+ [70] (../songy/WhatShallWeDoWiththeDrunkenSailor.tex
 File: ../Akordy/am.png Graphic file (type png)
 
 <use ../Akordy/am.png>
@@ -2677,7 +2676,7 @@ File: ../Akordy/g.png Graphic file (type png)
 Package pdftex.def Info: ../Akordy/g.png used on input line 52.
 (pdftex.def)             Requested size: 90.33725pt x 158.09021pt.
 
-<../Akordy/em.png, id=684, 60.225pt x 105.39375pt>
+<../Akordy/em.png, id=704, 60.225pt x 105.39375pt>
 File: ../Akordy/em.png Graphic file (type png)
  <use ../Akordy/em.png>
 Package pdftex.def Info: ../Akordy/em.png used on input line 53.
@@ -2688,7 +2687,7 @@ File: obr/pozadi.jpg Graphic file (type jpg)
 <use obr/pozadi.jpg>
 Package pdftex.def Info: obr/pozadi.jpg used on input line 164.
 (pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
- [70 <../Akordy/em.png>]
+ [71 <../Akordy/em.png>]
 
 Package hyperref Warning: Composite letter `\textasciicaron+c'
 (hyperref)                not defined in PD1 encoding,
@@ -2713,13 +2712,13 @@ File: obr/pozadi.jpg Graphic file (type jpg)
  <use obr/pozadi.jpg>
 Package pdftex.def Info: obr/pozadi.jpg used on input line 165.
 (pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
- [71] (../songy/ZMyPluli.tex)
+ [72] (../songy/ZMyPluli.tex)
 File: obr/pozadi.jpg Graphic file (type jpg)
 
 <use obr/pozadi.jpg>
 Package pdftex.def Info: obr/pozadi.jpg used on input line 166.
 (pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
- [72]
+ [73]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: <default>
@@ -2753,7 +2752,7 @@ Package pdftex.def Info: obr/pozadi.jpg used on input line 166.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-<../Akordy/Akordymale.pdf, id=700, 302.8113pt x 446.62859pt>
+<../Akordy/Akordymale.pdf, id=720, 302.8113pt x 446.62859pt>
 File: ../Akordy/Akordymale.pdf Graphic file (type pdf)
 
 <use ../Akordy/Akordymale.pdf>
@@ -2767,7 +2766,7 @@ File: obr/pozadi.jpg Graphic file (type jpg)
 <use obr/pozadi.jpg>
 Package pdftex.def Info: obr/pozadi.jpg used on input line 182.
 (pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
- [73 <../Akordy/Akordymale.pdf>]
+ [74 <../Akordy/Akordymale.pdf>]
 \tf@toc=\write6
 \openout6 = `Zpěvník.toc'.
 
@@ -2778,14 +2777,14 @@ Package atveryend Info: Executing hook `AfterLastShipout' on input line 182.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 182.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 182.
 Package rerunfilecheck Info: File `Zpěvník.out' has not changed.
-(rerunfilecheck)             Checksum: 5CA00C90C4257B99A5C25BD9589442B7;3588.
+(rerunfilecheck)             Checksum: DE0615EC19E85F3BDB83795AD2CA1606;3635.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 182.
  ) 
 Here is how much of TeX's memory you used:
- 29125 strings out of 493333
- 563775 string characters out of 3139197
- 665247 words of memory out of 3000000
- 32013 multiletter control sequences out of 15000+200000
+ 29159 strings out of 493333
+ 565020 string characters out of 3139197
+ 665936 words of memory out of 3000000
+ 32042 multiletter control sequences out of 15000+200000
  617217 words of font info for 72 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  72i,18n,83p,10361b,1066s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2796,9 +2795,9 @@ sc10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Progr
 am Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.
 9/fonts/type1/public/lm/lmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
 ic/musixtex-fonts/musix13.pfb>
-Output written on Zpěvník.pdf (75 pages, 921543 bytes).
+Output written on Zpěvník.pdf (75 pages, 847375 bytes).
 PDF statistics:
- 772 PDF objects out of 1000 (max. 8388607)
- 141 named destinations out of 1000 (max. 500000)
- 639 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 792 PDF objects out of 1000 (max. 8388607)
+ 143 named destinations out of 1000 (max. 500000)
+ 647 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -37,31 +37,32 @@
 \contentsline {section}{Orlice}{40}{section*.72}
 \contentsline {section}{Osm\IeC {\'a} barva duhy}{41}{section*.74}
 \contentsline {section}{Ostravo}{42}{section*.76}
-\contentsline {section}{Pangaj\IeC {\'o}}{43}{section*.78}
-\contentsline {section}{Partyz\IeC {\'a}n}{44}{section*.80}
-\contentsline {section}{Perfect Day}{45}{section*.82}
-\contentsline {section}{Personal Jesus}{46}{section*.84}
-\contentsline {section}{Pet\IeC {\v e}rburg}{47}{section*.86}
-\contentsline {section}{P\IeC {\'\i }sni\IeC {\v c}ka pro Tebe}{48}{section*.88}
-\contentsline {section}{Podzimn\IeC {\'\i }}{49}{section*.90}
-\contentsline {section}{P\IeC {\v r}evrat v Ban\IeC {\'a}nov\IeC {\'e} republice}{50}{section*.92}
-\contentsline {section}{Py\IeC {\v s}n\IeC {\'y} Janek}{51}{section*.94}
-\contentsline {section}{R\IeC {\'a}da se miluje}{52}{section*.96}
-\contentsline {section}{Russian mystic pop IV.}{53}{section*.98}
-\contentsline {section}{Sametov\IeC {\'a}}{54}{section*.100}
-\contentsline {section}{Sarajevo}{55}{section*.102}
-\contentsline {section}{S\IeC {\'a}ro!}{56}{section*.104}
-\contentsline {section}{Slaboch Ben}{57}{section*.106}
-\contentsline {section}{Slav\IeC {\'\i }ci z Madridu}{58}{section*.108}
-\contentsline {section}{Sound Of Silence}{59}{section*.110}
-\contentsline {section}{Space Oddity}{60}{section*.112}
-\contentsline {section}{Sv\IeC {\'e} Rocky Mountains}{62}{section*.114}
-\contentsline {section}{Traktor}{63}{section*.116}
-\contentsline {section}{Trezor}{64}{section*.118}
-\contentsline {section}{To ta He\v lpa}{65}{section*.120}
-\contentsline {section}{U\IeC {\v z} to nenaprav\IeC {\'\i }m}{66}{section*.122}
-\contentsline {section}{Velmi nesm\IeC {\v e}l\IeC {\'a}}{67}{section*.124}
-\contentsline {section}{What Makes You Beautiful}{68}{section*.126}
-\contentsline {section}{What Shall We Do With the Drunken Sailor}{70}{section*.128}
-\contentsline {section}{Zatan\IeC {\v c}i}{71}{section*.130}
-\contentsline {section}{My pluli}{72}{section*.132}
+\contentsline {section}{Ostravo}{43}{section*.78}
+\contentsline {section}{Pangaj\IeC {\'o}}{44}{section*.80}
+\contentsline {section}{Partyz\IeC {\'a}n}{45}{section*.82}
+\contentsline {section}{Perfect Day}{46}{section*.84}
+\contentsline {section}{Personal Jesus}{47}{section*.86}
+\contentsline {section}{Pet\IeC {\v e}rburg}{48}{section*.88}
+\contentsline {section}{P\IeC {\'\i }sni\IeC {\v c}ka pro Tebe}{49}{section*.90}
+\contentsline {section}{Podzimn\IeC {\'\i }}{50}{section*.92}
+\contentsline {section}{P\IeC {\v r}evrat v Ban\IeC {\'a}nov\IeC {\'e} republice}{51}{section*.94}
+\contentsline {section}{Py\IeC {\v s}n\IeC {\'y} Janek}{52}{section*.96}
+\contentsline {section}{R\IeC {\'a}da se miluje}{53}{section*.98}
+\contentsline {section}{Russian mystic pop IV.}{54}{section*.100}
+\contentsline {section}{Sametov\IeC {\'a}}{55}{section*.102}
+\contentsline {section}{Sarajevo}{56}{section*.104}
+\contentsline {section}{S\IeC {\'a}ro!}{57}{section*.106}
+\contentsline {section}{Slaboch Ben}{58}{section*.108}
+\contentsline {section}{Slav\IeC {\'\i }ci z Madridu}{59}{section*.110}
+\contentsline {section}{Sound Of Silence}{60}{section*.112}
+\contentsline {section}{Space Oddity}{61}{section*.114}
+\contentsline {section}{Sv\IeC {\'e} Rocky Mountains}{63}{section*.116}
+\contentsline {section}{Traktor}{64}{section*.118}
+\contentsline {section}{Trezor}{65}{section*.120}
+\contentsline {section}{To ta He\v lpa}{66}{section*.122}
+\contentsline {section}{U\IeC {\v z} to nenaprav\IeC {\'\i }m}{67}{section*.124}
+\contentsline {section}{Velmi nesm\IeC {\v e}l\IeC {\'a}}{68}{section*.126}
+\contentsline {section}{What Makes You Beautiful}{69}{section*.128}
+\contentsline {section}{What Shall We Do With the Drunken Sailor}{71}{section*.130}
+\contentsline {section}{Zatan\IeC {\v c}i}{72}{section*.132}
+\contentsline {section}{My pluli}{73}{section*.134}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.10.4)  14 DEC 2017 16:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.10.4)  18 JAN 2018 15:59
 entering extended mode
 **./Generátor.tex
 (Generátor.tex
@@ -1767,38 +1767,37 @@ LaTeX Info: Redefining \nameref on input line 66.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
- (../songy/HeroofWar.tex
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 155.
-
+ (../songy/Otevrenazlomenina.tex
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 75.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 155.
-
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 75.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 155
-.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 75.
+
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 155
-.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 75.
+
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 155.
+(Font)              <12> on input line 75.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 155.
+(Font)              <8> on input line 75.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 155.
-LaTeX Font Info:    Try loading font information for T1+bch on input line 155.
+(Font)              <6> on input line 75.
+)
+LaTeX Font Info:    Try loading font information for T1+bch on input line 75.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1bch.fd"
 File: t1bch.fd 2004/10/18 font definitions for T1/bch.
@@ -1806,30 +1805,17 @@ File: t1bch.fd 2004/10/18 font definitions for T1/bch.
 <obr/pozadi.jpg, id=3, 963.6pt x 929.4725pt>
 File: obr/pozadi.jpg Graphic file (type jpg)
  <use obr/pozadi.jpg>
-Package pdftex.def Info: obr/pozadi.jpg used on input line 155.
+Package pdftex.def Info: obr/pozadi.jpg used on input line 75.
 (pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
  [1
 
 
 {C:/Users/Jind/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./obr/pozadi
 .jpg>]
-File: obr/pozadi.jpg Graphic file (type jpg)
-
-<use obr/pozadi.jpg>
-Package pdftex.def Info: obr/pozadi.jpg used on input line 155.
-(pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
- [2])
-Overfull \vbox (65.0374pt too high) has occurred while \output is active []
-
-File: obr/pozadi.jpg Graphic file (type jpg)
-
-<use obr/pozadi.jpg>
-Package pdftex.def Info: obr/pozadi.jpg used on input line 75.
-(pdftex.def)             Requested size: 142.26378pt x 137.21655pt.
- [3]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 78.
 Package atveryend Info: Executing hook `AfterLastShipout' on input line 78.
- (Generátor.xwm) (Generátor.aux)
+
+(Generátor.xwm) (Generátor.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 78.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 78.
 Package rerunfilecheck Info: File `Generátor.out' has not changed.
@@ -1837,19 +1823,19 @@ Package rerunfilecheck Info: File `Generátor.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 78.
  ) 
 Here is how much of TeX's memory you used:
- 25821 strings out of 493333
- 467073 string characters out of 3139197
- 610386 words of memory out of 3000000
- 29101 multiletter control sequences out of 15000+200000
+ 25817 strings out of 493333
+ 467084 string characters out of 3139197
+ 600010 words of memory out of 3000000
+ 29099 multiletter control sequences out of 15000+200000
  556504 words of font info for 40 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,16n,83p,10362b,1068s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 67i,16n,83p,10362b,905s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}<C:/Program Files/M
 iKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
 ype1/public/lm/lmr12.pfb>
-Output written on Generátor.pdf (3 pages, 209654 bytes).
+Output written on Generátor.pdf (1 page, 208010 bytes).
 PDF statistics:
- 30 PDF objects out of 1000 (max. 8388607)
- 5 named destinations out of 1000 (max. 500000)
+ 22 PDF objects out of 1000 (max. 8388607)
+ 3 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
