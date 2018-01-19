@@ -1,0 +1,157 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%			HLAVIČKA								%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[openany,12pt]{memoir}
+\usepackage[utf8]{inputenc} 
+\usepackage[czech]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[top=1cm, bottom=2cm, left=2cm, right=2cm]{geometry}  % --> NASTAVENÍ OKRAJŮ
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{lmodern}
+\usepackage{xwatermark}
+\usepackage{xcolor}
+\usepackage{changepage}
+\chapterstyle{veelo}  %ALT BIANCHI, veelo
+\usepackage{lettrine}
+\usepackage{hyperref}
+
+
+
+%%%%%% Package na zpěvník
+\usepackage[full]{leadsheets}%http://mirrors.nic.cz/tex-archive/macros/latex/contrib/leadsheets/leadsheets_en.pdf   --> dokumentace	
+\definesongtitletemplate{empty}{} 
+\setchords{
+format = \bfseries,   %tučné akordy
+minor = {mi},% 
+input-notation = {german},%
+output-notation = {german}%
+}
+\definesongtitletemplate{empty}{} 
+
+\newlength{\drop}
+\newwatermark[pages=2-,color=red!50,angle=0,scale=2, xpos=0,ypos=0]{\includegraphics[width=5cm]{obr/pozadi.jpg}} %--> dvojka na pozadí
+
+
+%%%% Vlastní příkazy
+\newcounter{Slokočet}   %Automatické číslování slok
+\newcommand{\mezera}{\vspace*{0.5cm}}   %Horizontální odsazení slok
+\newcommand{\stred}{5.2cm}   %%% Na zarovnání slok doprostřed, pozn. automatičtější zarovnávání na střed nejde
+\newcommand{\refren}{\mezera \noindent \textbf{R:} } %refrén
+\newcommand{\sloka}{\mezera \noindent \addtocounter{Slokočet}{1} \arabic{Slokočet}. } 	%sloka, která se automaticky čísluje
+\newcommand{\ssloka}{\mezera \noindent}  % vlastní číslo sloky
+\newcommand{\carka}{,\:}
+\newcommand{\m}[1]{\color{white}{#1}}  %Pro akordy
+
+\addto\captionsczech{\renewcommand{\contentsname}{Seznam koled}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%			NÁVOD									 %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%1. Věci v hlavičce IGNOROVAT
+%2. Píseň psát do prostoru mezi \begin{song} a \end{song}
+%3. další řádek se značí dvěma odsazeníma (= dvakrát stisknout enter)
+%4. \refren vždy na začátku refrenu a \sloka na začátek sloky (automaticky se čísluje)
+%  \ = alt gr + q ; [/] = alt gr f/g ; {/} = alt gr + b/n; ^ = alt gr + 3 + mezera
+%Cokoliv napíšete do ^{  } se bude brát jako akord
+%když se toto bude dotýkat nějakého slova (nebude mezi tím a slovem mezera)
+%tak se akordy zjeví nad slovem, ale pište to před slovo
+%Když se to nedotýká slova, tak akord lítá ve vzduchu a vytiskne se větší mezera
+%První možnost je asi preferovanější
+%5. Akordy stačí psát jen do první sloky, když se nezmění -- kytaristi to zvládnou
+
+
+
+%
+%\usepackage{subfiles}
+%</++>
+
+\begin{document}\renewcommand{\abstractname}{\vspace{-\baselineskip}}
+%Kompilovat dvakrát, aby se updatnula TOC
+\pagestyle{empty}
+\vspace*{4\baselineskip}
+%%PŘEBAL
+\moveright 12cm \vbox{
+\includegraphics[width=5cm]{obr/comet.png}\\
+}
+\vspace*{4\baselineskip}
+{\centering
+\HUGE
+\textbf{Vánoční zpěvník}\\
+\Large
+\begin{center}
+\textbf{Pražské Dvojky}
+\end{center}
+\vspace*{3\baselineskip}
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.5]{obr/beth.jpg}
+\end{figure}
+}
+
+
+\newpage
+
+\vspace*{4\baselineskip}
+\begin{abstract}
+\large
+\lettrine{D}{ržíte} v rukou speciální edici zpěvníku skautského oddílu Pražská Dvojka
+s vánočními koledami. Za tímto zpěvníkem stojí spousta práce, avšak věříme, že se naše 
+úsilí promění v úsměvy a dobrou náladu v pohodové atmosféře svátků Vánočních. Zpívání 
+českých vánočních koled patří podle nás k duchu Vánoc neoddělitelně, a proto doufáme, že 
+díky tomuto zpěvníku se Vám na tento zvyk alespoň jednou podaří najít ve vánočním shonu čas
+ať už s námi, nebo v rodinném kruhu.\\
+Zpěvník ke stažení a informace o našem oddíle najdete na stránkách www.dvojka.cz pod oddílem 
+Pražská Dvojka.
+\\\\\\\\\\
+Veselé Vánoce přejí tvůrci zpěvníku:\\\\
+Jindra \& Albert
+\end{abstract}
+
+\newpage
+\setcounter{page}{1}
+%\addtocontents{toc}{\protect\thispagestyle{empty}}
+\tableofcontents* \thispagestyle{empty}\newpage
+\newgeometry{top=1.5cm, bottom = 0cm, left = 2cm, right = 2cm}
+
+\pagestyle{simple}
+
+\addcontentsline{toc}{section}{Adeste Fideles}\input{../koledy/AdesteFideles}\newpage
+\addcontentsline{toc}{section}{Bílé Vánoce}\input{../koledy/BileVanoce}\newpage
+\addcontentsline{toc}{section}{Byla cesta, byla ušlapaná}\input{../koledy/Bylacesta}\newpage
+\addcontentsline{toc}{section}{Dej Bůh štěstí tomu domu}\input{../koledy/DejBuhstestitomudomu}\newpage
+\addcontentsline{toc}{section}{Chtíc, aby spal}\input{../koledy/Chticabyspal}\newpage
+\addcontentsline{toc}{section}{I'm dreaming of home}\input{../koledy/DreamingOfHome}\newpage
+\addcontentsline{toc}{section}{Já bych rád k Betlému}\input{../koledy/JabychradkBetlemu}\newpage
+\addcontentsline{toc}{section}{Jak jsi krásné neviňátko}\input{../koledy/Jakjsikrasnenevinatko}\newpage
+\addcontentsline{toc}{section}{Já malý přicházím}\input{../koledy/Jamalyprichazim}\newpage
+\addcontentsline{toc}{section}{My tři králové}\input{../koledy/Mytrikralove}\newpage
+\addcontentsline{toc}{section}{Narodil se Kristus Pán}\input{../koledy/NarodilseKristusPan}\newpage
+\addcontentsline{toc}{section}{Nesem vám noviny}\input{../koledy/Nesemvamnoviny}\newpage
+\addcontentsline{toc}{section}{Pásli ovce Valaši}\input{../koledy/PasliovceValasi}\newpage
+\addcontentsline{toc}{section}{Půjdem spolu do Betléma}\input{../koledy/PujdemspoludoBetlema}\newpage
+\addcontentsline{toc}{section}{Půlnoční}\input{../koledy/Pulnocni}\newpage
+\addcontentsline{toc}{section}{Purpura}\input{../koledy/Purpura}\newpage
+\addcontentsline{toc}{section}{Rolničky}\input{../koledy/Rolnicky}\newpage
+\addcontentsline{toc}{section}{Rychle, bratři}\input{../koledy/Rychlebratri}\newpage
+\addcontentsline{toc}{section}{Štěstí, zdraví, pokoj svatý}\input{../koledy/Stestizdravi}\newpage
+\addcontentsline{toc}{section}{Tichá noc}\input{../koledy/Tichanoc}\newpage
+\addcontentsline{toc}{section}{Vánoce, Vánoce přicházejí}\input{../koledy/VanoceVanoce}\newpage
+\addcontentsline{toc}{section}{Veselé vánoční hody}\input{../koledy/Veselevanocnihody}\newpage
+\addcontentsline{toc}{section}{Z jedné strany chvojka}\input{../koledy/Zjednestranychvojka}\newpage
+
+
+
+
+%Nejsem si jistý, jestli chceme mít tohle na poslední straně
+\newgeometry{top=1cm, bottom = 1cm, left = 1cm, right = 1cm}
+\thispagestyle{empty}
+\begin{figure}[h]
+\centering
+\includegraphics[height=\textheight]{../../Akordy/Akordymale.pdf}
+\end{figure}
+
+
+
+\end{document}
+
