@@ -17,7 +17,7 @@
 \contentsline {section}{Do dne a do roka}{19}{section*.32}
 \contentsline {section}{Dokud se zp\IeC {\'\i }v\IeC {\'a}}{20}{section*.34}
 \contentsline {section}{Franky Dlouh\IeC {\'a}n}{21}{section*.36}
-\contentsline {section}{God$'$s Gonna Cut You Down}{22}{section*.38}
+\contentsline {section}{God's Gonna Cut You Down}{22}{section*.38}
 \contentsline {section}{Hallelujah}{23}{section*.40}
 \contentsline {section}{Hey Ho}{24}{section*.42}
 \contentsline {section}{Hl\IeC {\'\i }da\IeC {\v c} krav}{25}{section*.44}
@@ -30,7 +30,7 @@
 \contentsline {section}{Kamar\IeC {\'a}di}{32}{section*.58}
 \contentsline {section}{Karavana mrak\IeC {\r u}}{33}{section*.60}
 \contentsline {section}{Kluzi\IeC {\v s}t\IeC {\v e}}{34}{section*.62}
-\contentsline {section}{Knocking On Heaven$'$s Door}{35}{section*.64}
+\contentsline {section}{Knocking On Heaven's Door}{35}{section*.64}
 \contentsline {section}{Kometa}{36}{section*.66}
 \contentsline {section}{Kov\IeC {\'a}rna}{37}{section*.68}
 \contentsline {section}{Kr\IeC {\'a}l a klaun}{38}{section*.70}
