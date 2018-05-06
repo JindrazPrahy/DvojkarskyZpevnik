@@ -75,12 +75,13 @@
 \contentsline {section}{To ta He\v lpa}{77}{section*.148}
 \contentsline {section}{Traktor}{78}{section*.150}
 \contentsline {section}{Trezor}{79}{section*.152}
-\contentsline {section}{U\IeC {\v z} to nenaprav\IeC {\'\i }m}{80}{section*.154}
-\contentsline {section}{Velmi nesm\IeC {\v e}l\IeC {\'a}}{81}{section*.156}
-\contentsline {section}{Vlajky vlaj\IeC {\'\i }}{82}{section*.158}
-\contentsline {section}{Vlasy}{83}{section*.160}
-\contentsline {section}{Vla\IeC {\v s}tovky}{84}{section*.162}
-\contentsline {section}{What Makes You Beautiful}{85}{section*.164}
-\contentsline {section}{What Shall We Do With the Drunken Sailor}{87}{section*.166}
-\contentsline {section}{Zatan\IeC {\v c}i}{88}{section*.168}
-\contentsline {section}{My pluli}{89}{section*.170}
+\contentsline {section}{Tu kytaru jsem koupil kv\IeC {\r u}li tob\IeC {\v e}}{80}{section*.154}
+\contentsline {section}{U\IeC {\v z} to nenaprav\IeC {\'\i }m}{81}{section*.156}
+\contentsline {section}{Velmi nesm\IeC {\v e}l\IeC {\'a}}{82}{section*.158}
+\contentsline {section}{Vlajky vlaj\IeC {\'\i }}{83}{section*.160}
+\contentsline {section}{Vlasy}{84}{section*.162}
+\contentsline {section}{Vla\IeC {\v s}tovky}{85}{section*.164}
+\contentsline {section}{What Makes You Beautiful}{86}{section*.166}
+\contentsline {section}{What Shall We Do With the Drunken Sailor}{88}{section*.168}
+\contentsline {section}{Zatan\IeC {\v c}i}{89}{section*.170}
+\contentsline {section}{My pluli}{90}{section*.172}
