@@ -1,4 +1,5 @@
 \babel@toc {czech}{}
+\thispagestyle {empty}
 \contentsline {section}{Skautsk\IeC {\'a} hymna a Ve\IeC {\v c}erka}{4}{Doc-Start}
 \contentsline {section}{1. sign\IeC {\'a}ln\IeC {\'\i }}{5}{section*.4}
 \contentsline {section}{Always Look On The Bright Side Of Life}{6}{section*.6}
