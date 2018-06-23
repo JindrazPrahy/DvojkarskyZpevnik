@@ -5,7 +5,7 @@
 \usepackage[utf8]{inputenc} 
 \usepackage[czech]{babel}
 \usepackage[T1]{fontenc}
-\usepackage[top=1cm, bottom=2cm, left=2cm, right=2cm]{geometry}  % --> NASTAVENÍ OKRAJŮ
+\usepackage[top=0cm, bottom=2cm, left=2cm, right=2cm]{geometry}  % --> NASTAVENÍ OKRAJŮ
 \usepackage{fancyhdr}
 \usepackage{graphicx}
 %\usepackage{lmodern}
@@ -71,7 +71,11 @@ output-notation = {german}%
 %\usepackage{subfiles}
 %</++>
 
-\begin{document}\renewcommand{\abstractname}{\vspace{-\baselineskip}}
+\begin{document}
+
+\renewcommand{\abstractname}{\vspace{-\baselineskip}} %Aby nad úvodním textem nebyl nápis ,,Abstract''
+
+
 %Kompilovat dvakrát, aby se updatnula TOC
 \pagestyle{empty}
 \includepdf{obr/cover3}
@@ -155,7 +159,7 @@ $\mathcal{J}$indra \& $\mathcal{A}$lbert\\\\\\\\\\\\\\\\\\\\\\\\
 \addcontentsline{toc}{section}{Modlitba pro partu}\input{../songy/Modlitbapropartu.tex}\newpage
 \addcontentsline{toc}{section}{Muzeum}\input{../songy/Muzeum.tex}\newpage
 \addcontentsline{toc}{section}{Nagasaki Hirošima}\input{../songy/NagasakiHirosima.tex}\newpage
-%\addcontentsline{toc}{section}{Nejlíp jim bylo}\input{../songy/NejlipJimBylo.tex}\newpage % Nevim presne, jak hrat...
+\addcontentsline{toc}{section}{Nejlíp jim bylo}\input{../songy/NejlipJimBylo.tex}\newpage % Nevim presne, jak hrat... %Je to fakt dobrá písnička, já bych ji tam dal -- Jindra 
 \addcontentsline{toc}{section}{Orlice}\input{../songy/Orlice.tex}\newpage
 \addcontentsline{toc}{section}{Osmá barva duhy}\input{../songy/Osmabarvaduhy.tex}\newpage
 \addcontentsline{toc}{section}{Ostravo}\input{../songy/OstravoOstravo.tex}\newpage
