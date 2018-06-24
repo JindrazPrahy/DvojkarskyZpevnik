@@ -40,7 +40,7 @@
 \contentsline {section}{Kov\IeC {\'a}rna}{41}{section*.76}
 \contentsline {section}{Kr\IeC {\'a}l a klaun}{42}{section*.78}
 \contentsline {section}{Kutil}{43}{section*.80}
-\contentsline {section}{Lano co k nebi n\IeC {\'a}s pout\IeC {\'a}}{44}{section*.82}
+\contentsline {section}{Lano, co k nebi n\IeC {\'a}s pout\IeC {\'a}}{44}{section*.82}
 \contentsline {section}{Leaving On A Jet Plane}{45}{section*.84}
 \contentsline {section}{Lemon Tree}{46}{section*.86}
 \contentsline {section}{Let It Be}{47}{section*.88}
