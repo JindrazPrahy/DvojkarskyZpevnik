@@ -79,10 +79,10 @@
 \contentsline {section}{Slav\IeC {\'\i }ci z Madridu}{81}{section*.154}
 \contentsline {section}{Sound Of Silence}{82}{section*.156}
 \contentsline {section}{Space Oddity}{83}{section*.158}
-\contentsline {section}{Strom k\IeC {\'y}ve pah\IeC {\'y}ly}{84}{section*.160}
-\contentsline {section}{Studen\IeC {\'y} nohy}{85}{section*.162}
-\contentsline {section}{Sv\IeC {\'e} Rocky Mountains}{86}{section*.164}
-\contentsline {section}{St\IeC {\'a}nky}{87}{section*.166}
+\contentsline {section}{St\IeC {\'a}nky}{84}{section*.160}
+\contentsline {section}{Strom k\IeC {\'y}ve pah\IeC {\'y}ly}{85}{section*.162}
+\contentsline {section}{Studen\IeC {\'y} nohy}{86}{section*.164}
+\contentsline {section}{Sv\IeC {\'e} Rocky Mountains}{87}{section*.166}
 \contentsline {section}{To ta He\v lpa}{88}{section*.168}
 \contentsline {section}{Traktor}{89}{section*.170}
 \contentsline {section}{Trezor}{90}{section*.172}
