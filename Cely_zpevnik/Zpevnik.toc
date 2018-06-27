@@ -1,4 +1,4 @@
-\select@language {czech}
+\babel@toc {czech}{}
 \thispagestyle {empty}
 \contentsline {section}{Skautsk\IeC {\'a} hymna a Ve\IeC {\v c}erka}{6}{Doc-Start}
 \contentsline {section}{1. sign\IeC {\'a}ln\IeC {\'\i }}{7}{section*.4}
@@ -112,10 +112,10 @@
 \contentsline {section}{Tu kytaru jsem koupil kv\IeC {\r u}li tob\IeC {\v e}}{115}{section*.220}
 \contentsline {section}{U\IeC {\v z} sly\IeC {\v s}\IeC {\'\i }m Bo\IeC {\v z}\IeC {\'\i } ml\IeC {\'y}ny}{116}{section*.222}
 \contentsline {section}{U\IeC {\v z} to nenaprav\IeC {\'\i }m}{117}{section*.224}
-\contentsline {section}{V\IeC {\v e}d\IeC {\v e}l pan Cicero}{118}{section*.226}
-\contentsline {section}{Veli\IeC {\v c}enstvo Kat}{119}{section*.228}
-\contentsline {section}{Velmi nesm\IeC {\v e}l\IeC {\'a}}{120}{section*.230}
-\contentsline {section}{Ve sk\IeC {\v r}\IeC {\'\i }ni}{121}{section*.232}
+\contentsline {section}{Veli\IeC {\v c}enstvo Kat}{118}{section*.226}
+\contentsline {section}{Velmi nesm\IeC {\v e}l\IeC {\'a}}{119}{section*.228}
+\contentsline {section}{Ve sk\IeC {\v r}\IeC {\'\i }ni}{120}{section*.230}
+\contentsline {section}{V\IeC {\v e}d\IeC {\v e}l pan Cicero}{121}{section*.232}
 \contentsline {section}{Vlachovka}{122}{section*.234}
 \contentsline {section}{Vlajky vlaj\IeC {\'\i }}{123}{section*.236}
 \contentsline {section}{Vlasy}{124}{section*.238}
