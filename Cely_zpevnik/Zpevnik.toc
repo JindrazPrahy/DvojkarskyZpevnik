@@ -1,4 +1,4 @@
-\babel@toc {czech}{}
+\select@language {czech}
 \thispagestyle {empty}
 \contentsline {section}{Skautsk\IeC {\'a} hymna a Ve\IeC {\v c}erka}{5}{Doc-Start}
 \contentsline {section}{1. sign\IeC {\'a}ln\IeC {\'\i }}{6}{section*.4}
