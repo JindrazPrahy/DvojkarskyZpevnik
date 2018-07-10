@@ -1,20 +1,24 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%			HLAVIČKA								%
+%			GENERÁTOR 18.09  						%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \documentclass[openany,12pt]{memoir}
-
 \usepackage[utf8]{inputenc} 
 \usepackage[czech]{babel}
 \usepackage[T1]{fontenc}
 \usepackage[top=1.5cm, bottom=2cm, left=2cm, right=2cm]{geometry}  % --> NASTAVENÍ OKRAJŮ
 \usepackage{fancyhdr}
 \usepackage{graphicx}
-%\usepackage{lmodern}
-\usepackage{tgschola}  % --- Silnější font
 \usepackage{xwatermark}
 \usepackage{xcolor}
 \usepackage{changepage}
-\usepackage{newunicodechar}
+\usepackage{pdfpages}
+\usepackage{lettrine}
+%\chapterstyle{veelo}  %neni potřeba
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  FONT                              %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[charter]{mathdesign}
 
 
 
@@ -30,7 +34,7 @@ output-notation = {german}%
 \definesongtitletemplate{empty}{} 
 
 \newlength{\drop}
-\newwatermark[allpages,color=red!50,angle=0,scale=2, xpos=0,ypos=0]{\includegraphics[width=5cm]{obr/pozadi2.jpg}} %--> dvojka na pozadí
+\newwatermark[pages=3-,color=red!50,angle=0,scale=2, xpos=0,ypos=0]{\includegraphics[width=5cm]{obr/pozadi2.jpg}} %--> dvojka na pozadí
 
 
 %%%% Vlastní příkazy
@@ -40,11 +44,34 @@ output-notation = {german}%
 \newcommand{\refren}{\mezera \noindent \textbf{R:} } %refrén
 \newcommand{\sloka}{\mezera \noindent \addtocounter{Slokočet}{1} \arabic{Slokočet}. } 	%sloka, která se automaticky čísluje
 \newcommand{\ssloka}{\mezera \noindent}  % vlastní číslo sloky
-\newcommand{\carka}{,\:}
 \newcommand{\predehra}{\mezera \hspace*{-1.85cm} \textbf{Předehra:} }
+\newcommand{\carka}{,\:}
 \newcommand{\m}[1]{\color{white}{#1}}  %Pro akordy
-\newcommand{\ap}{'} %Pro apostrof
+\newcommand{\ap}{'}	%Pro apostrof
 \newcommand{\elipsa}{\kern\fontdimen3\font} %Příkaz pro lepší zacházení s výpustkami (=...); je to vpodstatě jen mezera mezi tečkama výpustky
+
+\addto\captionsczech{\renewcommand{\contentsname}{Seznam písní}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%    FORMÁTOVÁNÍ                   %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%% Vlevo zarovnaný text s blokem zarovnaným na střed
+\usepackage{varwidth}% http://ctan.org/pkg/varwidth
+\newenvironment{centerleft}{%
+  \begin{center} % so the minipage is centered
+  \begin{varwidth}[t]{\textwidth}	
+  \raggedright % so the minipage's text is left justified
+  \setlength{\parindent}{0.45cm}
+}{%
+  \end{varwidth}
+  \end{center}
+}
+
+%%% Vícesloupcové stránky
+\usepackage{multicol}
+
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %			NÁVOD									 %
@@ -63,14 +90,14 @@ output-notation = {german}%
 
 
 
+%
 %\usepackage{subfiles}
 %</++>
 
 \begin{document}
+\sffamily %Sans-serif pro lepší čitelnost
 
 \pagestyle{empty}
-%\addtocontents{toc}{\protect\thispagestyle{empty}}
-%\tableofcontents \thispagestyle{empty}\newpage
 \newgeometry{top=1.5cm, bottom = 0cm, left = 2cm, right = 2cm}
 	
 \newpage
@@ -78,6 +105,7 @@ output-notation = {german}%
 %Pro kompilaci je důležitý, aby ten \input a \end{document} zůstali na posledních
 %dvou řádcích!!!!
 
-
-\input{../songy/Traktor.tex}
+\newpage
+\input{../songy/000Songtemplate.tex}
 \end{document}
+

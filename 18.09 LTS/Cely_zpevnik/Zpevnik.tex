@@ -1,5 +1,5 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%			HLAVIČKA								%
+%			ZPEVNIK 18.09							%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \documentclass[openany,12pt]{memoir}
 \usepackage[utf8]{inputenc} 
@@ -19,10 +19,11 @@
 %  FONT                              %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage[charter]{mathdesign}
-\sffamily %Sans-serif pro lepší čitelnost
 
 
-%%%%%% Package na zpěvník
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%    Package na zpěvník              %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage[full]{leadsheets}%http://mirrors.nic.cz/tex-archive/macros/latex/contrib/leadsheets/leadsheets_en.pdf   --> dokumentace	
 \definesongtitletemplate{empty}{} 
 \setchords{
@@ -37,7 +38,9 @@ output-notation = {german}%
 \newwatermark[pages=3-,color=red!50,angle=0,scale=2, xpos=0,ypos=0]{\includegraphics[width=5cm]{obr/pozadi2.jpg}} %--> dvojka na pozadí
 
 
-%%%% Vlastní příkazy
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Vlastní příkazy                     %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newcounter{Slokočet}   %Automatické číslování slok
 \newcommand{\mezera}{\vspace*{0.5cm}}   %Horizontální odsazení slok
 \newcommand{\stred}{5.2cm}   %%% Na zarovnání slok doprostřed, pozn. automatičtější zarovnávání na střed nejde
@@ -49,6 +52,7 @@ output-notation = {german}%
 \newcommand{\m}[1]{\color{white}{#1}}  %Pro akordy
 \newcommand{\ap}{'}	%Pro apostrof
 \newcommand{\elipsa}{\kern\fontdimen3\font} %Příkaz pro lepší zacházení s výpustkami (=...); je to vpodstatě jen mezera mezi tečkama výpustky
+\newcommand{\uc}{  --  $\mathbb{U}$} % Budu připisovat k songům, které se hodí k učení se hraní na kytaru
 
 \addto\captionsczech{\renewcommand{\contentsname}{Seznam písní}}
 
@@ -68,7 +72,7 @@ output-notation = {german}%
 }
 
 %%% Vícesloupcové stránky
-\usepackage{multicols}
+\usepackage{multicol}
 
 
 
@@ -94,6 +98,8 @@ output-notation = {german}%
 %</++>
 
 \begin{document}
+\sffamily %Sans-serif pro lepší čitelnost
+
 
 \renewcommand{\abstractname}{\vspace{-\baselineskip}} %Aby nad úvodním textem nebyl nápis ,,Abstract''
 
@@ -121,7 +127,7 @@ Svoje připomínky můžete směřovat na email\verb| jd@mamlasinky.com|. \\ \\
 Za úvodní kresbu na přebalu děkujeme $\mathcal{P}$štrosovi.\\\\\\\\\\
 Hodně zábavy při zpěvu přejí tvůrci zpěvníku:\\\\
 $\mathcal{J}$indra \& $\mathcal{A}$lbert\\\\\\\\\\\\\\\\\\\\	
-{\tiny Zpěvník 18.06, Aranžovaná anakonda LTS  } %Ubuntu roleplay
+{\tiny Zpěvník 18.09, Bojovná barakuda LTS  } %Ubuntu roleplay
 \end{abstract}
 \newpage
 
@@ -264,7 +270,9 @@ $\mathcal{J}$indra \& $\mathcal{A}$lbert\\\\\\\\\\\\\\\\\\\\
 
 %\input{../songy/ZZZStrumpatterns.tex}\newpage
 
-% Aby byla titulni strana a strana s akrody na coveru
+\pagestyle{empty}
+
+% Aby byla titulni strana a strana s akordy na coveru
 
 \phantom{.}
 \newpage
