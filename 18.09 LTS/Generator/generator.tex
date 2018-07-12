@@ -67,33 +67,36 @@ output-notation = {german}%
 \newcommand{\sloka}{%
 \addtocounter{Slokočet}{1}% Zvýší se o 1 počet slok
 \mezera%  Sloka se odsadí vertikálně
-\settowidth{\delkaargumentu}{\arabic{Slokočet}.xx}% Zde se určí délka odsazení 
-\hspace*{-\delkaargumentu} \arabic{Slokočet}. 
+\settowidth{\delkaargumentu}{\arabic{Slokočet}.\,}% Zde se určí délka odsazení 
+\hspace*{-\delkaargumentu}%
+\arabic{Slokočet}.\,%
 }
 
 
 %%% Sloka s vlastním argumentem
 \newcommand{\ssloka}[1]{%     
-\settowidth{\delkaargumentu}{#1xx}
-\mezera \hspace*{-\delkaargumentu} #1 
+\settowidth{\delkaargumentu}{#1\,}
+\mezera%
+\hspace*{-\delkaargumentu}%
+#1\,%
 }  
 
 %%% Refrén
 \newcommand{\refren}[1][0]{%  Nepovinný argument sděluje, kolikátý refrén toto je, bez argumentu se vytiskne pouze refrén
 \ifnum #1>0 %Pokud nepovinný argument existuje
 \mezera%
-\settowidth{\delkaargumentu}{\textbf{R$_{\text{#1}}$:}xx}%
-\hspace*{-\delkaargumentu}
-\textbf{R$_{\text{#1}}$:}
+\settowidth{\delkaargumentu}{\textbf{R$_{\text{#1}}$:}\,}%
+\hspace*{-\delkaargumentu}%
+\textbf{R$_{\text{#1}}$:}\,%
 \else %Pokud nepovinný argument neexistuje
 \mezera%
-\settowidth{\delkaargumentu}{\textbf{R:}xx}%
-\hspace*{-\delkaargumentu}
-\textbf{R:}
+\settowidth{\delkaargumentu}{\textbf{R:}\,}%
+\hspace*{-\delkaargumentu}%
+\textbf{R:}\,%
 \fi
 }
 
-\newcommand{\predehra}{\ssloka{\textbf{Předehra}}}
+\newcommand{\predehra}{\ssloka{\textbf{Předehra:}}}
 
 \addto\captionsczech{\renewcommand{\contentsname}{Seznam písní}}
 
@@ -146,6 +149,6 @@ output-notation = {german}%
 %dvou řádcích!!!!
 
 \newpage
-\input{../songy/StudenyNohy.tex}
+\input{../songy/SlaviciZMadridu.tex}
 \end{document}
 

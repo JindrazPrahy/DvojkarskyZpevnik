@@ -67,32 +67,37 @@ output-notation = {german}%
 \newcommand{\sloka}{%
 \addtocounter{Slokočet}{1}% Zvýší se o 1 počet slok
 \mezera%  Sloka se odsadí vertikálně
-\settowidth{\delkaargumentu}{\arabic{Slokočet}.xx}% Zde se určí délka odsazení 
-\hspace*{-\delkaargumentu} \arabic{Slokočet}. 
+\settowidth{\delkaargumentu}{\arabic{Slokočet}.\,}% Zde se určí délka odsazení 
+\hspace*{-\delkaargumentu}%
+\arabic{Slokočet}.\,%
 }
 
 
 %%% Sloka s vlastním argumentem
 \newcommand{\ssloka}[1]{%     
-\settowidth{\delkaargumentu}{#1xx}
-\mezera \hspace*{-\delkaargumentu} #1 }  
+\settowidth{\delkaargumentu}{#1\,}
+\mezera%
+\hspace*{-\delkaargumentu}%
+#1\,%
+}  
 
 %%% Refrén
 \newcommand{\refren}[1][0]{%  Nepovinný argument sděluje, kolikátý refrén toto je, bez argumentu se vytiskne pouze refrén
 \ifnum #1>0 %Pokud nepovinný argument existuje
 \mezera%
-\settowidth{\delkaargumentu}{\textbf{R$_{\text{#1}}$:}xx}%
-\hspace*{-\delkaargumentu}
-\textbf{R$_{\text{#1}}$:}
+\settowidth{\delkaargumentu}{\textbf{R$_{\text{#1}}$:}\,}%
+\hspace*{-\delkaargumentu}%
+\textbf{R$_{\text{#1}}$:}\,%
 \else %Pokud nepovinný argument neexistuje
 \mezera%
-\settowidth{\delkaargumentu}{\textbf{R:}xx}%
-\hspace*{-\delkaargumentu}
-\textbf{R:}
+\settowidth{\delkaargumentu}{\textbf{R:}\,}%
+\hspace*{-\delkaargumentu}%
+\textbf{R:}\,%
 \fi
 }
 
-\newcommand{\predehra}{\ssloka{\textbf{Předehra}}}
+\newcommand{\predehra}{\ssloka{\textbf{Předehra:}}}
+
 
 \addto\captionsczech{\renewcommand{\contentsname}{Seznam písní}}
 
@@ -150,7 +155,7 @@ output-notation = {german}%
 \setcounter{page}{1}
 \vspace*{4\baselineskip}
 \begin{abstract}
-\large
+\large 
 \lettrine{P}{rávě} se k Vám dostal další z řady oddílových zpěvníků \textbf{Pražské Dvojky}.
 Tento zpěvník si klade za cíl být striktně lepší náhradou nynějších zpěvníků jakéhokoliv druhu 
 poskytující všemožné designové a funkční vylepšení (umožněné programem \LaTeX ).\\
@@ -159,10 +164,10 @@ i~s~akordy na kytaru. Kromě táborákových evergreenů a aktuálních hitů js
 písniček, které se přes svojí přitažlivost, exotiku a romantiku jen zřídka vyskytují v~ostatních zdrojích.\\
 V případě, že ve zpěvníku naleznete nesrovnalosti nebo byste do něj 
 chtěli přidat další píseň, rádi Vaše připomínky zapracujeme do budoucích verzí zpěvníku. 
-Svoje připomínky můžete směřovat na email\verb| jd@mamlasinky.com|. \\ \\ %TODO Pagebreak
-Za úvodní kresbu na přebalu děkujeme $\mathcal{P}$štrosovi.\\\\\\\\\\
-Hodně zábavy při zpěvu přejí tvůrci zpěvníku:\\\\
-$\mathcal{J}$indra \& $\mathcal{A}$lbert\\\\\\\\\\\\\\\\\\\\	
+Připomínky uvítáme na emailu \verb|jd@mamlasinky.com|. \\ \\ %TODO Pagebreak
+Za úvodní kresbu na přebalu děkujeme $\mathfrak{P}$štrosovi.\\\\\\\\\\
+Hodně zábavy při zpěvu přejí tvůrci zpěvníku\\\\
+$\mathfrak{J}$indra \& $\mathfrak{A}$lbert.\\\\\\\\\\\\\\\\\\\\	
 {\tiny Zpěvník 18.09, Bojovná barakuda LTS  } %Ubuntu roleplay
 \end{abstract}
 \newpage
