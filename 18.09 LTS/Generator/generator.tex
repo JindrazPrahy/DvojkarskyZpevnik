@@ -13,6 +13,7 @@
 \usepackage{changepage}
 \usepackage{pdfpages}
 \usepackage{lettrine}
+\usepackage{indentfirst}  %Důležité pro formátování
 %\chapterstyle{veelo}  %neni potřeba
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -41,14 +42,58 @@ output-notation = {german}%
 \newcounter{Slokočet}   %Automatické číslování slok
 \newcommand{\mezera}{\vspace*{0.5cm}}   %Horizontální odsazení slok
 \newcommand{\stred}{5.2cm}   %%% Na zarovnání slok doprostřed, pozn. automatičtější zarovnávání na střed nejde
-\newcommand{\refren}{\mezera \noindent \textbf{R:} } %refrén
-\newcommand{\sloka}{\mezera \noindent \addtocounter{Slokočet}{1} \arabic{Slokočet}. } 	%sloka, která se automaticky čísluje
-\newcommand{\ssloka}{\mezera \noindent}  % vlastní číslo sloky
-\newcommand{\predehra}{\mezera \hspace*{-1.85cm} \textbf{Předehra:} }
 \newcommand{\carka}{,\:}
 \newcommand{\m}[1]{\color{white}{#1}}  %Pro akordy
 \newcommand{\ap}{'}	%Pro apostrof
 \newcommand{\elipsa}{\kern\fontdimen3\font} %Příkaz pro lepší zacházení s výpustkami (=...); je to vpodstatě jen mezera mezi tečkama výpustky
+\newcommand{\pindent}{17.62482 pt} %Správná velikost \parindentu u layoutu se dvěma minipageama
+
+
+%%% Stará definice sloky spoléhající na indenty
+%\newlength{\pismeno}
+%\settowidth{\pismeno}{x} %Tohle není moc ideální velikost, ale funguje
+%\newif\ifslokavelka
+%\slokavelkafalse
+%\newcommand{\sloka}{
+%\ifnum \value{Slokočet}>8  %Pokud je sloka dvouciferná
+%\mezera \noindent \addtocounter{Slokočet}{1} \hspace*{-\pismeno}\arabic{Slokočet}.
+%\else %Pokud jen jednociferná
+%\mezera \noindent \addtocounter{Slokočet}{1} \arabic{Slokočet}. 
+%\fi
+%} 	%sloka, která se automaticky čísluje
+
+\newlength{\delkaargumentu}
+%%% Sloka s automatickým číslováním
+\newcommand{\sloka}{%
+\addtocounter{Slokočet}{1}% Zvýší se o 1 počet slok
+\mezera%  Sloka se odsadí vertikálně
+\settowidth{\delkaargumentu}{\arabic{Slokočet}.xx}% Zde se určí délka odsazení 
+\hspace*{-\delkaargumentu} \arabic{Slokočet}. 
+}
+
+
+%%% Sloka s vlastním argumentem
+\newcommand{\ssloka}[1]{%     
+\settowidth{\delkaargumentu}{#1xx}
+\mezera \hspace*{-\delkaargumentu} #1 
+}  
+
+%%% Refrén
+\newcommand{\refren}[1][0]{%  Nepovinný argument sděluje, kolikátý refrén toto je, bez argumentu se vytiskne pouze refrén
+\ifnum #1>0 %Pokud nepovinný argument existuje
+\mezera%
+\settowidth{\delkaargumentu}{\textbf{R$_{\text{#1}}$:}xx}%
+\hspace*{-\delkaargumentu}
+\textbf{R$_{\text{#1}}$:}
+\else %Pokud nepovinný argument neexistuje
+\mezera%
+\settowidth{\delkaargumentu}{\textbf{R:}xx}%
+\hspace*{-\delkaargumentu}
+\textbf{R:}
+\fi
+}
+
+\newcommand{\predehra}{\ssloka{\textbf{Předehra}}}
 
 \addto\captionsczech{\renewcommand{\contentsname}{Seznam písní}}
 
@@ -58,11 +103,11 @@ output-notation = {german}%
 
 %%% Vlevo zarovnaný text s blokem zarovnaným na střed
 \usepackage{varwidth}% http://ctan.org/pkg/varwidth
-\newenvironment{centerleft}{%
+\newenvironment{centerjustified}{%
   \begin{center} % so the minipage is centered
   \begin{varwidth}[t]{\textwidth}	
   \raggedright % so the minipage's text is left justified
-  \setlength{\parindent}{0.45cm}
+  \setlength{\parindent}{\pindent}
 }{%
   \end{varwidth}
   \end{center}
@@ -89,11 +134,6 @@ output-notation = {german}%
 %5. Akordy stačí psát jen do první sloky, když se nezmění -- kytaristi to zvládnou
 
 
-
-%
-%\usepackage{subfiles}
-%</++>
-
 \begin{document}
 \sffamily %Sans-serif pro lepší čitelnost
 
@@ -106,6 +146,6 @@ output-notation = {german}%
 %dvou řádcích!!!!
 
 \newpage
-\input{../songy/000Songtemplate.tex}
+\input{../songy/StudenyNohy.tex}
 \end{document}
 
