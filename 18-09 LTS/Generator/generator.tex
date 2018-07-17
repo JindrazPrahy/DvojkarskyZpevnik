@@ -1,6 +1,32 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%			GENERÁTOR 18.09  						%
+%			GENERÁTOR v. 18.09 						%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Tento soubor slouží k jednotlivé zkusné kompilaci 
+% písniček či k kompilaci samostatných pdf souborů 
+% pomocí bashového skriptu kompilace.sh ve stejné 
+% složce. Z důvodu hromadné kompilace musí poslední 
+% dva řádky tohoto souboru zůstat nezměněny.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%			Jak kompilovat jednotlivé písně?        %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	1. Do míst PÍSNIČKA upravte následnující řádek, 
+%	   aby vypadal takto: 
+%	   \input{../songy/[JMÉNO SOUBORU KOMPILOVNÉ PÍSNIČKY].tex}
+%	2. Soubor písničky musí být přeložitelný a musí 
+%	   se nacházet ve složce ../songy.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%			Jak psát soubory songů?                 %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	1. Více návodu je k tomuto napsáno v souboru 
+%      ../songy/00Songtemplate. 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%			Jak kompilovat celý zpěvník?			%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	1. Více návodu je k tomuto napsáno v souboru
+%	   ../Cely_zpevnik/zpevnik.tex.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Hlavička START
 \documentclass[openany,12pt]{memoir}
 \usepackage[utf8]{inputenc} 
 \usepackage[czech]{babel}
@@ -14,7 +40,7 @@
 \usepackage{pdfpages}
 \usepackage{lettrine}
 \usepackage{indentfirst}  %Důležité pro formátování
-%\chapterstyle{veelo}  %neni potřeba
+\usepackage{multicol}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %  FONT                              %
@@ -38,11 +64,12 @@ output-notation = {german}%
 \newwatermark[pages=3-,color=red!50,angle=0,scale=2, xpos=0,ypos=0]{\includegraphics[width=5cm]{obr/pozadi2.jpg}} %--> dvojka na pozadí
 
 
-%%%% Vlastní příkazy
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%		 Vlastní příkazy
 \newcounter{Slokočet}   %Automatické číslování slok
 \newcommand{\mezera}{\vspace*{0.5cm}}   %Horizontální odsazení slok
 \newcommand{\stred}{5.2cm}   %%% Na zarovnání slok doprostřed, pozn. automatičtější zarovnávání na střed nejde
-\newcommand{\carka}{,\:}
+\newcommand{\carka}{,\distanc}
 \newcommand{\m}[1]{\color{white}{#1}}  %Pro akordy
 \newcommand{\ap}{'}	%Pro apostrof
 \newcommand{\elipsa}{\kern\fontdimen3\font} %Příkaz pro lepší zacházení s výpustkami (=...); je to vpodstatě jen mezera mezi tečkama výpustky
@@ -62,37 +89,42 @@ output-notation = {german}%
 %\fi
 %} 	%sloka, která se automaticky čísluje
 
+\newcommand{\distanc}{\:} %Vzdálenost čísla sloky před slokou
 \newlength{\delkaargumentu}
 %%% Sloka s automatickým číslováním
 \newcommand{\sloka}{%
 \addtocounter{Slokočet}{1}% Zvýší se o 1 počet slok
 \mezera%  Sloka se odsadí vertikálně
-\settowidth{\delkaargumentu}{\arabic{Slokočet}.\,}% Zde se určí délka odsazení 
+\settowidth{\delkaargumentu}{\arabic{Slokočet}.\distanc}% Zde se určí délka odsazení 
 \hspace*{-\delkaargumentu}%
-\arabic{Slokočet}.\,%
+\arabic{Slokočet}.\distanc%
+\ignorespaces%  Aby nevznikaly zbytečné mezery
 }
 
 
 %%% Sloka s vlastním argumentem
 \newcommand{\ssloka}[1]{%     
-\settowidth{\delkaargumentu}{#1\,}%
+\settowidth{\delkaargumentu}{#1\distanc}%
 \mezera%
 \hspace*{-\delkaargumentu}%
-#1\,%
+#1\distanc%
+\ignorespaces%
 }  
 
 %%% Refrén
 \newcommand{\refren}[1][0]{%  Nepovinný argument sděluje, kolikátý refrén toto je, bez argumentu se vytiskne pouze refrén
 \ifnum #1>0 %Pokud nepovinný argument existuje
 \mezera%
-\settowidth{\delkaargumentu}{\textbf{R$_{\text{#1}}$:}\,}%
+\settowidth{\delkaargumentu}{\textbf{R$_{\text{#1}}$:}\distanc}%
 \hspace*{-\delkaargumentu}%
-\textbf{R$_{\text{#1}}$:}\,%
+\textbf{R$_{\text{#1}}$:}\distanc%
+\ignorespaces%
 \else %Pokud nepovinný argument neexistuje
 \mezera%
-\settowidth{\delkaargumentu}{\textbf{R:}\,}%
+\settowidth{\delkaargumentu}{\textbf{R:}\distanc}%
 \hspace*{-\delkaargumentu}%
-\textbf{R:}\,%
+\textbf{R:}\distanc%
+\ignorespaces%
 \fi
 }
 
@@ -115,28 +147,7 @@ output-notation = {german}%
   \end{varwidth}
   \end{center}
 }
-
-%%% Vícesloupcové stránky
-\usepackage{multicol}
-
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%			NÁVOD									 %
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%1. Věci v hlavičce IGNOROVAT
-%2. Píseň psát do prostoru mezi \begin{song} a \end{song}
-%3. další řádek se značí dvěma odsazeníma (= dvakrát stisknout enter)
-%4. \refren vždy na začátku refrenu a \sloka na začátek sloky (automaticky se čísluje)
-%  \ = alt gr + q ; [/] = alt gr f/g ; {/} = alt gr + b/n; ^ = alt gr + 3 + mezera
-%Cokoliv napíšete do ^{  } se bude brát jako akord
-%když se toto bude dotýkat nějakého slova (nebude mezi tím a slovem mezera)
-%tak se akordy zjeví nad slovem, ale pište to před slovo
-%Když se to nedotýká slova, tak akord lítá ve vzduchu a vytiskne se větší mezera
-%První možnost je asi preferovanější
-%5. Akordy stačí psát jen do první sloky, když se nezmění -- kytaristi to zvládnou
-
-
+%Hlavnička END
 \begin{document}
 \sffamily %Sans-serif pro lepší čitelnost
 
@@ -149,6 +160,6 @@ output-notation = {german}%
 %dvou řádcích!!!!
 
 \newpage
-\input{../songy/RussianmysticpopIV.tex}
+% PÍSNIČKA
+\input{../songy/Studenynohy.tex}
 \end{document}
-
