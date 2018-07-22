@@ -77,16 +77,25 @@ output-notation = {german}%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %		 Vlastní příkazy
 \newcounter{Slokočet}   %Automatické číslování slok
-\newcommand{\mezera}{\vspace*{0.5cm}}   %Horizontální odsazení slok
+\newcommand{\mezera}{
+\phantom{.}
+
+}   %Horizontální odsazení slok (poněkud blbě zadefinovaný, ale jinak se formát rozbije jako wtf prostě)
 \newcommand{\stred}{5.2cm}   %%% Na zarovnání slok doprostřed, pozn. automatičtější zarovnávání na střed nejde
 \newcommand{\carka}{,\:}
 \newcommand{\m}[1]{\color{white}{#1}}  %Pro akordy
 \newcommand{\ap}{'}	%Pro apostrof
 \newcommand{\elipsa}{\kern\fontdimen3\font} %Příkaz pro lepší zacházení s výpustkami (=...); je to vpodstatě jen mezera mezi tečkama výpustky
 \newcommand{\pindent}{17.62482 pt} %Správná velikost \parindentu u layoutu se dvěma minipageama
+\newcommand{\predtitle}{\huge}
+\newcommand{\mezisloupci}{\hspace*{0.3cm}} %Místo mezi dvěma sloupci na jedné stránce
+
+%%% Možné velikosti písem 
 \newcommand{\normalni}{\normalsize}
-\newcommand{\velky}{\large}
-\newcommand{\vetsi}{\Large}
+\newcommand{\velky}{\fontsize{14.4}{15}\selectfont}
+\newcommand{\vetsi}{\fontsize{15}{16}\selectfont}
+\newcommand{\nejvetsi}{\fontsize{16}{17}\selectfont}
+\newcommand{\nejnejvetsi}{\fontsize{17}{19}\selectfont}
 
 %%% Stará definice sloky spoléhající na indenty
 %\newlength{\pismeno}
