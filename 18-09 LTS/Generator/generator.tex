@@ -53,7 +53,7 @@
 \usepackage[full]{leadsheets}%http://mirrors.nic.cz/tex-archive/macros/latex/contrib/leadsheets/leadsheets_en.pdf   --> dokumentace	
 \definesongtitletemplate{empty}{} 
 \setchords{
-format = \bfseries,   %tučné akordy
+format = \bfseries,% \normalsize , %tučné akordy
 minor = {mi},% 
 input-notation = {german},%
 output-notation = {german}%
@@ -61,20 +61,22 @@ output-notation = {german}%
 \definesongtitletemplate{empty}{} 
 
 \newlength{\drop}
-\newwatermark[pages=3-,color=red!50,angle=0,scale=2, xpos=0,ypos=0]{\includegraphics[width=5cm]{obr/pozadi2.jpg}} %--> dvojka na pozadí
+\newwatermark[pages=-,color=red!50,angle=0,scale=2, xpos=0,ypos=0]{\includegraphics[width=5cm]{obr/pozadi2.jpg}} %--> dvojka na pozadí
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %		 Vlastní příkazy
 \newcounter{Slokočet}   %Automatické číslování slok
-\newcommand{\mezera}{\vspace*{0.5cm}}   %Horizontální odsazení slok
+\newcommand{\mezera}{\textcolor{white}{\,}\\}   %Horizontální odsazení slok
 \newcommand{\stred}{5.2cm}   %%% Na zarovnání slok doprostřed, pozn. automatičtější zarovnávání na střed nejde
 \newcommand{\carka}{,\distanc}
 \newcommand{\m}[1]{\color{white}{#1}}  %Pro akordy
 \newcommand{\ap}{'}	%Pro apostrof
 \newcommand{\elipsa}{\kern\fontdimen3\font} %Příkaz pro lepší zacházení s výpustkami (=...); je to vpodstatě jen mezera mezi tečkama výpustky
 \newcommand{\pindent}{17.62482 pt} %Správná velikost \parindentu u layoutu se dvěma minipageama
-
+\newcommand{\normalni}{\normalsize}
+\newcommand{\velky}{\large}
+\newcommand{\vetsi}{\Large}
 
 %%% Stará definice sloky spoléhající na indenty
 %\newlength{\pismeno}
@@ -152,7 +154,7 @@ output-notation = {german}%
 \sffamily %Sans-serif pro lepší čitelnost
 
 \pagestyle{empty}
-\newgeometry{top=1.5cm, bottom = 0cm, left = 2cm, right = 2cm}
+\newgeometry{top=1.5cm, bottom = 1cm, left = 2cm, right = 2cm}
 	
 \newpage
 
@@ -161,5 +163,5 @@ output-notation = {german}%
 
 \newpage
 % PÍSNIČKA
-\input{../songy/Studenynohy.tex}
+\input{../songy/00Songtemplate.tex}
 \end{document}
