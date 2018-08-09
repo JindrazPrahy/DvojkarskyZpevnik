@@ -40,26 +40,30 @@
 \usepackage{pdfpages}
 \usepackage{lettrine}
 \usepackage{indentfirst}  %Důležité pro formátování
-\usepackage{multicol}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %  FONT                              %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\usepackage[charter]{mathdesign}
+%\usepackage[charter]{mathdesign}
+\usepackage{tgschola}
+
 
 
 %%%%%% Package na zpěvník
 \usepackage[full]{leadsheets}%http://mirrors.nic.cz/tex-archive/macros/latex/contrib/leadsheets/leadsheets_en.pdf   --> dokumentace	
+\definesongtitletemplate{empty}{} 
 \setchords{
-format = \bfseries,% \normalsize , %tučné akordy
+format = \bfseries \sffamily,   %tučné akordy
 minor = {mi},% 
 input-notation = {german},%
 output-notation = {german}%
 }
 \definesongtitletemplate{empty}{} 
 
+
 \newlength{\drop}
-\newwatermark[pages=-,color=red!50,angle=0,scale=2, xpos=0,ypos=0]{\includegraphics[width=5cm]{obr/pozadi2.jpg}} %--> dvojka na pozadí
+% VODOZNAK
+\newwatermark[pages=3-,color=red!50,angle=0,scale=2, xpos=0,ypos=0]{\includegraphics[width=5cm]{obr/pozadi2.jpg}} %--> dvojka na pozadí
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -69,8 +73,8 @@ output-notation = {german}%
 \phantom{.}
 
 }   %Horizontální odsazení slok (poněkud blbě zadefinovaný, ale jinak se formát rozbije jako wtf prostě)
-\newcommand{\stred}{5.2cm}   % Na zarovnání slok doprostřed, pozn. automatičtější zarovnávání na střed nejde
-\newcommand{\carka}{,\distanc}
+\newcommand{\stred}{5.2cm}   %%% Na zarovnání slok doprostřed, pozn. automatičtější zarovnávání na střed nejde
+\newcommand{\carka}{,\:}
 \newcommand{\m}[1]{\color{white}{#1}}  %Pro akordy
 \newcommand{\ap}{'}	%Pro apostrof
 \newcommand{\elipsa}{\kern\fontdimen3\font} %Příkaz pro lepší zacházení s výpustkami (=...); je to vpodstatě jen mezera mezi tečkama výpustky
@@ -98,7 +102,7 @@ output-notation = {german}%
 %\fi
 %} 	%sloka, která se automaticky čísluje
 
-\newcommand{\distanc}{\:} %Vzdálenost čísla sloky před slokou
+\newcommand{\distanc}{\:}  %Vzdálenost čísla sloky před slokou
 \newlength{\delkaargumentu}
 %%% Sloka s automatickým číslováním
 \newcommand{\sloka}{%
@@ -107,13 +111,13 @@ output-notation = {german}%
 \settowidth{\delkaargumentu}{\arabic{Slokočet}.\distanc}% Zde se určí délka odsazení 
 \hspace*{-\delkaargumentu}%
 \arabic{Slokočet}.\distanc%
-\ignorespaces%  Aby nevznikaly zbytečné mezery
+\ignorespaces% Aby nevznikaly zbytečné mezery
 }
 
 
 %%% Sloka s vlastním argumentem
 \newcommand{\ssloka}[1]{%     
-\settowidth{\delkaargumentu}{#1\distanc}%
+\settowidth{\delkaargumentu}{#1\distanc}
 \mezera%
 \hspace*{-\delkaargumentu}%
 #1\distanc%
@@ -139,6 +143,7 @@ output-notation = {german}%
 
 \newcommand{\predehra}{\ssloka{\textbf{Předehra:}}}
 
+
 \addto\captionsczech{\renewcommand{\contentsname}{Seznam písní}}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -156,6 +161,8 @@ output-notation = {german}%
   \end{varwidth}
   \end{center}
 }
+
+
 %Hlavnička END
 \begin{document}
 \sffamily %Sans-serif pro lepší čitelnost
