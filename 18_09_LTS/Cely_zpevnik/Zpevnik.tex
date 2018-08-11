@@ -182,12 +182,13 @@ output-notation = {german}%
 
 %Kompilovat dvakrát, aby se updatnula TOC
 \pagestyle{empty}
-% PŘEBAL1
+%%%%%%%%%%%% PŘEBAL1 %%%%%%%%%%%%%%%%%%
 \includepdf{obr/wolfUndMowe}
 \newpage
 \phantom{prázdná strana}
 \newpage
-	
+
+%%%%%%%%%%%% Úvod %%%%%%%%%%%%%%%%%%
 \setcounter{page}{1}
 \vspace*{4\baselineskip}
 \begin{abstract}
@@ -211,11 +212,20 @@ $\mathfrak{J}$indra \& $\mathfrak{A}$lbert.\\\\\\\\\\\\\\\\\\\\
 \end{abstract}
 \newpage
 
+%%%%%%%%%%%%% Obsah %%%%%%%%%%%%%%%%
 \addtocontents{toc}{\protect\thispagestyle{empty}}
-%\vspace*{-2cm}
 \tableofcontents* \thispagestyle{empty}\newpage
-\newgeometry{top=1.5cm, bottom = 0cm, left = 2cm, right = 2cm}
 
+
+%%%%%%%%%%%%% Písně %%%%%%%%%%%%%%%%
+%% Okraje:
+% P+L = 4cm
+% T = 1.5cm
+% B = 0 cm
+\newgeometry{top=1.5cm, bottom = 0cm, left = 2cm, right = 2cm}
+\setlrmarginsandblock{3cm}{1cm}{*}
+\setulmarginsandblock{1.5cm}{0cm}{*}
+\checkandfixthelayout 
 
 
 % PRIDAVANI 
@@ -351,6 +361,9 @@ $\mathfrak{J}$indra \& $\mathfrak{A}$lbert.\\\\\\\\\\\\\\\\\\\\
 \addcontentsline{toc}{section}{Zatanči}\input{../songy/Zatanci.tex}\newpage
 \addcontentsline{toc}{section}{My pluli}\input{../songy/ZMyPluli.tex}\newpage
 
+
+
+
 %\input{../songy/ZZZStrumpatterns.tex}\newpage
 
 \pagestyle{empty}
@@ -363,8 +376,7 @@ $\mathfrak{J}$indra \& $\mathfrak{A}$lbert.\\\\\\\\\\\\\\\\\\\\
 \phantom{.}
 \newpage
 
-% ===
-
+%%%%%%%%%%%%% Přehled akordů %%%%%%%%%%%%%%%%
 \newgeometry{top=0cm, bottom = 0cm, left = 0cm, right = 0cm}
 \thispagestyle{empty}
 \begin{figure}[h]

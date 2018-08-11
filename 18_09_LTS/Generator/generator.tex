@@ -63,7 +63,7 @@ output-notation = {german}%
 
 \newlength{\drop}
 % VODOZNAK
-\newwatermark[pages=3-,color=red!50,angle=0,scale=2, xpos=0,ypos=0]{\includegraphics[width=5cm]{obr/pozadi2.jpg}} %--> dvojka na pozadí
+\newwatermark[pages=1-,color=red!50,angle=0,scale=2, xpos=0,ypos=0]{\includegraphics[width=5cm]{obr/pozadi2.jpg}} %--> dvojka na pozadí
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -80,7 +80,7 @@ output-notation = {german}%
 \newcommand{\elipsa}{\kern\fontdimen3\font} %Příkaz pro lepší zacházení s výpustkami (=...); je to vpodstatě jen mezera mezi tečkama výpustky
 \newcommand{\pindent}{17.62482 pt} %Správná velikost \parindentu u layoutu se dvěma minipageama
 \newcommand{\predtitle}{\huge}
-\newcommand{\mezisloupci}{\hspace*{0.3cm}} %Místo mezi dvěma sloupci na jedné stránce
+\newcommand{\mezisloupci}{\phantom{TT}} %Místo mezi dvěma sloupci na jedné stránce
 
 %%% Možné velikosti písem 
 \newcommand{\normalni}{\normalsize}
@@ -178,5 +178,5 @@ output-notation = {german}%
 \velky
 \newpage
 % PÍSNIČKA
-\input{../songy/Andel.tex}
+\input{../songy/CestoudoJenkovic.tex}
 \end{document}
