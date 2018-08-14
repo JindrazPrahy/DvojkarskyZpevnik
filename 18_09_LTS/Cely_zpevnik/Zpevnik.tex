@@ -53,7 +53,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %  FONT                              %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\usepackage[charter]{mathdesign}
+\usepackage[charter]{mathdesign} %Tento package dodává font, který vzápětí přepisuje tgschola, přesto je ale důležitý, protože díky němu funguje správně \mathfrak
 \usepackage{tgschola}
 
 
@@ -88,8 +88,8 @@ output-notation = {german}%
 \newcommand{\elipsa}{\kern\fontdimen3\font} %Příkaz pro lepší zacházení s výpustkami (=...); je to vpodstatě jen mezera mezi tečkama výpustky
 \newcommand{\pindent}{17.62482 pt} %Správná velikost \parindentu u layoutu se dvěma minipageama
 \newcommand{\predtitle}{\huge}
-\newcommand{\mezisloupci}{\hspace*{0.3cm}} %Místo mezi dvěma sloupci na jedné stránce
-
+\newcommand{\mezisloupci}{\phantom{TT}} %Místo mezi dvěma sloupci na jedné stránce
+\newcommand{\z}{\hspace*{\fill}\null}
 
 %%% Možné velikosti písem 
 \newcommand{\normalni}{\normalsize}
@@ -253,7 +253,7 @@ $\mathfrak{J}$indra \& $\mathfrak{A}$lbert.\\\\\\\\\\\\\\\\\\\\
 \addcontentsline{toc}{section}{Dezolát}\input{../songy/Dezolat.tex}\newpage
 \addcontentsline{toc}{section}{Do Ameriky}\input{../songy/DoAmeriky.tex}\newpage
 \addcontentsline{toc}{section}{Do dne a do roka}\input{../songy/DoDneADoRoka.tex}\newpage
-\addcontentsline{toc}{section}{Dokud se zpívá}\input{../songy/Dokudsezpiva.tex}\newpage
+\addcontentsline{toc}{section}{Dokud se zpívá}\input{../songy/DokudSeZpiva.tex}\newpage
 \addcontentsline{toc}{section}{Dopis}\input{../songy/Dopis.tex}\newpage
 \addcontentsline{toc}{section}{Franky Dlouhán}\input{../songy/FrankyDlouhan.tex}\newpage 
 \addcontentsline{toc}{section}{God\ap s Gonna Cut You Down}\input{../songy/GodsGonnaCutYouDown.tex}\newpage
@@ -262,7 +262,7 @@ $\mathfrak{J}$indra \& $\mathfrak{A}$lbert.\\\\\\\\\\\\\\\\\\\\
 % \addcontentsline{toc}{section}{Hero of War}\input{../songy/HeroofWar.tex}\newpage % Nebude ocheckovano
 \addcontentsline{toc}{section}{Hey Ho}\input{../songy/HeyHo.tex}\newpage
 \addcontentsline{toc}{section}{Hlídač krav}\input{../songy/HlidacKrav.tex}\newpage
-\addcontentsline{toc}{section}{Hodinový hotel}\input{../songy/Hodinovyhotel.tex}\newpage
+\addcontentsline{toc}{section}{Hodinový hotel}\input{../songy/HodinovyHotel.tex}\newpage
 \addcontentsline{toc}{section}{Hotel Hillary}\input{../songy/HotelHillary.tex}\newpage
 \addcontentsline{toc}{section}{Houpej se člunku malý}\input{../songy/HoupejSeClunku.tex}\newpage
 \addcontentsline{toc}{section}{House Of The Rising Sun}\input{../songy/HouseOfTheRisingSun.tex}\newpage
@@ -270,7 +270,7 @@ $\mathfrak{J}$indra \& $\mathfrak{A}$lbert.\\\\\\\\\\\\\\\\\\\\
 \addcontentsline{toc}{section}{Hruška}\input{../songy/Hruska.tex}\newpage
 \addcontentsline{toc}{section}{Hurt}\input{../songy/Hurt.tex}\newpage
 \addcontentsline{toc}{section}{Chci ti říct}\input{../songy/ChciTiRict.tex}\newpage
-\addcontentsline{toc}{section}{I cesta může být cíl}\input{../songy/Icestamuzebytcil.tex}\newpage
+\addcontentsline{toc}{section}{I cesta může být cíl}\input{../songy/ICestaMuzeBytCil.tex}\newpage
 \addcontentsline{toc}{section}{Indian}\input{../songy/Indian.tex}\newpage
 \addcontentsline{toc}{section}{Je jaká je}\input{../songy/JeJakaJe.tex}\newpage
 \addcontentsline{toc}{section}{Ještě jedno kafe}\input{../songy/JesteJednoKafe.tex}\newpage
@@ -296,18 +296,18 @@ $\mathfrak{J}$indra \& $\mathfrak{A}$lbert.\\\\\\\\\\\\\\\\\\\\
 \addcontentsline{toc}{section}{Měsíc}\input{../songy/Mesic.tex}\newpage
 \addcontentsline{toc}{section}{Milionář}\input{../songy/Milionar.tex}\newpage
 \addcontentsline{toc}{section}{Milionář II}\input{../songy/Milionar2.tex}\newpage
-\addcontentsline{toc}{section}{Modlitba pro partu}\input{../songy/Modlitbapropartu.tex}\newpage
+\addcontentsline{toc}{section}{Modlitba pro partu}\input{../songy/ModlitbaProPartu.tex}\newpage
 \addcontentsline{toc}{section}{Muzeum}\input{../songy/Muzeum.tex}\newpage
 \addcontentsline{toc}{section}{Nagasaki Hirošima}\input{../songy/NagasakiHirosima.tex}\newpage
-\addcontentsline{toc}{section}{Nebe peklo ráj}\input{../songy/Nebepekloraj.tex}\newpage
+\addcontentsline{toc}{section}{Nebe peklo ráj}\input{../songy/NebePekloRaj.tex}\newpage
 \addcontentsline{toc}{section}{Nebeští jezdci}\input{../songy/NebestiJezdci.tex}\newpage 
 \addcontentsline{toc}{section}{Nejlíp jim bylo}\input{../songy/NejlipJimBylo.tex}\newpage % Nevim presne, jak hrat... %Je to fakt dobrá písnička, já bych ji tam dal -- Jindra % Uz jsem na to prisel
 \addcontentsline{toc}{section}{Nezacházej slunce}\input{../songy/NezachazejSlunce.tex}\newpage
 \addcontentsline{toc}{section}{One}\input{../songy/One.tex}\newpage
 \addcontentsline{toc}{section}{Orlice}\input{../songy/Orlice.tex}\newpage
-\addcontentsline{toc}{section}{Osmá barva duhy}\input{../songy/Osmabarvaduhy.tex}\newpage
+\addcontentsline{toc}{section}{Osmá barva duhy}\input{../songy/OsmaBarvaDuhy.tex}\newpage
 \addcontentsline{toc}{section}{Ostravo}\input{../songy/OstravoOstravo.tex}\newpage
-%\addcontentsline{toc}{section}{Otevřená zlomenina srdečního svalu}\input{../songy/Otevrenazlomenina.tex}\newpage % Nehrajem
+\addcontentsline{toc}{section}{Otevřená zlomenina srdečního svalu}\input{../songy/OtevrenaZlomenina.tex}\newpage % Nehrajem
 \addcontentsline{toc}{section}{Pangajó}\input{../songy/Pangajo.tex}\newpage
 \addcontentsline{toc}{section}{Partyzán}\input{../songy/Partyzan.tex}\newpage
 \addcontentsline{toc}{section}{Pažitka}\input{../songy/Pazitka.tex}\newpage
@@ -324,7 +324,7 @@ $\mathfrak{J}$indra \& $\mathfrak{A}$lbert.\\\\\\\\\\\\\\\\\\\\
 \addcontentsline{toc}{section}{Pyšný Janek} \input{../songy/PysnyJanek.tex}\newpage
 \addcontentsline{toc}{section}{Ráda se miluje}\input{../songy/RadaSeMiluje.tex}\newpage
 %\addcontentsline{toc}{section}{Rád vařim}\input{../songy/Radvarim.tex}\newpage % Tezko se hraje
-\addcontentsline{toc}{section}{Russian mystic pop IV.}\input{../songy/RussianmysticpopIV.tex}\newpage
+\addcontentsline{toc}{section}{Russian mystic pop IV.}\input{../songy/RussianMysticPopIV.tex}\newpage
 \addcontentsline{toc}{section}{Řekni, kde ty kytky jsou}\input{../songy/RekniKdeTyKytkyJsou.tex}\newpage %carka v nazvu
 \addcontentsline{toc}{section}{Sametová}\input{../songy/Sametova.tex}\newpage
 \addcontentsline{toc}{section}{Sarajevo}\input{../songy/Sarajevo.tex}\newpage
@@ -338,16 +338,16 @@ $\mathfrak{J}$indra \& $\mathfrak{A}$lbert.\\\\\\\\\\\\\\\\\\\\
 \addcontentsline{toc}{section}{Stánky}\input{../songy/Stanky.tex}\newpage
 \addcontentsline{toc}{section}{Stín}\input{../songy/Stin.tex}\newpage
 \addcontentsline{toc}{section}{Strom kýve pahýly}\input{../songy/StromKyvePahyly.tex}\newpage
-\addcontentsline{toc}{section}{Studený nohy}\input{../songy/Studenynohy.tex}\newpage
+\addcontentsline{toc}{section}{Studený nohy}\input{../songy/StudenyNohy.tex}\newpage
 \addcontentsline{toc}{section}{Své Rocky Mountains}\input{../songy/SveRockyMountains.tex}\newpage
-\addcontentsline{toc}{section}{To ta He\v lpa}\input{../songy/TotaHelpa.tex}\newpage
+\addcontentsline{toc}{section}{To ta He\v lpa}\input{../songy/ToTaHelpa.tex}\newpage
 \addcontentsline{toc}{section}{Traktor}\input{../songy/Traktor.tex}\newpage
 \addcontentsline{toc}{section}{Trezor}\input{../songy/Trezor.tex}\newpage
 \addcontentsline{toc}{section}{Tu kytaru jsem koupil kvůli tobě}\input{../songy/TuKytaruJsemKoupil.tex}\newpage
 \addcontentsline{toc}{section}{Už slyším Boží mlýny}\input{../songy/UzSlysimBoziMlyny.tex}\newpage
-\addcontentsline{toc}{section}{Už to nenapravím}\input{../songy/Uztonenapravim.tex}\newpage
+\addcontentsline{toc}{section}{Už to nenapravím}\input{../songy/UzToNenapravim.tex}\newpage
 \addcontentsline{toc}{section}{Veličenstvo Kat}\input{../songy/VelicenstvoKat.tex}\newpage
-\addcontentsline{toc}{section}{Velmi nesmělá}\input{../songy/Velminesmela.tex}\newpage
+\addcontentsline{toc}{section}{Velmi nesmělá}\input{../songy/VelmiNesmela.tex}\newpage
 \addcontentsline{toc}{section}{Ve skříni}\input{../songy/VeSkrini.tex}\newpage
 \addcontentsline{toc}{section}{Věděl pan Cicero}\input{../songy/VedelPanCicero.tex}\newpage
 \addcontentsline{toc}{section}{Vlachovka}\input{../songy/Vlachovka.tex}\newpage
@@ -356,7 +356,7 @@ $\mathfrak{J}$indra \& $\mathfrak{A}$lbert.\\\\\\\\\\\\\\\\\\\\
 \addcontentsline{toc}{section}{Vlaštovko leť}\input{../songy/VlastovkoLet.tex}\newpage
 \addcontentsline{toc}{section}{Vlaštovky}\input{../songy/Vlastovky.tex}\newpage
 \addcontentsline{toc}{section}{What Makes You Beautiful}\input{../songy/WhatMakesYouBeautiful.tex}\newpage
-\addcontentsline{toc}{section}{What Shall We Do With the Drunken Sailor}\input{../songy/WhatShallWeDoWiththeDrunkenSailor.tex}\newpage
+\addcontentsline{toc}{section}{What Shall We Do With the Drunken Sailor}\input{../songy/WhatShallWeDoWith.tex}\newpage
 \addcontentsline{toc}{section}{Zabili, zabili}\input{../songy/Zabili.tex}\newpage
 \addcontentsline{toc}{section}{Zatanči}\input{../songy/Zatanci.tex}\newpage
 \addcontentsline{toc}{section}{My pluli}\input{../songy/ZMyPluli.tex}\newpage
