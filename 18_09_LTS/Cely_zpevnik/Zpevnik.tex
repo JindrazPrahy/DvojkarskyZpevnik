@@ -181,6 +181,8 @@ output-notation = {german}%
 
 
 %Kompilovat dvakrát, aby se updatnula TOC
+
+\setcounter{page}{0}
 \pagestyle{empty}
 %%%%%%%%%%%% PŘEBAL1 %%%%%%%%%%%%%%%%%%
 \includepdf{obr/wolfUndMowe}
@@ -189,7 +191,6 @@ output-notation = {german}%
 \newpage
 
 %%%%%%%%%%%% Úvod %%%%%%%%%%%%%%%%%%
-\setcounter{page}{1}
 \vspace*{4\baselineskip}
 \begin{abstract}
 \large 
@@ -223,7 +224,7 @@ $\mathfrak{J}$indra \& $\mathfrak{A}$lbert.\\\\\\\\\\\\\\\\\\\\
 % T = 1.5cm
 % B = 0 cm
 \newgeometry{top=1.5cm, bottom = 0cm, left = 2cm, right = 2cm}
-\setlrmarginsandblock{3cm}{1cm}{*}
+\setlrmarginsandblock{1cm}{3cm}{*} %Kvůli dírám pro kroužky
 \setulmarginsandblock{1.5cm}{0cm}{*}
 \checkandfixthelayout 
 
