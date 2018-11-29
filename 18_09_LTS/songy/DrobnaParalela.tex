@@ -1,0 +1,104 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%			ŠABLONA PÍSNIČEK v. 18.09               %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Tento soubor slouží jako (naučná) šablona, pomocí 
+% které lze vytvářet zdrojové soubory k jednotlivým 
+% písním.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%			Jak psát soubory songů?                 %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	1. Text písně se začíná psát na místě START 
+%	   a končí na místě END. Zbylý text ignorujte.
+%	2. Jak bude vypadat pdf písně zjistíte po tom, 
+%	   co soubor zkompilujete pomocí souboru   
+%      ../Generator/generator. 
+%	3. Při psaní dodržujte následující TeX pravidla:
+%	 a) Nový řádek napíšete pomocí dvou odsazení 
+%	    tedy dvou enterů.
+%	 b) Nová sloka se píší pomocí \sloka a odsazení.
+%		Refrén se píše jako \refren, v případě více 
+%		refrénů \refren[č. refrénu].
+%	 c) Akordy se píšou tak, že napíšete před slovo,
+%	    kde chcete mít akord (bez mezery):
+%		^{AKORD1\,AKORD2...}.
+%	4. Pokud chcete ušetřit tvůrcům práci, tak 
+%	   si přečtěte další poučný soubor o typografii 
+%	   ../../Typo_pravidla.txt.
+%	5. Akordy stačí psát jen do první sloky, když 
+%	   se nezmění -- kytaristé to zvládnou
+%	7. Název písně pište na místo [NÁZEV] a autora 
+%	   pište na místo [AUTOR] 
+%	7. Jak psát věci na české klávesnici:
+%	   \ = alt gr + q; [/] = alt gr f/g; 
+%      {/} = alt gr + b/n; ^ = alt gr + 3 , cokoliv
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%			Jak kompilovat jednotlivé písně?        %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	1. Více návodu je k tomuto napsáno v souboru 
+%      ../Generator/generator. 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%			Jak kompilovat celý zpěvník?			%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	1. Více návodu je k tomuto napsáno v souboru
+%	   ../Cely_zpevnik/zpevnik.tex.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{song}{title=\predtitle \centering Drobná paralela \\\large Chinaski }  %% sem se napíše jméno songu a autor
+
+\vspace*{.5cm}
+
+\begin{centerjustified}
+\vetsi
+\sloka
+Ta ^{C\z}stará ^{G\z}dobrá hra je ^{D\z}okoukaná.
+
+Nediv se brácho, kdekdo ji zná.
+
+Přestaň se ptát, bylo nebylo líp.
+
+Včera je včera, bohužel bohudík.
+
+\refren
+^{C}Nic není jako ^{G}dřív, ^{D}nic není jak ^{Emi}bejvávalo.
+
+Nic není jako dřív, to se nám to mívávalo.
+
+Nic není jako dřív, ačkoliv máš všechno co si vždycky chtěla
+
+Nic není jako dřív, ačkoliv drobná paralela by tu byla.
+
+\sloka
+Snad nevěříš na tajný znamení.
+
+Všechno to harampádí -- balábile -- mámení.
+
+Vážení platící, jak všeobecně ví se,
+
+včera i dneska, stále ta samá píseň.
+
+\refren
+
+\sloka
+^*{C}Pro mlouvám k vám ^{G}ústy múzy,
+
+^*{D}vzý vám tón a ^{Emi\z}lehkou chůzi,
+
+^*{C}vzý vám zítřek ^*{G}nen adálý,
+
+^*{D}odp louvám a ^{Emi\z}mizím.
+
+\refren[2]
+Nic není jako dřív, nic není jak bejvávalo.
+
+Nic není jako dřív, jó, to se nám to dlouze kouřívalo.
+
+Bohužel bohudík je s námi, ta nenahmatatelná intimita těla.
+
+Nic není jako dřív, jen fámy, bla-bla-bla-bla et cetera.
+
+Nic není jako dřív, nic není jak bejvávalo,
+
+bohužel bohudík, co myslíš ségra, je to hodně nebo málo?
+
+\end{centerjustified}
+\setcounter{Slokočet}{0}
+\end{song}

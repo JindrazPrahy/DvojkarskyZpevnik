@@ -1,0 +1,132 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%			ŠABLONA PÍSNIČEK v. 18.09               %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Tento soubor slouží jako (naučná) šablona, pomocí 
+% které lze vytvářet zdrojové soubory k jednotlivým 
+% písním.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%			Jak psát soubory songů?                 %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	1. Text písně se začíná psát na místě START 
+%	   a končí na místě END. Zbylý text ignorujte.
+%	2. Jak bude vypadat pdf písně zjistíte po tom, 
+%	   co soubor zkompilujete pomocí souboru   
+%      ../Generator/generator. 
+%	3. Při psaní dodržujte následující TeX pravidla:
+%	 a) Nový řádek napíšete pomocí dvou odsazení 
+%	    tedy dvou enterů.
+%	 b) Nová sloka se píší pomocí \sloka a odsazení.
+%		Refrén se píše jako \refren, v případě více 
+%		refrénů \refren[č. refrénu].
+%	 c) Akordy se píšou tak, že napíšete před slovo,
+%	    kde chcete mít akord (bez mezery):
+%		^{AKORD1\,AKORD2...}.
+%	4. Pokud chcete ušetřit tvůrcům práci, tak 
+%	   si přečtěte další poučný soubor o typografii 
+%	   ../../Typo_pravidla.txt.
+%	5. Akordy stačí psát jen do první sloky, když 
+%	   se nezmění -- kytaristé to zvládnou
+%	7. Název písně pište na místo [NÁZEV] a autora 
+%	   pište na místo [AUTOR] 
+%	7. Jak psát věci na české klávesnici:
+%	   \ = alt gr + q; [/] = alt gr f/g; 
+%      {/} = alt gr + b/n; ^ = alt gr + 3 , cokoliv
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%			Jak kompilovat jednotlivé písně?        %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	1. Více návodu je k tomuto napsáno v souboru 
+%      ../Generator/generator. 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%			Jak kompilovat celý zpěvník?			%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	1. Více návodu je k tomuto napsáno v souboru
+%	   ../Cely_zpevnik/zpevnik.tex.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{song}{title=\predtitle \centering Proklatej vůz \\\large Greenhorns }  %% sem se napíše jméno songu a autor
+
+\vspace*{.5cm}
+
+\begin{centerjustified}
+\vetsi
+\sloka
+^{C}Čtyři (jen tři) (jen dvě) ^{G7\z}bytelný ^{Ami}kola ^{F}má náš ^*{\z Emi}prok latej ^{G7}vůz,
+
+tak ^{C\z}ještě ^{F\z}pár ^*{C}dlo uhejch ^{G7}mil ^*{C}zbe jvá ^{F\z}dál, ^{C\z}tam je ^{G7}cíl,
+
+a tak ^*{C}zpí vej o ^{F Fmi}Santa ^{C F C}Cruz.~~~
+
+\refren
+^{F\z}Polykej whisky a ^*{C}zví řenej prach,
+
+^{G7\z}nesmí nás ^*{C}por azit strach,
+
+až ^*{F}pře jedem támhleten ^{C\z}pískovej plát,
+
+pak ^{D7 \z}nemusíš ^{G}se už rudochů ^{C\z}bát.
+
+
+\ssloka{Rec.:}
+
+\textsc{Matka}: {Georgi, už jsem celá roztřesená, zastav!}
+
+\textsc{Otec}: {Zalez zpátky do vozu, ženo!}
+
+
+\sloka
+= 1.
+
+
+\refren
+
+\ssloka{Rec.:}
+
+\textsc{Syn:} {Tatínku, tatínku, už mám plnej nočníček!}
+
+\textsc{Otec:} {Probůh, to není nočníček, to je soudek s prachem!}
+
+\sloka
+= 1.
+
+\refren
+
+\ssloka{Rec:}
+
+\textsc{Děd:} {Synu, vždyť jedeme jak s hnojem!}
+
+\textsc{Otec:} {Jó, koho jsem si naložil, toho vezu!}
+
+\end{centerjustified}
+\newpage
+\begin{centerjustified}
+
+\sloka
+Už jen jediný kolo má náš proklatej vůz,
+
+tak ještě pár dlouhejch mil zbejvá dál, tam je cíl,
+
+a tak zpívej o Santa Cruz.
+
+\refren
+
+\ssloka{Rec:}
+
+\textsc{Matka:} {Georgi, zastav, já se strašně bojím Indiánů!}
+
+\textsc{Otec:} {Zatáhni za sebou plachtu, ženo, a mlč!}
+
+\sloka
+Už ani jediný kolo nemá náš proklatej vůz,
+
+tak ještě pár dlouhejch mil zbejvá dál, tam je cíl,
+
+a tak zpívej o Santa Cruz.
+
+\refren
+
+\ssloka{Rec:}
+
+\textsc{Všichni:} Indiáni!!!
+
+\end{centerjustified}
+\setcounter{Slokočet}{0}
+\end{song}
