@@ -37,7 +37,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \documentclass[openany,12pt]{memoir}
-\usepackage[utf8]{inputenc} 
+\usepackage[utf8]{inputenc}
 \usepackage[czech]{babel}
 \usepackage[T1]{fontenc}
 \usepackage[top=1.5cm, bottom=2cm, left=2cm, right=2cm]{geometry}  % --> NASTAVENÍ OKRAJŮ
@@ -184,9 +184,9 @@ output-notation = {german}%
 \setcounter{page}{0}
 \pagestyle{empty}
 %%%%%%%%%%%% PŘEBAL1 %%%%%%%%%%%%%%%%%%
-\includepdf{obr/wolfUndMowe}
-\newpage
-\phantom{prázdná strana}
+%\includepdf{obr/wolfUndMowe}
+%\newpage
+%\phantom{prázdná strana}
 \newpage
 
 %%%%%%%%%%%% Úvod %%%%%%%%%%%%%%%%%%
@@ -213,7 +213,11 @@ a~$\mathfrak{W}$akani.
 
 %%%%%%%%%%%%% Obsah %%%%%%%%%%%%%%%%
 \addtocontents{toc}{\protect\thispagestyle{empty}}
+{
+\newgeometry{top=0cm, bottom = 0cm, left = 2cm, right = 2cm}
+\vspace{-5cm}
 \tableofcontents* \thispagestyle{empty}\newpage
+}
 
 
 %%%%%%%%%%%%% Písně %%%%%%%%%%%%%%%%
@@ -222,7 +226,7 @@ a~$\mathfrak{W}$akani.
 % T = 1.5cm
 % B = 0 cm
 \newgeometry{top=1.5cm, bottom = 0cm, left = 2cm, right = 2cm}
-\setlrmarginsandblock{1cm}{3cm}{*} %Kvůli dírám pro kroužky
+\setlrmarginsandblock{1.5cm}{2.5cm}{*} %Kvůli dírám pro kroužky
 \setulmarginsandblock{1.5cm}{0cm}{*}
 \checkandfixthelayout 
 
@@ -243,10 +247,11 @@ a~$\mathfrak{W}$akani.
 %\phantomsection\addcontentsline{toc}{section}{Dezolát}\input{../songy/Dezolat.tex}\newpage
 \phantomsection\addcontentsline{toc}{section}{Dokud se zpívá}\input{../songy/DokudSeZpiva.tex}\newpage
 %\phantomsection\addcontentsline{toc}{section}{Drobná paralela}\input{../songy/DrobnaParalela.tex}\newpage
+\phantomsection\addcontentsline{toc}{section}{Dům u vycházejícího Slunce}\input{../songy/DumUVychazejicihoSlunce.tex}\newpage
 \phantomsection\addcontentsline{toc}{section}{Hallelujah}\input{../songy/Hallelujah.tex}\newpage  % Pouze jednostranná verze
-\phantomsection\addcontentsline{toc}{section}{Hlídač krav}\input{../songy/HlidacKrav.tex}\newpage
+\phantomsection\addcontentsline{toc}{section}{Hlídač krav}\input{../songy/HlidacKravVERII.tex}\newpage
 \phantomsection\addcontentsline{toc}{section}{Ho ho Watanay}\input{../songy/HoHoWatanay.tex}\newpage
-\phantomsection\addcontentsline{toc}{section}{House Of The Rising Sun}\input{../songy/HouseOfTheRisingSun.tex}\newpage
+%\phantomsection\addcontentsline{toc}{section}{House Of The Rising Sun}\input{../songy/HouseOfTheRisingSun.tex}\newpage
 %\phantomsection\addcontentsline{toc}{section}{Houslicky}\input{../songy/Houslicky.tex}\newpage
 \phantomsection\addcontentsline{toc}{section}{Huascarán}\input{../songy/Huascaran.tex}\newpage
 \phantomsection\addcontentsline{toc}{section}{Hvězdář}\input{../songy/Hvezdar.tex}\newpage
@@ -267,14 +272,15 @@ a~$\mathfrak{W}$akani.
 \phantomsection\addcontentsline{toc}{section}{Malý rytíř}\input{../songy/MalyRytir.tex}\newpage
 \phantomsection\addcontentsline{toc}{section}{Marie}\input{../songy/Marie.tex}\newpage
 \phantomsection\addcontentsline{toc}{section}{Mezi Horami}\input{../songy/MeziHorami.tex}\newpage
-\phantomsection\addcontentsline{toc}{section}{Milionář}\input{../songy/Milionar.tex}\newpage
+\phantomsection\addcontentsline{toc}{section}{Milionář}\input{../songy/MilionarVERII.tex}\newpage
 %\phantomsection\addcontentsline{toc}{section}{Modlitba pro partu}\input{../songy/ModlitbaProPartu.tex}\newpage
 %MRAZÍK -- od koho?
 \phantomsection\addcontentsline{toc}{section}{Nad stádem koní}\input{../songy/NadStademKoni.tex}\newpage
-\phantomsection\addcontentsline{toc}{section}{Nagasaki Hirošima}\input{../songy/NagasakiHirosima.tex}\newpage
+\phantomsection\addcontentsline{toc}{section}{Nagasaki Hirošima}\input{../songy/NagasakiHirosimaVERII.tex}\newpage
 \phantomsection\addcontentsline{toc}{section}{Náhrobní kámen}\input{../songy/NahrobniKamen.tex}\newpage
 \phantomsection\addcontentsline{toc}{section}{Náměšť}\input{../songy/Namest.tex}\newpage
 %\phantomsection\addcontentsline{toc}{section}{Nejlíp jim bylo}\input{../songy/NejlipJimBylo.tex}\newpage % Nevim presne, jak hrat... %Je to fakt dobrá písnička, já bych ji tam dal -- Jindra % Uz jsem na to prisel
+\phantomsection\addcontentsline{toc}{section}{O malém rytíři}\input{../songy/OMalemRytiri.tex}\newpage
 %\phantomsection\addcontentsline{toc}{section}{Pažitka}\input{../songy/Pazitka.tex}\newpage
 %\phantomsection\addcontentsline{toc}{section}{Perfect Day}\input{../songy/PerfectDay.tex}\newpage
 %\phantomsection\addcontentsline{toc}{section}{Petěrburg}\input{../songy/Peterburg.tex}\newpage
