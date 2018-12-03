@@ -24,19 +24,18 @@
 \contentsline {section}{Kometa}{23}{section*.66}
 \contentsline {section}{Kurtiz\IeC {\'a}na}{24}{section*.69}
 \contentsline {section}{Lemon Tree}{25}{section*.72}
-\contentsline {section}{Mal\IeC {\'y} ryt\IeC {\'\i }\IeC {\v r}}{26}{section*.75}
-\contentsline {section}{Marie}{27}{section*.78}
-\contentsline {section}{Mezi Horami}{28}{section*.81}
-\contentsline {section}{Milion\IeC {\'a}\IeC {\v r}}{29}{section*.84}
-\contentsline {section}{Nad st\IeC {\'a}dem kon\IeC {\'\i }}{30}{section*.87}
-\contentsline {section}{Nagasaki Hiro\IeC {\v s}ima}{31}{section*.90}
-\contentsline {section}{N\IeC {\'a}hrobn\IeC {\'\i } k\IeC {\'a}men}{32}{section*.93}
-\contentsline {section}{N\IeC {\'a}m\IeC {\v e}\IeC {\v s}\IeC {\v t}}{33}{section*.96}
-\contentsline {section}{O mal\IeC {\'e}m ryt\IeC {\'\i }\IeC {\v r}i}{34}{section*.99}
-\contentsline {section}{Pocity}{36}{section*.102}
-\contentsline {section}{Proklatej v\IeC {\r u}z}{38}{section*.105}
-\contentsline {section}{R\IeC {\'a}da se miluje}{40}{section*.108}
-\contentsline {section}{Severn\IeC {\'\i } V\IeC {\'\i }tr}{41}{section*.111}
-\contentsline {section}{St\IeC {\'a}nky}{42}{section*.114}
-\contentsline {section}{To ta He\v lpa}{43}{section*.117}
-\contentsline {section}{Wonderwall}{44}{section*.120}
+\contentsline {section}{Marie}{26}{section*.75}
+\contentsline {section}{Mezi Horami}{27}{section*.78}
+\contentsline {section}{Milion\IeC {\'a}\IeC {\v r}}{28}{section*.81}
+\contentsline {section}{Nad st\IeC {\'a}dem kon\IeC {\'\i }}{29}{section*.84}
+\contentsline {section}{Nagasaki Hiro\IeC {\v s}ima}{30}{section*.87}
+\contentsline {section}{N\IeC {\'a}hrobn\IeC {\'\i } k\IeC {\'a}men}{31}{section*.90}
+\contentsline {section}{N\IeC {\'a}m\IeC {\v e}\IeC {\v s}\IeC {\v t}}{32}{section*.93}
+\contentsline {section}{O mal\IeC {\'e}m ryt\IeC {\'\i }\IeC {\v r}i}{33}{section*.96}
+\contentsline {section}{Pocity}{35}{section*.99}
+\contentsline {section}{Proklatej v\IeC {\r u}z}{37}{section*.102}
+\contentsline {section}{R\IeC {\'a}da se miluje}{39}{section*.105}
+\contentsline {section}{Severn\IeC {\'\i } V\IeC {\'\i }tr}{40}{section*.108}
+\contentsline {section}{St\IeC {\'a}nky}{41}{section*.111}
+\contentsline {section}{To ta He\v lpa}{42}{section*.114}
+\contentsline {section}{Wonderwall}{43}{section*.117}
