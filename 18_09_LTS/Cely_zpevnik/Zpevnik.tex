@@ -37,7 +37,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \documentclass[openany,12pt]{memoir}
-\usepackage[utf8]{inputenc} 
+\usepackage[utf8]{inputenc}
 \usepackage[czech]{babel}
 \usepackage[T1]{fontenc}
 \usepackage[top=1.5cm, bottom=2cm, left=2cm, right=2cm]{geometry}  % --> NASTAVENÍ OKRAJŮ
@@ -218,20 +218,26 @@ $\mathfrak{J}$indra \& $\mathfrak{A}$lbert.\\\\\\\\\\\\\\\\\\\\
 \end{abstract}
 \newpage
 
-%%%%%%%%%%%%% Obsah %%%%%%%%%%%%%%%%
-\addtocontents{toc}{\protect\thispagestyle{empty}}
-\tableofcontents* \thispagestyle{empty}\newpage
-
 
 %%%%%%%%%%%%% Písně %%%%%%%%%%%%%%%%
 %% Okraje:
 % P+L = 4cm
 % T = 1.5cm
 % B = 0 cm
+
+\newgeometry{top=1.5cm, bottom=2cm, left=2cm, right=2cm}
+\setlrmarginsandblock{1cm}{3cm}{*} %Kvůli dírám pro kroužky
+\setulmarginsandblock{1.5cm}{1cm}{*}
+\checkandfixthelayout 
+
+%%%%%%%%%%%%% Obsah %%%%%%%%%%%%%%%%
+\addtocontents{toc}{\protect\thispagestyle{empty}}
+\tableofcontents* \thispagestyle{empty}\newpage
 \newgeometry{top=1.5cm, bottom = 0cm, left = 2cm, right = 2cm}
 \setlrmarginsandblock{1cm}{3cm}{*} %Kvůli dírám pro kroužky
 \setulmarginsandblock{1.5cm}{0cm}{*}
 \checkandfixthelayout 
+
 
 
 % PRIDAVANI 
@@ -395,7 +401,9 @@ $\mathfrak{J}$indra \& $\mathfrak{A}$lbert.\\\\\\\\\\\\\\\\\\\\
 \begin{figure}[h]
 \centering
 % PŘEHLED
+{\hspace*{1.5cm}
 \includegraphics[height=\textheight]{../Akordy/AAAkordy3.pdf}
+}
 \end{figure}
 
 
