@@ -181,12 +181,17 @@ output-notation = {german}%
 
 
 %Kompilovat dvakrát, aby se updatnula TOC
-\setcounter{page}{0}
+\setcounter{page}{-2}
+\thispagestyle{empty}
+\newpage
+\phantom{prázdná strana}
+\newpage
+\phantom{prázdná strana}
 \pagestyle{empty}
 %%%%%%%%%%%% PŘEBAL1 %%%%%%%%%%%%%%%%%%
 %\includepdf{obr/wolfUndMowe}
-%\newpage
-%\phantom{prázdná strana}
+\newpage
+\phantom{prázdná strana}
 \newpage
 
 %%%%%%%%%%%% Úvod %%%%%%%%%%%%%%%%%%
