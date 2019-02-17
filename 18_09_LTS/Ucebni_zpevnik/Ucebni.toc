@@ -8,5 +8,6 @@
 \contentsline {section}{Hey Ho}{11}{section*.16}
 \contentsline {section}{Knockin' on Heaven's Door}{12}{section*.19}
 \contentsline {section}{R\IeC {\'a}da se miluje}{13}{section*.22}
-\contentsline {section}{Zabili}{14}{section*.25}
+\contentsline {section}{Slav\IeC {\'\i }ci z Madridu}{14}{section*.25}
 \contentsline {section}{Zata\IeC {\v c}i}{15}{section*.28}
+\contentsline {section}{Zabili}{17}{section*.31}
