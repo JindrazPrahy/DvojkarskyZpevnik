@@ -44,10 +44,16 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{song}{title=\predtitle \centering Staré dobré časy \\\large Jaromír Nohavica }  %% sem se napíše jméno songu a autor
 
-\vspace*{-.3cm}
+\vetsi
+
+\moveright -1.5cm \vbox{
+
+%\vspace*{-.3cm}
 
 \begin{centerjustified}
-\vetsi
+
+\begin{varwidth}[t]{0.58\textwidth}\setlength{\parindent}{\pindent}  %Varianta č. 2 --> Dva sloupce
+
 \sloka
 ^{D \z}Řekla mi včera dívka ^{Hmi \z}Tereza,
 
@@ -99,9 +105,12 @@ my - příslušníci disidentskej klasy,
 
 jó, kde jsou ty časy.
 
-\end{centerjustified}
-\newpage
-\begin{centerjustified}
+%\end{centerjustified}
+%\newpage
+%\begin{centerjustified}
+
+\end{varwidth}\mezisloupci\begin{varwidth}[t]{0.48\textwidth}\setlength{\parindent}{\pindent}
+\vspace*{0.405cm}  % V případě varianty č.2 jde odsud text do pravé části
 
 \sloka
 Vaškovi do vězení v Heřmanicích
@@ -173,7 +182,9 @@ je zpívat: jó, kde jsou ty časy,
 
 jó, kde jsou ty časy, staré dobré časy,  hoho.
 
+\end{varwidth}
 
 \end{centerjustified}
+}
 \setcounter{Slokočet}{0}
 \end{song}
