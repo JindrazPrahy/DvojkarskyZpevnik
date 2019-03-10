@@ -1,4 +1,4 @@
-\babel@toc {czech}{}
+\select@language {czech}
 \thispagestyle {empty}
 \contentsline {section}{Skautsk\IeC {\'a} hymna a Ve\IeC {\v c}erka}{7}{section*.1}
 \contentsline {section}{1. sign\IeC {\'a}ln\IeC {\'\i }}{8}{section*.6}
@@ -107,39 +107,41 @@
 \contentsline {section}{Sametov\IeC {\'a}}{113}{section*.315}
 \contentsline {section}{Sarajevo}{114}{section*.318}
 \contentsline {section}{S\IeC {\'a}ro!}{115}{section*.321}
-\contentsline {section}{Slaboch Ben}{116}{section*.324}
-\contentsline {section}{Slav\IeC {\'\i }ci z Madridu}{117}{section*.327}
-\contentsline {section}{Slova}{118}{section*.330}
-\contentsline {section}{Soudn\IeC {\'y} Den}{119}{section*.333}
-\contentsline {section}{Sound Of Silence}{120}{section*.336}
-\contentsline {section}{Space Oddity}{121}{section*.339}
-\contentsline {section}{St\IeC {\'a}nky}{123}{section*.342}
-\contentsline {section}{Star\IeC {\'e} dobr\IeC {\'e} \IeC {\v c}asy}{124}{section*.345}
-\contentsline {section}{St\IeC {\'\i }n}{125}{section*.348}
-\contentsline {section}{Strom k\IeC {\'y}ve pah\IeC {\'y}ly}{126}{section*.351}
-\contentsline {section}{Studen\IeC {\'y} nohy}{127}{section*.354}
-\contentsline {section}{Svatebn\IeC {\'\i }}{128}{section*.357}
-\contentsline {section}{Svatebn\IeC {\'\i } p\IeC {\'\i }se\IeC {\v n}}{129}{section*.360}
-\contentsline {section}{Sv\IeC {\'e} Rocky Mountains}{130}{section*.363}
-\contentsline {section}{To ta He\v lpa}{131}{section*.366}
-\contentsline {section}{Traktor}{132}{section*.369}
-\contentsline {section}{Trezor}{133}{section*.372}
-\contentsline {section}{Tu kytaru jsem koupil kv\IeC {\r u}li tob\IeC {\v e}}{134}{section*.375}
-\contentsline {section}{U\IeC {\v z} sly\IeC {\v s}\IeC {\'\i }m Bo\IeC {\v z}\IeC {\'\i } ml\IeC {\'y}ny}{135}{section*.378}
-\contentsline {section}{U\IeC {\v z} to nenaprav\IeC {\'\i }m}{136}{section*.381}
-\contentsline {section}{Veli\IeC {\v c}enstvo Kat}{137}{section*.384}
-\contentsline {section}{Velmi nesm\IeC {\v e}l\IeC {\'a}}{138}{section*.387}
-\contentsline {section}{Ve sk\IeC {\v r}\IeC {\'\i }ni}{139}{section*.390}
-\contentsline {section}{V\IeC {\v e}d\IeC {\v e}l pan Cicero}{140}{section*.393}
-\contentsline {section}{V\IeC {\v c}elka M\IeC {\'a}ja}{141}{section*.396}
-\contentsline {section}{Vlachovka}{142}{section*.399}
-\contentsline {section}{Vlajky vlaj\IeC {\'\i }}{143}{section*.402}
-\contentsline {section}{Vla\IeC {\v s}tovko le\IeC {\v t}}{144}{section*.405}
-\contentsline {section}{Vla\IeC {\v s}tovky}{145}{section*.408}
-\contentsline {section}{What Shall We Do With the Drunken Sailor}{146}{section*.411}
-\contentsline {section}{What Makes You Beautiful}{147}{section*.414}
-\contentsline {section}{Wonderwall}{149}{section*.417}
-\contentsline {section}{Za deset 10}{151}{section*.420}
-\contentsline {section}{Zabili, zabili}{152}{section*.423}
-\contentsline {section}{Zatan\IeC {\v c}i}{153}{section*.426}
-\contentsline {section}{My pluli}{154}{section*.429}
+\contentsline {section}{Shotgun}{116}{section*.324}
+\contentsline {section}{Slaboch Ben}{117}{section*.327}
+\contentsline {section}{Sladk\IeC {\'e} m\IeC {\'a}men\IeC {\'\i }}{118}{section*.330}
+\contentsline {section}{Slav\IeC {\'\i }ci z Madridu}{119}{section*.333}
+\contentsline {section}{Slova}{120}{section*.336}
+\contentsline {section}{Soudn\IeC {\'y} Den}{121}{section*.339}
+\contentsline {section}{Sound Of Silence}{122}{section*.342}
+\contentsline {section}{Space Oddity}{123}{section*.345}
+\contentsline {section}{St\IeC {\'a}nky}{125}{section*.348}
+\contentsline {section}{Star\IeC {\'e} dobr\IeC {\'e} \IeC {\v c}asy}{126}{section*.351}
+\contentsline {section}{St\IeC {\'\i }n}{127}{section*.354}
+\contentsline {section}{Strom k\IeC {\'y}ve pah\IeC {\'y}ly}{128}{section*.357}
+\contentsline {section}{Studen\IeC {\'y} nohy}{129}{section*.360}
+\contentsline {section}{Svatebn\IeC {\'\i }}{130}{section*.363}
+\contentsline {section}{Svatebn\IeC {\'\i } p\IeC {\'\i }se\IeC {\v n}}{131}{section*.366}
+\contentsline {section}{Sv\IeC {\'e} Rocky Mountains}{132}{section*.369}
+\contentsline {section}{To ta He\v lpa}{133}{section*.372}
+\contentsline {section}{Traktor}{134}{section*.375}
+\contentsline {section}{Trezor}{135}{section*.378}
+\contentsline {section}{Tu kytaru jsem koupil kv\IeC {\r u}li tob\IeC {\v e}}{136}{section*.381}
+\contentsline {section}{U\IeC {\v z} sly\IeC {\v s}\IeC {\'\i }m Bo\IeC {\v z}\IeC {\'\i } ml\IeC {\'y}ny}{137}{section*.384}
+\contentsline {section}{U\IeC {\v z} to nenaprav\IeC {\'\i }m}{138}{section*.387}
+\contentsline {section}{Veli\IeC {\v c}enstvo Kat}{139}{section*.390}
+\contentsline {section}{Velmi nesm\IeC {\v e}l\IeC {\'a}}{140}{section*.393}
+\contentsline {section}{Ve sk\IeC {\v r}\IeC {\'\i }ni}{141}{section*.396}
+\contentsline {section}{V\IeC {\v e}d\IeC {\v e}l pan Cicero}{142}{section*.399}
+\contentsline {section}{V\IeC {\v c}elka M\IeC {\'a}ja}{143}{section*.402}
+\contentsline {section}{Vlachovka}{144}{section*.405}
+\contentsline {section}{Vlajky vlaj\IeC {\'\i }}{145}{section*.408}
+\contentsline {section}{Vla\IeC {\v s}tovko le\IeC {\v t}}{146}{section*.411}
+\contentsline {section}{Vla\IeC {\v s}tovky}{147}{section*.414}
+\contentsline {section}{What Shall We Do With the Drunken Sailor}{148}{section*.417}
+\contentsline {section}{What Makes You Beautiful}{149}{section*.420}
+\contentsline {section}{Wonderwall}{151}{section*.423}
+\contentsline {section}{Za deset 10}{153}{section*.426}
+\contentsline {section}{Zabili, zabili}{154}{section*.429}
+\contentsline {section}{Zatan\IeC {\v c}i}{155}{section*.432}
+\contentsline {section}{My pluli}{156}{section*.435}
