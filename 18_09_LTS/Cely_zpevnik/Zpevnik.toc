@@ -39,7 +39,7 @@
 \contentsline {section}{Hotel Hillary}{43}{section*.111}
 \contentsline {section}{Houpej se \IeC {\v c}lunku mal\IeC {\'y}}{44}{section*.114}
 \contentsline {section}{House Of The Rising Sun}{45}{section*.117}
-\contentsline {section}{Houslicky}{46}{section*.120}
+\contentsline {section}{Housli\IeC {\v c}ky}{46}{section*.120}
 \contentsline {section}{Hru\IeC {\v s}ka}{47}{section*.123}
 \contentsline {section}{Hurt}{48}{section*.126}
 \contentsline {section}{Chci ti \IeC {\v r}\IeC {\'\i }ct}{49}{section*.129}
@@ -64,7 +64,7 @@
 \contentsline {section}{Let\IeC {\'\i }m hledat sv\IeC {\v e}ty}{69}{section*.186}
 \contentsline {section}{Lilie}{70}{section*.189}
 \contentsline {section}{Li\IeC {\v s}aji}{71}{section*.192}
-\contentsline {section}{LittleTalks}{72}{section*.195}
+\contentsline {section}{Little Talks}{72}{section*.195}
 \contentsline {section}{Lo\IeC {\v d}ka Mal\IeC {\'a}}{73}{section*.198}
 \contentsline {section}{Lokomotiva}{74}{section*.201}
 \contentsline {section}{Made in Valmez}{75}{section*.204}
