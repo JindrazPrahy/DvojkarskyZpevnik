@@ -1,22 +1,26 @@
 # DvojkarskyZpevnik
 
-Toto je vývojový repozitář pro velký Dvojkařský Zpěvník. Všechny songy jsou zde psány pomocí *LaTeX*u.
-Zpěvník je uzpůsoben pro kroužkovou vazbu (songů už je hodně) - umožňuje tak do starších zpěvníků přidávat nové songy, jenž zde přibývají.
+Toto je vývojový repozitář pro velký Dvojkařský Zpěvník. Všechny songy jsou zde
+psány pomocí *LaTeX*u.  Zpěvník je uzpůsoben pro kroužkovou vazbu (songů už je
+hodně) - umožňuje tak do starších zpěvníků přidávat nové songy, jenž zde
+přibývají.
 
 [Přehled písní ve zpěvníku](https://docs.google.com/spreadsheets/d/1ej4QIp3_96SE3kHn7L9kaiDOEUqHb9XJ2Mvoauu2prE/edit#gid=0) - přidávejte sem nové návrhy!
 
 
 # Stažení
 
-Můžeš si na *GitHub*u najít požadované *pdf* jednoho songu, který chceš. Po jeho otevření je vpravo nahoře tlačítko Download.
-Nebo je celý zpěvník zde: https://github.com/JindrazPrahy/DvojkarskyZpevnik/blob/master/18_09_LTS/Cely_zpevnik/Zpevnik.pdf.
-V repozitáři je ještě spousta jiných věcí týkajících se zpěvníku, můžeš si je taky stáhnout.
+Můžeš si na *GitHub*u najít požadované *pdf* jednoho songu, který chceš. Po
+jeho otevření je vpravo nahoře tlačítko Download.  Nebo je celý zpěvník zde:
+https://github.com/JindrazPrahy/DvojkarskyZpevnik/blob/master/18_09_LTS/Cely_zpevnik/Zpevnik.pdf.
+V repozitáři je ještě spousta jiných věcí týkajících se zpěvníku, můžeš si je
+taky stáhnout.
 
 # Práce na vývoji zpěvníku
 Chceš zpěvníku nějak přispět? Skvělé, tady je napsané, jak na to.
 
-Zpěvník lze vyvíjet na Linuxu i na Ubuntu. Pro Windows přikládáme detailnější návod,
-pro Linux stručnější návod.
+Zpěvník lze vyvíjet na Linuxu i na Windows. Pro Windows přikládáme detailnější
+návod, pro Linux stručnější návod.
 
 Návod sestává ze tří částí -- jak instalovat potřebné programy, jak pracovat s
 Gitem, neboli programem, který pracuje s verzemi zpěvníku, a jak pracovat
@@ -27,15 +31,19 @@ Používání LaTeXu je podobné pro oba OS, je pro něj tedy toliko jedna sekce
 
 ### Instalace Gitu a LaTeXu
 1. Nainstaluj si nějaký Git client - třeba [od GitHubu](https://desktop.github.com/)
-2. Založ si účet na githubu -- pro přispívání je potřeba vědět, kdo příspěvek udělal.
-3. Clonuj zpěvník: V exploreru dojdi tam, kde chceš mít zpěvník, pravé tlačítko -> Git Clone -> do URL zadej https://github.com/JindrazPrahy/DvojkarskyZpevnik.git
+2. Založ si účet na githubu -- pro přispívání je potřeba vědět, kdo příspěvek
+   udělal.
+3. Clonuj zpěvník: V exploreru dojdi tam, kde chceš mít zpěvník, pravé tlačítko
+   -> Git Clone -> do URL zadej
+https://github.com/JindrazPrahy/DvojkarskyZpevnik.git
 4. Zapamatuj si, kam se ti na počítač uložil náš repozitář.
-5. Nyní je potřeba si nainstalovat LaTeXový překladač. Pokud jsi nováček, tak si nainstaluj MikXeX z https://miktex.org/,
-jinak doporučujeme TeX Live z https://tug.org/texlive/acquire-netinstall.html.
-6. Po tomto kroku je nainstalovaný překladač -- stroj, který z kódu vyprodukuje pdf soubor.
-Nyní je ještě potřeba si stáhnout editor -- program, ve kterém lze editovat kód.
-S MikTeXem je přibalen editor TeXWorks. My však doporučujeme si nainstalovat
-editor TeXmaker z https://www.xm1math.net/texmaker/.
+5. Nyní je potřeba si nainstalovat LaTeXový překladač. Pokud jsi nováček, tak
+   si nainstaluj MikXeX z https://miktex.org/, jinak doporučujeme TeX Live z
+https://tug.org/texlive/acquire-netinstall.html.
+6. Po tomto kroku je nainstalovaný překladač -- stroj, který z kódu vyprodukuje
+   pdf soubor. Nyní je ještě potřeba si stáhnout editor -- program, ve kterém
+lze editovat kód. S MikTeXem je přibalen editor TeXWorks. My však doporučujeme
+si nainstalovat editor TeXmaker z https://www.xm1math.net/texmaker/.
 
 Pozn. pokud jsi fajnšmekr, můžeš si do Windowsu nainstalovat vnořený Linux,
 více info na [stránkách Microsoftu](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
@@ -100,7 +108,8 @@ Pro lenochy:
 git add *
 ```
 5. Commit je balíček, po kterém se do repozitáře uploadují změny.
-6. Commituj soubory, vždy musíš přidat zprávu popisující, jaké změny jsi udělal:
+6. Commituj soubory, vždy musíš přidat zprávu popisující, jaké změny jsi
+   udělal:
 ```
 git commit -m"Zpráva v commitu"
 ```
@@ -112,10 +121,10 @@ git push
 
 ## Používání LaTeXu
 
-LaTeX je tzv. značkovací jazyk, něco jako html. V jazyku se napíše kód,
-ten se pak přeloží LaTeXem, a vznikne pdf. Základní znalosti LaTeXu
-lze nabýt třeba zde: https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes.
-Zastáváme názor, že se jedná o intuitivní záležitost.
+LaTeX je tzv. značkovací jazyk, něco jako html. V jazyku se napíše kód, ten se
+pak přeloží LaTeXem, a vznikne pdf. Základní znalosti LaTeXu lze nabýt třeba
+zde: https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes. Zastáváme
+názor, že se jedná o intuitivní záležitost.
 
 Nyní předpokládáme, že víš, jak LaTeX funguje, a dokážeš napsat a zkompilovat
 nějaký jednoduchý dokument.
@@ -152,11 +161,13 @@ který je teď asi rozbitý.
 # Orientace v Repozitáři
 
 - **18_09** - aktuální verze všech zpěvníků
-- **Misc** - zde najdete starou verzi zpěvníku, handout s koledami a i šablonu na sázení písní po jedné, spíše jen zbytky.
+- **Misc** - zde najdete starou verzi zpěvníku, handout s koledami a i šablonu
+  na sázení písní po jedné, spíše jen zbytky.
 - **songy** - tady jsou *LaTeX*ové zdrojáky pro výstup v *pdf*.
 - **Celý zpěvník** - zde je jedno *pdf* s aktuálním kompletním zpěvníkem.
 - **pdf** - *pdf* jednotlivých písní.
-- **Generator** - obsahuje skript `kompilace.sh`, který zkompiluje vše, co je v adresáři *songy* do jednotlivých *pdf* i do celého zpěvníku.
+- **Generator** - obsahuje skript `kompilace.sh`, který zkompiluje vše, co je
+  v adresáři *songy* do jednotlivých *pdf* i do celého zpěvníku.
 - **Wakan** - obsahuje zpěvník pro Wakany.
 
 
