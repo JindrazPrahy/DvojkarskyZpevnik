@@ -156,11 +156,13 @@ pdflatex -interaction=nonstopmode jméno souboru
 Chcete-li kompilovat celý zpěvník, můžete rovnou zkompilovat relevantní soubor
 celého zpěvníku opět v nonstopmodu.
 Chcete-li zkompilovat všechny songy jednotlivě, tak je na to bashový skript,
-který je teď asi rozbitý.
+který funguje tak, že pouze `./skript.sh` zkompiluje všechno a `./skript.sh -f
+song` zkompiluje jen jeden song. Můžete buď kompilovat do formátu txt skriptem
+ve složce txt, nebo do formátu pdf skriptem ve složce Generator.
 
 # Orientace v Repozitáři
 
-- **18_09** - aktuální verze všech zpěvníků
+- **18_09_LTS** - aktuální verze všech zpěvníků
 - **Misc** - zde najdete starou verzi zpěvníku, handout s koledami a i šablonu
   na sázení písní po jedné, spíše jen zbytky.
 - **songy** - tady jsou *LaTeX*ové zdrojáky pro výstup v *pdf*.
