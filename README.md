@@ -1,3 +1,4 @@
+
 # DvojkarskyZpevnik
 
 Toto je vývojový repozitář pro velký Dvojkařský Zpěvník. Všechny songy jsou zde
@@ -160,17 +161,12 @@ který funguje tak, že pouze `./skript.sh` zkompiluje všechno a `./skript.sh -
 song` zkompiluje jen jeden song. Můžete buď kompilovat do formátu txt skriptem
 ve složce txt, nebo do formátu pdf skriptem ve složce Generator.
 
-# Orientace v Repozitáři
+# Orientace v jednotlivých branchích
 
-- **18_09_LTS** - aktuální verze všech zpěvníků
-- **Misc** - zde najdete starou verzi zpěvníku, handout s koledami a i šablonu
-  na sázení písní po jedné, spíše jen zbytky.
-- **songy** - tady jsou *LaTeX*ové zdrojáky pro výstup v *pdf*.
-- **Celý zpěvník** - zde je jedno *pdf* s aktuálním kompletním zpěvníkem.
-- **pdf** - *pdf* jednotlivých písní.
-- **Generator** - obsahuje skript `kompilace.sh`, který zkompiluje vše, co je
-  v adresáři *songy* do jednotlivých *pdf* i do celého zpěvníku.
-- **Wakan** - obsahuje zpěvník pro Wakany.
+- **master** - zde najdete všechny písničky v pdf, txt a táborový zpěvník Pražské Dvojky
+- **Wakan** - zde najdete táborový zpěvník Wakanů
+- **Ucebni** - tohle je branch pro redukovaný zpěvník pro ty, co se učí na kytaru
+- **Vanocni** - Zpěvník s koledami
 
 
 
