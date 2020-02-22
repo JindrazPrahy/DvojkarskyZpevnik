@@ -1,0 +1,190 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%			ŠABLONA PÍSNIČEK v. 18.09               %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Tento soubor slouží jako (naučná) šablona, pomocí 
+% které lze vytvářet zdrojové soubory k jednotlivým 
+% písním.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%			Jak psát soubory songů?                 %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	1. Text písně se začíná psát na místě START 
+%	   a končí na místě END. Zbylý text ignorujte.
+%	2. Jak bude vypadat pdf písně zjistíte po tom, 
+%	   co soubor zkompilujete pomocí souboru   
+%      ../Generator/generator. 
+%	3. Při psaní dodržujte následující TeX pravidla:
+%	 a) Nový řádek napíšete pomocí dvou odsazení 
+%	    tedy dvou enterů.
+%	 b) Nová sloka se píší pomocí \sloka a odsazení.
+%		Refrén se píše jako \refren, v případě více 
+%		refrénů \refren[č. refrénu].
+%	 c) Akordy se píšou tak, že napíšete před slovo,
+%	    kde chcete mít akord (bez mezery):
+%		^{AKORD1\,AKORD2...}.
+%	4. Pokud chcete ušetřit tvůrcům práci, tak 
+%	   si přečtěte další poučný soubor o typografii 
+%	   ../../Typo_pravidla.txt.
+%	5. Akordy stačí psát jen do první sloky, když 
+%	   se nezmění -- kytaristé to zvládnou
+%	7. Název písně pište na místo [NÁZEV] a autora 
+%	   pište na místo [AUTOR] 
+%	7. Jak psát věci na české klávesnici:
+%	   \ = alt gr + q; [/] = alt gr f/g; 
+%      {/} = alt gr + b/n; ^ = alt gr + 3 , cokoliv
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%			Jak kompilovat jednotlivé písně?        %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	1. Více návodu je k tomuto napsáno v souboru 
+%      ../Generator/generator. 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%			Jak kompilovat celý zpěvník?			%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	1. Více návodu je k tomuto napsáno v souboru
+%	   ../Cely_zpevnik/zpevnik.tex.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{song}{title=\predtitle \centering Staré dobré časy \\\large Jaromír Nohavica }  %% sem se napíše jméno songu a autor
+
+\vetsi
+
+\moveright -1.5cm \vbox{
+
+%\vspace*{-.3cm}
+
+\begin{centerjustified}
+
+\begin{varwidth}[t]{0.58\textwidth}\setlength{\parindent}{\pindent}  %Varianta č. 2 --> Dva sloupce
+
+\sloka
+^{D \z}Řekla mi včera dívka ^{Hmi \z}Tereza,
+
+^{D}že patřím do starého ^{Hmi \z}železa,
+
+^{D}že už mi šroubky, nýty ^{Hmi}reziví,
+
+^{D}já se té dívce vlastně ^{Hmi \z}nedivím,
+
+^{G}jsem starý vysloužilý ^*{Emi}party zán,
+
+^{D}puding, co ^{D/A}byl už z misky ^{Hmi \z}vylízán,
+
+příslušník dávno ^*{\z A}vyhynu lé rasy,
+
+^{D}jó, kde jsou ty časy.
+
+\sloka
+^{E \z}Člověk měl prázdný břich, však ^{C#mi \z}víry~byl pln,
+
+uši měl otlačené od krátkých vln,
+
+do práce chodil jenom na vyspání
+
+a všichni mukli byli pruhovaní,
+
+^*{A}mel ouny stály sedm a ^{F#mi}třešně tři,
+
+^*{E}Slo váci ^{E/D}byli~naši rodní ^{C#mi}bratři,
+
+kdo tě chtěl urazit, řek': ^{H},,ty jseš Vasil``,
+
+^{E}jó, kde jsou ty časy.
+
+\sloka
+Hráli jsme nebezpečnou muziku
+
+a dívky byly svolné ke styku
+
+a ten, kdo nechyt' jednu pendrekem,
+
+ten nebyl právoplatným člověkem,
+
+pod heslem \uv{Spějeme ke šťastným zítřkům!}
+
+jsme rozkládali rodnou zemi zvnitřku
+
+my - příslušníci disidentskej klasy,
+
+jó, kde jsou ty časy.
+
+%\end{centerjustified}
+%\newpage
+%\begin{centerjustified}
+
+\end{varwidth}\mezisloupci\begin{varwidth}[t]{0.48\textwidth}\setlength{\parindent}{\pindent}
+\vspace*{0.405cm}  % V případě varianty č.2 jde odsud text do pravé části
+
+\sloka
+Vaškovi do vězení v Heřmanicích
+
+jsme tajně posílali smaženici
+
+a mezi vajíčkama byly skryty
+
+pilníky, ba i libri prohibiti,
+
+jézeďák staral se jen o dobytek,
+
+jistý byl sociální výdobytek,
+
+po lukách zněly šťastné dětské hlasy,
+
+jó, kde jsou ty časy.
+
+\sloka
+Písně se pašovaly pod košilí,
+
+náměstím velel soudruh Džugašvili,
+
+ruskému medvědovi línala srst,
+
+jestřábům z Ameriky podbíral prst,
+
+dostat se za železnou střeženou zeď,
+
+to bylo dobrodružství, ne jako teď,
+
+teď mají všichni vůkol svoje pasy,
+
+jó, kde jsou ty časy.
+
+\sloka
+Svetr se po vyprání správně srážel,
+
+prezident na Hradě moc nepřekážel,
+
+na polích moh' jsi potkat antikrista
+
+a hrdě znělo slovo \uv{komunista},
+
+noviny byly troje, strana jedna
+
+a policie krásně zodpovědná,
+
+cikánům hrůzou ježily se vlasy,
+
+jó, kde jsou ty časy.
+
+\sloka
+Armáda střežila nám klidné spaní
+
+a žáci byli disciplinovaní,
+
+čtyřicet korun stálo maso hovězí
+
+a vůkol znělo to, že pravda vítězí,
+
+dnes už to není, co to bývalo,
+
+všecko se jaksi blbě splantalo,
+
+jediné, co mi dneska zbývá asi,
+
+je zpívat: jó, kde jsou ty časy,
+
+jó, kde jsou ty časy, staré dobré časy,  hoho.
+
+\end{varwidth}
+
+\end{centerjustified}
+}
+\setcounter{Slokočet}{0}
+\end{song}

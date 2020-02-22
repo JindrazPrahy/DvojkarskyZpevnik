@@ -1,0 +1,117 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%			ŠABLONA PÍSNIČEK v. 18.09               %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Tento soubor slouží jako (naučná) šablona, pomocí 
+% které lze vytvářet zdrojové soubory k jednotlivým 
+% písním.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%			Jak psát soubory songů?                 %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	1. Text písně se začíná psát na místě START 
+%	   a končí na místě END. Zbylý text ignorujte.
+%	2. Jak bude vypadat pdf písně zjistíte po tom, 
+%	   co soubor zkompilujete pomocí souboru   
+%      ../Generator/generator. 
+%	3. Při psaní dodržujte následující TeX pravidla:
+%	 a) Nový řádek napíšete pomocí dvou odsazení 
+%	    tedy dvou enterů.
+%	 b) Nová sloka se píší pomocí \sloka a odsazení.
+%		Refrén se píše jako \refren, v případě více 
+%		refrénů \refren[č. refrénu].
+%	 c) Akordy se píšou tak, že napíšete před slovo,
+%	    kde chcete mít akord (bez mezery):
+%		^{AKORD1\,AKORD2...}.
+%	4. Pokud chcete ušetřit tvůrcům práci, tak 
+%	   si přečtěte další poučný soubor o typografii 
+%	   ../../Typo_pravidla.txt.
+%	5. Akordy stačí psát jen do první sloky, když 
+%	   se nezmění -- kytaristé to zvládnou
+%	7. Název písně pište na místo [NÁZEV] a autora 
+%	   pište na místo [AUTOR] 
+%	7. Jak psát věci na české klávesnici:
+%	   \ = alt gr + q; [/] = alt gr f/g; 
+%      {/} = alt gr + b/n; ^ = alt gr + 3 , cokoliv
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%			Jak kompilovat jednotlivé písně?        %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	1. Více návodu je k tomuto napsáno v souboru 
+%      ../Generator/generator. 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%			Jak kompilovat celý zpěvník?			%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	1. Více návodu je k tomuto napsáno v souboru
+%	   ../Cely_zpevnik/zpevnik.tex.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{song}{title=\predtitle \centering Kurtizána \\\large UDG }  %% sem se napíše jméno songu a autor
+
+\vspace*{.5cm}
+
+\begin{centerjustified}
+\vetsi
+\sloka
+^{Emi\z}Jsi~jenom člověk, co se ^{\z C}narodí
+
+v těle, kde ^{\z G}tělo duši ^{D\z}ruší.
+
+Něco si vezme, něco zahodí
+
+jen tak jak jeho srdce buší.
+
+\sloka
+^{Emi\z}Nemám tě ^{C\z}znát,
+
+nemám mít ^{D\z}rád,
+
+nehledat v kapce vína.
+
+Nemám tě znát,
+
+nemám mít rád
+
+barbína, balerína.
+
+\sloka
+Za oknem prší, běží Magion,
+
+oči jsou pusté kurty z rána.
+
+Lampa je nejkrásnější lampion
+
+a ty jsi bílá, černá vrána.
+
+\refren
+Říkaj, že neni žádná Marion,
+
+že není ctnostná kurtizána,
+
+že jsou jen stíny, ona a on,
+
+že jsou jen noci a rána.
+
+\sloka
+Jsem jenom člověk, co se narodí
+
+v těle kde tělo duši ruší.
+
+A každá rána ta se zahojí
+
+a každé ráno ti to sluší
+
+\sloka
+Nemám tě znát
+
+nemám mít rád,
+
+až město pozhasíná.
+
+Nemám tě znát,
+
+nemám mít rád
+
+sejdem se u kasína.
+
+\refren
+
+\end{centerjustified}
+\setcounter{Slokočet}{0}
+\end{song}

@@ -1,0 +1,128 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%			ŠABLONA PÍSNIČEK v. 18.09               %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Tento soubor slouží jako (naučná) šablona, pomocí 
+% které lze vytvářet zdrojové soubory k jednotlivým 
+% písním.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%			Jak psát soubory songů?                 %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	1. Text písně se začíná psát na místě START 
+%	   a končí na místě END. Zbylý text ignorujte.
+%	2. Jak bude vypadat pdf písně zjistíte po tom, 
+%	   co soubor zkompilujete pomocí souboru   
+%      ../Generator/generator. 
+%	3. Při psaní dodržujte následující TeX pravidla:
+%	 a) Nový řádek napíšete pomocí dvou odsazení 
+%	    tedy dvou enterů.
+%	 b) Nová sloka se píší pomocí \sloka a odsazení.
+%		Refrén se píše jako \refren, v případě více 
+%		refrénů \refren[č. refrénu].
+%	 c) Akordy se píšou tak, že napíšete před slovo,
+%	    kde chcete mít akord (bez mezery):
+%		^{AKORD1\,AKORD2...}.
+%	4. Pokud chcete ušetřit tvůrcům práci, tak 
+%	   si přečtěte další poučný soubor o typografii 
+%	   ../../Typo_pravidla.txt.
+%	5. Akordy stačí psát jen do první sloky, když 
+%	   se nezmění -- kytaristé to zvládnou
+%	7. Název písně pište na místo [NÁZEV] a autora 
+%	   pište na místo [AUTOR] 
+%	7. Jak psát věci na české klávesnici:
+%	   \ = alt gr + q; [/] = alt gr f/g; 
+%      {/} = alt gr + b/n; ^ = alt gr + 3 , cokoliv
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%			Jak kompilovat jednotlivé písně?        %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	1. Více návodu je k tomuto napsáno v souboru 
+%      ../Generator/generator. 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%			Jak kompilovat celý zpěvník?			%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	1. Více návodu je k tomuto napsáno v souboru
+%	   ../Cely_zpevnik/zpevnik.tex.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vspace{-.5cm}
+\begin{song}{title=\predtitle \centering Jacek \\\large Jaromír Nohavica }  %% sem se napíše jméno songu a autor
+
+\vspace*{-.5cm}
+
+\begin{centerjustified}
+\vetsi
+\sloka
+^{G}Na druhém břehu řeky ^{D\z}Olše žije Jacek,
+
+^{C}mám k němu stejně blízko ^{G}jak on ke mně,
+
+^{G}máváme na sebe z ^{D}říční navigace,
+
+^{C\z}dva spojenci a dvě ^*{\z G}spřá telené země,
+
+jak malí kluci hážem z ^{D}břehů žabky,
+
+^{C\z}kdo vyhraje, má z ^*{\z G}protější ho srandu,
+
+hlavama kroutí česko-polské babky,
+
+^*{C}dě láme prostě vlastní ^*{\z G}pro pagandu.
+
+\sloka
+Na mostě přátelství se tvoří dlouhé fronty
+
+všelikých věcí za všelikou cenu,
+
+já mám však na to velmi úzké horizonty
+
+a Jacek velmi nenáročnou ženu,
+
+týden co týden z břehů navigace
+
+na sebe řveme:\uv{Chlapče, hlavu vzhůru!},
+
+jak je to krásné, moci vykašlat se
+
+na celní předpisy a na cenzuru, na na\elipsa.\elipsa.\elipsa.
+
+\sloka
+Z Piastovské věže na nás mává kníže Měšek
+
+a směje se, až třepe se mu brada,
+
+ve zprávách večer běží horký dnešek,
+
+aspoň se máme s Jackem o co hádat,
+
+on tvrdí svoje, já zas tvrdím svoje
+
+a domluvit se někdy bývá marno,
+
+tak spolu vedem pohraniční boje
+
+a v praxi demonstrujem Solidarnosc, na na\elipsa.\elipsa.\elipsa.
+
+\sloka
+Na druhém břehu řeky Olše žije Jacek,
+
+mám k němu stejně blízko jak on ke mně,
+
+máváme na sebe z říční navigace,
+
+dva spojenci a dvě spřátelené země
+
+/: a voda plyne, plyne, plyne dlouhé věky,
+
+řeka se kroutí jako modrá šňůrka
+
+a my dva hážem kachnám vprostřed řeky
+
+krajíčky chleba o dvou stejných kůrkách. :/
+
+Na na na\elipsa.\elipsa.\elipsa.
+
+
+
+\end{centerjustified}
+\setcounter{Slokočet}{0}
+\end{song}
+
+

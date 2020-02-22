@@ -1,0 +1,342 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%			CELÝ ZPĚVNÍK v. 18.09  					%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Toto je hlavní soubor zpěvníku, z kterého lze 
+% kompilovat celý zpěvník se všemi písničkami.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%			Jak kompilovat celý zpěvník?			%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Přidání nové písničky probíhá tak, že:
+% 1. Napíšete .tex soubor s textem písničky a akordy 
+% a soubor vložíte do ../songy
+%	a) Soubor se píše podle pravidel napsaných 
+%	   v souboru ../Generator/generator.tex
+%	b) V souboru ../Generator/generator.tex
+%	   se soubor také kompiluje samostatně 
+%      pro kontrolu.
+% 2. Písnička se přidá na místě označeném kódem 
+%    PRIDAVANI (ctrl+f a dá se to najít). Přidáte 
+%    ji vložením následujícího řádku podle abecedy: 
+%    \addcontentsline{toc}{section}{[ZDE NAPIŠ NÁZEV PÍSNIČKY]}\input{../songy/[ZDROJOVÝ SOUBOR PÍSNIČKY].tex}\newpage
+% 3. Výsledek s zobrazí po kompilaci DVAKRÁT 
+%    za sebou (kvůli toc).
+% (4.) Předmluva se upravuje na místě PŘEDMLUVA.
+% (5.) Cover obrázek: PŘEBAL1
+% (6.) Watermark: VODOZNAK
+% (7.) Seznam všech akordů: PŘEHLED
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%			Jak kompilovat jednotlivé písně?        %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	1. Více návodu je k tomuto napsáno v souboru 
+%      ../Generator/generator. 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%			Jak psát soubory songů?                 %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	1. Více návodu je k tomuto napsáno v souboru 
+%      ../songy/00Songtemplate. 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[openany,12pt]{memoir}
+\usepackage[utf8]{inputenc}
+\usepackage[czech]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[top=1.5cm, bottom=2cm, left=2cm, right=2cm]{geometry}  % --> NASTAVENÍ OKRAJŮ
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{xwatermark}
+\usepackage{xcolor}
+\usepackage{changepage}
+\usepackage{pdfpages}
+\usepackage{lettrine}
+\usepackage{indentfirst}  %Důležité pro formátování
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  FONT                              %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{amssymb}
+\usepackage{tgschola}
+
+
+
+%%%%%% Package na zpěvník
+\usepackage[full]{leadsheets}%http://mirrors.nic.cz/tex-archive/macros/latex/contrib/leadsheets/leadsheets_en.pdf   --> dokumentace	
+\definesongtitletemplate{empty}{} 
+\setchords{
+format = \bfseries \sffamily,   %tučné akordy
+minor = {mi},% 
+input-notation = {german},%
+output-notation = {german}%
+}
+\definesongtitletemplate{empty}{} 
+
+\newlength{\drop}
+% VODOZNAK
+\newwatermark[pages=3-,color=red!50,angle=0,scale=2, xpos=0,ypos=0]{\includegraphics[width=5cm]{obr/pozadi2.jpg}} %--> dvojka na pozadí
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%		 Vlastní příkazy
+\newcounter{Slokočet}   %Automatické číslování slok
+\newcommand{\mezera}{
+\phantom{.}
+
+}   %Horizontální odsazení slok (poněkud blbě zadefinovaný, ale jinak se formát rozbije jako wtf prostě)
+\newcommand{\stred}{5.2cm}   %%% Na zarovnání slok doprostřed, pozn. automatičtější zarovnávání na střed nejde
+\newcommand{\carka}{,\:}
+\newcommand{\m}[1]{\color{white}{#1}}  %Pro akordy
+\newcommand{\ap}{'}	%Pro apostrof
+\newcommand{\elipsa}{\kern\fontdimen3\font} %Příkaz pro lepší zacházení s výpustkami (=...); je to vpodstatě jen mezera mezi tečkama výpustky
+\newcommand{\pindent}{17.62482 pt} %Správná velikost \parindentu u layoutu se dvěma minipageama
+\newcommand{\predtitle}{\huge}
+\newcommand{\mezisloupci}{\phantom{TT}} %Místo mezi dvěma sloupci na jedné stránce
+\newcommand{\z}{\hspace*{\fill}\null}
+
+%%% Možné velikosti písem 
+\newcommand{\normalni}{\normalsize}
+\newcommand{\velky}{\fontsize{14.4}{15}\selectfont}
+\newcommand{\vetsi}{\fontsize{15}{16}\selectfont}
+\newcommand{\nejvetsi}{\fontsize{16}{17}\selectfont}
+\newcommand{\nejnejvetsi}{\fontsize{17}{19}\selectfont}
+
+%%% Stará definice sloky spoléhající na indenty
+%\newlength{\pismeno}
+%\settowidth{\pismeno}{x} %Tohle není moc ideální velikost, ale funguje
+%\newif\ifslokavelka
+%\slokavelkafalse
+%\newcommand{\sloka}{
+%\ifnum \value{Slokočet}>8  %Pokud je sloka dvouciferná
+%\mezera \noindent \addtocounter{Slokočet}{1} \hspace*{-\pismeno}\arabic{Slokočet}.
+%\else %Pokud jen jednociferná
+%\mezera \noindent \addtocounter{Slokočet}{1} \arabic{Slokočet}. 
+%\fi
+%} 	%sloka, která se automaticky čísluje
+
+\newcommand{\distanc}{\:}  %Vzdálenost čísla sloky před slokou
+\newlength{\delkaargumentu}
+%%% Sloka s automatickým číslováním
+\newcommand{\sloka}{%
+\addtocounter{Slokočet}{1}% Zvýší se o 1 počet slok
+\mezera%  Sloka se odsadí vertikálně
+\settowidth{\delkaargumentu}{\arabic{Slokočet}.\distanc}% Zde se určí délka odsazení 
+\hspace*{-\delkaargumentu}%
+\arabic{Slokočet}.\distanc%
+\ignorespaces% Aby nevznikaly zbytečné mezery
+}
+
+
+%%% Sloka s vlastním argumentem
+\newcommand{\ssloka}[1]{%     
+\settowidth{\delkaargumentu}{#1\distanc}
+\mezera%
+\hspace*{-\delkaargumentu}%
+#1\distanc%
+\ignorespaces%
+}  
+
+%%% Refrén
+\newcommand{\refren}[1][0]{%  Nepovinný argument sděluje, kolikátý refrén toto je, bez argumentu se vytiskne pouze refrén
+\ifnum #1>0 %Pokud nepovinný argument existuje
+\mezera%
+\settowidth{\delkaargumentu}{\textbf{R$_{\text{#1}}$:}\distanc}%
+\hspace*{-\delkaargumentu}%
+\textbf{R$_{\text{#1}}$:}\distanc%
+\ignorespaces%
+\else %Pokud nepovinný argument neexistuje
+\mezera%
+\settowidth{\delkaargumentu}{\textbf{R:}\distanc}%
+\hspace*{-\delkaargumentu}%
+\textbf{R:}\distanc%
+\ignorespaces%
+\fi
+}
+
+\newcommand{\predehra}{\ssloka{\textbf{Předehra:}}}
+
+
+\addto\captionsczech{\renewcommand{\contentsname}{Seznam písní}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%    FORMÁTOVÁNÍ                   %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%% Vlevo zarovnaný text s blokem zarovnaným na střed
+\usepackage{varwidth}% http://ctan.org/pkg/varwidth
+\newenvironment{centerjustified}{%
+  \begin{center} % so the minipage is centered
+  \begin{varwidth}[t]{\textwidth}	
+  \raggedright % so the minipage's text is left justified
+  \setlength{\parindent}{\pindent}
+}{%
+  \end{varwidth}
+  \end{center}
+}
+
+
+\begin{document}
+\sffamily %Sans-serif font vypadá lépe
+\velky   %Minimální čitelná velikost
+
+
+\renewcommand{\abstractname}{\vspace{-\baselineskip}} %Aby nad úvodním textem nebyl nápis ,,Abstract''
+
+
+%Kompilovat dvakrát, aby se updatnula TOC
+\setcounter{page}{-2}
+\thispagestyle{empty}
+\newpage
+\phantom{prázdná strana}
+\newpage
+\phantom{prázdná strana}
+\pagestyle{empty}
+%%%%%%%%%%%% PŘEBAL1 %%%%%%%%%%%%%%%%%%
+%\includepdf{obr/wolfUndMowe}
+\newpage
+\phantom{prázdná strana}
+\newpage
+
+%%%%%%%%%%%% Úvod %%%%%%%%%%%%%%%%%%
+\vspace*{4\baselineskip}
+\begin{abstract}
+\large 
+
+\sffamily
+% PŘEDMLUVA
+
+\lettrine{P}rávě se k Vám dostal první Wakanský spojený zpěvník. Tento zpěvník
+si klade za cíl být striktně lepší náhradou dřívějších zpěvníků jakéhokoliv
+druhu poskytující všemožné designové a funkční vylepšení (umožněné programem
+{\LaTeX}). Najdete tu písničky k (nejen) táborovém ohni vybrané vedením Wakanů,
+užívejte si je :\textasciicircum D. Za zpracování vděčíme Jindrovi.\\\\
+Hodně zábavy při zpěvu přejí:\\
+Hrabí, Lucka, Win'gu, Zdenda a Žabka
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+{\tiny \rmfamily Zpěvník 18.09, Bojovná barakuda LTS} %Název verze zpěvníku podle verze
+\end{abstract}
+\newpage
+
+%%%%%%%%%%%%% Obsah %%%%%%%%%%%%%%%%
+\addtocontents{toc}{\protect\thispagestyle{empty}}
+{
+\newgeometry{top=0cm, bottom = 0cm, left = 2cm, right = 2cm}
+\vspace{-5cm}
+\tableofcontents* \thispagestyle{empty}\newpage
+}
+
+
+%%%%%%%%%%%%% Písně %%%%%%%%%%%%%%%%
+%% Okraje:
+% P+L = 4cm
+% T = 1.5cm
+% B = 0 cm
+\newgeometry{top=1.5cm, bottom = 0cm, left = 2cm, right = 2cm}
+\setlrmarginsandblock{1.5cm}{2.5cm}{*} %Kvůli dírám pro kroužky
+\setulmarginsandblock{1.5cm}{0cm}{*}
+\checkandfixthelayout 
+
+
+% PRIDAVANI 
+\pagestyle{simple}
+\phantomsection\addcontentsline{toc}{section}{Skautská hymna a Večerka}\input{../songy/0SkautskaHymna.tex}\newpage
+\phantomsection\addcontentsline{toc}{section}{1. signální}\input{../songy/1signalni.tex}\newpage
+\phantomsection\addcontentsline{toc}{section}{Amerika}\input{../songy/Amerika.tex}\newpage
+\phantomsection\addcontentsline{toc}{section}{Anděl}\input{../songy/Andel.tex}\newpage
+\phantomsection\addcontentsline{toc}{section}{Antidepresivní rybička}\input{../songy/AntidepresivniRybicka.tex}\newpage
+\phantomsection\addcontentsline{toc}{section}{Batalion}\input{../songy/Batalion.tex}\newpage
+%Zde je vyhrazené místo, kde nebude Bedna od Whisky
+\phantomsection\addcontentsline{toc}{section}{Carpe Diem}\input{../songy/CarpeDiem.tex}\newpage
+%\phantomsection\addcontentsline{toc}{section}{Counting Stars}\input{../songy/CountingStars.tex}\newpage
+\phantomsection\addcontentsline{toc}{section}{Černej pasažér}\input{../songy/CernejPasazer.tex}\newpage
+\phantomsection\addcontentsline{toc}{section}{Dej mi víc své lásky}\input{../songy/DejMiVicSveLasky.tex}\newpage
+%\phantomsection\addcontentsline{toc}{section}{Dezolát}\input{../songy/Dezolat.tex}\newpage
+\phantomsection\addcontentsline{toc}{section}{Dokud se zpívá}\input{../songy/DokudSeZpiva.tex}\newpage
+%\phantomsection\addcontentsline{toc}{section}{Drobná paralela}\input{../songy/DrobnaParalela.tex}\newpage
+\phantomsection\addcontentsline{toc}{section}{Dům u vycházejícího Slunce}\input{../songy/DumUVychazejicihoSlunce.tex}\newpage
+\phantomsection\addcontentsline{toc}{section}{Hallelujah}\input{../songy/Hallelujah.tex}\newpage  % Pouze jednostranná verze
+\phantomsection\addcontentsline{toc}{section}{Hlídač krav}\input{../songy/HlidacKravVERII.tex}\newpage
+\phantomsection\addcontentsline{toc}{section}{Ho ho Watanay}\input{../songy/HoHoWatanay.tex}\newpage
+%\phantomsection\addcontentsline{toc}{section}{House Of The Rising Sun}\input{../songy/HouseOfTheRisingSun.tex}\newpage
+%\phantomsection\addcontentsline{toc}{section}{Houslicky}\input{../songy/Houslicky.tex}\newpage
+\phantomsection\addcontentsline{toc}{section}{Huascarán}\input{../songy/Huascaran.tex}\newpage
+\phantomsection\addcontentsline{toc}{section}{Hvězdář}\input{../songy/Hvezdar.tex}\newpage
+%\phantomsection\addcontentsline{toc}{section}{Chci ti říct}\input{../songy/ChciTiRict.tex}\newpage
+\phantomsection\addcontentsline{toc}{section}{Chvíle}\input{../songy/Chvile.tex}\newpage
+\phantomsection\addcontentsline{toc}{section}{Jacek}\input{../songy/Jacek.tex}\newpage
+\phantomsection\addcontentsline{toc}{section}{Jahody Mražený}\input{../songy/JahodyMrazeny.tex}\newpage
+\phantomsection\addcontentsline{toc}{section}{Jdem zpátky do lesů}\input{../songy/JdemZpatkyDoLesu.tex}\newpage
+%\phantomsection\addcontentsline{toc}{section}{Ještě jedno kafe}\input{../songy/JesteJednoKafe.tex}\newpage
+%\phantomsection\addcontentsline{toc}{section}{Jožin z bažin}\input{../songy/JozinZBazin.tex}\newpage
+\phantomsection\addcontentsline{toc}{section}{Kluziště}\input{../songy/Kluziste.tex}\newpage	
+\phantomsection\addcontentsline{toc}{section}{Kometa}\input{../songy/Kometa.tex}\newpage
+\phantomsection\addcontentsline{toc}{section}{Kurtizána}\input{../songy/Kurtizana.tex}\newpage
+\phantomsection\addcontentsline{toc}{section}{Lemon Tree}\input{../songy/LemonTree.tex}\newpage
+%\phantomsection\addcontentsline{toc}{section}{Let Her Go}\input{../songy/LetHerGo.tex}\newpage
+%\phantomsection\addcontentsline{toc}{section}{Let It Be}\input{../songy/LetItBe.tex}\newpage
+%\phantomsection\addcontentsline{toc}{section}{Lilie}\input{../songy/Lilie.tex}\newpage
+%\phantomsection\addcontentsline{toc}{section}{Malý rytíř}\input{../songy/MalyRytir.tex}\newpage
+\phantomsection\addcontentsline{toc}{section}{Marie}\input{../songy/Marie.tex}\newpage
+\phantomsection\addcontentsline{toc}{section}{Mezi Horami}\input{../songy/MeziHoramiVERII.tex}\newpage
+\phantomsection\addcontentsline{toc}{section}{Milionář}\input{../songy/MilionarVERII.tex}\newpage
+%\phantomsection\addcontentsline{toc}{section}{Modlitba pro partu}\input{../songy/ModlitbaProPartu.tex}\newpage
+%MRAZÍK -- od koho?
+\phantomsection\addcontentsline{toc}{section}{Nad stádem koní}\input{../songy/NadStademKoniVERII.tex}\newpage
+\phantomsection\addcontentsline{toc}{section}{Nagasaki Hirošima}\input{../songy/NagasakiHirosimaVERII.tex}\newpage
+\phantomsection\addcontentsline{toc}{section}{Náhrobní kámen}\input{../songy/NahrobniKamen.tex}\newpage
+\phantomsection\addcontentsline{toc}{section}{Náměšť}\input{../songy/Namest.tex}\newpage
+%\phantomsection\addcontentsline{toc}{section}{Nejlíp jim bylo}\input{../songy/NejlipJimBylo.tex}\newpage % Nevim presne, jak hrat... %Je to fakt dobrá písnička, já bych ji tam dal -- Jindra % Uz jsem na to prisel
+\phantomsection\addcontentsline{toc}{section}{O malém rytíři}\input{../songy/OMalemRytiri.tex}\newpage
+%\phantomsection\addcontentsline{toc}{section}{Pažitka}\input{../songy/Pazitka.tex}\newpage
+%\phantomsection\addcontentsline{toc}{section}{Perfect Day}\input{../songy/PerfectDay.tex}\newpage
+%\phantomsection\addcontentsline{toc}{section}{Petěrburg}\input{../songy/Peterburg.tex}\newpage
+\phantomsection\addcontentsline{toc}{section}{Pocity}\input{../songy/Pocity.tex}\newpage
+%POVĚSTE HO VEJŠ -- od koho?
+\phantomsection\addcontentsline{toc}{section}{Proklatej vůz}\input{../songy/ProklatejVuzVERII.tex}\newpage
+\phantomsection\addcontentsline{toc}{section}{Ráda se miluje}\input{../songy/RadaSeMiluje.tex}\newpage
+%\phantomsection\addcontentsline{toc}{section}{Radioactive}\input{../songy/Radioactive.tex}\newpage % Tezko se hraje
+%\phantomsection\addcontentsline{toc}{section}{Rád vařim}\input{../songy/Radvarim.tex}\newpage % Tezko se hraje
+%\phantomsection\addcontentsline{toc}{section}{Riptide}\input{../songy/Riptide.tex}\newpage
+%SEDMIKRÁSKA -- od koho?
+\phantomsection\addcontentsline{toc}{section}{Severní Vítr}\input{../songy/SeverniVitr.tex}\newpage
+%\phantomsection\addcontentsline{toc}{section}{Sound Of Silence}\input{../songy/SoundOfSilence.tex}\newpage
+\phantomsection\addcontentsline{toc}{section}{Stánky}\input{../songy/StankyVERII.tex}\newpage
+%STROM -- Od Koho?
+%\phantomsection\addcontentsline{toc}{section}{Studený nohy}\input{../songy/StudenyNohy.tex}\newpage
+%\phantomsection\addcontentsline{toc}{section}{Svaz českých bohémů}\input{../songy/SvazCeskychBohemu.tex}\newpage
+\phantomsection\addcontentsline{toc}{section}{To ta He\v lpa}\input{../songy/ToTaHelpaVERII.tex}\newpage
+%TOHLETO BY JEŽÍŠ NEŘEŠIL
+%\phantomsection\addcontentsline{toc}{section}{Trezor}\input{../songy/Trezor.tex}\newpage
+%\phantomsection\addcontentsline{toc}{section}{Už to nenapravím}\input{../songy/UzToNenapravim.tex}\newpage
+%\phantomsection\addcontentsline{toc}{section}{Velmi nesmělá}\input{../songy/VelmiNesmela.tex}\newpage
+%\phantomsection\addcontentsline{toc}{section}{What Shall We Do With the Drunken Sailor}\input{../songy/WhatShallWeDoWith.tex}\newpage
+\phantomsection\addcontentsline{toc}{section}{Wonderwall}\input{../songy/Wonderwall.tex}\newpage
+%We will rock you?
+%\phantomsection\addcontentsline{toc}{section}{Zatanči}\input{../songy/Zatanci.tex}\newpage
+%ŽELVA -- Od koho?
+
+
+
+
+%\input{../songy/ZZZStrumpatterns.tex}\newpage
+
+\pagestyle{empty}
+
+% Aby byla titulni strana a strana s akordy na coveru
+
+\phantom{.}
+\newpage
+
+\phantom{.}
+\newpage
+
+%%%%%%%%%%%%% Přehled akordů %%%%%%%%%%%%%%%%
+\newgeometry{top=0cm, bottom = 0cm, left = 0cm, right = 0cm}
+\thispagestyle{empty}
+\begin{figure}[h]
+\centering
+% PŘEHLED
+\includegraphics[height=\textheight]{../Akordy/AAAkordy3.pdf}
+\end{figure}
+
+
+
+\end{document}
+

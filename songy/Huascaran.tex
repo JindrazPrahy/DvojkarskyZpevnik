@@ -1,0 +1,87 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%			ŠABLONA PÍSNIČEK v. 18.09               %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Tento soubor slouží jako (naučná) šablona, pomocí 
+% které lze vytvářet zdrojové soubory k jednotlivým 
+% písním.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%			Jak psát soubory songů?                 %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	1. Text písně se začíná psát na místě START 
+%	   a končí na místě END. Zbylý text ignorujte.
+%	2. Jak bude vypadat pdf písně zjistíte po tom, 
+%	   co soubor zkompilujete pomocí souboru   
+%      ../Generator/generator. 
+%	3. Při psaní dodržujte následující TeX pravidla:
+%	 a) Nový řádek napíšete pomocí dvou odsazení 
+%	    tedy dvou enterů.
+%	 b) Nová sloka se píší pomocí \sloka a odsazení.
+%		Refrén se píše jako \refren, v případě více 
+%		refrénů \refren[č. refrénu].
+%	 c) Akordy se píšou tak, že napíšete před slovo,
+%	    kde chcete mít akord (bez mezery):
+%		^{AKORD1\,AKORD2...}.
+%	4. Pokud chcete ušetřit tvůrcům práci, tak 
+%	   si přečtěte další poučný soubor o typografii 
+%	   ../../Typo_pravidla.txt.
+%	5. Akordy stačí psát jen do první sloky, když 
+%	   se nezmění -- kytaristé to zvládnou
+%	7. Název písně pište na místo [NÁZEV] a autora 
+%	   pište na místo [AUTOR] 
+%	7. Jak psát věci na české klávesnici:
+%	   \ = alt gr + q; [/] = alt gr f/g; 
+%      {/} = alt gr + b/n; ^ = alt gr + 3 , cokoliv
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%			Jak kompilovat jednotlivé písně?        %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	1. Více návodu je k tomuto napsáno v souboru 
+%      ../Generator/generator. 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%			Jak kompilovat celý zpěvník?			%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	1. Více návodu je k tomuto napsáno v souboru
+%	   ../Cely_zpevnik/zpevnik.tex.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{song}{title=\predtitle \centering Huascarán \\\large  }  %% sem se napíše jméno songu a autor
+
+\vspace*{.5cm}
+
+\begin{centerjustified}
+\vetsi
+\refren
+^{Emi}Od horských ^{D\z}pramenů ^{Emi}Huascarán,
+
+nejtěžší ^{D\z}z~kamenů na ^{\z Emi}prsou mám,
+
+pochází ^{D\z}z~úbočí kde leží ^{Emi\z}cepín tvůj,
+
+slza ^*{\z D}se~r ozskočí, až se vrátíš ^{Emi\z}milý můj.
+
+\sloka
+S odvahou zázraků neseš svůj kříž,
+
+k stříbrným oblakům a ještě výš.
+
+Já jsem však zbabělá a tonu v obavách,
+
+čekám tě lásko má, vrať se prosím živ a zdráv.
+
+\ssloka{Recitativ:}
+Zpravodajství ČTK: Dne 31. května 1970 vypuklo
+
+v jihoamerické republice Peru katastrofální zemětřesení,
+
+které si vyžádalo tisíce lidských obětí. Mezi nimi i 15 životů
+
+československých horolezců, kteří sem přišli pokořit nejvyšší
+
+horu peruánských And\elipsa.\elipsa.\elipsa.\ Huascarán\elipsa.\elipsa.\elipsa.
+
+\refren
+
+\end{centerjustified}
+
+\setcounter{Slokočet}{0}
+\end{song}
+
+

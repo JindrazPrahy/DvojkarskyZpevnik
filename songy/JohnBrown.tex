@@ -1,0 +1,127 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%			ŠABLONA PÍSNIČEK v. 18.09               %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Tento soubor slouží jako (naučná) šablona, pomocí 
+% které lze vytvářet zdrojové soubory k jednotlivým 
+% písním.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%			Jak psát soubory songů?                 %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	1. Text písně se začíná psát na místě START 
+%	   a končí na místě END. Zbylý text ignorujte.
+%	2. Jak bude vypadat pdf písně zjistíte po tom, 
+%	   co soubor zkompilujete pomocí souboru   
+%      ../Generator/generator. 
+%	3. Při psaní dodržujte následující TeX pravidla:
+%	 a) Nový řádek napíšete pomocí dvou odsazení 
+%	    tedy dvou enterů.
+%	 b) Nová sloka se píší pomocí \sloka a odsazení.
+%		Refrén se píše jako \refren, v případě více 
+%		refrénů \refren[č. refrénu].
+%	 c) Akordy se píšou tak, že napíšete před slovo,
+%	    kde chcete mít akord (bez mezery):
+%		^{AKORD1\,AKORD2...}.
+%	4. Pokud chcete ušetřit tvůrcům práci, tak 
+%	   si přečtěte další poučný soubor o typografii 
+%	   ../../Typo_pravidla.txt.
+%	5. Akordy stačí psát jen do první sloky, když 
+%	   se nezmění -- kytaristé to zvládnou
+%	7. Název písně pište na místo [NÁZEV] a autora 
+%	   pište na místo [AUTOR] 
+%	7. Jak psát věci na české klávesnici:
+%	   \ = alt gr + q; [/] = alt gr f/g; 
+%      {/} = alt gr + b/n; ^ = alt gr + 3 , cokoliv
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%			Jak kompilovat jednotlivé písně?        %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	1. Více návodu je k tomuto napsáno v souboru 
+%      ../Generator/generator. 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%			Jak kompilovat celý zpěvník?			%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	1. Více návodu je k tomuto napsáno v souboru
+%	   ../Cely_zpevnik/zpevnik.tex.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{song}{title=\predtitle \centering John Brown \\\large  }  %% sem se napíše jméno songu a autor
+
+\vspace*{.5cm}
+
+\nejvetsi
+\begin{centerjustified}
+\sloka
+^{G\z}Černý muž pod bičem otrokáře žil,
+
+^{C\z}černý muž pod bičem ^{G\z}otrokáře žil,
+
+černý muž pod bičem otrokáře ^{Emi\z}žil,~~~
+
+^{\z \z A7}kapitán John ^{D7\z}Brown to ^{G\z}zřel.
+
+\refren
+^{G\z}Glory, glory, haleluja,
+
+^{C\z}glory, glory, ^{G}haleluja,
+
+glory, glory, ^{\z Emi}haleluja,
+
+\phantom{.}
+
+^{\z \z \z Ami}kapitán John ^{D7\z}Brown to ^{G\z}zřel.
+
+\sloka
+/: Sebral z Virginie černých přátel šik, :/
+
+sebral z Virginie černých přátel šik,
+
+prapor svobody pak zdvih'.
+
+\refren
+\dots  prapor svobody pak zdvih'.
+
+\sloka
+/: V čele věrných město Harper's Ferry jal, :/
+
+v čele věrných město Harper's Ferry jal,
+
+právo vítězí a čest.
+
+\refren
+\dots  právo vítězí a čest.
+
+\sloka
+/: Hrstka statečných však udolána jest, :/
+
+hrstka statečných však udolána jest,
+
+kapitán John Brown je jat.
+
+\refren
+\dots  kapitán John Brown je jat.
+
+\end{centerjustified}
+\newpage
+\begin{centerjustified}
+
+\sloka
+/: Zvony Charlestonu z dáli temně zní, :/
+
+zvony Charlestonu z dáli temně zní,
+
+Johnův den to poslední.
+
+\refren
+\dots  Johnův den to poslední.
+
+\sloka
+/: John Brown mrtev jest a jeho tělo tlí, :/
+
+John Brown mrtev jest a jeho tělo tlí,
+
+jeho duch však kráčí dál.
+
+\refren
+\dots  jeho duch však kráčí dál.
+
+\end{centerjustified}
+\setcounter{Slokočet}{0}
+\end{song}

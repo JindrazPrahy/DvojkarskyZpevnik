@@ -1,0 +1,109 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%			ŠABLONA PÍSNIČEK v. 18.09               %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Tento soubor slouží jako (naučná) šablona, pomocí 
+% které lze vytvářet zdrojové soubory k jednotlivým 
+% písním.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%			Jak psát soubory songů?                 %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	1. Text písně se začíná psát na místě START 
+%	   a končí na místě END. Zbylý text ignorujte.
+%	2. Jak bude vypadat pdf písně zjistíte po tom, 
+%	   co soubor zkompilujete pomocí souboru   
+%      ../Generator/generator. 
+%	3. Při psaní dodržujte následující TeX pravidla:
+%	 a) Nový řádek napíšete pomocí dvou odsazení 
+%	    tedy dvou enterů.
+%	 b) Nová sloka se píší pomocí \sloka a odsazení.
+%		Refrén se píše jako \refren, v případě více 
+%		refrénů \refren[č. refrénu].
+%	 c) Akordy se píšou tak, že napíšete před slovo,
+%	    kde chcete mít akord (bez mezery):
+%		^{AKORD1\,AKORD2...}.
+%	4. Pokud chcete ušetřit tvůrcům práci, tak 
+%	   si přečtěte další poučný soubor o typografii 
+%	   ../../Typo_pravidla.txt.
+%	5. Akordy stačí psát jen do první sloky, když 
+%	   se nezmění -- kytaristé to zvládnou
+%	7. Název písně pište na místo [NÁZEV] a autora 
+%	   pište na místo [AUTOR] 
+%	7. Jak psát věci na české klávesnici:
+%	   \ = alt gr + q; [/] = alt gr f/g; 
+%      {/} = alt gr + b/n; ^ = alt gr + 3 , cokoliv
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%			Jak kompilovat jednotlivé písně?        %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	1. Více návodu je k tomuto napsáno v souboru 
+%      ../Generator/generator. 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%			Jak kompilovat celý zpěvník?			%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	1. Více návodu je k tomuto napsáno v souboru
+%	   ../Cely_zpevnik/zpevnik.tex.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{song}{title=\predtitle \centering Jožin z bažin \\\large Ivan Mládek }  %% sem se napíše jméno songu a autor
+
+\vspace*{.5cm}
+\moveright .5cm \vbox{
+\begin{centerjustified}
+\vetsi
+\sloka
+^{Emi \z}Jedu takhle tábořit Škodou 100 na ^{Emi\z }Oravu,
+
+spěchám proto, riskuji, ^{H7\z}projíždím přes ^{Emi \z}Moravu.
+
+^{D7}Řádí tam to ^{G\z}strašidlo, ^{D7\z}vystupuje z ^{G H7\z}bažin,
+
+^{Emi\z}žere hlavně Pražáky, ^{H7\z}jmenuje se ^{Emi D7}Jožin.~~
+
+\refren
+^{G\z}Jožin z bažin močálem se ^{D7\z}plíží,
+
+Jožin z bažin k vesnici se ^{G\z}blíží,
+
+Jožin z bažin už si zuby ^{D7\z}brousí,
+
+Jožin z bažin kouše, saje, ^{G\z}rdousí.
+
+^{C}Na Jožina z ^{G\z}bažin, ^{D\z}koho by to ^{\z G}napadlo,
+
+^{C\z}platí jen a ^{G\z}pouze ^{D\z}práškovací ^{G H7 Emi}letadlo.~~~~~~~~~~~~~~~~~
+
+\sloka
+Projížděl jsem dědinou cestou na Vizovice,
+
+přivítal mě předseda, řek' mi u slivovice:
+
+\uv{Živého či mrtvého Jožina kdo přivede,
+
+tomu já dám za ženu dceru a půl JZD!}
+
+\refren
+
+\sloka
+Říkám:\uv{Dej mi, předsedo, letadlo a prášek,
+
+Jožina ti přivedu, nevidím v tom háček.}
+
+Předseda mi vyhověl, ráno jsem se vznesl,
+
+na Jožina z letadla prášek pěkně klesl.
+
+\refren
+Jožin z bažin už je celý bílý,
+
+Jožin z bažin z močálu ven pílí,
+
+Jožin z bažin dostal se na kámen,
+
+Jožin z bažin -- tady je s ním amen!
+
+Jožina jsem dohnal, už ho držím, johoho,
+
+dobré každé lóve, prodám já ho do ZOO.
+
+\end{centerjustified}
+}
+\setcounter{Slokočet}{0}
+\end{song}

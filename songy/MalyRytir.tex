@@ -1,0 +1,109 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%			ŠABLONA PÍSNIČEK v. 18.09               %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Tento soubor slouží jako (naučná) šablona, pomocí 
+% které lze vytvářet zdrojové soubory k jednotlivým 
+% písním.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%			Jak psát soubory songů?                 %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	1. Text písně se začíná psát na místě START 
+%	   a končí na místě END. Zbylý text ignorujte.
+%	2. Jak bude vypadat pdf písně zjistíte po tom, 
+%	   co soubor zkompilujete pomocí souboru   
+%      ../Generator/generator. 
+%	3. Při psaní dodržujte následující TeX pravidla:
+%	 a) Nový řádek napíšete pomocí dvou odsazení 
+%	    tedy dvou enterů.
+%	 b) Nová sloka se píší pomocí \sloka a odsazení.
+%		Refrén se píše jako \refren, v případě více 
+%		refrénů \refren[č. refrénu].
+%	 c) Akordy se píšou tak, že napíšete před slovo,
+%	    kde chcete mít akord (bez mezery):
+%		^{AKORD1\,AKORD2...}.
+%	4. Pokud chcete ušetřit tvůrcům práci, tak 
+%	   si přečtěte další poučný soubor o typografii 
+%	   ../../Typo_pravidla.txt.
+%	5. Akordy stačí psát jen do první sloky, když 
+%	   se nezmění -- kytaristé to zvládnou
+%	7. Název písně pište na místo [NÁZEV] a autora 
+%	   pište na místo [AUTOR] 
+%	7. Jak psát věci na české klávesnici:
+%	   \ = alt gr + q; [/] = alt gr f/g; 
+%      {/} = alt gr + b/n; ^ = alt gr + 3 , cokoliv
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%			Jak kompilovat jednotlivé písně?        %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	1. Více návodu je k tomuto napsáno v souboru 
+%      ../Generator/generator. 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%			Jak kompilovat celý zpěvník?			%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	1. Více návodu je k tomuto napsáno v souboru
+%	   ../Cely_zpevnik/zpevnik.tex.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{song}{title=\predtitle \centering Malý rytíř \\\large Klíč }  %% sem se napíše jméno songu a autor
+
+\vspace*{-.5cm}
+
+\begin{centerjustified}
+\vetsi
+\refren[1]
+^{G}Má pět let a ^{D}jméno ^*{G}Par sifal,
+
+^*{Emi}pod~st olem jak v ^{D}hradu ^{Emi}bydlí,
+
+^{G}na plotně mi ^{D}střeží ^{G}svatý Grál,
+
+^*{Emi}na~tur naj mi ^{D}jezdí ^{Emi}židlí,
+
+^{C}pod přílbou z ^{D}novin ^*{G}skálo pevný ^{D}zrak,
+
+^{G}čelo jako ^{D\z}anděl, ^{G}sílu jako ^{D}drak,
+
+^*{G}Nor many ^{D}lžičkou ^{Emi}mydlí.
+
+\sloka
+^*{Emi}Po~bit vách ^{\z D}vždy se ^{Emi}schoulí, ^{G}klášter si ^{D \phantom{D} G}vyhledá,
+
+^{Emi}rytíř s ^*{D}mod rou ^{Emi}boulí ^*{G}pof oukat ^{D}se ^{G}dá,
+
+^{C}pán hradu s ^{D}pláčem ^*{G}záp olí a máma s ^*{D}pán em ^{G}zas,
+
+^{C}jen co ta ^*{D}bou le ^*{G}přebo lí,
+
+chápe se ^{D}dřevce, ^{G}být doma ^*{D}nec hce, ^*{G}táh ne do ^{\z D}polí, je ^{\z Emi}čas.
+
+\refren[1]
+
+\refren[2]
+ Má pět let a jméno Lohengrin,
+
+ místo meče koště svírá,
+
+ zahrabal si poklad do peřin,
+
+ tak silná je jeho víra,
+
+ pod přílbou z novin skálopevný zrak,
+
+ čelo jako anděl, sílu jako drak,
+
+ v kalhotách zeje díra.
+
+\sloka
+Ze spaní skály láme, kraluje, jak se dá,
+
+s jedním uchem máme trůn, na němž zase dá,
+
+starost mám, které z princezen svůj prsten jednou dá,
+
+kde má tu svoji Svatou zem,
+
+proč starost, mámo, teď je teprv ráno, on vyhledá ji sám.
+
+\refren[2]
+
+\end{centerjustified}
+\setcounter{Slokočet}{0}
+\end{song}

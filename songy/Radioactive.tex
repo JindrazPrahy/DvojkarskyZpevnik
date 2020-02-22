@@ -1,0 +1,97 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%			ŠABLONA PÍSNIČEK v. 18.09               %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Tento soubor slouží jako (naučná) šablona, pomocí 
+% které lze vytvářet zdrojové soubory k jednotlivým 
+% písním.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%			Jak psát soubory songů?                 %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	1. Text písně se začíná psát na místě START 
+%	   a končí na místě END. Zbylý text ignorujte.
+%	2. Jak bude vypadat pdf písně zjistíte po tom, 
+%	   co soubor zkompilujete pomocí souboru   
+%      ../Generator/generator. 
+%	3. Při psaní dodržujte následující TeX pravidla:
+%	 a) Nový řádek napíšete pomocí dvou odsazení 
+%	    tedy dvou enterů.
+%	 b) Nová sloka se píší pomocí \sloka a odsazení.
+%		Refrén se píše jako \refren, v případě více 
+%		refrénů \refren[č. refrénu].
+%	 c) Akordy se píšou tak, že napíšete před slovo,
+%	    kde chcete mít akord (bez mezery):
+%		^{AKORD1\,AKORD2...}.
+%	4. Pokud chcete ušetřit tvůrcům práci, tak 
+%	   si přečtěte další poučný soubor o typografii 
+%	   ../../Typo_pravidla.txt.
+%	5. Akordy stačí psát jen do první sloky, když 
+%	   se nezmění -- kytaristé to zvládnou
+%	7. Název písně pište na místo [NÁZEV] a autora 
+%	   pište na místo [AUTOR] 
+%	7. Jak psát věci na české klávesnici:
+%	   \ = alt gr + q; [/] = alt gr f/g; 
+%      {/} = alt gr + b/n; ^ = alt gr + 3 , cokoliv
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%			Jak kompilovat jednotlivé písně?        %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	1. Více návodu je k tomuto napsáno v souboru 
+%      ../Generator/generator. 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%			Jak kompilovat celý zpěvník?			%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	1. Více návodu je k tomuto napsáno v souboru
+%	   ../Cely_zpevnik/zpevnik.tex.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{song}{title=\predtitle \centering Radioactive \\\large Imagine Dragons }  %% sem se napíše jméno songu a autor
+
+
+
+\vspace*{.5cm}
+
+\begin{centerjustified}
+
+\kapodastr{2}
+
+\vetsi
+\sloka
+^{Ami\z}I'm~waking ^{\z C}up to ash and ^{G\z}dust
+
+I wipe my ^{D\z}brow and I sweat my ^{Ami}rust
+
+I'm ^*{\z C}breathing~i n the ^*{\z G}chemical s.  ^{D}
+
+^{Ami}I'm breaking ^{C}in, shaping ^{G}up, then checking ^{D\z}out on the prison bus.
+
+^{Ami\z}This is ^{C \,}it,~ the ^*{\z G}apocalyps e. \dots ^{D\z}Whoa.
+
+\refren[1]
+I'm waking up, ^{Ami \z}I~feel it ^{C}in my bones
+
+^{G\z}Enough to make my ^{D\z}systems blow
+
+/: Welcome to the new age, to the new age. :/
+
+/: ^{Ami\z}Whoa, ^{C\z}whoa, I'm ^{G\z}radioactive, ^{D\z}radioactive :/
+
+\sloka
+^{Ami\z}I~raise my ^{C\z}flags, don my ^{G\z}clothes
+
+It's a ^*{\z D}revolu tion, I suppose.   ^{Ami}
+
+We're painted ^{C\z}red to fit right ^{G \,}in. \dots ^{D\z}Whoa.
+
+I'm breaking in, shaping up, then checking out on the prison bus
+
+This is it, the apocalypse. \dots Whoa.
+
+\refren
+
+^{Ami\z Cmaj7}All~systems~go, ^{G}sun hasn't ^*{\z D}die d
+
+Deep in my bones, straight from inside.
+
+\refren
+
+\end{centerjustified}
+\setcounter{Slokočet}{0}
+\end{song}
