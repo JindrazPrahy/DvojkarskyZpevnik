@@ -1,0 +1,178 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%			ŠABLONA PÍSNIČEK v. 18.09               %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Tento soubor slouží jako (naučná) šablona, pomocí 
+% které lze vytvářet zdrojové soubory k jednotlivým 
+% písním.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%			Jak psát soubory songů?                 %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	1. Text písně se začíná psát na místě START 
+%	   a končí na místě END. Zbylý text ignorujte.
+%	2. Jak bude vypadat pdf písně zjistíte po tom, 
+%	   co soubor zkompilujete pomocí souboru   
+%      ../Generator/generator. 
+%	3. Při psaní dodržujte následující TeX pravidla:
+%	 a) Nový řádek napíšete pomocí dvou odsazení 
+%	    tedy dvou enterů.
+%	 b) Nová sloka se píší pomocí \sloka a odsazení.
+%		Refrén se píše jako \refren, v případě více 
+%		refrénů \refren[č. refrénu].
+%	 c) Akordy se píšou tak, že napíšete před slovo,
+%	    kde chcete mít akord (bez mezery):
+%		^{AKORD1\,AKORD2...}.
+%	4. Pokud chcete ušetřit tvůrcům práci, tak 
+%	   si přečtěte další poučný soubor o typografii 
+%	   ../../Typo_pravidla.txt.
+%	5. Akordy stačí psát jen do první sloky, když 
+%	   se nezmění -- kytaristé to zvládnou
+%	7. Název písně pište na místo [NÁZEV] a autora 
+%	   pište na místo [AUTOR] 
+%	7. Jak psát věci na české klávesnici:
+%	   \ = alt gr + q; [/] = alt gr f/g; 
+%      {/} = alt gr + b/n; ^ = alt gr + 3 , cokoliv
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%			Jak kompilovat jednotlivé písně?        %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	1. Více návodu je k tomuto napsáno v souboru 
+%      ../Generator/generator. 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%			Jak kompilovat celý zpěvník?			%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	1. Více návodu je k tomuto napsáno v souboru
+%	   ../Cely_zpevnik/zpevnik.tex.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{song}{title=\predtitle \centering All Stars \\\large Smash
+Mouth }  %% sem se napíše jméno songu a autor
+
+\vspace*{.5cm}
+
+\begin{centerjustified}
+\vetsi
+\sloka
+^*{\z G}Somebo dy once ^{\z D}told me the ^{\z Ami}world is gonna ^{\z C}roll me
+
+I ^{G}ain't the sharpest ^{\z D}tool in the ^{\z Ami}shed. ^{C}
+
+She was ^*{G}loo king kinda ^{\z D}dumb with her ^{Ami}finger and her
+
+^{C\z}Thumb in the ^{G\z}shape of an ^{D}''L'' on her ^{Ami}forehead.  ^{C}
+
+\phantom{.}
+
+
+^{G}Well the years start coming and they ^{D\z}don't stop coming
+
+^{Ami\z}Back to the rules and I ^{C}hit the ground running
+
+^{G}Didn't make sense not to ^{\z D}live for fun
+
+Your ^{Ami\z}brain gets smart but ^{C}your head gets dumb.
+
+\phantom{.}
+
+^*{G}So~mu ch to do ^*{D}so~mu ch to see
+
+So ^{Ami\z}what's wrong with taking the ^{C}back streets.
+
+^{G}You'll never know if you ^{D}don't go.
+
+^{Ami}You'll never shine if you ^{C}don't glow.
+
+
+
+\refren
+^{G}Hey now you're an ^{C}All Star get ^{C#dim\z}your~game on, ^*{C}go~pl ay.
+
+^{G\z}Hey now you're a ^{\z C}Rock Star get ^{C#dim\z}the~show on ^*{C}get~pai d.
+
+^{G\z}And all that ^{C\z}glitters is ^{\z C#dim}gold~~
+
+^{C\z}Only shooting ^{G}stars ^{F}break the mold.   ^{C}
+
+
+\end{centerjustified}
+\newpage
+\begin{centerjustified}
+
+\sloka
+^{\z G}It's a cool place and they ^{D}say it gets colder
+
+^{Ami}You're bundled up now ^{C\z}but wait 'til you get older.
+
+But ^{G\z}the media men beg to ^{D\z}differ
+
+Judging by the ^*{\z Ami}hole~i n the satellite ^{C\z}picture.
+
+
+\phantom{.}
+
+The ice we ^{G}skate is getting pretty ^{D\z}thin
+
+The waters getting ^{Ami}warm so you might as well ^{C}swim.
+
+My world's on ^{G}fire how about ^{D}yours
+
+That's the ^{Ami\z}way~I~like it and I never get ^*{C}bor ed.
+
+
+\refren
+^{G\z}Hey now you're an ^{C}All Star get ^{C#dim\z}your~game on, ^{\z C}go play.
+
+^{G\z}Hey now you're a ^{\z C}Rock Star get ^{C#dim\z}the~show on ^*{C}get~pai d.
+
+^{G\z}And all that ^*{C}gli tters is ^{\z C#dim}gold~~~
+
+^{C\z}Only shooting ^{G}stars ^{F}break the mold.   ^{C}
+
+^{G\z}Hey now you're an ^{C}All Star get ^{C#dim\z}your~game on, ^{\z C}go play.
+
+^{G\z}Hey now you're a ^{\z C}Rock Star get ^{C#dim\z}the~show on ^*{C}get~pai d.
+
+^{G\z}And all that ^*{C}gli tters is ^{\z C#dim}gold~~~
+
+^{C\z}Only shooting ^{G}stars ^{F}break the mold.    ^{C}
+
+\sloka
+^{G\z}Somebody once ^{D}asked, could you ^{\z Ami}spare some change ^{\z C}for gas
+
+^{G\z}I~need to get myself ^{\z D}away from this ^{\z Ami}place.   ^{C}
+
+^{G\z}I~said yep what a ^*{D}con cept I could ^{\z Ami}use~a little fuel ^{C}myself
+
+And we ^*{G}cou ld all ^{\z D}use~a little ^{Ami}change.   ^{C}
+
+\end{centerjustified}
+\newpage
+\begin{centerjustified}
+
+
+^{\z G}Well the years start coming and ^{D}they~don't stop coming
+
+^{Ami\z}Back to the rules and I ^{C}hit the ground running.
+
+^{G}Didn't make sense not to ^{\z D}live for fun
+
+^{Ami}Your~brain gets smart but ^{\z C}your head gets dumb.
+
+
+So ^{G\z}much to do so ^{D\z}much to see
+
+So ^{Ami\z}what's wrong with taking the ^{C}back streets.
+
+^{G}You'll never know if you ^{D}don't go.
+
+^{Ami}You'll never shine if you ^{C}don't glow.
+
+\refren
+^{G\z}Hey now you're an ^{C}All Star get ^{C#dim\z}your~game on, ^{\z C}go play.
+
+^{G\z}Hey now you're a ^{\z C}Rock Star get ^{C#dim\z}the~show on ^*{C}get~pai d.
+
+^{G\z}And all that ^*{C}gli tters is ^{\z C#dim}gold~~~
+
+^{C\z}Only shooting ^{G}stars ^{F}break the mold.    ^{C}
+
+\end{centerjustified}
+\setcounter{Slokočet}{0}
+\end{song}
