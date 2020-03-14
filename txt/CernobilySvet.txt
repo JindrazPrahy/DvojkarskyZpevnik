@@ -3,27 +3,27 @@
 
    Dmi           F
 1. Jsme loutky bez nití
-   B          C___          Dmi
+   B          C             Dmi
    já i všech patnáct druhů mých.
                F
    Bez smrti bez žití
-   B____ C_
+   B           C
    bloumáme tupě po polích.
-    Dmi B_
+    Dmi B
 R: Černá a bílá je,
-   C_                    Dmi
+   C                     Dmi
    osm kroků tam a osm sem,
-             B_
+            B
    frontová linie.
     C                  Dmi
    Na věky proti sobě jdem.
-   Dmi       F__
+   Dmi      F
 2. Stojí tu opodál
-    B ___C         __Dmi
-   náš domnělý to nepřítel.
-                F_
+    B
+   náš      domnělý to      nepřítel.
+               F
    I když jsem černý král,
-    B__          C _Dmi
+   B             C      Dmi
    nejsem svých figur velitel.
 
 3. Vždy první na tahu
@@ -44,3 +44,4 @@ R:
    je vaše lidská doména.
 
 R:
+

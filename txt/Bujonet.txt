@@ -7,7 +7,7 @@
    bláta po kotníky špinavej sníh.
    G                C Emi
    Vojáci v kotlíku oběd vaří,
-   Ami              C__ __G
+   Ami              C      G
    polívka bublá a oheň kouří
 
 2. Zaduněl za kopcem polední zvon,
@@ -38,3 +38,4 @@ R:
 R:
 
 R:
+

@@ -1,25 +1,25 @@
                       Homosexuál
                             Tři sestry
 
-   H                                       C#        E
+   H                                       C4        E
 1. Už je to hotový, dneska v noci se k nim rovnou dám.
-   H                                     C#        E
+   H                                      C4       E
    Už je to hotový, já rande s bukanýrem u něj mám.
    H                            E           H
    Velká šance konta v bance a stačí dobrej styk.
-   H                                     C# E H
+   H                                      C4 E H
    Růžovou lobby znám a chci k ni patřit i já, já sám.
-      H           F#
+       H          F4
 R: /: Já už chci být,
-   G#mi            E       H
+   G 4mi           E       H
    já chci být jen homosexuál. :/
-   H          F#
+   H           F4
    Já už chci být,
-   G#mi            E       H
+   G 4mi           E       H
    já chci být jen homosexuál.
-   H         F#
-   Já už chci být
-   G#mi E             H
+   H          F4
+   Já už chcibýt
+   G 4mi E           H
      jen homosexuál.
 
 2. Měkký sevření už se nepustim a stoupám dál.
@@ -28,11 +28,11 @@ R: /: Já už chci být,
    Růžovou lobby znám a chci k ní patřit i já, já sám.
 
 R:
-                F4               G#mi           E
+                F4                G 4mi         E
      Návštěvník klubů který jen z filmů a vtipů znáš.
-                              F#          G#mi                  E
+                              F4          G 4mi                 E
      Vzpomínky na korunkách zubů na věcí víc než ty šanci zažít máš.
-                     F#
+                     F4
      Věcí se značkou homo.
 
 3. Tajný sdružení spiklenecký pocit prožívám.
@@ -41,3 +41,4 @@ R:
    Růžovou lobby znám a už k ní patřím i já, já sám.
 
 R:
+

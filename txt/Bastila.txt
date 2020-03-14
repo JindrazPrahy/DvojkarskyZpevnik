@@ -14,9 +14,9 @@
    dobré je dolů kopat a smát se nad sebe.
    Dmi A 4         C          A
 R: Bastila padá – s ní hlavy králů,
-   A4         C             A
-    z chaosu vzejde nový řád.
-   Dmi A 4_ C            A
+   A4        C            A
+   z chaosu vzejde nový řád.
+   Dmi A 4 C            A
    Lůza se baví a nevědomky
    A4     C           Dmi       A4 C A
    začíná stavět jiný kriminál.
@@ -40,3 +40,4 @@ R:
    tam si budem zas rovni . . .
 
 R:
+

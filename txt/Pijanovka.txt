@@ -1,15 +1,15 @@
                    Pijánovka
                         Tři sestry
 
-    D                      A
+    D                       A
 1. Na highway číslo jedna vyjetejma kolejema
-     G                            A
+     G                             A
    v prachu na pět svíček brachu jezděj traky beze strachu.
-    D                           A
+    D                            A
    Možná potkáš cestou Láďu, jak žene svůj dravej vůz,
-   G__                         A
-    svojí starou rychlou káru, který říká autobus.
-   D                             A
+   G                          A
+   svojí starou rychlou káru, který říká autobus.
+   D                              A
    V Průhonicích vezme plnou, na padesátým spláchne kolou
     G_                       A
    rybu, kterou snědl celou smaženou jen trochu leklou.
@@ -40,3 +40,4 @@ R:
    neznáme, a tak o něm nezpíváme.
 
 R:
+

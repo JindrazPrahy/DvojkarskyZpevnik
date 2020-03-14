@@ -10,3 +10,4 @@
 5    ↓↑↓_↓↑      např. v písni Cesta do Jenkovic
 6    ↓_↓↑_↑↓↑    lze hrát např. v refrénu Cesty do Jenkovic
 7    ↓_↓_↓↑↓↑    lze hrát např. v refrénu Cesty do Jenkovic
+

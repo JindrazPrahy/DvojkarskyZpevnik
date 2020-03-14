@@ -1,15 +1,15 @@
                   Danse Macabre
-                      Jaromír Nohavica
+                       Jaromír Nohavica
 
    Dmi B Dmi B Dmi B Dmi B Dmi F A Dmi B F C F A
 R: Naj, naj naj naj, naj naj naj . . .
-   Dmi                           ___B
+   Dmi                                 B
 1. Šest milionů srdcí vyletělo komínem,
-   Dmi                            ____B
+   Dmi                                   B
    svoje malé lži si, lásko, dnes prominem,
    F                  A
    budeme tančit s venkovany,
-            Dmi                   B__ F C
+            Dmi                   B     FC
    na návsi vesnice, budeme se smát,
             F A
    mám tě rád.
@@ -29,3 +29,4 @@ R:
    Pánbůh se klidně opil levným balkánským likérem
    a teď vyspává,
    jinak to smysl nedává.
+
