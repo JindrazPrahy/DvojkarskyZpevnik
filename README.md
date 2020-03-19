@@ -24,6 +24,11 @@ horním pravém rohu.
 2. Vyber si soubor s požadovaným songem. Písničku stáhneš tlačítkem *Download*
 v horním pravém rohu.
 
+## Vývoj
+
+Chceš-li pomoci se stavbou zpěvníku, kontaktuj nás. Informace jsou taktéž v souboru
+CONTRIBUTE.md, který najdeš v tomto repositáři.
+
 
 ## Orientace v jednotlivých branchích
 

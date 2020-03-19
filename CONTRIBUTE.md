@@ -26,10 +26,12 @@ slovem engine, neboli stroj, který vytváří dokumenty, když mu řeknete jak.
 potřebovat jednak program, který zprostředkuje LaTeX, engine, nebo překladač chcete-li,
 a pak jiný program, který LaTeXu bude předhazovat instrukce, podle kterých vytvoří dokument.
 
-Hotové dokumenty si chceme mezi sebou sdílet a vidět i minulé verze, a k tomu používáme
-verzovací systém **git**. Někdo musí soubory ale fyzicky (digitálně) uchovávat, a to je GitHub,
-který pro uchovávání používá git. Tedy GitHub je místo, kde máme své soubory (je to něco jako sociální síť)
-a s GitHubem komunikujeme pomocí Gitu. Pokud tohle čteš, jsi pravděpodobně na stránce GitHubu.
+Hotové dokumenty si chceme mezi sebou sdílet a vidět i minulé verze, a k tomu
+používáme verzovací systém **git**. Někdo musí soubory ale fyzicky (digitálně)
+uchovávat, a to je GitHub, který pro uchovávání používá git. Tedy GitHub je
+místo, kde máme své soubory (je to něco jako sociální síť) a s GitHubem
+komunikujeme pomocí Gitu. Pokud tohle čteš, jsi pravděpodobně na stránce
+GitHubu. Celému projektu uloženému na GitHubu se říká GitHubový repositář. Celému projektu uloženému na GitHubu se říká GitHubový repositář.
 
 Ty si na svém počítači budeš muset instalovat:
 
