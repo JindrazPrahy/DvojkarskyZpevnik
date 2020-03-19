@@ -1,7 +1,7 @@
 # DvojkarskyZpevnik
 
 Toto je vývojový repozitář pro velký Dvojkařský Zpěvník. Všechny songy jsou zde
-psány pomocí *LaTeX*u.  Zpěvník je uzpůsoben pro kroužkovou vazbu (songů už je
+psány pomocí *LaTeX*u. Zpěvník je uzpůsoben pro kroužkovou vazbu (songů už je
 hodně) - umožňuje tak do starších zpěvníků přidávat nové songy, jenž zde
 přibývají.
 
@@ -32,5 +32,13 @@ v horním pravém rohu.
 - **Ucebni** - tohle je branch pro redukovaný zpěvník pro ty, co se učí na kytaru
 - **Vanocni** - Zpěvník s koledami
 
+Popišme ještě strukturu branche master.
 
-
+- Akordy - obrázky akordů na vkládání do zpěvníku
+- Cely_zpevnik - složka s celým zpěvníkem
+- Generator - vývojová složka, kde si můžete zkoušet jednotlivé songy
+- pdf - pdf jednotlivých songů
+- scripts - kompilační skripty
+- songy - LaTeXové zdrojové soubory písniček
+- taby - obrázky složitých kytarových kreací na vkládání do zpěvníku
+- txt - jednotlivé písničky ve formátu txt
