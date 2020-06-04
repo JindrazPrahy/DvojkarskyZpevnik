@@ -58,91 +58,92 @@
 \contentsline {section}{Král a klaun}{63}{section*.169}%
 \contentsline {section}{Kutil}{64}{section*.172}%
 \contentsline {section}{Lano, co k nebi nás poutá}{65}{section*.175}%
-\contentsline {section}{Leaving On A Jet Plane}{66}{section*.178}%
-\contentsline {section}{Lemon Tree}{67}{section*.181}%
-\contentsline {section}{Let It Be}{68}{section*.184}%
-\contentsline {section}{Letím hledat světy}{69}{section*.187}%
-\contentsline {section}{Lilie}{70}{section*.190}%
-\contentsline {section}{Lišaji}{71}{section*.193}%
-\contentsline {section}{Little Talks}{72}{section*.196}%
-\contentsline {section}{Loďka Malá}{73}{section*.199}%
-\contentsline {section}{Lokomotiva}{74}{section*.202}%
-\contentsline {section}{Made in Valmez}{75}{section*.205}%
-\contentsline {section}{Mezi Horami}{76}{section*.208}%
-\contentsline {section}{Měsíc}{77}{section*.211}%
-\contentsline {section}{Milionář}{78}{section*.214}%
-\contentsline {section}{Milionář II}{79}{section*.217}%
-\contentsline {section}{Mladičká básnířka}{80}{section*.220}%
-\contentsline {section}{Modlitba pro partu}{81}{section*.223}%
-\contentsline {section}{Muzeum}{82}{section*.226}%
-\contentsline {section}{Nad stádem koní}{83}{section*.229}%
-\contentsline {section}{Nagasaki Hirošima}{84}{section*.232}%
-\contentsline {section}{Nebe peklo ráj}{85}{section*.235}%
-\contentsline {section}{Nebeští jezdci}{86}{section*.238}%
-\contentsline {section}{Nejlíp jim bylo}{87}{section*.241}%
-\contentsline {section}{Nezacházej slunce}{88}{section*.244}%
-\contentsline {section}{One}{89}{section*.247}%
-\contentsline {section}{Orlice}{91}{section*.250}%
-\contentsline {section}{Osmá barva duhy}{92}{section*.253}%
-\contentsline {section}{Ostravo}{93}{section*.256}%
-\contentsline {section}{Pangajó}{94}{section*.259}%
-\contentsline {section}{Partyzán}{95}{section*.262}%
-\contentsline {section}{Passenger}{96}{section*.265}%
-\contentsline {section}{Pažitka}{97}{section*.268}%
-\contentsline {section}{Perfect Day}{98}{section*.271}%
-\contentsline {section}{Personal Jesus}{99}{section*.274}%
-\contentsline {section}{Petěrburg}{100}{section*.277}%
-\contentsline {section}{Pijánovka}{101}{section*.280}%
-\contentsline {section}{Písnička pro Tebe}{102}{section*.283}%
-\contentsline {section}{Podzimní}{103}{section*.286}%
-\contentsline {section}{Pohádka}{104}{section*.289}%
-\contentsline {section}{Pohár a Kalich}{105}{section*.292}%
-\contentsline {section}{Pro malou Lenku}{106}{section*.295}%
-\contentsline {section}{Převrat v Banánové republice}{107}{section*.298}%
-\contentsline {section}{Pyšný Janek}{108}{section*.301}%
-\contentsline {section}{Ráda se miluje}{109}{section*.304}%
-\contentsline {section}{Radioactive}{110}{section*.307}%
-\contentsline {section}{Russian mystic pop IV.}{111}{section*.310}%
-\contentsline {section}{Řekni, kde ty kytky jsou}{112}{section*.313}%
-\contentsline {section}{Riptide}{113}{section*.316}%
-\contentsline {section}{Sametová}{114}{section*.319}%
-\contentsline {section}{Sarajevo}{115}{section*.322}%
-\contentsline {section}{Sáro!}{116}{section*.325}%
-\contentsline {section}{Shotgun}{117}{section*.328}%
-\contentsline {section}{Slaboch Ben}{118}{section*.331}%
-\contentsline {section}{Sladké mámení}{119}{section*.334}%
-\contentsline {section}{Slavíci z Madridu}{120}{section*.337}%
-\contentsline {section}{Slova}{121}{section*.340}%
-\contentsline {section}{Soudný Den}{122}{section*.343}%
-\contentsline {section}{Sound Of Silence}{123}{section*.346}%
-\contentsline {section}{Space Oddity}{124}{section*.349}%
-\contentsline {section}{Stánky}{126}{section*.352}%
-\contentsline {section}{Staré dobré časy}{127}{section*.355}%
-\contentsline {section}{Stín}{128}{section*.358}%
-\contentsline {section}{Strom kýve pahýly}{129}{section*.361}%
-\contentsline {section}{Studený nohy}{130}{section*.364}%
-\contentsline {section}{Svatební}{131}{section*.367}%
-\contentsline {section}{Svatební píseň}{132}{section*.370}%
-\contentsline {section}{Své Rocky Mountains}{133}{section*.373}%
-\contentsline {section}{To ta He\v lpa}{134}{section*.376}%
-\contentsline {section}{Traktor}{135}{section*.379}%
-\contentsline {section}{Trezor}{136}{section*.382}%
-\contentsline {section}{Tu kytaru jsem koupil kvůli tobě}{137}{section*.385}%
-\contentsline {section}{Už slyším Boží mlýny}{138}{section*.388}%
-\contentsline {section}{Už to nenapravím}{139}{section*.391}%
-\contentsline {section}{Veličenstvo Kat}{140}{section*.394}%
-\contentsline {section}{Velmi nesmělá}{141}{section*.397}%
-\contentsline {section}{Ve skříni}{142}{section*.400}%
-\contentsline {section}{Věděl pan Cicero}{143}{section*.403}%
-\contentsline {section}{Včelka Mája}{144}{section*.406}%
-\contentsline {section}{Vlachovka}{145}{section*.409}%
-\contentsline {section}{Vlajky vlají}{146}{section*.412}%
-\contentsline {section}{Vlaštovko leť}{147}{section*.415}%
-\contentsline {section}{Vlaštovky}{148}{section*.418}%
-\contentsline {section}{What Shall We Do With the Drunken Sailor}{149}{section*.421}%
-\contentsline {section}{What Makes You Beautiful}{150}{section*.424}%
-\contentsline {section}{Wonderwall}{152}{section*.427}%
-\contentsline {section}{Za deset 10}{154}{section*.430}%
-\contentsline {section}{Zabili, zabili}{155}{section*.433}%
-\contentsline {section}{Zatanči}{156}{section*.436}%
-\contentsline {section}{My pluli}{157}{section*.439}%
+\contentsline {section}{Laudato sii}{66}{section*.178}%
+\contentsline {section}{Leaving On A Jet Plane}{67}{section*.181}%
+\contentsline {section}{Lemon Tree}{68}{section*.184}%
+\contentsline {section}{Let It Be}{69}{section*.187}%
+\contentsline {section}{Letím hledat světy}{70}{section*.190}%
+\contentsline {section}{Lilie}{71}{section*.193}%
+\contentsline {section}{Lišaji}{72}{section*.196}%
+\contentsline {section}{Little Talks}{73}{section*.199}%
+\contentsline {section}{Loďka Malá}{74}{section*.202}%
+\contentsline {section}{Lokomotiva}{75}{section*.205}%
+\contentsline {section}{Made in Valmez}{76}{section*.208}%
+\contentsline {section}{Mezi Horami}{77}{section*.211}%
+\contentsline {section}{Měsíc}{78}{section*.214}%
+\contentsline {section}{Milionář}{79}{section*.217}%
+\contentsline {section}{Milionář II}{80}{section*.220}%
+\contentsline {section}{Mladičká básnířka}{81}{section*.223}%
+\contentsline {section}{Modlitba pro partu}{82}{section*.226}%
+\contentsline {section}{Muzeum}{83}{section*.229}%
+\contentsline {section}{Nad stádem koní}{84}{section*.232}%
+\contentsline {section}{Nagasaki Hirošima}{85}{section*.235}%
+\contentsline {section}{Nebe peklo ráj}{86}{section*.238}%
+\contentsline {section}{Nebeští jezdci}{87}{section*.241}%
+\contentsline {section}{Nejlíp jim bylo}{88}{section*.244}%
+\contentsline {section}{Nezacházej slunce}{89}{section*.247}%
+\contentsline {section}{One}{90}{section*.250}%
+\contentsline {section}{Orlice}{92}{section*.253}%
+\contentsline {section}{Osmá barva duhy}{93}{section*.256}%
+\contentsline {section}{Ostravo}{94}{section*.259}%
+\contentsline {section}{Pangajó}{95}{section*.262}%
+\contentsline {section}{Partyzán}{96}{section*.265}%
+\contentsline {section}{Passenger}{97}{section*.268}%
+\contentsline {section}{Pažitka}{98}{section*.271}%
+\contentsline {section}{Perfect Day}{99}{section*.274}%
+\contentsline {section}{Personal Jesus}{100}{section*.277}%
+\contentsline {section}{Petěrburg}{101}{section*.280}%
+\contentsline {section}{Pijánovka}{102}{section*.283}%
+\contentsline {section}{Písnička pro Tebe}{103}{section*.286}%
+\contentsline {section}{Podzimní}{104}{section*.289}%
+\contentsline {section}{Pohádka}{105}{section*.292}%
+\contentsline {section}{Pohár a Kalich}{106}{section*.295}%
+\contentsline {section}{Pro malou Lenku}{107}{section*.298}%
+\contentsline {section}{Převrat v Banánové republice}{108}{section*.301}%
+\contentsline {section}{Pyšný Janek}{109}{section*.304}%
+\contentsline {section}{Ráda se miluje}{110}{section*.307}%
+\contentsline {section}{Radioactive}{111}{section*.310}%
+\contentsline {section}{Russian mystic pop IV.}{112}{section*.313}%
+\contentsline {section}{Řekni, kde ty kytky jsou}{113}{section*.316}%
+\contentsline {section}{Riptide}{114}{section*.319}%
+\contentsline {section}{Sametová}{115}{section*.322}%
+\contentsline {section}{Sarajevo}{116}{section*.325}%
+\contentsline {section}{Sáro!}{117}{section*.328}%
+\contentsline {section}{Shotgun}{118}{section*.331}%
+\contentsline {section}{Slaboch Ben}{119}{section*.334}%
+\contentsline {section}{Sladké mámení}{120}{section*.337}%
+\contentsline {section}{Slavíci z Madridu}{121}{section*.340}%
+\contentsline {section}{Slova}{122}{section*.343}%
+\contentsline {section}{Soudný Den}{123}{section*.346}%
+\contentsline {section}{Sound Of Silence}{124}{section*.349}%
+\contentsline {section}{Space Oddity}{125}{section*.352}%
+\contentsline {section}{Stánky}{127}{section*.355}%
+\contentsline {section}{Staré dobré časy}{128}{section*.358}%
+\contentsline {section}{Stín}{129}{section*.361}%
+\contentsline {section}{Strom kýve pahýly}{130}{section*.364}%
+\contentsline {section}{Studený nohy}{131}{section*.367}%
+\contentsline {section}{Svatební}{132}{section*.370}%
+\contentsline {section}{Svatební píseň}{133}{section*.373}%
+\contentsline {section}{Své Rocky Mountains}{134}{section*.376}%
+\contentsline {section}{To ta He\v lpa}{135}{section*.379}%
+\contentsline {section}{Traktor}{136}{section*.382}%
+\contentsline {section}{Trezor}{137}{section*.385}%
+\contentsline {section}{Tu kytaru jsem koupil kvůli tobě}{138}{section*.388}%
+\contentsline {section}{Už slyším Boží mlýny}{139}{section*.391}%
+\contentsline {section}{Už to nenapravím}{140}{section*.394}%
+\contentsline {section}{Veličenstvo Kat}{141}{section*.397}%
+\contentsline {section}{Velmi nesmělá}{142}{section*.400}%
+\contentsline {section}{Ve skříni}{143}{section*.403}%
+\contentsline {section}{Věděl pan Cicero}{144}{section*.406}%
+\contentsline {section}{Včelka Mája}{145}{section*.409}%
+\contentsline {section}{Vlachovka}{146}{section*.412}%
+\contentsline {section}{Vlajky vlají}{147}{section*.415}%
+\contentsline {section}{Vlaštovko leť}{148}{section*.418}%
+\contentsline {section}{Vlaštovky}{149}{section*.421}%
+\contentsline {section}{What Shall We Do With the Drunken Sailor}{150}{section*.424}%
+\contentsline {section}{What Makes You Beautiful}{151}{section*.427}%
+\contentsline {section}{Wonderwall}{153}{section*.430}%
+\contentsline {section}{Za deset 10}{155}{section*.433}%
+\contentsline {section}{Zabili, zabili}{156}{section*.436}%
+\contentsline {section}{Zatanči}{157}{section*.439}%
+\contentsline {section}{My pluli}{158}{section*.442}%
