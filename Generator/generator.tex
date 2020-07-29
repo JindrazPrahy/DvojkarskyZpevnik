@@ -40,6 +40,7 @@
 \usepackage{pdfpages}
 \usepackage{lettrine}
 \usepackage{indentfirst}  %Důležité pro formátování
+\usepackage[pages=some]{background}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %  FONT                              %
@@ -168,6 +169,18 @@ output-notation = {german}%
   \end{center}
 }
 
+%%% Pozadí
+\newcommand{\pozadi}[1]{
+\backgroundsetup{
+scale=1,
+angle=0,
+contents={%
+  \includegraphics[width=\paperwidth,height=\paperheight]{#1}
+  }%
+}
+\BgThispage
+}
+
 
 %Hlavnička END
 \begin{document}
@@ -184,5 +197,11 @@ output-notation = {german}%
 \velky
 \newpage
 % PÍSNIČKA
-\input{../songy/ZaDeset10.tex}
+
+\pozadi{boyscout.jpg}
+\input{../songy/Mesic.tex}
+%\clearpage
+\newpage
+\pozadi{boyscout.jpg}
+\input{../songy/Mesic.tex}
 \end{document}

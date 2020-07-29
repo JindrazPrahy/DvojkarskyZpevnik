@@ -49,6 +49,7 @@
 \usepackage{pdfpages}
 \usepackage{lettrine}
 \usepackage{indentfirst}  %Důležité pro formátování
+\usepackage[pages=some]{background}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %  FONT                              %
@@ -183,6 +184,20 @@ output-notation = {german}%
   \end{varwidth}
   \end{center}
 }
+
+%%% Pozadí
+\newcommand{\pozadi}[1]{
+\backgroundsetup{
+scale=1,
+angle=0,
+contents={%
+  \includegraphics[width=\paperwidth,height=\paperheight]{#1}
+  }%
+}
+\BgThispage
+}
+
+
 
 
 \usepackage{hyperref} %Musí být načteno jako poslední package
