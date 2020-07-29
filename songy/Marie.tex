@@ -1,62 +1,17 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%			ŠABLONA PÍSNIČEK v. 18.09               %
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Tento soubor slouží jako (naučná) šablona, pomocí 
-% které lze vytvářet zdrojové soubory k jednotlivým 
-% písním.
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%			Jak psát soubory songů?                 %
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%	1. Text písně se začíná psát na místě START 
-%	   a končí na místě END. Zbylý text ignorujte.
-%	2. Jak bude vypadat pdf písně zjistíte po tom, 
-%	   co soubor zkompilujete pomocí souboru   
-%      ../Generator/generator. 
-%	3. Při psaní dodržujte následující TeX pravidla:
-%	 a) Nový řádek napíšete pomocí dvou odsazení 
-%	    tedy dvou enterů.
-%	 b) Nová sloka se píší pomocí \sloka a odsazení.
-%		Refrén se píše jako \refren, v případě více 
-%		refrénů \refren[č. refrénu].
-%	 c) Akordy se píšou tak, že napíšete před slovo,
-%	    kde chcete mít akord (bez mezery):
-%		^{AKORD1\,AKORD2...}.
-%	4. Pokud chcete ušetřit tvůrcům práci, tak 
-%	   si přečtěte další poučný soubor o typografii 
-%	   ../../Typo_pravidla.txt.
-%	5. Akordy stačí psát jen do první sloky, když 
-%	   se nezmění -- kytaristé to zvládnou
-%	7. Název písně pište na místo [NÁZEV] a autora 
-%	   pište na místo [AUTOR] 
-%	7. Jak psát věci na české klávesnici:
-%	   \ = alt gr + q; [/] = alt gr f/g; 
-%      {/} = alt gr + b/n; ^ = alt gr + 3 , cokoliv
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%			Jak kompilovat jednotlivé písně?        %
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%	1. Více návodu je k tomuto napsáno v souboru 
-%      ../Generator/generator. 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%			Jak kompilovat celý zpěvník?			%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%	1. Více návodu je k tomuto napsáno v souboru
-%	   ../Cely_zpevnik/zpevnik.tex.
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{song}{title=\predtitle \centering Marie \\\large Zuzana Navarová }  %% sem se napíše jméno songu a autor
 
 \vspace*{.5cm}
 
+\moveleft 0.8cm \vbox{
 \begin{centerjustified}
-\begin{varwidth}[t]{0.48\textwidth}\setlength{\parindent}{\pindent}  %Varianta č. 2 --> Dva sloupce
+\begin{varwidth}[t]{0.55\textwidth}\setlength{\parindent}{\pindent}  %Varianta č. 2 --> Dva sloupce
 \vetsi
 \sloka
-Marie ^{Ami}má se vracet, ta, co tu bydlí.
+Marie ^{Ami\z}má~se vracet, ta, co tu bydlí.
 
 Marie má se vracet, tak postav ^{Dmi}židli.
 
-Marie bílý racek, Marie ^{Ami}má se
-
-vracet,
+Marie bílý racek, Marie ^{Ami\z}má~se vracet,
 
 ty si tu ^{H7}dáváš dvacet, tak abys ^{E7}vstal.
 
@@ -65,9 +20,7 @@ Marie má se vracet, co by ses divil.
 
 Marie má se vracet, ta, cos ji mydlil.
 
-Marie modrý ptáček, Marie
-
-moudivláček
+Marie modrý ptáček, Marie moudivláček
 
 kufříkem od natáček, ta, cos ji štval.
 
@@ -76,24 +29,20 @@ Marie
 
 ^{Ami\z}hoď~sem cihlu, má se vracet
 
-trá ra ta ta
+trá ra ta ta.
 
 \sloka
 Marie má se vracet, píšou, že lehce.
 
 Marie má se vracet, že už tě nechce.
 
-Ta, co jí není dvacet, Marie má se
+Ta, co jí není dvacet, Marie má se vracet.
 
-vracet.
-
-Ta, cos jí dal pár facek a pak s ní
-
-spal.
+Ta, cos jí dal pár facek a pak s ní spal.
 
 \refren
 
-\end{varwidth}\mezisloupci\begin{varwidth}[t]{0.5\textwidth}\setlength{\parindent}{\pindent}
+\end{varwidth}\mezisloupci\begin{varwidth}[t]{0.55\textwidth}\setlength{\parindent}{\pindent}
 \vspace*{.42cm}
 
 \sloka
@@ -124,14 +73,14 @@ Marie má se vracet, co by ses divil,
 
 Marie má se vracet, ta, cos ji mydlil.
 
-Marie modrý ptáček, Marie
+Marie modrý ptáček, Marie moudivláček.
 
-moudivláček.
-
-Tak postav ^{Dmi}židli a ^{E7}sbal si fidli ^{Ami}
+Tak postav ^{Dmi}židli a ^{E7}sbal si fidli. ^{Ami}
 
 \end{varwidth}
 
 \end{centerjustified}
+}
+
 \setcounter{Slokočet}{0}
 \end{song}
