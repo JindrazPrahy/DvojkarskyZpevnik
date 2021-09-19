@@ -39,7 +39,8 @@ function typeset_songbook
     check_existing_file "Cely_zpevnik/Zpevnik.tex"
     TEXINPUTS=.:../Cely_zpevnik/:$TEXINPUTS pdflatex -synctex=1 -interaction=batchmode -output-directory "../Cely_zpevnik/" "../Cely_zpevnik/Zpevnik.tex"
     [ "$?" == "0" ] || ( echo "Error while typesetting. See Cely_zpevnik/Zpevnik.log" && exit 1 )
-    less "../Cely_zpevnik/Zpevnik.pdf" > "../txt/Celytxt/Zpevnik.txt"  # Convert pdf to text
+    # pdftotext is unable to decode our pdfs
+    # less "../Cely_zpevnik/Zpevnik.pdf" > "../txt/Celytxt/Zpevnik.txt"  # Convert pdf to text
     exit 0
 }
 
@@ -53,7 +54,8 @@ function typeset_song
     mv "tmpgen.tex" "../Generator/generator.tex"
     TEXINPUTS=.:../Generator/:$TEXINPUTS pdflatex -synctex=1 -interaction=batchmode -output-directory "../Generator/" "../Generator/generator.tex"
     song_prefix=${song_filename%.tex}
-    less "../Generator/generator.pdf" > "../txt/${song_prefix}.txt"  # Convert pdf to text
+    # pdftotext is unable to decode our pdfs
+    # less "../Generator/generator.pdf" > "../txt/${song_prefix}.txt"  # Convert pdf to text
     mv "../Generator/generator.pdf" "../pdf/${song_prefix}.pdf"
 }
 
