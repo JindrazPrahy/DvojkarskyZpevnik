@@ -1,10 +1,12 @@
-*.log
 *.gz
 *.xwm
 *.out
-*.log
 *.log
 Generátor jednotlivých písní/Generátor.log
 *.gz
 *.xwm
 web/*
+
+# Python
+**/__pycache__/**
+**/.pytest_cache/**
