@@ -5,29 +5,28 @@ psány pomocí *LaTeX*u. Zpěvník je uzpůsoben pro kroužkovou vazbu (songů u
 hodně) - umožňuje tak do starších zpěvníků přidávat nové songy, jenž zde
 přibývají.
 
-[Přehled písní ve zpěvníku (zastaralé)](https://docs.google.com/spreadsheets/d/1ej4QIp3_96SE3kHn7L9kaiDOEUqHb9XJ2Mvoauu2prE/edit#gid=0) - přidávejte sem nové návrhy!
-
+[Přehled songů, wishlist a issues](https://docs.google.com/spreadsheets/d/1LpMYBsuo7ckZdFUrUSbS-KfDMcok-b69g1qXbS1utjo/edit?usp=sharing)
 
 ## Stažení
 
 ### Celý zpěvník
 
-1. Přejdi na **Cely_zpevnik**
-2. Otevři **Zpevnik.pdf**
-3. Otevře se ti pdf s celým zpěvníkem. Zpěvník stáhneš tlačítkem *Download* v
-horním pravém rohu.
+Celý zpěvník v pdf je v [*releases*](https://github.com/JindrazPrahy/DvojkarskyZpevnik/releases).
+Odtud stáhni z nejnovější z verze soubor `Zpevnik.pdf`.
 
 ### Jednotlivé písničky
 
-1. Přejdi na **pdf**, pokud chceš písničky stáhnout v PDF formátu, přejdi na 
-**txt**, pokud chceš písničky stahovat v textovém formátu.
+1. Přejdi na `pdf`, pokud chceš písničky stáhnout v PDF formátu, přejdi na 
+`txt`, pokud chceš písničky stahovat v textovém formátu.
 2. Vyber si soubor s požadovaným songem. Písničku stáhneš tlačítkem *Download*
 v horním pravém rohu.
+
+*Pro stahování jednotlivých písní bude brzy spuštěn speciální web.*
 
 ## Vývoj
 
 Chceš-li pomoci se stavbou zpěvníku, kontaktuj nás. Informace jsou taktéž v souboru
-CONTRIBUTE.md, který najdeš v tomto repositáři.
+[CONTRIBUTE.md](https://github.com/JindrazPrahy/DvojkarskyZpevnik/blob/master/CONTRIBUTE.md).
 
 
 ## Orientace v jednotlivých branchích
@@ -36,14 +35,11 @@ CONTRIBUTE.md, který najdeš v tomto repositáři.
 - **Wakan** - zde najdete táborový zpěvník Wakanů
 - **Ucebni** - tohle je branch pro redukovaný zpěvník pro ty, co se učí na kytaru
 - **Vanocni** - Zpěvník s koledami
+- **test** - branch pro testy, zejména continuous integration
 
 Popišme ještě strukturu branche master.
 
-- Akordy - obrázky akordů na vkládání do zpěvníku
 - Cely_zpevnik - složka s celým zpěvníkem
-- Generator - vývojová složka, kde si můžete zkoušet jednotlivé songy
 - pdf - pdf jednotlivých songů
-- scripts - kompilační skripty
 - songy - LaTeXové zdrojové soubory písniček
-- taby - obrázky složitých kytarových kreací na vkládání do zpěvníku
-- txt - jednotlivé písničky ve formátu txt
+
