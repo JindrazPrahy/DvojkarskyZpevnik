@@ -1,32 +1,3 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%			GENERÁTOR v. 18.09 				%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Tento soubor slouží k jednotlivé zkusné kompilaci 
-% písniček či k kompilaci samostatných pdf souborů 
-% pomocí bashového skriptu kompilace.sh ve stejné 
-% složce. Z důvodu hromadné kompilace musí poslední 
-% dva řádky tohoto souboru zůstat nezměněny.
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%			Jak kompilovat jednotlivé písně?        %
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%	1. Do míst PÍSNIČKA upravte následnující řádek, 
-%	   aby vypadal takto: 
-%	   \input{../songy/[JMÉNO SOUBORU KOMPILOVNÉ PÍSNIČKY].tex}
-%	2. Soubor písničky musí být přeložitelný a musí 
-%	   se nacházet ve složce ../songy.
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%			Jak psát soubory songů?                 %
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%	1. Více návodu je k tomuto napsáno v souboru 
-%      ../songy/00Songtemplate. 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%			Jak kompilovat celý zpěvník?			%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%	1. Více návodu je k tomuto napsáno v souboru
-%	   ../Cely_zpevnik/zpevnik.tex.
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-% Hlavička START
 \documentclass[openany,12pt]{memoir}
 \usepackage[utf8]{inputenc} 
 \usepackage[czech]{babel}
@@ -48,6 +19,15 @@
 \usepackage{amssymb}
 \usepackage{tgschola}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  Obrázky v textu                   %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{tikz}
+%\tikz[remember picture,overlay] \node[opacity=0.3,inner sep=0pt] at (current page.center){\includegraphics[width=\paperwidth,height=\paperheight]{example-image}};
+%Tímto příkazem se na následující stránku vloží pozadí. Pokud pozadí uděláme
+%tak, aby bylo velikosti a4, bylo prázdné až na malůvku, můžeme takto vkládat
+%obrázky.
+%Pozn.: kompilovat se musí dvakrát
 
 
 %%%%%% Package na zpěvník
@@ -70,6 +50,7 @@ output-notation = {german}%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %		 Vlastní příkazy
 \newcommand{\defaulttabscale}{0.87}
+\newcommand{\defaultfretscale}{1.7}
 
 \newcounter{Slokočet}   %Automatické číslování slok
 \newcommand{\mezera}{
@@ -152,6 +133,7 @@ output-notation = {german}%
 \textit{Capo {#1}}
 }
 
+\newcommand{\includefret}[1]{\includegraphics[scale=\defaultfretscale]{../Akordy/msc/#1.pdf}}
 
 \addto\captionsczech{\renewcommand{\contentsname}{Seznam písní}}
 
@@ -200,5 +182,5 @@ contents={%
 \newpage
 % PÍSNIČKA
 
-\input{../songy/PodHorou.tex}
+\input{../songy/Dezolat}
 \end{document}

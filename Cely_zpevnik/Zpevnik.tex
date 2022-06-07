@@ -1,41 +1,3 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%			CELÝ ZPĚVNÍK v. 18.09  					%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Toto je hlavní soubor zpěvníku, z kterého lze 
-% kompilovat celý zpěvník se všemi písničkami.
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%			Jak kompilovat celý zpěvník?			%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Přidání nové písničky probíhá tak, že:
-% 1. Napíšete .tex soubor s textem písničky a akordy 
-% a soubor vložíte do ../songy
-%	a) Soubor se píše podle pravidel napsaných 
-%	   v souboru ../Generator/generator.tex
-%	b) V souboru ../Generator/generator.tex
-%	   se soubor také kompiluje samostatně 
-%      pro kontrolu.
-% 2. Písnička se přidá na místě označeném kódem 
-%    PRIDAVANI (ctrl+f a dá se to najít). Přidáte 
-%    ji vložením následujícího řádku podle abecedy: 
-%    \addcontentsline{toc}{section}{[ZDE NAPIŠ NÁZEV PÍSNIČKY]}\input{../songy/[ZDROJOVÝ SOUBOR PÍSNIČKY].tex}\newpage
-% 3. Výsledek s zobrazí po kompilaci DVAKRÁT 
-%    za sebou (kvůli toc).
-% (4.) Předmluva se upravuje na místě PŘEDMLUVA.
-% (5.) Cover obrázek: PŘEBAL1
-% (6.) Watermark: VODOZNAK
-% (7.) Seznam všech akordů: PŘEHLED
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%			Jak kompilovat jednotlivé písně?        %
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%	1. Více návodu je k tomuto napsáno v souboru 
-%      ../Generator/generator. 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%			Jak psát soubory songů?                 %
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%	1. Více návodu je k tomuto napsáno v souboru 
-%      ../songy/00Songtemplate. 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 \documentclass[openany,12pt]{memoir}
 \usepackage[utf8]{inputenc}
 \usepackage[czech]{babel}
@@ -79,6 +41,7 @@ output-notation = {german}%
 }
 \definesongtitletemplate{empty}{} 
 
+
 \newlength{\drop}
 % VODOZNAK
 \newwatermark[pages=3-,color=red!50,angle=0,scale=2, xpos=0,ypos=0]{\includegraphics[width=5cm]{obr/pozadi2.jpg}} %--> dvojka na pozadí
@@ -87,6 +50,7 @@ output-notation = {german}%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %		 Vlastní příkazy
 \newcommand{\defaulttabscale}{0.87}
+\newcommand{\defaultfretscale}{1.7}
 
 \newcounter{Slokočet}   %Automatické číslování slok
 \newcommand{\mezera}{
@@ -168,6 +132,8 @@ output-notation = {german}%
 \newcommand{\kapodastr}[1]{
 \textit{Capo \text{#1}}
 }
+
+\newcommand{\includefret}[1]{\includegraphics[scale=\defaultfretscale]{../Akordy/msc/#1.pdf}}
 
 \addto\captionsczech{\renewcommand{\contentsname}{Seznam písní}}
 
