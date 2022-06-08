@@ -5,7 +5,7 @@
 \usepackage[top=1.5cm, bottom=2cm, left=2cm, right=2cm]{geometry}  % --> NASTAVENÍ OKRAJŮ
 \usepackage{fancyhdr}
 \usepackage{graphicx}
-\usepackage{xwatermark}
+%\usepackage{xwatermark}
 \usepackage{xcolor}
 \usepackage{changepage}
 \usepackage{pdfpages}
@@ -44,7 +44,7 @@ output-notation = {german}%
 
 \newlength{\drop}
 % VODOZNAK
-\newwatermark[pages=1-,color=red!50,angle=0,scale=2, xpos=0,ypos=0]{\includegraphics[width=5cm]{obr/pozadi2.jpg}} %--> dvojka na pozadí
+%\newwatermark[pages=1-,color=red!50,angle=0,scale=2, xpos=0,ypos=0]{\includegraphics[width=5cm]{obr/pozadi2.jpg}} %--> dvojka na pozadí
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -167,12 +167,13 @@ contents={%
 
 
 %Hlavnička END
+\usepackage{hyperref}
 \begin{document}
 \sffamily %Sans-serif pro lepší čitelnost
 
 \pagestyle{empty}
 \newgeometry{top=1.5cm, bottom = 0cm, left = 2cm, right = 2cm}
-	
+
 \newpage
 
 %Pro kompilaci je důležitý, aby ten \input a \end{document} zůstali na posledních
@@ -182,5 +183,5 @@ contents={%
 \newpage
 % PÍSNIČKA
 
-\input{../songy/Dezolat}
+\input{../songy/JohnBrownsBody}
 \end{document}
