@@ -144,8 +144,8 @@ sudo apt-get install texmaker
 LaTeX je tzv. značkovací jazyk, něco jako html. V jazyku se napíše kód, ten se
 pak přeloží překladačem LaTeXu, a vznikne pdf. Základní znalosti LaTeXu lze nabýt třeba
 zde:
-1. http://www.jidu.cz/Navody/LaTeX/index.php
-2. https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes.
+1. [http://www.jidu.cz/Navody/LaTeX/](http://www.jidu.cz/Navody/LaTeX/index.php),
+2. [https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes](https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes).
 
 Nyní předpokládáme, že víš, jak LaTeX funguje, a dokážeš napsat a zkompilovat
 nějaký jednoduchý dokument.
@@ -208,4 +208,50 @@ který funguje tak, že pouze `./skript.sh` zkompiluje všechno a `./skript.sh -
 song` zkompiluje jen jeden song. Můžete buď kompilovat do formátu txt skriptem
 ve složce txt, nebo do formátu pdf skriptem ve složce Generator.
 
+# Typo pravidla
 
+Vzhledem k tomu, že výhodou LaTeXu je jeho konzistence,
+chci tuto konzistenci využít co nejvíc a všechny rozhodnutí
+ohlednì typografie napsat sem, aby se vše mohlo sjednotit.
+
+
+1. ZDROJOVÝ KÓD: nové odsazení pomocí dvou mezer, text písní
+ pro čitelnost odsazen odstavcem, používejte makra tam, kde
+ to jen jde.
+2. KOMPILACE jednotlivých písní pomocí \include:
+ - \include{} znamená, že se do texového souboru
+ vloží obsah jiného texového souboru (jako #include
+ v jazyce C).
+ - Při kontrolování jednotlivých písní tedy nezbyde než
+ používat generátor jednotlivých písní, ale zase
+ se všechny v případě potřeby můžou vysázet pomocí
+ hlavního dokumentu Zpěvník.
+3. KLASIKA:
+ - Uvozovky sázejte pomocí \uv{} pokud to půjde, jinak
+ pište ,, (začátek) `` (konec).
+ - Vnímejte rozdíl mezi pomlèkou - a spojovníkem --
+ (Prostě používejte -- ve větě jako , a - jen v jednom slově
+ jako třeba ice-cream. Kdyžtak: [http://prirucka.ujc.cas.cz/?id=164](http://prirucka.ujc.cas.cz/?id=164)
+4. REPETICI pište pomocí /: :/ a značte kde možné pro šetření místa.
+5. AKORDY nad slova pomocí ^{}, které je před slovem. Více akordů
+      (vybrnkávání, předehra...) pomocí \textbf{} (aby nelítaly ve vzduchu).
+      Taky nepsat opakující se vzorec akordů vícekrát, než je pochopitelné.
+6. OBRÁZKY akordů jsou více volné. Nemusí být u každé písničky. Nemají
+   specifické místo, ale doporučená velikost je nejvíc width=3cm.
+7. SLOKY, REFRÉNY a NÁZVY písní pište pomocí upraveného balíčku leadsheets
+   a předdefinovaných makr (příkazů).
+8. ZAROVNÁNÍ písní na støed je ve verzi 18.09 automatizované.
+9. ROZLOŽENÍ písně na stránce: Přehlednost > Místo, takže
+   Velikost písma > Aby toho na jedné stránce nebylo moc >
+   Aby se to za každou cenu nacpalo do jedné stránky.
+10. GRAMATIKA: Necopypastujte prosím chyby.
+    Písničky jsou také text, takže doplňujte tečky a čárky. Velká
+    písmena jsou jako v normálních větách a v prvním slově v názvu.
+11. ANGLICKÉ písně mají:
+      -velká všechna písmena v názvu;
+      -velká všechna písmena na začátku řádku.
+12. ELIPSA (tři tečky za sebou) se píše takto:
+ - Slovo\elipsa\dots\,.
+ - \elipsa je mnou definovaný příkaz o dané délce.
+ - pokud \dots nejdou zkompilovat, pište:
+ \elipsa.\elipsa.\elipsa.\,
