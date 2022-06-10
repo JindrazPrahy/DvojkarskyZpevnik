@@ -1,4 +1,4 @@
-\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}
 \thispagestyle {empty}
 \contentsline {section}{Skautská hymna a Večerka}{7}{section*.2}%
 \contentsline {section}{1. signální}{8}{section*.7}%
@@ -116,44 +116,44 @@
 \contentsline {section}{Sarajevo}{128}{section*.343}%
 \contentsline {section}{Sáro!}{129}{section*.346}%
 \contentsline {section}{Severní vítr}{130}{section*.349}%
-\contentsline {section}{Shotgun}{131}{section*.352}%
-\contentsline {section}{Slaboch Ben}{132}{section*.355}%
-\contentsline {section}{Sladké mámení}{133}{section*.358}%
-\contentsline {section}{Slavíci z Madridu}{134}{section*.361}%
-\contentsline {section}{Slova}{135}{section*.364}%
-\contentsline {section}{Slunečný hrob}{136}{section*.367}%
-\contentsline {section}{Soudný Den}{137}{section*.370}%
-\contentsline {section}{Sound Of Silence}{138}{section*.373}%
-\contentsline {section}{Space Oddity}{139}{section*.376}%
-\contentsline {section}{Stánky}{141}{section*.379}%
-\contentsline {section}{Stín}{142}{section*.382}%
-\contentsline {section}{Strom kýve pahýly}{143}{section*.385}%
-\contentsline {section}{Studený nohy}{144}{section*.388}%
-\contentsline {section}{Svatební}{145}{section*.391}%
-\contentsline {section}{Svatební píseň}{146}{section*.394}%
-\contentsline {section}{Svaz českých bohémů}{147}{section*.397}%
-\contentsline {section}{Své Rocky Mountains}{149}{section*.400}%
-\contentsline {section}{Taši delé}{150}{section*.403}%
-\contentsline {section}{To ta He\v lpa}{151}{section*.406}%
-\contentsline {section}{Traktor}{152}{section*.409}%
-\contentsline {section}{Trezor}{153}{section*.412}%
-\contentsline {section}{Tu kytaru jsem koupil kvůli tobě}{154}{section*.415}%
-\contentsline {section}{Už slyším Boží mlýny}{155}{section*.418}%
-\contentsline {section}{Už to nenapravím}{156}{section*.421}%
-\contentsline {section}{Včelka Mája}{157}{section*.424}%
-\contentsline {section}{Veličenstvo Kat}{158}{section*.427}%
-\contentsline {section}{Velmi nesmělá}{159}{section*.430}%
-\contentsline {section}{Ve skříni}{160}{section*.433}%
-\contentsline {section}{Věděl pan Cicero}{161}{section*.436}%
-\contentsline {section}{V jejích šlépějích}{162}{section*.439}%
-\contentsline {section}{Vlachovka}{163}{section*.442}%
-\contentsline {section}{Vlajky vlají}{164}{section*.445}%
-\contentsline {section}{Vlasy}{165}{section*.448}%
-\contentsline {section}{Vlaštovko leť}{166}{section*.451}%
-\contentsline {section}{Vlaštovky}{167}{section*.454}%
-\contentsline {section}{What Makes You Beautiful}{168}{section*.457}%
-\contentsline {section}{Wonderwall}{170}{section*.460}%
-\contentsline {section}{Za deset 10}{172}{section*.463}%
-\contentsline {section}{Zabili, zabili}{173}{section*.466}%
-\contentsline {section}{Zatanči}{174}{section*.469}%
-\contentsline {section}{My pluli}{175}{section*.472}%
+\contentsline {section}{Sfinga a Málek}{131}{section*.352}%
+\contentsline {section}{Shotgun}{132}{section*.355}%
+\contentsline {section}{Slaboch Ben}{133}{section*.358}%
+\contentsline {section}{Sladké mámení}{134}{section*.361}%
+\contentsline {section}{Slavíci z Madridu}{135}{section*.364}%
+\contentsline {section}{Slova}{136}{section*.367}%
+\contentsline {section}{Slunečný hrob}{137}{section*.370}%
+\contentsline {section}{Soudný Den}{138}{section*.373}%
+\contentsline {section}{Sound Of Silence}{139}{section*.376}%
+\contentsline {section}{Space Oddity}{140}{section*.379}%
+\contentsline {section}{Stánky}{142}{section*.382}%
+\contentsline {section}{Stín}{143}{section*.385}%
+\contentsline {section}{Strom kýve pahýly}{144}{section*.388}%
+\contentsline {section}{Studený nohy}{145}{section*.391}%
+\contentsline {section}{Svatební}{146}{section*.394}%
+\contentsline {section}{Svatební píseň}{147}{section*.397}%
+\contentsline {section}{Své Rocky Mountains}{148}{section*.400}%
+\contentsline {section}{Taši delé}{149}{section*.403}%
+\contentsline {section}{To ta He\v lpa}{150}{section*.406}%
+\contentsline {section}{Traktor}{151}{section*.409}%
+\contentsline {section}{Trezor}{152}{section*.412}%
+\contentsline {section}{Tu kytaru jsem koupil kvůli tobě}{153}{section*.415}%
+\contentsline {section}{Už slyším Boží mlýny}{154}{section*.418}%
+\contentsline {section}{Už to nenapravím}{155}{section*.421}%
+\contentsline {section}{Včelka Mája}{156}{section*.424}%
+\contentsline {section}{Veličenstvo Kat}{157}{section*.427}%
+\contentsline {section}{Velmi nesmělá}{158}{section*.430}%
+\contentsline {section}{Ve skříni}{159}{section*.433}%
+\contentsline {section}{Věděl pan Cicero}{160}{section*.436}%
+\contentsline {section}{V jejích šlépějích}{161}{section*.439}%
+\contentsline {section}{Vlachovka}{162}{section*.442}%
+\contentsline {section}{Vlajky vlají}{163}{section*.445}%
+\contentsline {section}{Vlaštovko leť}{164}{section*.448}%
+\contentsline {section}{Vlaštovky}{165}{section*.451}%
+\contentsline {section}{What Makes You Beautiful}{166}{section*.454}%
+\contentsline {section}{Wonderwall}{168}{section*.457}%
+\contentsline {section}{Za deset 10}{170}{section*.460}%
+\contentsline {section}{Zabili, zabili}{171}{section*.463}%
+\contentsline {section}{Zatanči}{172}{section*.466}%
+\contentsline {section}{Známka punku}{173}{section*.469}%
+\contentsline {section}{My pluli}{174}{section*.472}%
