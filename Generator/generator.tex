@@ -166,6 +166,23 @@ contents={%
 }
 
 
+%%% Libovolné posouvání elementů (hlavně se používá na akordy),
+%%% přičemž element má dimenze (0,0), takž neovlivní předchozí formátování.
+\makeatletter
+\newcommand*{\shifttext}[2]{%
+  \settowidth{\@tempdima}{#2}%
+  \makebox[\@tempdima]{\hspace*{#1}#2}%
+}
+\makeatother
+
+%\cheatbox{X}{Y}{Element}
+\newcommand{\cheatbox}[3]{%
+\shifttext{#1}{\raisebox{#2}[0pt][0pt]{%
+#3%
+}}%
+}
+
+
 %Hlavnička END
 \usepackage{hyperref}
 \begin{document}
@@ -183,5 +200,5 @@ contents={%
 \newpage
 % PÍSNIČKA
 
-\input{../songy/JaSTebouZitNebudu}
+\input{../songy/AllStars}
 \end{document}
