@@ -1,4 +1,6 @@
 *.gz
+*.aux
+*.toc
 *.xwm
 *.out
 *.log
