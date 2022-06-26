@@ -12,10 +12,10 @@
 \contentsline {section}{Batalion}{17}{section*.31}%
 \contentsline {section}{Boží vlak}{18}{section*.34}%
 \contentsline {section}{Carpe Diem}{19}{section*.37}%
-\contentsline {section}{Cestou do Jenkovic}{20}{section*.40}%
-\contentsline {section}{Cestou od hřbitova}{21}{section*.43}%
-\contentsline {section}{Counting Stars}{22}{section*.46}%
-\contentsline {section}{Čtyři slunce}{24}{section*.49}%
+\contentsline {section}{Cestou od hřbitova}{20}{section*.40}%
+\contentsline {section}{Cestou do Jenkovic}{21}{section*.43}%
+\contentsline {section}{Čtyři slunce}{22}{section*.46}%
+\contentsline {section}{Counting Stars}{23}{section*.49}%
 \contentsline {section}{Cigarette Daydreams}{25}{section*.52}%
 \contentsline {section}{Černej pasažér}{26}{section*.55}%
 \contentsline {section}{Černobílý svět}{27}{section*.58}%
@@ -151,12 +151,13 @@
 \contentsline {section}{Vlachovka}{164}{section*.448}%
 \contentsline {section}{Vlajky vlají}{165}{section*.451}%
 \contentsline {section}{Vlaštovko leť}{166}{section*.454}%
-\contentsline {section}{Vlaštovky}{167}{section*.457}%
-\contentsline {section}{What Makes You Beautiful}{168}{section*.460}%
-\contentsline {section}{Wonderwall}{170}{section*.463}%
+\contentsline {section}{What Makes You Beautiful}{167}{section*.457}%
+\contentsline {section}{Wonderwall}{169}{section*.460}%
+\contentsline {section}{Vlaštovky}{171}{section*.463}%
 \contentsline {section}{Za deset 10}{172}{section*.466}%
 \contentsline {section}{Zabili, zabili}{173}{section*.469}%
 \contentsline {section}{Zatanči}{174}{section*.472}%
 \contentsline {section}{Za teplých letních nocí}{175}{section*.475}%
 \contentsline {section}{Známka punku}{176}{section*.478}%
-\contentsline {section}{My pluli}{177}{section*.481}%
+\contentsline {section}{Ženy mužů}{177}{section*.481}%
+\contentsline {section}{My pluli}{178}{section*.484}%
