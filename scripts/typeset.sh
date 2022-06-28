@@ -36,11 +36,11 @@ function check_existing_file
 function typeset_songbook
 {
     check_correct_workdir
-    check_existing_file "Cely_zpevnik/Zpevnik.tex"
-    TEXINPUTS=.:../Cely_zpevnik/:$TEXINPUTS pdflatex -synctex=1 -interaction=nonstopmode -output-directory "../Cely_zpevnik/" "../Cely_zpevnik/Zpevnik.tex"
-    [ "$?" == "0" ] || ( echo "Error while typesetting. See Cely_zpevnik/Zpevnik.log" && exit 1 )
+    check_existing_file "Cely_zpevnik/zpevnik.tex"
+    TEXINPUTS=.:../Cely_zpevnik/:$TEXINPUTS pdflatex -synctex=1 -interaction=nonstopmode -output-directory "../Cely_zpevnik/" "../Cely_zpevnik/zpevnik.tex"
+    [ "$?" == "0" ] || ( echo "Error while typesetting. See Cely_zpevnik/zpevnik.log" && exit 1 )
     # pdftotext is unable to decode our pdfs
-    # less "../Cely_zpevnik/Zpevnik.pdf" > "../txt/Celytxt/Zpevnik.txt"  # Convert pdf to text
+    # less "../Cely_zpevnik/zpevnik.pdf" > "../txt/Celytxt/zpevnik.txt"  # Convert pdf to text
     exit 0
 }
 

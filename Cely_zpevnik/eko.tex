@@ -1,0 +1,272 @@
+\documentclass[openany,12pt]{memoir}
+\usepackage[utf8]{inputenc}
+\usepackage[czech]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[top=1.5cm, bottom=2cm, left=2cm, right=2cm]{geometry}  % --> NASTAVENÍ OKRAJŮ
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{xwatermark}
+\usepackage{xcolor}
+\usepackage{changepage}
+\usepackage{pdfpages}
+\usepackage{lettrine}
+\usepackage{indentfirst}  %Důležité pro formátování
+\usepackage[pages=some]{background}
+\usepackage{wrapfig}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  FONT                              %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{amssymb}
+\usepackage{tgschola}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  Obrázky v textu                   %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{tikz}
+%\tikz[remember picture,overlay] \node[opacity=0.3,inner sep=0pt] at (current page.center){\includegraphics[width=\paperwidth,height=\paperheight]{example-image}};
+%Tímto příkazem se na následující stránku vloží pozadí. Pokud pozadí uděláme
+%tak, aby bylo velikosti a4, bylo prázdné až na malůvku, můžeme takto vkládat
+%obrázky.
+%Pozn.: kompilovat se musí dvakrát
+
+
+%%%%%% Package na zpěvník
+\usepackage[full]{leadsheets}%http://mirrors.nic.cz/tex-archive/macros/latex/contrib/leadsheets/leadsheets_en.pdf   --> dokumentace	
+\definesongtitletemplate{empty}{} 
+\setchords{
+format = \bfseries \sffamily,   %tučné akordy
+minor = {mi},% 
+input-notation = {german},%
+output-notation = {german}%
+}
+\definesongtitletemplate{empty}{} 
+
+
+\newlength{\drop}
+% VODOZNAK
+\newwatermark[pages=3-,color=red!50,angle=0,scale=2, xpos=0,ypos=0]{\includegraphics[width=5cm]{obr/pozadi2.jpg}} %--> dvojka na pozadí
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%		 Vlastní příkazy
+\newcommand{\defaulttabscale}{0.87}
+\newcommand{\defaultfretscale}{1.7}
+
+\newcounter{Slokočet}   %Automatické číslování slok
+\newcommand{\mezera}{
+\phantom{.}
+
+}   %Horizontální odsazení slok (poněkud blbě zadefinovaný, ale jinak se formát rozbije jako wtf prostě)
+\newcommand{\stred}{5.2cm}   %%% Na zarovnání slok doprostřed, pozn. automatičtější zarovnávání na střed nejde
+\newcommand{\carka}{,\:}
+\newcommand{\m}[1]{\color{white}{#1}}  %Pro akordy
+\newcommand{\ap}{'}	%Pro apostrof
+\newcommand{\elipsa}{\kern\fontdimen3\font} %Příkaz pro lepší zacházení s výpustkami (=...); je to vpodstatě jen mezera mezi tečkama výpustky
+\newcommand{\pindent}{17.62482 pt} %Správná velikost \parindentu u layoutu se dvěma minipageama
+\newcommand{\predtitle}{\huge}
+\newcommand{\mezisloupci}{\phantom{TT}} %Místo mezi dvěma sloupci na jedné stránce
+\newcommand{\z}{\hspace*{\fill}\null}
+
+%%% Možné velikosti písem 
+\newcommand{\normalni}{\normalsize}
+\newcommand{\velky}{\fontsize{14.4}{15}\selectfont}
+\newcommand{\vetsi}{\fontsize{15}{16}\selectfont}
+\newcommand{\nejvetsi}{\fontsize{16}{17}\selectfont}
+\newcommand{\nejnejvetsi}{\fontsize{17}{19}\selectfont}
+
+%%% Stará definice sloky spoléhající na indenty
+%\newlength{\pismeno}
+%\settowidth{\pismeno}{x} %Tohle není moc ideální velikost, ale funguje
+%\newif\ifslokavelka
+%\slokavelkafalse
+%\newcommand{\sloka}{
+%\ifnum \value{Slokočet}>8  %Pokud je sloka dvouciferná
+%\mezera \noindent \addtocounter{Slokočet}{1} \hspace*{-\pismeno}\arabic{Slokočet}.
+%\else %Pokud jen jednociferná
+%\mezera \noindent \addtocounter{Slokočet}{1} \arabic{Slokočet}. 
+%\fi
+%} 	%sloka, která se automaticky čísluje
+
+\newcommand{\distanc}{\:}  %Vzdálenost čísla sloky před slokou
+\newlength{\delkaargumentu}
+%%% Sloka s automatickým číslováním
+\newcommand{\sloka}{%
+\addtocounter{Slokočet}{1}% Zvýší se o 1 počet slok
+\mezera%  Sloka se odsadí vertikálně
+\settowidth{\delkaargumentu}{\arabic{Slokočet}.\distanc}% Zde se určí délka odsazení 
+\hspace*{-\delkaargumentu}%
+\arabic{Slokočet}.\distanc%
+\ignorespaces% Aby nevznikaly zbytečné mezery
+}
+
+
+%%% Sloka s vlastním argumentem
+\newcommand{\ssloka}[1]{%     
+\settowidth{\delkaargumentu}{#1\distanc}
+\mezera%
+\hspace*{-\delkaargumentu}%
+#1\distanc%
+\ignorespaces%
+}  
+
+%%% Refrén
+\newcommand{\refren}[1][0]{%  Nepovinný argument sděluje, kolikátý refrén toto je, bez argumentu se vytiskne pouze refrén
+\ifnum #1>0 %Pokud nepovinný argument existuje
+\mezera%
+\settowidth{\delkaargumentu}{\textbf{R$_{\text{#1}}$:}\distanc}%
+\hspace*{-\delkaargumentu}%
+\textbf{R$_{\text{#1}}$:}\distanc%
+\ignorespaces%
+\else %Pokud nepovinný argument neexistuje
+\mezera%
+\settowidth{\delkaargumentu}{\textbf{R:}\distanc}%
+\hspace*{-\delkaargumentu}%
+\textbf{R:}\distanc%
+\ignorespaces%
+\fi
+}
+
+\newcommand{\predehra}{\ssloka{\textbf{Předehra:}}}
+
+%%% Capo
+\newcommand{\kapodastr}[1]{
+\textit{Capo \text{#1}}
+}
+
+\newcommand{\includefret}[1]{\includegraphics[scale=\defaultfretscale]{../Akordy/msc/#1.pdf}}
+
+\addto\captionsczech{\renewcommand{\contentsname}{Seznam písní}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%    FORMÁTOVÁNÍ                   %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%% Vlevo zarovnaný text s blokem zarovnaným na střed
+\usepackage{varwidth}% http://ctan.org/pkg/varwidth
+\newenvironment{centerjustified}{%
+  \begin{center} % so the minipage is centered
+  \begin{varwidth}[t]{\textwidth}	
+  \raggedright % so the minipage's text is left justified
+  \setlength{\parindent}{\pindent}
+}{%
+  \end{varwidth}
+  \end{center}
+}
+
+%%% Pozadí
+\newcommand{\pozadi}[1]{
+\backgroundsetup{
+scale=1,
+angle=0,
+contents={%
+  \includegraphics[width=\paperwidth,height=\paperheight]{#1}
+  }%
+}
+\BgThispage
+}
+
+%%% Libovolné posouvání elementů (hlavně se používá na akordy),
+%%% přičemž element má dimenze (0,0), takž neovlivní předchozí formátování.
+\makeatletter
+\newcommand*{\shifttext}[2]{%
+  \settowidth{\@tempdima}{#2}%
+  \makebox[\@tempdima]{\hspace*{#1}#2}%
+}
+\makeatother
+
+%\cheatbox{X}{Y}{Element}
+\newcommand{\cheatbox}[3]{%
+\shifttext{#1}{\raisebox{#2}[0pt][0pt]{%
+#3%
+}}%
+}
+
+
+\usepackage{hyperref} %Musí být načteno jako poslední package
+\begin{document}
+\sffamily %Sans-serif font vypadá lépe
+\velky   %Minimální čitelná velikost
+
+
+\renewcommand{\abstractname}{\vspace{-\baselineskip}} %Aby nad úvodním textem nebyl nápis ,,Abstract''
+
+
+%Kompilovat dvakrát, aby se updatnula TOC
+
+\setcounter{page}{0}
+\pagestyle{empty}
+%%%%%%%%%%%% PŘEBAL1 %%%%%%%%%%%%%%%%%%
+\includepdf[width=\paperwidth]{obr/Prebal_2022.pdf}
+\newpage
+\phantom{prázdná strana}
+\newpage
+
+%%%%%%%%%%%% Úvod %%%%%%%%%%%%%%%%%%
+% \vspace*{4\baselineskip}
+\begin{abstract}
+\input{preface}
+\end{abstract}
+\newpage
+
+% Aby nebylo na predmuve nic vzadu.
+\phantom{.}
+\newpage
+\checkandfixthelayout
+
+%%%%%%%%%%%%% Písně %%%%%%%%%%%%%%%%
+%% Okraje:
+% P+L = 4cm
+% T = 1.5cm
+% B = 0 cm
+
+\newgeometry{top=1.5cm, bottom = 0cm, left = 2cm, right = 2cm}
+\setlrmarginsandblock{1cm}{3cm}{*} %Kvůli dírám pro kroužky
+\setulmarginsandblock{1.5cm}{0cm}{*}
+\checkandfixthelayout 
+
+% PRIDAVANI
+
+\newcommand{\importsong}[2]{\phantomsection\addcontentsline{toc}{section}{#1}\input{../songy/#2}\newpage}
+
+\pagestyle{simple}
+\importsong{Čtyři slunce}{CtyriSlunce.tex}
+\importsong{Indiáni ve městě}{IndianiVeMeste.tex}
+\importsong{Já s tebou žít nebudu}{JaSTebouZitNebudu.tex}
+\importsong{John Brown's Body}{JohnBrownsBody.tex}
+\importsong{Marie}{Marie.tex}
+\importsong{Muchomůrky bílé}{MuchomurkyBile.tex}
+\importsong{Na co nesmíš zapomenout}{NaCoNesmisZapomenout.tex}
+\importsong{Nic není tak horký}{NicNeniTakHorky.tex}
+\importsong{O malém rytíři}{OMalemRytiri.tex}
+\importsong{Racci}{Racci.tex} % 2-stranna, ale nemusi byt nutne hratelne bez otoceni
+\importsong{Sfinga a Málek}{SfingaAMalek.tex}
+\importsong{Take On Me}{TakeOnMe.tex}
+\importsong{Taši delé}{Tasidele.tex}
+\importsong{Za teplých letních nocí}{ZaTeplychLetnichNoci.tex}
+\importsong{Známka punku}{ZnamkaPunku.tex}
+\importsong{Ženy mužů}{ZenyMuzu.tex}
+
+
+\pagestyle{empty}
+
+%Aby byla titulni strana a strana s akordy na coveru
+%+ pro tisk musí být počet stran dělitelný 4. (Aby byl
+%celočíselný počet papírů, kde každý papír má 4 A5.
+
+\phantom{.}
+\newpage
+
+%%%%%%%%%%%%% Přehled akordů %%%%%%%%%%%%%%%%
+\newgeometry{top=0cm, bottom = 0cm, left = 0cm, right = 0cm}
+\thispagestyle{empty}
+\begin{figure}[h]
+\centering
+% PŘEHLED
+{\hspace*{-1.5cm}
+\includegraphics[height=\textheight]{../Akordy/AAAkordy3.pdf}
+}
+\end{figure}
+
+
+\end{document}
